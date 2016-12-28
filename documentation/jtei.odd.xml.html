@@ -1,0 +1,1176 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><!--THIS FILE IS GENERATED FROM AN XML MASTER. DO NOT EDIT (5)--><title>Journal of the Text-Encoding Initiative Article SchemaSchema and guidelines for encoding an article for the journal</title><meta name="author" content="Ron Van den Branden and Martin Holmes" /><meta name="generator" content="Text Encoding Initiative Consortium XSLT stylesheets" /><meta name="DC.Title" content="Journal of the Text-Encoding Initiative Article SchemaSchema and guidelines for encoding an article for the journal" /><meta name="DC.Type" content="Text" /><meta name="DC.Format" content="text/html" /><link href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" media="print" type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css" /><style xmlns:html="http://www.w3.org/1999/xhtml" type="text/css">
+.italic {
+	font-style:italic;
+}
+.el-emph {
+	font-style: italic;
+}
+.el-term {
+	font-style: italic;
+}
+.el-foreign {
+	font-style: italic;
+}
+.el-mentioned {
+	font-style: italic;
+}
+.mono {
+	font-family:Courier;
+}
+.el-att {
+	font-family:Courier;
+}
+.el-code {
+	font-family:Courier;
+}
+.el-gi {
+	font-family:Courier;
+}
+.el-ident {
+	font-family:Courier;
+}
+.el-val {
+	font-family:Courier;
+}
+.el-tag {
+	font-family:Courier;
+}
+.sup {
+	vertical-align:super;
+}
+.border {
+	border: 1px solid black;
+}
+.table {
+	width: 100%;
+}
+.el-quotation {
+	margin-left:2em;display:block;
+}
+.h1 {
+	font-weight: bold; font-size: 120%;display: block;
+}
+.generic-head {
+	font-weight: bold;display: block;
+}
+.pre {
+	white-space:preserve;
+}
+</style></head><body class="simple" id="TOP"><!--TEI front--><div class="titlePage"><div class="docTitle"><div class="titlePart">Journal of the Text-Encoding Initiative Article Schema</div><div class="titlePart">Schema and guidelines for encoding an article for the journal</div></div><div class="docAuthor">Ron Van den Branden</div><div class="docAuthor">Martin Holmes</div><div class="docDate">2014</div></div><h2>Table of contents</h2><ul class="toc toc_body"><li class="toc"><span class="headingNumber">1. </span><a class="toc toc_0" href="#introduction" title="Introduction">Introduction</a></li><li class="toc"><span class="headingNumber">2. </span><a class="toc toc_0" href="#oxygen" title="Encoding for jTEI in Oxygen">Encoding for jTEI in Oxygen</a><ul class="toc"><li class="toc"><span class="headingNumber">2.1. </span><a class="toc toc_1" href="#templates" title="Using the Template">Using the Template</a></li><li class="toc"><span class="headingNumber">2.2. </span><a class="toc toc_1" href="#testing" title="Testing Your Document">Testing Your Document</a></li></ul></li><li class="toc"><span class="headingNumber">3. </span><a class="toc toc_0" href="#structure" title="Basic Text Structure">Basic Text Structure</a><ul class="toc"><li class="toc"><span class="headingNumber">3.1. </span><a class="toc toc_1" href="#header" title="The Header and Metadata">The Header and Metadata</a></li><li class="toc"><span class="headingNumber">3.2. </span><a class="toc toc_1" href="#front" title="Front Matter">Front Matter</a></li><li class="toc"><span class="headingNumber">3.3. </span><a class="toc toc_1" href="#body" title="The Body">The Body</a></li><li class="toc"><span class="headingNumber">3.4. </span><a class="toc toc_1" href="#back" title="Back Matter the Bibliography and Appendices">Back Matter: the Bibliography and Appendices</a></li></ul></li><li class="toc"><span class="headingNumber">4. </span><a class="toc toc_0" href="#blocks" title="Divisions Paragraphs Lists and Other Block Elements">Divisions, Paragraphs, Lists and Other Block Elements</a><ul class="toc"><li class="toc"><span class="headingNumber">4.1. </span><a class="toc toc_1" href="#divs" title="Divisions">Divisions</a></li><li class="toc"><span class="headingNumber">4.2. </span><a class="toc toc_1" href="#paragraphs" title="Paragraphs">Paragraphs</a></li><li class="toc"><span class="headingNumber">4.3. </span><a class="toc toc_1" href="#lists" title="Lists">Lists</a></li><li class="toc"><span class="headingNumber">4.4. </span><a class="toc toc_1" href="#quotations" title="Quotations Inline and Block">Quotations, Inline and Block</a></li><li class="toc"><span class="headingNumber">4.5. </span><a class="toc toc_1" href="#figures" title="Figures and Graphics">Figures and Graphics</a></li><li class="toc"><span class="headingNumber">4.6. </span><a class="toc toc_1" href="#examples" title="Example Code XML and nonXML">Example Code, XML and non-XML</a></li><li class="toc"><span class="headingNumber">4.7. </span><a class="toc toc_1" href="#tables" title="Tables">Tables</a></li></ul></li><li class="toc"><span class="headingNumber">5. </span><a class="toc toc_0" href="#inline_rhetorical" title="Inline Rhetorical Elements">Inline Rhetorical Elements</a></li><li class="toc"><span class="headingNumber">6. </span><a class="toc toc_0" href="#inline_technical" title="Inline Technical Elements">Inline Technical Elements</a></li><li class="toc"><span class="headingNumber">7. </span><a class="toc toc_0" href="#footnotes" title="Footnotes">Footnotes</a></li><li class="toc"><span class="headingNumber">8. </span><a class="toc toc_0" href="#internal_linking" title="Internal Linking">Internal Linking</a></li><li class="toc"><span class="headingNumber">9. </span><a class="toc toc_0" href="#external_linking" title="External Linking">External Linking</a></li><li class="toc"><span class="headingNumber">10. </span><a class="toc toc_0" href="#faq" title="Frequentlyasked Questions">Frequently-asked Questions</a></li></ul><ul class="toc toc_back"><li class="toc"><span class="headingNumber">Appendix A </span><a class="toc toc_0" href="#summary" title="Summary of Elements and their Rendition">Summary of Elements and their Rendition</a></li></ul><!--TEI body--><div class="teidiv0" id="introduction"><h2><span class="headingNumber">1. </span><span class="head">Introduction</span></h2><p>This document introduces and documents the content and use of the schemas provided by the <span class="titlej">Journal of the Text Encoding Initiative</span>, as part of the TEI P5 distribution, for the use of authors who want to submit their articles to the journal in TEI. The schema described in this document is highly constrained and restrictive, consisting only of some 80 elements, compared with the complete TEI schema which contains nearly six hundred. In addition to general structural constraints, the ODD file also embeds fine-grained Schematron rules, severely limiting your options as you encode your file.</p><p>It is very likely that, as an experienced and confident TEI encoder with a broad knowledge of the TEI schema, you will find this at least a little frustrating. Where the TEI typically provides several ways of encoding the same phenomenon, we usually support only one. Where larger TEI schemas will allow you to describe rendering features (hi rend="italic") we do not allow that; we force you to choose a conceptual tag such as <span class="gi">&lt;emph&gt;</span> or title level="j".</p><p>The reasons for this are fairly obvious. From the XML document you submit, we need to generate a range of different outputs—ODT for reviewers and copyeditors to read and annotate, OpenEdition XML for submission to the <a class="link_ref" href="http://wwww.revues.org/">revues.org</a> publication engine that supports the journal website, and an accompanying PDF version. We must enforce a degree of conformity across all submissions, not only in order to maintain consistency when we publish, but also to ensure that contributions are assessed by reviewers in as fair a manner as possible, without possible influences due to divergence from the expected style rules or formatting conventions.</p><p>However, this constraint and conformity has advantages for you too, as an author. Our schemas will enforce a number of constraints which, we believe, may assist you in improving the quality of your article; these are a few of them: </p><ul><li class="item">All quotations should be linked to references in the text.</li><li class="item">All references must be linked to bibliography items.</li><li class="item">All bibliography items must be cited somewhere in the text.</li><li class="item">All text styles such as italicization or quotation marks appear as a result of conceptual tags.</li></ul><p>In what follows, we aim to provide a readable guide to encoding your article (or perhaps even composing it) according to the journal schemas, beginning with the template we provide, and viewing your results as you work through the use of CSS (in Author Mode in Oxygen) or by transforming it into ODT for examination in your word-processor, or to PDF.</p><p>This document is a work-in-progress (always), and we welcome your feedback at either <a class="link_ref" href="mailto:mholmes@uvic.ca">mholmes@uvic.ca</a> (Martin Holmes) or <a class="link_ref" href="mailto:ron.vandenbranden@kantl.be">ron.vandenbranden@kantl.be</a> (Ron Van den Branden).</p></div><div class="teidiv0" id="oxygen"><h2><span class="headingNumber">2. </span><span class="head">Encoding for jTEI in Oxygen</span></h2><div class="teidiv1" id="templates"><h3><span class="headingNumber">2.1. </span><span class="head">Using the Template</span></h3><p>Starting with version 16.2, the default distribution of Oxygen should include the jTEI components as part of its built-in TEI P5 framework. If you are using an older version of Oxygen, you can subscribe to the TEI-built version of the framework, by following <a class="link_ref" href="http://blogs.it.ox.ac.uk/jamesc/2014/04/02/auto-update-your-tei-framework-in-oxygen/">these instructions</a>.</p><p>In Oxygen, you can start a new article based on the jTEI template by selecting <span class="ident">File</span> → <span class="ident">New</span>, and selecting <span class="ident">JTEI Article [TEI P5]</span> under <span class="ident">Framework templates</span> → <span class="ident">TEI P5</span>.</p><div class="figure"><img src="images/new-from-jtei-template.png" alt="Selecting the  template in Oxygen." class="graphic" /><div class="caption">Figure 1. Selecting the <span class="ident">jTEI article</span> template in Oxygen.</div></div><p>You will see that the root <span class="gi">&lt;TEI&gt;</span> element in the new file has an attribute <span class="att">rend</span>=jTEI. This tells Oxygen that it's a jTEI file, so that it can apply standard jTEI rendering and validation scenarios to it. If you don't want to keep this attribute value, you can achieve the same effect by saving the file with a filename matching this format: <span class="q">‘jtei-*-source.xml’</span> (where the asterisk stands for anything you like); Oxygen will also recognize files with names in this format as jTEI files.</p></div><div class="teidiv1" id="testing"><h3><span class="headingNumber">2.2. </span><span class="head">Testing Your Document</span></h3><p>The Oxygen framework provides two output rendering scenarios, which allow you to transform your jTEI article to the ODT and PDF formats. Open the ODT file you create in a recent version of LibreOffice or OpenOffice; Microsoft Office does not support the current ODT specification. The PDF file can be viewed in a PDF viewer such as Adobe Reader. If you see any problems with the rendering, don't worry, and please don't change good TEI XML to bad TEI in an attempt to make it render more successfully; report the problem to us and we'll look into it.</p></div></div><div class="teidiv0" id="structure"><h2><span class="headingNumber">3. </span><span class="head">Basic Text Structure</span></h2><p>A jTEI journal article is a relatively simple TEI document consisting of a <span class="gi">&lt;teiHeader&gt;</span> and a <span class="gi">&lt;text&gt;</span>.</p><div class="teidiv1" id="header"><h3><span class="headingNumber">3.1. </span><span class="head">The Header and Metadata</span></h3><p>This is an example <span class="gi">&lt;teiHeader&gt;</span>:</p><div id="index.xml-egXML-d30e220" class="pre egXML_valid"><span class="element">&lt;teiHeader&gt;</span>
+ <span class="element">&lt;fileDesc&gt;</span>
+  <span class="element">&lt;titleStmt&gt;</span>
+   <span class="element">&lt;title <span class="attribute">type</span>="<span class="attributevalue">main</span>"&gt;</span>Learning the TEI in a Digital Environment<span class="element">&lt;/title&gt;</span>
+   <span class="element">&lt;author&gt;</span>
+    <span class="element">&lt;name&gt;</span>
+     <span class="element">&lt;forename&gt;</span>Stella<span class="element">&lt;/forename&gt;</span>
+     <span class="element">&lt;surname&gt;</span>Dee<span class="element">&lt;/surname&gt;</span>
+    <span class="element">&lt;/name&gt;</span>
+    <span class="element">&lt;affiliation&gt;</span>Stella Dee is currently a <span class="element">&lt;roleName&gt;</span>Research Associate<span class="element">&lt;/roleName&gt;</span> 
+         working to develop e-learning resources for historical languages with the
+         Open Philology Project at the <span class="element">&lt;orgName&gt;</span>University of Leipzig<span class="element">&lt;/orgName&gt;</span>.
+         The research of this article was conducted while studying for a Masters
+         degree in digital humanities at King’s College, London.<span class="element">&lt;/affiliation&gt;</span>
+    <span class="element">&lt;email&gt;</span>dee@informatik.uni-leipzig.de<span class="element">&lt;/email&gt;</span>
+   <span class="element">&lt;/author&gt;</span>
+  <span class="element">&lt;/titleStmt&gt;</span>
+  <span class="element">&lt;publicationStmt&gt;</span>
+   <span class="element">&lt;publisher&gt;</span>TEI Consortium<span class="element">&lt;/publisher&gt;</span>
+   <span class="element">&lt;date&gt;</span>2014<span class="element">&lt;/date&gt;</span>
+   <span class="element">&lt;idno&gt;</span>Issue 7<span class="element">&lt;/idno&gt;</span>
+   <span class="element">&lt;availability&gt;</span>
+    <span class="element">&lt;p&gt;</span>TEI Consortium 2014 (Creative Commons Attribution-NoDerivs 3.0 Unported License)<span class="element">&lt;/p&gt;</span>
+   <span class="element">&lt;/availability&gt;</span>
+  <span class="element">&lt;/publicationStmt&gt;</span>
+  <span class="element">&lt;sourceDesc&gt;</span>
+   <span class="element">&lt;p&gt;</span>No source, born digital.<span class="element">&lt;/p&gt;</span>
+  <span class="element">&lt;/sourceDesc&gt;</span>
+ <span class="element">&lt;/fileDesc&gt;</span>
+ <span class="element">&lt;encodingDesc&gt;</span>
+  <span class="element">&lt;projectDesc&gt;</span>
+   <span class="element">&lt;p&gt;</span>Revues.org -centre for open electronic publishing- is the platform for journals in the
+       humanities and social sciences, open to quality periodicals looking to publish full-text
+       articles online.<span class="element">&lt;/p&gt;</span>
+  <span class="element">&lt;/projectDesc&gt;</span>
+ <span class="element">&lt;/encodingDesc&gt;</span>
+ <span class="element">&lt;profileDesc&gt;</span>
+  <span class="element">&lt;langUsage&gt;</span>
+   <span class="element">&lt;language <span class="attribute">ident</span>="<span class="attributevalue">en</span>"/&gt;</span>
+  <span class="element">&lt;/langUsage&gt;</span>
+  <span class="element">&lt;textClass&gt;</span>
+   <span class="element">&lt;keywords <span class="attribute">xml:lang</span>="<span class="attributevalue">en</span>"&gt;</span>
+    <span class="element">&lt;term&gt;</span>pedagogy<span class="element">&lt;/term&gt;</span>
+    <span class="element">&lt;term&gt;</span>student resources<span class="element">&lt;/term&gt;</span>
+    <span class="element">&lt;term&gt;</span>survey<span class="element">&lt;/term&gt;</span>
+    <span class="element">&lt;term&gt;</span>file publication<span class="element">&lt;/term&gt;</span>
+   <span class="element">&lt;/keywords&gt;</span>
+  <span class="element">&lt;/textClass&gt;</span>
+ <span class="element">&lt;/profileDesc&gt;</span>
+<span class="element">&lt;/teiHeader&gt;</span></div><p>Some of the content is boilerplate material provided by the template. These are the parts that you must supply:</p><ul><li class="item">The title of your article (in <code>fileDesc/titleStmt/title[@type='main']</code>).</li><li class="item">Author information for each author (in <code>fileDesc/titleStmt/author</code>). Provide one <span class="gi">&lt;author&gt;</span> element for each author. Encode the names as shown, using <span class="gi">&lt;forename&gt;</span> and <span class="gi">&lt;surname&gt;</span>, inside <span class="gi">&lt;name&gt;</span>. Then provide a brief biographical paragraph for each author in <span class="gi">&lt;affiliation&gt;</span>, and an email address.</li><li class="item">Keywords (in <code>profileDesc/textClass/keywords</code>). Provide a handful of general categories under which you feel your article fits. There is (currently) no formal ontology of article categories to choose from. You may consult the <a class="link_ref" href="http://jtei.revues.org/108">list of keywords from previous articles</a> on the journal website, but if you don't see what you need, feel free to use new ones. The editors may formalize these categories in future.</li></ul></div><div class="teidiv1" id="front"><h3><span class="headingNumber">3.2. </span><span class="head">Front Matter</span></h3><p>The front matter must consist of an abstract, encoded in div type="abstract". This should consist of one or two short paragraphs, covering the purpose and content of the article.</p><p>The only other thing that may appear in the front matter is a brief acknowledgements section. If you need to include this to acknowledge contributors, funding agencies etc., insert it after the abstract, encoded as div type="acknowledgements". It should be no longer than one short paragraph.</p></div><div class="teidiv1" id="body"><h3><span class="headingNumber">3.3. </span><span class="head">The Body</span></h3><p>The content of the article appears in the body. It should be divided into sections using <span class="gi">&lt;div&gt;</span> elements. Each <span class="gi">&lt;div&gt;</span> element should have an <span class="att">xml:id</span> attribute, and its first child should be a <span class="gi">&lt;head&gt;</span> element with a suitable heading (in title case). <span class="gi">&lt;div&gt;</span> elements may be nested to provide subsections.</p><p>Do not provide section numbering in explicitly in the <span class="gi">&lt;head&gt;</span>s of your <span class="gi">&lt;div&gt;</span>s. These will be provided automatically by the rendering tools.</p></div><div class="teidiv1" id="back"><h3><span class="headingNumber">3.4. </span><span class="head">Back Matter: the Bibliography and Appendices</span></h3><p>The back matter consists of a bibliography (required), which is encoded in div type="bibliography", and optional appendices, each of which if present must be encoded using div type="appendix". Appendices must appear after the bibliography.</p><p>The bibliography consists of a <span class="gi">&lt;listBibl&gt;</span> element containing a series of <span class="gi">&lt;bibl&gt;</span> elements. Each <span class="gi">&lt;bibl&gt;</span> element should contain a reference formatted as required by the <span class="titlem">Chicago Manual of Style</span> (16th edition), including all required punctuation, with a couple of exceptions:</p><ul><li class="item">Do not provide quotation marks around article titles. Instead, tag them with title level="a" (for chapters or contributions in a monograph, or journal articles) or title level="u" (for unpublished materials). The rendering tools will then provide the quotation marks.</li><li class="item">Tag titles that would normally be in italics using title level="j" (for journal titles) or title level="m" (for monographs).</li></ul><p>Give each <span class="gi">&lt;bibl&gt;</span> element a unique <span class="att">xml:id</span> attribute, so that you can link to it from the quotations in the body of your text. In your bibliography entries, put the appropriate tags around the following components:</p><ul><li class="item">titles: <span class="gi">&lt;title&gt;</span>, with an appropriate value for <span class="att">level</span> (see above)</li><li class="item">editions: <span class="gi">&lt;edition&gt;</span></li><li class="item">dates: <span class="gi">&lt;date&gt;</span></li><li class="item">authors: <span class="gi">&lt;author&gt;</span></li><li class="item">editors: <span class="gi">&lt;editor&gt;</span></li><li class="item">publishers: <span class="gi">&lt;publisher&gt;</span></li><li class="item">publication places: <span class="gi">&lt;pubPlace&gt;</span></li><li class="item">name of series: <span class="gi">&lt;series&gt;</span></li><li class="item">scope of a bibliographic reference: <span class="gi">&lt;biblScope&gt;</span>, with an appropriate value for <span class="att">unit</span> (volume, issue, page, chapter, part)</li><li class="item">id numbers such as DOIs: <span class="gi">&lt;idno&gt;</span>, with an appropriate value for <span class="att">type</span></li><li class="item">web urls (use <span class="gi">&lt;ref&gt;</span>)</li></ul><p>Note: if you have both a formal identification number such as a DOI code and a hyperlink to an online version, the DOI code should be placed last in the bibliographic description.</p><p>Here is a short example:</p><div id="index.xml-egXML-d30e478" class="pre egXML_valid"><span class="element">&lt;div <span class="attribute">xml:id</span>="<span class="attributevalue">bibliography</span>"
+ <span class="attribute">type</span>="<span class="attributevalue">bibliography</span>"&gt;</span>
+ <span class="element">&lt;listBibl&gt;</span>
+  <span class="element">&lt;bibl <span class="attribute">xml:id</span>="<span class="attributevalue">aoki07</span>"&gt;</span>
+   <span class="element">&lt;author&gt;</span>Aoki, Paul M.<span class="element">&lt;/author&gt;</span>
+   <span class="element">&lt;date&gt;</span>2007<span class="element">&lt;/date&gt;</span>.
+  <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">a</span>"&gt;</span>Back Stage on the Front Lines: Perspectives and
+       Performance in the Combat Information Center<span class="element">&lt;/title&gt;</span>. In
+  <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">m</span>"&gt;</span>Proceedings of the SIGCHI Conference on
+       Human Factors in Computing Systems<span class="element">&lt;/title&gt;</span>,
+  <span class="element">&lt;biblScope <span class="attribute">unit</span>="<span class="attributevalue">page</span>"&gt;</span>717–26<span class="element">&lt;/biblScope&gt;</span>. CHI ’07.
+  <span class="element">&lt;pubPlace&gt;</span>New York<span class="element">&lt;/pubPlace&gt;</span>: <span class="element">&lt;publisher&gt;</span>ACM<span class="element">&lt;/publisher&gt;</span>. <span class="element">&lt;ref <span class="attribute">target</span>="<span class="attributevalue">http://doi.acm.org.ezproxy.lib.utexas.edu/10.1145/1240624.1240735</span>"&gt;</span> http://doi.acm.org.ezproxy.lib.utexas.edu/10.1145/1240624.1240735
+   <span class="element">&lt;/ref&gt;</span>. doi:<span class="element">&lt;idno <span class="attribute">type</span>="<span class="attributevalue">doi</span>"&gt;</span>10.1145/1240624.1240735<span class="element">&lt;/idno&gt;</span>.
+  <span class="element">&lt;/bibl&gt;</span>
+  <span class="element">&lt;bibl <span class="attribute">xml:id</span>="<span class="attributevalue">banski10</span>"&gt;</span>
+   <span class="element">&lt;author&gt;</span>Bański, Piotr<span class="element">&lt;/author&gt;</span>. <span class="element">&lt;date&gt;</span>2010<span class="element">&lt;/date&gt;</span>.
+  <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">a</span>"&gt;</span>Why TEI Stand-off Annotation Doesn’t Quite Work and
+       Why You Might Want to Use It Nevertheless<span class="element">&lt;/title&gt;</span>. In
+  <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">m</span>"&gt;</span>Proceedings of Balisage: The Markup Conference 2010<span class="element">&lt;/title&gt;</span>.
+  <span class="element">&lt;series&gt;</span>Balisage Series on Markup Technologies<span class="element">&lt;/series&gt;</span>,
+  <span class="element">&lt;biblScope <span class="attribute">unit</span>="<span class="attributevalue">volume</span>"&gt;</span>vol. 5<span class="element">&lt;/biblScope&gt;</span>.
+     doi:<span class="element">&lt;idno <span class="attribute">type</span>="<span class="attributevalue">doi</span>"&gt;</span>10.4242/BalisageVol5.Banski01<span class="element">&lt;/idno&gt;</span>.
+  <span class="element">&lt;/bibl&gt;</span>
+  <span class="element">&lt;bibl <span class="attribute">xml:id</span>="<span class="attributevalue">bowers12</span>"&gt;</span>
+   <span class="element">&lt;author&gt;</span>Bowers, John<span class="element">&lt;/author&gt;</span>. <span class="element">&lt;date&gt;</span>2012<span class="element">&lt;/date&gt;</span>.
+  <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">a</span>"&gt;</span>The Logic of Annotated Portfolios: Communicating the
+       Value of <span class="element">&lt;soCalled&gt;</span>Research through Design.<span class="element">&lt;/soCalled&gt;</span>
+   <span class="element">&lt;/title&gt;</span> In
+  <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">j</span>"&gt;</span>Proceedings of the Designing Interactive Systems
+       Conference<span class="element">&lt;/title&gt;</span>, <span class="element">&lt;biblScope <span class="attribute">unit</span>="<span class="attributevalue">page</span>"&gt;</span>68–77<span class="element">&lt;/biblScope&gt;</span>.
+  <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">s</span>"&gt;</span>DIS ’12<span class="element">&lt;/title&gt;</span>. <span class="element">&lt;pubPlace&gt;</span>New York<span class="element">&lt;/pubPlace&gt;</span>:
+  <span class="element">&lt;publisher&gt;</span>ACM<span class="element">&lt;/publisher&gt;</span>. doi:<span class="element">&lt;idno <span class="attribute">type</span>="<span class="attributevalue">doi</span>"&gt;</span>10.1145/2317956.2317968<span class="element">&lt;/idno&gt;</span>.
+  <span class="element">&lt;/bibl&gt;</span>
+<span class="comment">&lt;!-- ... --&gt;</span>
+ <span class="element">&lt;/listBibl&gt;</span>
+<span class="element">&lt;/div&gt;</span></div></div></div><div class="teidiv0" id="blocks"><h2><span class="headingNumber">4. </span><span class="head">Divisions, Paragraphs, Lists and Other Block Elements</span></h2><div class="teidiv1" id="divs"><h3><span class="headingNumber">4.1. </span><span class="head">Divisions</span></h3><p>Text divisions are encoded in <span class="gi">&lt;div&gt;</span>. Each division must have a <span class="gi">&lt;head&gt;</span> containing the heading for this division. Headings should just contain the ‘bare’ heading, without numbering or other labels; those are added automatically when the TEI source file is rendered.</p><p>Divisions typically consist of a number of paragraphs, inside <span class="gi">&lt;p&gt;</span> elements. Apart from paragraphs, they can contain following text structures:</p><ul><li class="item">subdivisions</li><li class="item">lists</li><li class="item">quotations</li><li class="item">figures and graphics</li><li class="item">tables</li><li class="item">code examples</li></ul><p>Divisions can nest, by simply including a new <span class="gi">&lt;div&gt;</span> element with an <span class="att">xml:id</span> attribute and a <span class="gi">&lt;head&gt;</span> in a parent division. There's no need to indicate the nesting level for subdivisions: this is determined from the structural encoding by the rendering scripts. Please note that the general TEI limitations hold: divisions may not be followed by ‘bare’ paragraphs. In order to facilitate cross-referencing, you are encouraged to provide a unique identification code in an <span class="att">xml:id</span> attribute for each <span class="gi">&lt;div&gt;</span>.</p><div class="p">Following example illustrates a text division in which two introductory paragraphs are being followed by two more subdivisions.<div id="index.xml-egXML-d30e622" class="pre egXML_valid"><span class="element">&lt;body&gt;</span>
+ <span class="element">&lt;div <span class="attribute">xml:id</span>="<span class="attributevalue">notodd</span>"&gt;</span>
+  <span class="element">&lt;head&gt;</span>What’s not ODD?<span class="element">&lt;/head&gt;</span>
+  <span class="element">&lt;p&gt;</span>In the current source of TEI P5, there is extensive use of several different
+     XML vocabularies: <span class="element">&lt;list <span class="attribute">rend</span>="<span class="attributevalue">bulleted</span>"&gt;</span>
+    <span class="element">&lt;item&gt;</span>Examples in TEI P5 are presented as if they belonged to some other
+    <span class="element">&lt;soCalled&gt;</span>TEI Example Namespace<span class="element">&lt;/soCalled&gt;</span>;<span class="element">&lt;/item&gt;</span>
+    <span class="element">&lt;item&gt;</span>Element content models are expressed using a subset of RELAX NG, as
+         discussed in the previous section;<span class="element">&lt;/item&gt;</span>
+    <span class="element">&lt;item&gt;</span>Datatypes are expressed in a variety of ways, mapping either to built-in
+         W3C datatypes (as defined in the W3C Schema Language) or to RELAX NG
+         constructs;<span class="element">&lt;/item&gt;</span>
+    <span class="element">&lt;item&gt;</span>Additional semantic constraints (for example, co-dependence of
+         attributes and element content) are expressed using ISO Schematron
+         rules.<span class="element">&lt;/item&gt;</span>
+   <span class="element">&lt;/list&gt;</span>
+  <span class="element">&lt;/p&gt;</span>
+  <span class="element">&lt;p&gt;</span>Everything else in a TEI-conformant ODD specification uses only constructs from
+     the TEI namespace. In this paper, we will argue for a further extension of the
+     ODD language to replace several of the cases listed above.<span class="element">&lt;/p&gt;</span>
+  <span class="element">&lt;div <span class="attribute">xml:id</span>="<span class="attributevalue">elementcontentmodels</span>"&gt;</span>
+   <span class="element">&lt;head&gt;</span>Element Content Models<span class="element">&lt;/head&gt;</span>
+   <span class="element">&lt;p&gt;</span>ODD was originally intended to support the <span class="element">&lt;emph&gt;</span>intersection<span class="element">&lt;/emph&gt;</span> of the
+       content models definable using three different schema languages. In practice,
+       this reduced our modeling requirements quite significantly. 
+<span class="comment">&lt;!-- ... --&gt;</span>
+   <span class="element">&lt;/p&gt;</span>
+<span class="comment">&lt;!-- ... --&gt;</span>
+  <span class="element">&lt;/div&gt;</span>
+  <span class="element">&lt;div <span class="attribute">xml:id</span>="<span class="attributevalue">datatyping</span>"&gt;</span>
+   <span class="element">&lt;head&gt;</span>Datatyping and Other Forms of Validation<span class="element">&lt;/head&gt;</span>
+   <span class="element">&lt;p&gt;</span>Validation of an element’s content model is but one of many different layers
+       of validation that a TEI user may wish to express in their ODD specification.
+   
+<span class="comment">&lt;!-- ... --&gt;</span>
+   <span class="element">&lt;/p&gt;</span>
+<span class="comment">&lt;!-- ... --&gt;</span>
+  <span class="element">&lt;/div&gt;</span>
+ <span class="element">&lt;/div&gt;</span>
+<span class="element">&lt;/body&gt;</span></div></div></div><div class="teidiv1" id="paragraphs"><h3><span class="headingNumber">4.2. </span><span class="head">Paragraphs</span></h3><div class="p">Paragraphs are encoded with <span class="gi">&lt;p&gt;</span> elements. They are the main building blocks of a division. They can contain plain text, mixed with other structural elements:<div id="index.xml-egXML-d30e668" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>Thus we introduce the <span class="element">&lt;gi&gt;</span>transferGrp<span class="element">&lt;/gi&gt;</span> element, a grouping element somewhat
+ like <span class="element">&lt;gi&gt;</span>surfaceGrp<span class="element">&lt;/gi&gt;</span> but, like <span class="element">&lt;gi&gt;</span>altGrp<span class="element">&lt;/gi&gt;</span> or <span class="element">&lt;gi&gt;</span>attList<span class="element">&lt;/gi&gt;</span>, with
+ the ability to assert the relationship among its children rather than just common
+ features. This is accomplished with an <span class="element">&lt;att&gt;</span>org<span class="element">&lt;/att&gt;</span> attribute whose suggested
+ values include:
+<span class="element">&lt;list <span class="attribute">type</span>="<span class="attributevalue">gloss</span>"&gt;</span>
+  <span class="element">&lt;label&gt;</span>
+   <span class="element">&lt;val&gt;</span>group<span class="element">&lt;/val&gt;</span>
+  <span class="element">&lt;/label&gt;</span>
+  <span class="element">&lt;item&gt;</span>an unordered set<span class="element">&lt;/item&gt;</span>
+  <span class="element">&lt;label&gt;</span>
+   <span class="element">&lt;val&gt;</span>sequence<span class="element">&lt;/val&gt;</span>
+  <span class="element">&lt;/label&gt;</span>
+  <span class="element">&lt;item&gt;</span>a (chronologically) ordered set<span class="element">&lt;/item&gt;</span>
+  <span class="element">&lt;label&gt;</span>
+   <span class="element">&lt;val&gt;</span>choice<span class="element">&lt;/val&gt;</span>
+  <span class="element">&lt;/label&gt;</span>
+  <span class="element">&lt;item&gt;</span>only one of the child <span class="element">&lt;gi&gt;</span>transfer<span class="element">&lt;/gi&gt;</span>s
+     obtained<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;/list&gt;</span>
+<span class="element">&lt;/p&gt;</span>
+<span class="element">&lt;p&gt;</span>The following example demonstrates the use of <span class="element">&lt;gi&gt;</span>transferGrp<span class="element">&lt;/gi&gt;</span> to indicate a
+ transaction which is attested in (at least) two source documents which disagree as to
+ the amount of money involved.<span class="element">&lt;/p&gt;</span></div></div></div><div class="teidiv1" id="lists"><h3><span class="headingNumber">4.3. </span><span class="head">Lists</span></h3><p>Lists in jTEI are relatively simple. They are encoded in a <span class="gi">&lt;list&gt;</span> element and differentiated by the <span class="att">type</span> attribute, which may have only one value, gloss. list type="gloss" is (as you might expect) a glossary list, and must consist of a sequence of <span class="gi">&lt;label&gt;</span>s and <span class="gi">&lt;item&gt;</span>s, like this:</p><div id="index.xml-egXML-d30e737" class="pre egXML_valid"><span class="element">&lt;list <span class="attribute">type</span>="<span class="attributevalue">gloss</span>"&gt;</span>
+ <span class="element">&lt;label&gt;</span>compressor<span class="element">&lt;/label&gt;</span>
+ <span class="element">&lt;item&gt;</span>a device which reduces the peaks of volume in an audio signal<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;label&gt;</span>equalizer<span class="element">&lt;/label&gt;</span>
+ <span class="element">&lt;item&gt;</span>a device which allows different frequency bands in an audio signal
+   to be cut or boosted<span class="element">&lt;/item&gt;</span>
+<span class="element">&lt;/list&gt;</span></div><div class="p">All other types of list (numbered, bulleted etc.) do not have the <span class="att">type</span> attribute. Their appearance is controlled by the <span class="att">rend</span> attribute:     Lists may be nested: <div id="index.xml-egXML-d30e765" class="pre egXML_valid"><span class="element">&lt;list <span class="attribute">rend</span>="<span class="attributevalue">bulleted</span>"&gt;</span>
+ <span class="element">&lt;item&gt;</span>compressor:
+ <span class="element">&lt;list <span class="attribute">rend</span>="<span class="attributevalue">ordered</span>"&gt;</span>
+   <span class="element">&lt;item&gt;</span>limiter<span class="element">&lt;/item&gt;</span>
+   <span class="element">&lt;item&gt;</span>multiband compressor<span class="element">&lt;/item&gt;</span>
+  <span class="element">&lt;/list&gt;</span>
+ <span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>equalizer:
+ <span class="element">&lt;list <span class="attribute">rend</span>="<span class="attributevalue">ordered</span>"&gt;</span>
+   <span class="element">&lt;item&gt;</span>graphic equalizer<span class="element">&lt;/item&gt;</span>
+   <span class="element">&lt;item&gt;</span>parametric equalizer<span class="element">&lt;/item&gt;</span>
+  <span class="element">&lt;/list&gt;</span>
+ <span class="element">&lt;/item&gt;</span>
+<span class="element">&lt;/list&gt;</span></div></div><p>For processing reasongs, jTEI puts one restriction on what can appear inside lists: you can't use <span class="gi">&lt;table&gt;</span> anywhere inside <span class="gi">&lt;item&gt;</span>.</p></div><div class="teidiv1" id="quotations"><h3><span class="headingNumber">4.4. </span><span class="head">Quotations, Inline and Block</span></h3><div class="p">The main components of a quotation are the quoted text itself, and a reference to the source it was quoted from. The quoted text is encoded with a <span class="gi">&lt;quote&gt;</span> element, without quotation marks. Quotations marks are added automatically by the rendering scripts. The jTEI schema requires that each quotation is linked to a bibliographic reference, identifying the source from where the text has been quoted. Typically, the source of a quotation is listed in the bibliography at the end of the article. References to such sources are encoded in a <span class="gi">&lt;ref&gt;</span> element, with a <span class="att">type</span> attribute of value bibl, whose <span class="att">target</span> attribute must point to the <span class="att">xml:id</span> value of a <span class="gi">&lt;bibl&gt;</span> element in the article's bibliography. You must provide an <span class="att">xml:id</span> attribute for the <span class="gi">&lt;ref&gt;</span> element itself. This makes it possible to connect the quotation with its specific reference via the <span class="att">source</span> attribute on the <span class="gi">&lt;quote&gt;</span> element:<div id="index.xml-egXML-d30e830" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>In his blog post, <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">a</span>"&gt;</span>Text: A Massively Addressable Object<span class="element">&lt;/title&gt;</span>,
+ published in the 2012 anthology <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">m</span>"&gt;</span>Debates in the Digital
+   Humanities<span class="element">&lt;/title&gt;</span>, Michael Witmore defines texts as objects that are
+<span class="element">&lt;quote <span class="attribute">source</span>="<span class="attributevalue">#quoteref3</span>"&gt;</span>massively addressable at different levels of scale<span class="element">&lt;/quote&gt;</span>
+ (<span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>" <span class="attribute">xml:id</span>="<span class="attributevalue">quoteref3</span>"
+  <span class="attribute">target</span>="<span class="attributevalue">#witmore12</span>"&gt;</span>Witmore 2012, 325<span class="element">&lt;/ref&gt;</span>).
+<span class="element">&lt;/p&gt;</span></div></div><p>Here, we see how the value #quoteref3 for the <span class="att">source</span> attribute expresses the correspondence with the bibliographic reference in <code>&lt;ref type="bibl" xml:id="quoteref3" target="#witmore12"&gt;Witmore 2012, 325&lt;/ref&gt;</code>.</p><div class="p">In some cases, quotations are taken from ‘less bibliographic’ sources, such as email conversations and other non-published texts. Such sources are not listed in the bibliography, so you can't refer to them with a ref type="bibl" reference. Instead, you should include the description of the source in the text. The description should be encoded in a <span class="gi">&lt;bibl&gt;</span> element with an <span class="att">xml:id</span> attribute. You should link the quotation to this bibliographic description by pointing to this <span class="att">xml:id</span> attribute with the <span class="att">source</span> attribute of the <span class="gi">&lt;quote&gt;</span> element: <div id="index.xml-egXML-d30e883" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>An exchange on the TEI electronic mailing list sparked the research published
+ in this article, when a community expert wrote that given
+<span class="element">&lt;quote <span class="attribute">source</span>="<span class="attributevalue">#quoteref1</span>"&gt;</span>a graduate student in English who has heard about TEI
+   and wants to dip her toes into it because she thinks it may be a better way of
+   putting on the Web some 17th century poems<span class="element">&lt;gap/&gt;</span> Where does she go for help?
+   Where in the TEI universe is the level of ubiquitous Grade I support?<span class="element">&lt;/quote&gt;</span> 
+ (<span class="element">&lt;bibl <span class="attribute">xml:id</span>="<span class="attributevalue">quoteref1</span>"&gt;</span>Martin Mueller, pers. comm, Jan. 18, 2013<span class="element">&lt;/bibl&gt;</span>).<span class="element">&lt;/p&gt;</span></div> Here, the #quoteref1 value for the <span class="att">source</span> attribute on <span class="gi">&lt;quote&gt;</span> points to the <span class="gi">&lt;bibl&gt;</span> element in the text, describing the ‘less bibliographic’ source for the quotation in a footnote.</div><div class="p">Note how the examples above were inline quotations, which will be rendered inside the running text of the paragraph they appear in. It is also possible to encode block quotations, by wrapping the <span class="gi">&lt;quote&gt;</span> and its <span class="gi">&lt;ref&gt;</span> inside a <span class="gi">&lt;cit&gt;</span> container. A <span class="gi">&lt;cit&gt;</span> element can occur either in or between paragraphs, but is always rendered as a blockquote:<div id="index.xml-egXML-d30e925" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>In <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">a</span>"&gt;</span>Wampum as Hypertext<span class="element">&lt;/title&gt;</span>, Angela Haas complicates the
+ distinction between technology and high technology by discussing the way wampum
+ belts function the same as Western hypertexts. Haas contends that while there are
+ many similarities, they differ when we understand the way wampum is reliant on
+ cultural practices and memory:
+<span class="element">&lt;cit&gt;</span>
+  <span class="element">&lt;quote <span class="attribute">source</span>="<span class="attributevalue">#quoteref8</span>"&gt;</span>Consequently one could argue that wampum is limited
+     in relation to contemporary Western hypertexts in that it requires human
+     intervention to remember the intent and content of the original message; however,
+     one could also posit that such interaction encourages continuous civic involvement
+     instead of an over-reliance on technology.<span class="element">&lt;/quote&gt;</span>
+  <span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>" <span class="attribute">xml:id</span>="<span class="attributevalue">quoteref8</span>"
+   <span class="attribute">target</span>="<span class="attributevalue">#haas07</span>"&gt;</span>Haas 2007, 93<span class="element">&lt;/ref&gt;</span>
+ <span class="element">&lt;/cit&gt;</span>
+<span class="element">&lt;/p&gt;</span></div></div><p>The <span class="gi">&lt;cit&gt;</span> element has been constrained in jTEI so it can only contain <span class="gi">&lt;quote&gt;</span>, <span class="gi">&lt;ref&gt;</span>, and <span class="gi">&lt;bibl&gt;</span>. </p><p>Inside quotations, inline rhetorical elements can be used (see <a class="link_ptr" href="#inline_rhetorical" title="Inline Rhetorical Elements"><span class="headingNumber">5. </span>Inline Rhetorical Elements</a>). Two of such elements are quite specific to quotations, in the context of a jTEI article, however, namely omissions and supplied text. Omissions are encoded with <span class="gi">&lt;gap&gt;</span>, which at rendering time is transformed to the typographic omission symbol: <span class="mentioned">…</span><span id="Note1_return"><a class="notelink" title="Note, if you're omitting text at the end of a sentence, the sentence punctuation should precede the gap element." href="#Note1"><sup>1</sup></a></span>. If you supply text that wasn't present in the original quotation, you should wrap the supplied text in a <span class="gi">&lt;supplied&gt;</span> element. At rendering time, the <span class="gi">&lt;supplied&gt;</span> start and end tags are replaced with the <span class="mentioned">[</span> and <span class="mentioned">]</span> characters, respectively.</p><p>Apart from <span class="gi">&lt;quote&gt;</span> for ‘attributed’ quotations, you can also use <span class="gi">&lt;q&gt;</span> for short ‘anonymous’ inline quotations, whose source is not known or irrelevant. This is discussed in more detail in <a class="link_ptr" href="#inline_rhetorical" title="Inline Rhetorical Elements"><span class="headingNumber">5. </span>Inline Rhetorical Elements</a>.</p></div><div class="teidiv1" id="figures"><h3><span class="headingNumber">4.5. </span><span class="head">Figures and Graphics</span></h3><p>Illustrative figures are encoded using the<span class="gi">&lt;figure&gt;</span> element, along with a mandatory head type="legend" element providing the caption for the figure, as in this example:</p><div id="index.xml-egXML-d30e1006" class="pre egXML_valid"><span class="element">&lt;figure <span class="attribute">xml:id</span>="<span class="attributevalue">titlePage</span>"&gt;</span>
+ <span class="element">&lt;graphic <span class="attribute">url</span>="<span class="attributevalue">img/titlePage.png</span>"
+  <span class="attribute">width</span>="<span class="attributevalue">620px</span>" <span class="attribute">height</span>="<span class="attributevalue">980px</span>"/&gt;</span>
+ <span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">legend</span>"&gt;</span>The title page of the 1598 edition<span class="element">&lt;/head&gt;</span>
+<span class="element">&lt;/figure&gt;</span></div><p>The graphics file should be in PNG or JPEG format, and should be stored in a directory called <code>img</code> which is a sibling of the article XML file. Graphics file names should not contain spaces or punctuation. The <span class="gi">&lt;graphic&gt;</span> element must include the <span class="att">width</span> and <span class="att">height</span> attributes containing the image size in pixels. A second head type="license" may also be provided in cases where an explicit statement of licensing, copyright or accreditation is required.</p><p>The caption in the head type="legend" element should <em>not</em> begin with <span class="q">‘Figure 1’</span> or any similar prefix; this will be provided by the rendering code at output time. To link to the figure, all you need to do is to provide a pointer targeting its <span class="att">xml:id</span> attribute, like this:</p><div id="index.xml-egXML-d30e1042" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>As you can see from <span class="element">&lt;ptr <span class="attribute">target</span>="<span class="attributevalue">#titlePage</span>" <span class="attribute">type</span>="<span class="attributevalue">crossref</span>"/&gt;</span>,
+ the title page is damaged...<span class="element">&lt;/p&gt;</span></div><p>This will be expanded at rendering time into <span class="q">‘Figure X’</span>, where X is the appropriate figure number.</p></div><div class="teidiv1" id="examples"><h3><span class="headingNumber">4.6. </span><span class="head">Example Code, XML and non-XML</span></h3><p>Example computer code in jTEI falls into two categories. XML code appears in the egXML xmlns="http://www.tei-c.org/ns/Examples" element. When you use this element, make sure you get the namespace right; all elements appearing in the <span class="gi">&lt;egXML&gt;</span> element are also in the Examples namespace, to distinguish them from regular TEI elements that are part of the encoding of the document. Code from non-XML languages appears in the <span class="gi">&lt;eg&gt;</span> element.</p><div class="p">In many cases, example code will appear inline as part of the prose of your article<span id="Note2_return"><a class="notelink" title="Note, however, that eg and egXML examples are always rendered as blocks, regardless of their appearance as inline or block-level elements in the artic…" href="#Note2"><sup>2</sup></a></span>: <div id="index.xml-egXML-d30e1085" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>Links between authors and books are encoded using <span class="element">&lt;gi&gt;</span>link<span class="element">&lt;/gi&gt;</span> elements: &lt;egXML
+ xmlns="http://www.tei-c.org/ns/Examples"&gt; <span class="element">&lt;link <span class="attribute">target</span>="<span class="attributevalue">#middlemarch #eliot</span>"/&gt;</span>
+ &lt;/egXML&gt; <span class="element">&lt;/p&gt;</span></div></div><div class="p">You might want to provide a caption for code examples. In these cases, the <span class="gi">&lt;eg&gt;</span> or <span class="gi">&lt;egXML&gt;</span> element should be enclosed in a <span class="gi">&lt;figure&gt;</span>: <div id="index.xml-egXML-d30e1105" class="pre egXML_valid"><span class="element">&lt;figure <span class="attribute">xml:id</span>="<span class="attributevalue">example_code_1</span>"&gt;</span>
+ <span class="element">&lt;eg&gt;</span> declare function local:getTitles($source as element(div)) as xs:string*{
+   for $t in $source//title
+   return xs:string($t)
+   };
+ <span class="element">&lt;/eg&gt;</span>
+ <span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">legend</span>"&gt;</span>A simple XQuery function<span class="element">&lt;/head&gt;</span>
+<span class="element">&lt;/figure&gt;</span></div> At rendering time, captions of examples will be supplied with a leading <span class="q">‘Example X’</span>, where X is the number of the example. You can link to and refer to block examples like this <a class="link_ref" href="#internal_linking" title="Internal Linking">using <span class="gi">&lt;ref&gt;</span> and <span class="gi">&lt;ptr&gt;</span></a>. In order to do so, you should provide a unique identification code to the <span class="gi">&lt;figure&gt;</span> in an <span class="att">xml:id</span> attribute.</div></div><div class="teidiv1" id="tables"><h3><span class="headingNumber">4.7. </span><span class="head">Tables</span></h3><p>Tables can be encoded with the <span class="gi">&lt;table&gt;</span> element. Tables consist of a number of rows (<span class="gi">&lt;row&gt;</span>) that contain a number of cells (<span class="gi">&lt;cell&gt;</span>). Header rows and cells can be distinguished by different values for the <span class="att">type</span> attribute:</p><dl><dt><span>label</span></dt><dd>The row or cell contains a header, not actual data.</dd><dt><span>data</span></dt><dd>(default) The row or cell contains data.</dd></dl><p>Cells and rows can be merged. In order to indicate how many columns a row or cell spans, a number can be provided for a <span class="att">cols</span> attribute; the number of rows spanned can be given as value for a <span class="att">rows</span> attribute.</p><div id="index.xml-egXML-d30e1165" class="pre egXML_valid"><span class="element">&lt;table <span class="attribute">xml:id</span>="<span class="attributevalue">table1</span>"&gt;</span>
+ <span class="element">&lt;head&gt;</span>Elements in <span class="element">&lt;ident&gt;</span>tei_corset<span class="element">&lt;/ident&gt;</span> customization<span class="element">&lt;/head&gt;</span>
+ <span class="element">&lt;row <span class="attribute">role</span>="<span class="attributevalue">label</span>"&gt;</span>
+  <span class="element">&lt;cell&gt;</span>Module<span class="element">&lt;/cell&gt;</span>
+  <span class="element">&lt;cell&gt;</span>Elements in <span class="element">&lt;ident&gt;</span>tei_corset<span class="element">&lt;/ident&gt;</span>
+  <span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+ <span class="element">&lt;row&gt;</span>
+  <span class="element">&lt;cell <span class="attribute">role</span>="<span class="attributevalue">label</span>"&gt;</span>
+   <span class="element">&lt;ident&gt;</span>textstructure<span class="element">&lt;/ident&gt;</span>
+  <span class="element">&lt;/cell&gt;</span>
+  <span class="element">&lt;cell&gt;</span>
+   <span class="element">&lt;gi&gt;</span>body<span class="element">&lt;/gi&gt;</span>
+   <span class="element">&lt;gi&gt;</span>div<span class="element">&lt;/gi&gt;</span>
+   <span class="element">&lt;gi&gt;</span>TEI<span class="element">&lt;/gi&gt;</span>
+  <span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+ <span class="element">&lt;row&gt;</span>
+  <span class="element">&lt;cell <span class="attribute">role</span>="<span class="attributevalue">label</span>"&gt;</span>
+   <span class="element">&lt;ident&gt;</span>figures<span class="element">&lt;/ident&gt;</span>
+  <span class="element">&lt;/cell&gt;</span>
+  <span class="element">&lt;cell&gt;</span>
+   <span class="element">&lt;gi&gt;</span>cell<span class="element">&lt;/gi&gt;</span>
+   <span class="element">&lt;gi&gt;</span>row<span class="element">&lt;/gi&gt;</span>
+   <span class="element">&lt;gi&gt;</span>table<span class="element">&lt;/gi&gt;</span>
+  <span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+ <span class="element">&lt;row&gt;</span>
+  <span class="element">&lt;cell <span class="attribute">cols</span>="<span class="attributevalue">2</span>"&gt;</span>a sample cell spanning two columns (this was not in the original)<span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+<span class="element">&lt;/table&gt;</span></div><p>The example above illustrates how the first row is marked as a header row with row role="label", and how the left column is marked as a header column by specifying each first cell in a row as cell role="label". The last cell illustrates how column spanning can be indicated with cell cols="2".</p><p>Note how the example also illustrates how tables can have headings, in a <span class="gi">&lt;head&gt;</span> element. The text of this heading should <em>not</em> begin with <span class="q">‘Table 1’</span> or any similar prefix; this will be provided when the article is rendered. To link to the table, all you need to do is to provide a pointer targeting its <span class="att">xml:id</span> attribute:</p><div id="index.xml-egXML-d30e1229" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>As you can see from <span class="element">&lt;ptr <span class="attribute">target</span>="<span class="attributevalue">#table1</span>" <span class="attribute">type</span>="<span class="attributevalue">crossref</span>"/&gt;</span>, the elements included...<span class="element">&lt;/p&gt;</span></div><p>This will be expanded at rendering time into <span class="q">‘Table X’</span>, where X is the appropriate table number.</p></div></div><div class="teidiv0" id="inline_rhetorical"><h2><span class="headingNumber">5. </span><span class="head">Inline Rhetorical Elements</span></h2><p>The jTEI schema prompts you to encode information as much as possible with conceptual tags. Therefore, the general-purpose <span class="gi">&lt;hi&gt;</span> tag has been removed from the jTEI schema. Instead, you should use more semantically expressive elements for identifying the rhetorical phenomenon you want to encode. If you want to stress a word in a sentence, you can do so with the <span class="gi">&lt;emph&gt;</span> element, which is rendered as italicized text. Foreign terms can be tagged with <span class="gi">&lt;foreign&gt;</span>, with a proper language identification code for the <span class="att">xml:lang</span> attribute. Technical terms, or terms in general, can be encoded with <span class="gi">&lt;term&gt;</span>, and appear as italicized text in the rendered article.</p><div id="index.xml-egXML-d30e1262" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>
+ <span class="element">&lt;term&gt;</span>Interoperability<span class="element">&lt;/term&gt;</span> may be defined as the property of data that allows
+ it to be loaded <span class="element">&lt;emph&gt;</span>unmodified<span class="element">&lt;/emph&gt;</span> and fully used in a <span class="element">&lt;emph&gt;</span>variety<span class="element">&lt;/emph&gt;</span> 
+ of software applications. <span class="element">&lt;term&gt;</span>Interchange<span class="element">&lt;/term&gt;</span> is basically the same property
+ that applies after a preliminary conversion of the data (<span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>" <span class="attribute">target</span>="<span class="attributevalue">#bauman11</span>"&gt;</span>Bauman
+   2011<span class="element">&lt;/ref&gt;</span>; <span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>" <span class="attribute">target</span>="<span class="attributevalue">#unsworth11</span>"&gt;</span>Unsworth 2011<span class="element">&lt;/ref&gt;</span>), and
+ implies some loss of information in the process. Interchange can thus be seen as
+ an easier, less stringent or less useful kind of information exchange than pure interoperability.
+<span class="element">&lt;/p&gt;</span></div><div id="index.xml-egXML-d30e1282" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>Unicode is a <span class="element">&lt;emph&gt;</span>character<span class="element">&lt;/emph&gt;</span> encoding standard, and is not intended to
+ standardize ligatures or other presentation forms
+ (<span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>" <span class="attribute">xml:id</span>="<span class="attributevalue">quoteref16</span>"
+  <span class="attribute">target</span>="<span class="attributevalue">#unicode14</span>"&gt;</span>Unicode 2014<span class="element">&lt;/ref&gt;</span>).
+ For example, there is no Unicode character for old Latin <span class="element">&lt;foreign <span class="attribute">xml:lang</span>="<span class="attributevalue">la</span>"&gt;</span>sescuncia<span class="element">&lt;/foreign&gt;</span> 
+ (like a pound-sign, = one eighth), since it can be composed from <span class="element">&lt;foreign <span class="attribute">xml:lang</span>="<span class="attributevalue">la</span>"&gt;</span>semuncia<span class="element">&lt;/foreign&gt;</span> 
+ (character 10192) and an EN-dash (<span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>" <span class="attribute">target</span>="<span class="attributevalue">#unicode06</span>"&gt;</span>Unicode 2006, 4<span class="element">&lt;/ref&gt;</span>)<span class="element">&lt;/p&gt;</span></div><p>Another category of inline rhetorical elements are those that are used for text that is somehow quoted. When a word is ‘mentioned’ to illustrate its form or usage, without its actual meaning, it should be encoded as <span class="gi">&lt;mentioned&gt;</span>. At rendering time, it will be displayed in italics. When you use a word while at the same time distancing yourself from it, you should encode it with <span class="gi">&lt;soCalled&gt;</span>. At rendering time, the start and end tag will be replaced with double quotation marks. Finally, if you want to quote a word or passage without attributing it to an external source, you can use the <span class="gi">&lt;q&gt;</span> element. Such ‘anonymous’ quotations are rendered in double quotation marks.</p><div class="note" id="Note3"><span class="noteLabel">Note: </span><p>The actual form of the quotation marks depends on the ‘nesting level’ of quotation marks, so that double and single quotation marks alternate when they nest. For example, if a word tagged as <span class="gi">&lt;soCalled&gt;</span> appears inside a <span class="gi">&lt;q&gt;</span> element, then the quoted text will be wrapped in <em>double</em> quotation marks, while the text inside <span class="gi">&lt;soCalled&gt;</span> will be rendered with <em>single</em> quotation marks.</p></div><div id="index.xml-egXML-d30e1340" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>The standard definition of metadata as <span class="element">&lt;q&gt;</span>data about data<span class="element">&lt;/q&gt;</span> seems to pose more
+ questions than it answers.<span class="element">&lt;/p&gt;</span></div><div id="index.xml-egXML-d30e1346" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>There are possible ways (<span class="element">&lt;soCalled&gt;</span>hacks<span class="element">&lt;/soCalled&gt;</span>) around some of these problems
+ even without rewriting the software, and some software is open source. For example,
+ some software may permit dates in the <span class="element">&lt;emph&gt;</span>future<span class="element">&lt;/emph&gt;</span>, in which case a project
+ might record eighteenth-century dates using values from the twenty-eighth century.
+ Pounds, shillings, and pence could be converted to a modern standard unit (for
+ example, US dollars; <span class="element">&lt;ref <span class="attribute">target</span>="<span class="attributevalue">http://www.measuringworth.com/</span>"&gt;</span>Measuring Worth<span class="element">&lt;/ref&gt;</span>
+ provides calculators for determining values in some historical currencies). A
+ project could consistently use the <span class="element">&lt;mentioned&gt;</span>comments<span class="element">&lt;/mentioned&gt;</span>, <span class="element">&lt;mentioned&gt;</span>memo<span class="element">&lt;/mentioned&gt;</span>,
+ or <span class="element">&lt;mentioned&gt;</span>notes<span class="element">&lt;/mentioned&gt;</span> field to record pointers into the attesting document.<span class="element">&lt;/p&gt;</span></div><p>If you mention titles in paragraph text, you should encode them as such, with the <span class="gi">&lt;title&gt;</span> element and a proper type for the <span class="att">level</span> attribute. Titles of journals (<code>level="j"</code> for <span class="att">level</span>) and monographs (m) are rendered in italics. Titles of book chapters or journal articles (a), or unpublished materials (u) are enclosed in quotation marks at rendering time (so you mustn't provide them yourself).</p></div><div class="teidiv0" id="inline_technical"><h2><span class="headingNumber">6. </span><span class="head">Inline Technical Elements</span></h2><p>Due to the nature of this journal, a discussion of technical XML or TEI elements is a common feature in jTEI articles. When elements from an XML vocabulary are discussed, they should be identified in a <span class="gi">&lt;gi&gt;</span> element, with an optional <span class="att">scheme</span> attribute in which the XML vocabulary can be named. The default value for this attribute is TEI for TEI elements; others could be HTML, Schematron, DBK (Docbook), etc. At rendering time, the <span class="gi">&lt;gi&gt;</span> start and end tags are replaced with the <span class="mentioned">&lt;</span> and <span class="mentioned">&gt;</span> characters, respectively. The element name is always presented in this form: <code>&lt;p&gt;</code> in the output rendering, even if it is an empty element which in actual usage is almost always self-closing, such as <span class="gi">&lt;lb&gt;</span> or <span class="gi">&lt;pb&gt;</span>.</p><p>Attribute names should be tagged in an <span class="gi">&lt;att&gt;</span> element, which at rendering time will be preceded with a <span class="mentioned">@</span> character. Attribute values should be tagged in <span class="gi">&lt;val&gt;</span>. At rendering time, the <span class="gi">&lt;val&gt;</span> start and end tags are replaced with straight quotation marks, so there is no need to quote the values yourself.</p><div id="index.xml-egXML-d30e1451" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>For example, the extension of credit can be represented in a transactionography
+ by the transfer of a commodity of indebtedness. We have been using the keyword
+<span class="element">&lt;val&gt;</span>iou<span class="element">&lt;/val&gt;</span> as the value of <span class="element">&lt;att&gt;</span>commodity<span class="element">&lt;/att&gt;</span> of <span class="element">&lt;gi&gt;</span>measure<span class="element">&lt;/gi&gt;</span> for this purpose.<span class="element">&lt;/p&gt;</span></div><p>When you want to quote an instance of a single start or end tag, you should use the <span class="gi">&lt;tag&gt;</span> element. If you want to specify the XML vocabulary this tag belongs to, this can be done in the <span class="att">scheme</span> attribute (see above). In the <span class="att">type</span> attribute, you can specify the kind of tag: start (start tag), end (end tag), empty (an empty tag), pi (processing instruction), comment (an XML comment), or ms (a CDATA marked section). For all these types of tags, the proper delimiters (starting with the <span class="mentioned">&lt;</span> and ending with the <span class="mentioned">&gt;</span> characters) are inserted when the article is rendered. Note, for full-fledged XML examples, the <span class="gi">&lt;egXML&gt;</span> element should be used (see <a class="link_ptr" href="#examples" title="Example Code XML and nonXML"><span class="headingNumber">4.6. </span>Example Code, XML and non-XML</a>).</p><div id="index.xml-egXML-d30e1505" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>A range like <span class="element">&lt;code&gt;</span>#range(left(//lb[@n='3']),left(//lb[@n='4']))<span class="element">&lt;/code&gt;</span>, however,
+ could unambiguously address the sequence of nodes comprising line 3, even if the
+<span class="element">&lt;gi&gt;</span>lb<span class="element">&lt;/gi&gt;</span> happened to be a child of another element that began in the previous line.<span class="element">&lt;/p&gt;</span>
+<span class="comment">&lt;!-- ... --&gt;</span>
+<span class="element">&lt;p&gt;</span>For example, <span class="element">&lt;tag <span class="attribute">type</span>="<span class="attributevalue">empty</span>"&gt;</span>rng:ref name="model.pLike"<span class="element">&lt;/tag&gt;</span> becomes <span class="element">&lt;tag <span class="attribute">type</span>="<span class="attributevalue">empty</span>"&gt;</span>classRef key="model.pLike"<span class="element">&lt;/tag&gt;</span>.<span class="element">&lt;/p&gt;</span></div><div class="p">If you want to cite a brief inline code fragment from a formal programming language, you can use the <span class="gi">&lt;code&gt;</span> element. With the <span class="att">lang</span> attribute, you can identify the language of the code: <div id="index.xml-egXML-d30e1531" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>Most of the time, pointing from one part of a TEI document to another, it is easy
+ to use IDs. Simply wrap the thing in an element, give that element an <span class="element">&lt;att&gt;</span>xml:id<span class="element">&lt;/att&gt;</span>
+ attribute (say, <span class="element">&lt;code&gt;</span>xml:id="foo"<span class="element">&lt;/code&gt;</span>), and point at the ID using either a
+ URI with an appended fragment identifier (<span class="element">&lt;val&gt;</span>#foo<span class="element">&lt;/val&gt;</span>) or using an attribute
+ whose type is IDREF.<span class="element">&lt;/p&gt;</span></div></div><div class="p">The <span class="gi">&lt;ident&gt;</span> element should be used to encode identifiers in a formal language, such as variable, class, and function names in a programming language. When discussing the TEI encoding scheme or customizations, the names of model and attribute classes, datatypes, macros, and TEI customizations should be encoded with <span class="gi">&lt;ident&gt;</span>: <div id="index.xml-egXML-d30e1553" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>For example <span class="element">&lt;ident&gt;</span>data.duration.iso<span class="element">&lt;/ident&gt;</span>, <span class="element">&lt;ident&gt;</span>data.outputMeasurement<span class="element">&lt;/ident&gt;</span>,
+<span class="element">&lt;ident&gt;</span>data.pattern<span class="element">&lt;/ident&gt;</span>, <span class="element">&lt;ident&gt;</span>data.point<span class="element">&lt;/ident&gt;</span>, <span class="element">&lt;ident&gt;</span>data.version<span class="element">&lt;/ident&gt;</span>,
+ and <span class="element">&lt;ident&gt;</span>data.word<span class="element">&lt;/ident&gt;</span> all map to the same datatype CDATA in XML DTD, and to
+ various TEI-defined regular expressions in RELAX NG or W3C Schema.<span class="element">&lt;/p&gt;</span></div></div></div><div class="teidiv0" id="footnotes"><h2><span class="headingNumber">7. </span><span class="head">Footnotes</span></h2><div class="p">jTEI articles can have footnotes. Since no other notes are supported, the encoding is fairly simple: just add a <span class="gi">&lt;note&gt;</span> element at the place where you want to insert the footnote in the text. No further attributes are required: numbering is catered for at rendering time. Notes can contain plain text or paragraphs. No block-level elements are allowed:<div id="index.xml-egXML-d30e1585" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>There are essentially two pointing mechanisms TEI employs to implement its graph
+ data structure: XPath, used in the <span class="element">&lt;att&gt;</span>match<span class="element">&lt;/att&gt;</span> attribute,
+<span class="element">&lt;note&gt;</span>
+  <span class="element">&lt;p&gt;</span>See <span class="element">&lt;ptr <span class="attribute">target</span>="<span class="attributevalue">http://www.tei-c.org/Vault/P5/2.2.0/doc/tei-p5-doc/en/html/ref-att.scoping.html</span>"/&gt;</span>
+  <span class="element">&lt;/p&gt;</span>
+ <span class="element">&lt;/note&gt;</span> and URIs, which can indicate documents, or (using fragment identifiers)
+ elements in the current document which have <span class="element">&lt;att&gt;</span>xml:id<span class="element">&lt;/att&gt;</span> attributes.<span class="element">&lt;/p&gt;</span></div></div></div><div class="teidiv0" id="internal_linking"><h2><span class="headingNumber">8. </span><span class="head">Internal Linking</span></h2><div class="p">Internal links are cross-links within the article. In jTEI, you can point to other text structures that can have labels, namely <span class="gi">&lt;div&gt;</span>, <span class="gi">&lt;figure&gt;</span> (containing either graphics or code examples), or <span class="gi">&lt;table&gt;</span>. Additionally, internal links can point to footnotes inside <span class="gi">&lt;note&gt;</span> elements, too. You can link to those structures either with an unlabeled cross-reference in <span class="gi">&lt;ptr&gt;</span>, or with a labeled link in <span class="gi">&lt;ref&gt;</span>. Both must have a <span class="att">type</span> attribute with value crossref, and a <span class="att">target</span> attribute, whose value should start with the <span class="q">‘#’</span> sign, followed by the <span class="att">xml:id</span> value of the element it addresses:<div id="index.xml-egXML-d30e1639" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>
+ <span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">crossref</span>" <span class="attribute">target</span>="<span class="attributevalue">#figure2</span>"&gt;</span>The following figure<span class="element">&lt;/ref&gt;</span> shows a typical example of such a tag document.
+<span class="element">&lt;figure <span class="attribute">xml:id</span>="<span class="attributevalue">figure2</span>"&gt;</span>
+  <span class="element">&lt;graphic <span class="attribute">url</span>="<span class="attributevalue">img/tagdoc-p2.png</span>"
+   <span class="attribute">width</span>="<span class="attributevalue">642px</span>" <span class="attribute">height</span>="<span class="attributevalue">716px</span>"/&gt;</span>
+  <span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">legend</span>"&gt;</span>Tagdoc for <span class="element">&lt;gi&gt;</span>resp<span class="element">&lt;/gi&gt;</span> element in P2.<span class="element">&lt;/head&gt;</span>
+ <span class="element">&lt;/figure&gt;</span>
+<span class="element">&lt;/p&gt;</span></div></div><div class="p">For unlabeled cross-links, the ptr type="crossref" xml:id="#link-target" is replaced with an appropriate label for the link target at rendering time: <div id="index.xml-egXML-d30e1656" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>
+ <span class="element">&lt;ptr <span class="attribute">target</span>="<span class="attributevalue">#table2</span>" <span class="attribute">type</span>="<span class="attributevalue">crossref</span>"/&gt;</span> shows allowable <span class="element">&lt;att&gt;</span>rend<span class="element">&lt;/att&gt;</span> values and
+ their equivalent meanings.
+<span class="element">&lt;/p&gt;</span>
+<span class="element">&lt;table <span class="attribute">xml:id</span>="<span class="attributevalue">table2</span>"&gt;</span>
+ <span class="element">&lt;head&gt;</span>Allowable <span class="element">&lt;att&gt;</span>rend<span class="element">&lt;/att&gt;</span> attribute values in <span class="element">&lt;ident&gt;</span>tei_corset<span class="element">&lt;/ident&gt;</span>
+   customization<span class="element">&lt;/head&gt;</span>
+ <span class="element">&lt;row <span class="attribute">role</span>="<span class="attributevalue">label</span>"&gt;</span>
+  <span class="element">&lt;cell&gt;</span>
+   <span class="element">&lt;att&gt;</span>rend<span class="element">&lt;/att&gt;</span>
+   <span class="element">&lt;lb/&gt;</span>(renamed <span class="element">&lt;att&gt;</span>r<span class="element">&lt;/att&gt;</span>) <span class="element">&lt;lb/&gt;</span>attribute value<span class="element">&lt;/cell&gt;</span>
+  <span class="element">&lt;cell&gt;</span>Meaning<span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+<span class="comment">&lt;!-- ... --&gt;</span>
+<span class="element">&lt;/table&gt;</span></div>In the generated ODT, OpenEdition, and PDF version, the cross-reference is is rendered as: <span class="q">‘Table X shows allowable @rend values and their equivalent meanings.’</span></div><p>Note how internal links are rendered as plain text instead of hyperlinks in the ODT version and the final version in revues.org.</p><div class="p">Another type of internal linking consists of bibliographic references, pointing to entries in the bibliography. This should be done with a specific type of <span class="gi">&lt;ref&gt;</span> element, with value bibl for the <span class="att">type</span> attribute. The value of the <span class="att">target</span> attribute for bibliographic references must point to a <span class="gi">&lt;bibl&gt;</span> element in the bibliography: <div id="index.xml-egXML-d30e1709" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>Thomas notes numerous additional developments in the use of computers in historical
+ study, both in the United States and elsewhere between the 1940s and the early
+ twenty-first century (<span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>" <span class="attribute">target</span>="<span class="attributevalue">#thomas04</span>"&gt;</span>Thomas 2004<span class="element">&lt;/ref&gt;</span>).<span class="element">&lt;/p&gt;</span>
+<span class="comment">&lt;!-- ... --&gt;</span>
+<span class="element">&lt;back&gt;</span>
+ <span class="element">&lt;div <span class="attribute">type</span>="<span class="attributevalue">bibliography</span>"&gt;</span>
+  <span class="element">&lt;listBibl&gt;</span>
+   <span class="element">&lt;bibl <span class="attribute">xml:id</span>="<span class="attributevalue">thomas04</span>"&gt;</span>
+    <span class="element">&lt;author&gt;</span>Thomas, William G., III<span class="element">&lt;/author&gt;</span>. <span class="element">&lt;date&gt;</span>2004<span class="element">&lt;/date&gt;</span>.
+   <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">a</span>"&gt;</span>Computing and the Historical Imagination<span class="element">&lt;/title&gt;</span>:
+   <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">m</span>"&gt;</span>A Companion to Digital Humanities<span class="element">&lt;/title&gt;</span>, edited by
+   <span class="element">&lt;editor&gt;</span>Susan Schreibman<span class="element">&lt;/editor&gt;</span>, <span class="element">&lt;editor&gt;</span>Ray Siemens<span class="element">&lt;/editor&gt;</span>, and
+   <span class="element">&lt;editor&gt;</span>John Unsworth<span class="element">&lt;/editor&gt;</span>. <span class="element">&lt;pubPlace&gt;</span>Oxford<span class="element">&lt;/pubPlace&gt;</span>:
+   <span class="element">&lt;publisher&gt;</span>Blackwell Publishing<span class="element">&lt;/publisher&gt;</span>.<span class="element">&lt;/bibl&gt;</span>
+  <span class="element">&lt;/listBibl&gt;</span>
+ <span class="element">&lt;/div&gt;</span>
+<span class="element">&lt;/back&gt;</span></div> Note, how all characters surrounding bibliographic references have to be hard-coded in the text; they are not generated automatically at rendering time. For linking bibliographic references with quotations, see <a class="link_ptr" href="#quotations" title="Quotations Inline and Block"><span class="headingNumber">4.4. </span>Quotations, Inline and Block</a>.</div></div><div class="teidiv0" id="external_linking"><h2><span class="headingNumber">9. </span><span class="head">External Linking</span></h2><div class="p">Links to external destinations can be encoded with <span class="gi">&lt;ptr&gt;</span> (unlabeled) or <span class="gi">&lt;ref&gt;</span> (labeled). They must have a <span class="att">target</span> attribute whose value is the URI of the link's destination:<div id="index.xml-egXML-d30e1766" class="pre egXML_valid"><span class="element">&lt;item&gt;</span>addresses the range between two points (<span class="element">&lt;ref <span class="attribute">target</span>="<span class="attributevalue">http://www.tei-c.org/Vault/P5/2.2.0/doc/tei-p5-doc/en/html/SA.html#SATSRN</span>"&gt;</span>16.2.5.4 range()<span class="element">&lt;/ref&gt;</span>)<span class="element">&lt;/item&gt;</span></div> <div id="index.xml-egXML-d30e1773" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>More detailed information can be found at <span class="element">&lt;ptr <span class="attribute">target</span>="<span class="attributevalue">http://www.tei-c.org/Vault/P5/2.5.0/doc/tei-p5-doc/en/html/ref-elementSpec.html</span>"/&gt;</span>.<span class="element">&lt;/p&gt;</span></div>At rendering time, both types of links are transformed to clickable hyperlinks, and for <span class="gi">&lt;ptr&gt;</span> the value of the <span class="att">target</span> attribute is used as the link label.</div><p>One caveat for external links to the TEI Guidelines: since the web version at <a class="link_ptr" href="http://www.tei-c.org/Guidelines/P5/"><span>http://www.tei-c.org/Guidelines/P5/</span></a> is unstable and will be updated at each new release, you <em>must</em> point to the archived versions in the <a class="link_ref" href="http://www.tei-c.org/Vault/Vault-GL.html">‘Vault’ section</a> of the TEI website. There, you can find an archive of all previous TEI releases and their documentation. Follow the links to the exact version you're referencing in your article (even if it's the current version), and use them for your external hyperlinks. In the examples above, the first link points to the documentation of version 2.2.0 of the TEI Guidelines, while the second link points to version 2.5.0.</p></div><div class="teidiv0" id="faq"><h2><span class="headingNumber">10. </span><span class="head">Frequently-asked Questions</span></h2><ul><li class="item">Where did <span class="gi">&lt;hi&gt;</span> go? How do I do italics? <p>We're trying to avoid <span class="gi">&lt;hi&gt;</span> because it's so widely used in so many different ways. We would also prefer that all styling be applied for semantic reasons, so rather than ‘italics’, think ‘journal title’ or ‘emphasis’ or ‘foreign word’. Also, what you believe should be in italics might in our style guide be rendered in quotation marks, or not styled at all; that's why it's easier if you identify things and let the system style them.</p></li><li class="item">Why can't I use quotation marks? <p>Literal quotation marks can be straight double, straight single, curly double, curly single, or (if you happen to be on a non-English keyboard) a range of other symbols. All copyeditors are familiar with the tedium of checking that they're all the right form, and that all the inital ones are opening ones and the closing ones are the matching closing ones. It's much simpler if you tag your text as <span class="gi">&lt;quote&gt;</span>, <span class="gi">&lt;soCalled&gt;</span> or whatever, and let the XSLT provide the quotation marks in a reliable way.</p></li><li class="item">Why is this so restrictive? <p>The TEI is a huge standard; there are lots of available approaches to encoding any given phenomenon, and every TEI user has their own habits and preferences, arising out of their history and the projects they've worked on. If we accept submissions in any valid TEI (‘tei_all’), we inevitably spend many hours re-encoding them to get something that will work with our system. It's much simpler if we let the schema do the work for us.</p></li></ul></div><!--TEI back--><div class="teidiv0" id="summary"><h2><span class="headingNumber">Appendix A </span><span class="head">Summary of Elements and their Rendition</span></h2><div class="table"><table class="table"><thead><tr class="label"><th>Element/Tag</th><th>Usage</th><th>Example</th><th>Rendition</th></tr></thead><tbody><tr><td><span class="gi">&lt;abbr&gt;</span></td><td>an abbreviation of any sort</td><td><div id="index.xml-egXML-d30e1867" class="pre egXML_valid"><span class="element">&lt;abbr&gt;</span>DPI<span class="element">&lt;/abbr&gt;</span></div></td><td>DPI</td></tr><tr><td><span class="gi">&lt;att&gt;</span></td><td>attribute name</td><td><div id="index.xml-egXML-d30e1881" class="pre egXML_valid"><span class="element">&lt;att&gt;</span>place<span class="element">&lt;/att&gt;</span></div></td><td><span class="el-att">@place</span></td></tr><tr><td><span class="gi">&lt;cit&gt;</span></td><td>blockquote with bibliographic reference</td><td><div id="index.xml-egXML-d30e1897" class="pre egXML_valid"><span class="element">&lt;cit&gt;</span>
+ <span class="element">&lt;quote <span class="attribute">source</span>="<span class="attributevalue">quoteref7</span>"&gt;</span>
+  <span class="element">&lt;supplied&gt;</span>A<span class="element">&lt;/supplied&gt;</span>ccount books
+   are among the most common but least accessible primary sources
+   for historians<span class="element">&lt;gap/&gt;</span>
+ <span class="element">&lt;/quote&gt;</span>
+ <span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>"
+  <span class="attribute">xml:id</span>="<span class="attributevalue">quoteref7</span>"
+  <span class="attribute">target</span>="<span class="attributevalue">#mcgaw85</span>"&gt;</span>McGaw 1985<span class="element">&lt;/ref&gt;</span>
+<span class="element">&lt;/cit&gt;</span></div></td><td><span class="el-quotation">[A]ccount books are among the most common but least accessible primary sources for historians … <br />(McGaw 1985)</span></td></tr><tr><td><span class="gi">&lt;code&gt;</span></td><td>short inline code example</td><td><div id="index.xml-egXML-d30e1922" class="pre egXML_valid"><span class="element">&lt;p&gt;</span>A mixed content model such as
+<span class="element">&lt;code&gt;</span>(#PCDATA | a | model.b)*<span class="element">&lt;/code&gt;</span> 
+ might be expressed as follows<span class="element">&lt;/p&gt;</span></div></td><td><p>A mixed content model such as <span class="el-code">(#PCDATA | a | model.b)*</span> might be expressed as follows</p></td></tr><tr><td><span class="gi">&lt;eg&gt;</span></td><td>non-XML code example</td><td><div id="index.xml-egXML-d30e1946" class="pre egXML_valid"><span class="element">&lt;eg&gt;</span>
+  $('#teiHolder').data('modVers', {
+    xmlFile: 'data/teiFile.xml'
+    annotations: 'data/annotations.json',
+    fixFirst: false,
+    fullscreen: false,
+    height: 300,
+    ids: 'a,b,c',
+    witnesses: 'v1,v2'             
+  });
+<span class="element">&lt;/eg&gt;</span></div></td><td><div id="index.xml-egXML-d30e1953" class="pre cdata egXML_valid">
+  $('#teiHolder').data('modVers', {
+    xmlFile: 'data/teiFile.xml'
+    annotations: 'data/annotations.json',
+    fixFirst: false,
+    fullscreen: false,
+    height: 300,
+    ids: 'a,b,c',
+    witnesses: 'v1,v2'             
+  });
+</div></td></tr><tr><td><span class="gi">&lt;egXML&gt;</span></td><td>XML example code</td><td> <div id="index.xml-egXML-d30e1965" class="pre cdata egXML_valid">
+&lt;egXML xmlns="http://www.tei-c.org/ns/Examples"&gt;
+  &lt;content&gt;
+    &lt;classRef key="model.ab" maxOccurs="unlimited"/&gt; 
+  &lt;/content&gt;
+&lt;/egXML&gt;
+              </div></td><td><div id="index.xml-egXML-d30e1970" class="pre egXML_valid"><span class="element">&lt;content&gt;</span>
+ <span class="element">&lt;classRef <span class="attribute">key</span>="<span class="attributevalue">model.ab</span>"
+  <span class="attribute">maxOccurs</span>="<span class="attributevalue">unlimited</span>"/&gt;</span>
+<span class="element">&lt;/content&gt;</span></div></td></tr><tr><td><span class="gi">&lt;emph&gt;</span></td><td>emphasized text (italics)</td><td><div id="index.xml-egXML-d30e1984" class="pre egXML_valid"> The TEI began as a conscious attempt to <span class="element">&lt;emph&gt;</span>model<span class="element">&lt;/emph&gt;</span> 
+ existing and future markup systems.
+</div></td><td>The TEI began as a conscious attempt to <span class="el-emph">model</span> existing and future markup systems.</td></tr><tr><td><span class="gi">&lt;figure&gt;</span></td><td>a block figure or example code, with a mandatory heading</td><td><div id="index.xml-egXML-d30e2004" class="pre egXML_valid"><span class="element">&lt;figure <span class="attribute">xml:id</span>="<span class="attributevalue">figure1</span>"&gt;</span>
+ <span class="element">&lt;graphic <span class="attribute">url</span>="<span class="attributevalue">img/ives_img_01.png</span>"
+  <span class="attribute">width</span>="<span class="attributevalue">768px</span>"
+  <span class="attribute">height</span>="<span class="attributevalue">1004px</span>"/&gt;</span>
+ <span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">legend</span>"&gt;</span>Page-image from Ingelow’s
+ <span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">m</span>"&gt;</span>Poems<span class="element">&lt;/title&gt;</span>
+ <span class="element">&lt;/head&gt;</span>
+<span class="element">&lt;/figure&gt;</span></div></td><td><span class="generic-head">Figure 1: Page-image from Ingelow’s <span class="italic">Poems</span></span> <img src="images/ives_img_01.png" alt="" class="graphic" style=" width:300px;" /></td></tr><tr><td><span class="gi">&lt;foreign&gt;</span></td><td>a foreign text fragment</td><td><div id="index.xml-egXML-d30e2030" class="pre egXML_valid"> Nowhere is this more obvious than in the weight
+ accorded the single author monograph, which remains
+ the standard <span class="element">&lt;foreign <span class="attribute">xml:lang</span>="<span class="attributevalue">fr</span>"&gt;</span>par
+ excellence<span class="element">&lt;/foreign&gt;</span> of scholarship in the humanities.
+</div></td><td>Nowhere is this more obvious than in the weight accorded the single author monograph, which remains the standard <span class="el-foreign">par excellence</span> of scholarship in the humanities.</td></tr><tr><td><span class="gi">&lt;gap&gt;</span></td><td>an omission in quoted text</td><td><div id="index.xml-egXML-d30e2050" class="pre egXML_valid"><span class="element">&lt;quote <span class="attribute">source</span>="<span class="attributevalue">#quoteref7</span>"&gt;</span>Leisure moments only <span class="element">&lt;gap/&gt;</span> 
+ available for its execution<span class="element">&lt;/quote&gt;</span></div></td><td>“Leisure moments only … available for its execution”</td></tr><tr><td><span class="gi">&lt;gi&gt;</span></td><td>the name of an XML element</td><td><div id="index.xml-egXML-d30e2066" class="pre egXML_valid"><span class="element">&lt;gi&gt;</span>quote<span class="element">&lt;/gi&gt;</span></div></td><td><span class="el-gi">&lt;quote&gt;</span></td></tr><tr><td><span class="gi">&lt;graphic&gt;</span></td><td>a digital image</td><td><div id="index.xml-egXML-d30e2081" class="pre egXML_valid"><span class="element">&lt;graphic <span class="attribute">url</span>="<span class="attributevalue">img/ives_img_01.png</span>"
+ <span class="attribute">width</span>="<span class="attributevalue">768px</span>"
+ <span class="attribute">height</span>="<span class="attributevalue">1004px</span>"/&gt;</span></div></td><td><img src="images/ives_img_01.png" alt="" class="graphic" style=" width:300px;" /></td></tr><tr><td><span class="gi">&lt;head&gt;</span></td><td>a heading for a text division, figure, table, or list</td><td><div id="index.xml-egXML-d30e2094" class="pre egXML_valid"><span class="element">&lt;div <span class="attribute">xml:id</span>="<span class="attributevalue">futuredirections</span>"&gt;</span>
+ <span class="element">&lt;head&gt;</span>Future Directions<span class="element">&lt;/head&gt;</span>
+<span class="element">&lt;/div&gt;</span></div></td><td><span class="h1">4. Future Directions</span></td></tr><tr><td><span class="gi">&lt;ident&gt;</span></td><td>identifier in a formal language</td><td><div id="index.xml-egXML-d30e2112" class="pre egXML_valid"> the new <span class="element">&lt;ident&gt;</span>range()<span class="element">&lt;/ident&gt;</span> and <span class="element">&lt;ident&gt;</span>string-range()<span class="element">&lt;/ident&gt;</span> 
+ pointers
+</div></td><td>the new <span class="el-ident">range()</span> and <span class="el-ident">string-range()</span> pointers</td></tr><tr><td><span class="gi">&lt;list&gt;</span></td><td>a list</td><td><div id="index.xml-egXML-d30e2138" class="pre egXML_valid"><span class="element">&lt;list <span class="attribute">rend</span>="<span class="attributevalue">ordered</span>"&gt;</span>
+ <span class="element">&lt;item&gt;</span>The first misconception is this: digital texts and digital
+   archives merely replicate physical texts and physical archives
+   in a non-material environment.<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>The second misconception is that all possible digital
+   representations of a text are created equal.<span class="element">&lt;/item&gt;</span>
+<span class="element">&lt;/list&gt;</span></div></td><td><ol class="ordered"><li class="item">The first misconception is this: digital texts and digital archives merely replicate physical texts and physical archives in a non-material environment.</li><li class="item">The second misconception is that all possible digital representations of a text are created equal.</li></ol></td></tr><tr><td><span class="gi">&lt;mentioned&gt;</span></td><td>a word that is ‘mentioned’</td><td><div id="index.xml-egXML-d30e2164" class="pre egXML_valid"> conversations on the multi-dimensional understanding of
+<span class="element">&lt;mentioned&gt;</span>text<span class="element">&lt;/mentioned&gt;</span> and 
+<span class="element">&lt;mentioned&gt;</span>representation<span class="element">&lt;/mentioned&gt;</span></div></td><td>conversations on the multi-dimensional understanding of <span class="el-mentioned">text</span> and <span class="el-mentioned">representation</span></td></tr><tr><td><span class="gi">&lt;note&gt;</span></td><td>a footnote</td><td><div id="index.xml-egXML-d30e2188" class="pre egXML_valid"> A similar suggestion is made in Eric Van der Vlist’s
+<span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">m</span>"&gt;</span>RELAX NG<span class="element">&lt;/title&gt;</span>
+<span class="element">&lt;note&gt;</span>
+ <span class="element">&lt;p&gt;</span>
+  <span class="element">&lt;ref <span class="attribute">target</span>="<span class="attributevalue">http://relaxng/</span>"&gt;</span>http://relaxng/<span class="element">&lt;/ref&gt;</span>.
+ <span class="element">&lt;/p&gt;</span>
+<span class="element">&lt;/note&gt;</span> 
+ (<span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>"
+ <span class="attribute">target</span>="<span class="attributevalue">#vlist04</span>"&gt;</span>2004<span class="element">&lt;/ref&gt;</span>)
+</div></td><td>A similar suggestion is made in Eric Van der Vlist’s <span class="hi">RELAX NG</span><span class="sup"><a id="egNote1" class="link_ref" href="#egNoteRef1" title="1">1</a></span> (2004) <br /> <span class="h1">Notes</span> <p><a class="link_ref" id="egNoteRef1" href="#egNote1" title="1">1</a> <a class="link_ref" href="http://relaxng/">http://relaxng/</a>.</p></td></tr><tr><td><span class="gi">&lt;ptr&gt;</span></td><td>a pointer to another location (internal or external)</td><td><div id="index.xml-egXML-d30e2235" class="pre egXML_valid"> The rest of this paper treats each of these points in more detail.
+<span class="element">&lt;ptr <span class="attribute">type</span>="<span class="attributevalue">crossref</span>"
+ <span class="attribute">target</span>="<span class="attributevalue">#interoperability</span>"/&gt;</span> describes the
+ nature of the interoperability problem.
+</div></td><td>The rest of this paper treats each of these points in more detail. Section 2 describes the nature of the interoperability problem.</td></tr><tr><td><span class="gi">&lt;q&gt;</span></td><td>a short, unattributed inline quotation</td><td><div id="index.xml-egXML-d30e2251" class="pre egXML_valid"> (student survey responses included words such as
+<span class="element">&lt;q&gt;</span>apprehensive<span class="element">&lt;/q&gt;</span>, <span class="element">&lt;q&gt;</span>intimidated<span class="element">&lt;/q&gt;</span>, and even
+<span class="element">&lt;q&gt;</span>terrified<span class="element">&lt;/q&gt;</span>), which explains why one student
+ commented that TEI training 
+<span class="element">&lt;q&gt;</span>was not something
+ I would have sought out on my own.<span class="element">&lt;/q&gt;</span></div></td><td>(student survey responses included words such as “apprehensive,” “intimidated,” and even “terrified”), which explains why one student commented that TEI training “was not something I would have sought out on my own.”</td></tr><tr><td><span class="gi">&lt;quote&gt;</span></td><td>an attributed quotation</td><td><div id="index.xml-egXML-d30e2276" class="pre egXML_valid"><span class="element">&lt;quote <span class="attribute">source</span>="<span class="attributevalue">#quoteref4</span>"&gt;</span>Names of authors<span class="element">&lt;/quote&gt;</span> appear
+ in <span class="element">&lt;quote <span class="attribute">source</span>="<span class="attributevalue">#quoteref4</span>"&gt;</span>Italic Capitals<span class="element">&lt;/quote&gt;</span> 
+ (<span class="element">&lt;ref <span class="attribute">type</span>="<span class="attributevalue">bibl</span>"
+ <span class="attribute">xml:id</span>="<span class="attributevalue">quoteref4</span>"
+ <span class="attribute">target</span>="<span class="attributevalue">#arber1875</span>"&gt;</span>Arber 1875–95, 1:29<span class="element">&lt;/ref&gt;</span>).
+</div></td><td>“Names of authors” appear in “Italic Capitals” (Arber 1875–95, 1:29).</td></tr><tr><td><span class="gi">&lt;ref&gt;</span></td><td>a reference to another location (with custom label text)</td><td><div id="index.xml-egXML-d30e2297" class="pre egXML_valid"><span class="element">&lt;ref <span class="attribute">target</span>="<span class="attributevalue">http://www.tei-c.org/#SATSRN</span>"&gt;</span>16.2.5.4 range()<span class="element">&lt;/ref&gt;</span>)
+</div></td><td><a class="link_ref" href="http://www.tei-c.org/#SATSRN">16.2.5.4 range()</a>)</td></tr><tr><td><span class="gi">&lt;soCalled&gt;</span></td><td>a word from which the author distances herself</td><td><div id="index.xml-egXML-d30e2315" class="pre egXML_valid"> There are possible ways (<span class="element">&lt;soCalled&gt;</span>hacks<span class="element">&lt;/soCalled&gt;</span>) around
+ some of these problems
+</div></td><td>There are possible ways (“hacks”) around some of these problems</td></tr><tr><td><span class="gi">&lt;supplied&gt;</span></td><td>text that has been added by the jTEI author (in a quotation)</td><td><div id="index.xml-egXML-d30e2332" class="pre egXML_valid"><span class="element">&lt;q&gt;</span>Finding what you need can be problematic. Lack of
+ links to chapters that describe elements next
+<span class="element">&lt;supplied&gt;</span>to<span class="element">&lt;/supplied&gt;</span> some element definitions<span class="element">&lt;/q&gt;</span></div></td><td>“Finding what you need can be problematic. Lack of links to chapters that describe elements next [to] some element definitions”</td></tr><tr><td><span class="gi">&lt;table&gt;</span></td><td>a table</td><td><div id="index.xml-egXML-d30e2350" class="pre egXML_valid"><span class="element">&lt;table <span class="attribute">xml:id</span>="<span class="attributevalue">table3</span>"&gt;</span>
+ <span class="element">&lt;head&gt;</span>Allowable <span class="element">&lt;att&gt;</span>rend<span class="element">&lt;/att&gt;</span> attribute values in
+ <span class="element">&lt;ident&gt;</span>tei_corset<span class="element">&lt;/ident&gt;</span> customization<span class="element">&lt;/head&gt;</span>
+ <span class="element">&lt;row <span class="attribute">role</span>="<span class="attributevalue">label</span>"&gt;</span>
+  <span class="element">&lt;cell&gt;</span>
+   <span class="element">&lt;att&gt;</span>rend<span class="element">&lt;/att&gt;</span>
+   <span class="element">&lt;lb/&gt;</span>(renamed <span class="element">&lt;att&gt;</span>r<span class="element">&lt;/att&gt;</span>)
+  <span class="element">&lt;lb/&gt;</span>attribute value<span class="element">&lt;/cell&gt;</span>
+  <span class="element">&lt;cell&gt;</span>Meaning<span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+ <span class="element">&lt;row&gt;</span>
+  <span class="element">&lt;cell <span class="attribute">role</span>="<span class="attributevalue">label</span>"&gt;</span>
+   <span class="element">&lt;val&gt;</span>ab<span class="element">&lt;/val&gt;</span>
+  <span class="element">&lt;/cell&gt;</span>
+  <span class="element">&lt;cell&gt;</span>rendered above the line<span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+ <span class="element">&lt;row&gt;</span>
+  <span class="element">&lt;cell <span class="attribute">role</span>="<span class="attributevalue">label</span>"&gt;</span>
+   <span class="element">&lt;val&gt;</span>al<span class="element">&lt;/val&gt;</span>
+  <span class="element">&lt;/cell&gt;</span>
+  <span class="element">&lt;cell&gt;</span>rendered aligned to the left<span class="element">&lt;/cell&gt;</span>
+ <span class="element">&lt;/row&gt;</span>
+<span class="element">&lt;/table&gt;</span></div></td><td><span class="generic-head">Table 4: Allowable <span class="el-att">@rend</span> attribute values in <span class="el-ident">tei_corset</span> customization</span> <div class="table" id="table4"><table><tr class="label"><td><span class="el-att">@rend</span> <br />(renamed <span class="el-att">@r</span>) <br />attribute value</td><td>Meaning</td></tr><tr><td class="label"><span class="el-val">ab</span></td><td>rendered above the line</td></tr><tr><td class="label"><span class="el-val">al</span></td><td>rendered aligned to the left</td></tr></table></div></td></tr><tr><td><span class="gi">&lt;tag&gt;</span></td><td>a full XML tag</td><td><div id="index.xml-egXML-d30e2433" class="pre egXML_valid"><span class="element">&lt;tag <span class="attribute">type</span>="<span class="attributevalue">empty</span>"&gt;</span>rng:ref name="model.pLike"<span class="element">&lt;/tag&gt;</span></div></td><td><span class="el-tag">&lt;rng:ref name="model.pLike"/&gt;</span></td></tr><tr><td><span class="gi">&lt;term&gt;</span></td><td>a technical term</td><td><div id="index.xml-egXML-d30e2449" class="pre egXML_valid"> Annotations are stored in <span class="element">&lt;term&gt;</span>triple stores<span class="element">&lt;/term&gt;</span> 
+ or graph databases like Neo4J</div></td><td>Annotations are stored in <span class="el-term">triple stores</span> or graph databases like Neo4J</td></tr><tr><td><span class="gi">&lt;title&gt;</span></td><td>the title of a bibliographic work</td><td><div id="index.xml-egXML-d30e2470" class="pre egXML_valid"><span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">a</span>"&gt;</span>Where Did All the Document Kids Go?
+ Open-source, Markup, and the Casual Developer.<span class="element">&lt;/title&gt;</span> 
+ Presented at Balisage: The Markup Conference 2013,
+ Montréal, Canada, August 6–9, 2013. In
+<span class="element">&lt;title <span class="attribute">level</span>="<span class="attributevalue">m</span>"&gt;</span>Proceedings of Balisage: The Markup
+ Conference 2013<span class="element">&lt;/title&gt;</span>.</div></td><td>“Where Did All the Document Kids Go? Open-source, Markup, and the Casual Developer.” Presented at Balisage: The Markup Conference 2013, Montréal, Canada, August 6–9, 2013. In <span class="title">Proceedings of Balisage: The Markup Conference 2013</span>.</td></tr><tr><td><span class="gi">&lt;val&gt;</span></td><td>an attribute value</td><td><div id="index.xml-egXML-d30e2492" class="pre egXML_valid"> an attribute <span class="element">&lt;att&gt;</span>preserveOrder<span class="element">&lt;/att&gt;</span> taking values
+<span class="element">&lt;val&gt;</span>true<span class="element">&lt;/val&gt;</span> or 
+<span class="element">&lt;val&gt;</span>false<span class="element">&lt;/val&gt;</span></div></td><td>an attribute <span class="el-att">@preserveOrder</span> taking values "true" or "false"</td></tr></tbody></table></div></div><div class="teidiv0" id="index.xml-back.1_div.2"><h2><span class="headingNumber">Appendix B </span></h2><p><b>Specification []</b></p><table class="border"><tr><td>Module: tei</td></tr><tr><td>Module: core</td></tr><tr><td>Module: corpus</td></tr><tr><td>Module: figures</td></tr><tr><td>Module: header</td></tr><tr><td>Module: namesdates</td></tr><tr><td>Module: tagdocs</td></tr><tr><td>Module: textstructure</td></tr><tr><td>Module: transcr</td></tr><tr><td>&lt;<span class="orange">TEI</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">version</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">titleStmt</span>&gt;</td><td><table class="border"><tr><td colspan="3"><span lang="en" class="gloss">title statement</span>groups information about the title of a work and those responsible for its content. In jTEI, this must include a title and an <span class="gi">&lt;author&gt;</span> element for each author of the paper, which in turn must include <span class="gi">&lt;name&gt;</span>, <span class="gi">&lt;affiliation&gt;</span> and <span class="gi">&lt;email&gt;</span>.</td></tr><tr><td colspan="3"><div class="pre">
+<span class="element">&lt;rng:group&gt;</span>
+<span class="element">&lt;rng:oneOrMore&gt;</span>
+ <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">title</span>"/&gt;</span>
+<span class="element">&lt;/rng:oneOrMore&gt;</span>
+<span class="element">&lt;rng:oneOrMore&gt;</span>
+ <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">author</span>"/&gt;</span>
+<span class="element">&lt;/rng:oneOrMore&gt;</span>
+<span class="element">&lt;/rng:group&gt;</span></div></td></tr><tr><td>[#jtei.sch-title]</td><td><div id="index.xml-egXML-d2928e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:titleStmt</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:title[@type = 'main']</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">type.add</span>"&gt;</span> A title of type "main" is required in <span class="element">&lt;sch:name/&gt;</span>.
+ <span class="element">&lt;/sch:assert&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">type.add</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Add a @type='main' attribute to the first title.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:add <span class="attribute">match</span>="<span class="attributevalue">tei:title[not(@type='main')][1]</span>"
+   <span class="attribute">node-type</span>="<span class="attributevalue">attribute</span>" <span class="attribute">target</span>="<span class="attributevalue">type</span>"&gt;</span>main<span class="element">&lt;/sqf:add&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">textClass</span>&gt;</td><td><table class="border"><tr><td colspan="3"><div class="pre">
+<span class="element">&lt;rng:zeroOrMore&gt;</span>
+<span class="element">&lt;rng:choice&gt;</span>
+ <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">classCode</span>"/&gt;</span>
+ <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">catRef</span>"/&gt;</span>
+<span class="element">&lt;/rng:choice&gt;</span>
+<span class="element">&lt;/rng:zeroOrMore&gt;</span>
+<span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">keywords</span>"/&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">affiliation</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">notAfter</span></td><td></td></tr><tr><td>@<span class="red del">role</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">application</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr><tr><td>@<span class="red del">notAfter</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">att</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-att]</td><td><div id="index.xml-egXML-d3003e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:att</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., '^@'))</span>"&gt;</span> Attribute delimiters are not allowed for <span class="element">&lt;sch:name/&gt;</span>: they are completed at processing time via XSLT.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">scheme</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.breaking</span></td><td></td></tr><tr><td><span class="red del">att.cReferencing</span></td><td></td></tr><tr><td><span class="red del">att.canonical</span></td><td></td></tr><tr><td><span class="orange">att.citing</span></td><td><table class="border"><tr><td>@<span class="red del">from</span></td><td></td></tr><tr><td>@<span class="red del">to</span></td><td></td></tr></table></td></tr><tr><td><span class="orange">att.combinable</span></td><td><table class="border"><tr><td>@<span class="red del">mode</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.coordinated</span></td><td></td></tr><tr><td><span class="orange">att.damaged</span></td><td><table class="border"><tr><td>@<span class="red del">hand</span></td><td></td></tr><tr><td>@<span class="red del">agent</span></td><td></td></tr><tr><td>@<span class="red del">degree</span></td><td></td></tr><tr><td>@<span class="red del">group</span></td><td></td></tr></table></td></tr><tr><td><span class="orange">att.datable</span></td><td><table class="border"><tr><td>@<span class="red del">calendar</span></td><td></td></tr><tr><td>@<span class="red del">period</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.datable.custom</span></td><td></td></tr><tr><td><span class="red del">att.datable.iso</span></td><td></td></tr><tr><td><span class="red del">att.datcat</span></td><td></td></tr><tr><td><span class="red del">att.declarable</span></td><td></td></tr><tr><td><span class="red del">att.declaring</span></td><td></td></tr><tr><td><span class="red del">att.deprecated</span></td><td></td></tr><tr><td><span class="orange">att.dimensions</span></td><td><table class="border"><tr><td>@<span class="red del">unit</span></td><td></td></tr><tr><td>@<span class="red del">quantity</span></td><td></td></tr><tr><td>@<span class="red del">extent</span></td><td></td></tr><tr><td>@<span class="red del">precision</span></td><td></td></tr><tr><td>@<span class="red del">scope</span></td><td></td></tr></table></td></tr><tr><td><span class="orange">att.divLike</span></td><td><table class="border"><tr><td>@<span class="red del">org</span></td><td></td></tr><tr><td>@<span class="red del">sample</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.docStatus</span></td><td></td></tr><tr><td><span class="red del">att.duration.iso</span></td><td></td></tr><tr><td><span class="red del">att.duration.w3c</span></td><td></td></tr><tr><td><span class="orange">att.editLike</span></td><td><table class="border"><tr><td>@<span class="red del">evidence</span></td><td></td></tr><tr><td>@<span class="red del">instant</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.edition</span></td><td></td></tr><tr><td><span class="red del">att.fragmentable</span></td><td></td></tr><tr><td><span class="orange">att.global.rendition</span></td><td><table class="border"><tr><td>@<span class="red del">style</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.global.change</span></td><td></td></tr><tr><td><span class="red del">att.global.facs</span></td><td></td></tr><tr><td><span class="red del">att.handFeatures</span></td><td></td></tr><tr><td><span class="orange">att.identified</span></td><td><table class="border"><tr><td>@<span class="red del">predeclare</span></td><td></td></tr><tr><td>@<span class="red del">module</span></td><td></td></tr><tr><td>@<span class="red del">status</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.internetMedia</span></td><td></td></tr><tr><td><span class="orange">att.interpLike</span></td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr><tr><td>@<span class="red del">inst</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.measurement</span></td><td></td></tr><tr><td><span class="orange">att.media</span></td><td><table class="border"><tr><td>@<span class="red del">scale</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.milestoneUnit</span></td><td></td></tr><tr><td><span class="orange">att.naming</span></td><td><table class="border"><tr><td>@<span class="red del">nymRef</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.patternReplacement</span></td><td></td></tr><tr><td><span class="orange">att.personal</span></td><td><table class="border"><tr><td>@<span class="red del">full</span></td><td></td></tr><tr><td>@<span class="red del">sort</span></td><td></td></tr></table></td></tr><tr><td><span class="orange">att.pointing</span></td><td><table class="border"><tr><td>@<span class="red del">targetLang</span></td><td></td></tr><tr><td>@<span class="red del">evaluate</span></td><td></td></tr></table></td></tr><tr><td><span class="orange">att.pointing.group</span></td><td><table class="border"><tr><td>@<span class="red del">domains</span></td><td></td></tr><tr><td>@<span class="red del">targFunc</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.ranging</span></td><td></td></tr><tr><td><span class="red del">att.readFrom</span></td><td></td></tr><tr><td><span class="red del">att.repeatable</span></td><td></td></tr><tr><td><span class="orange">att.responsibility</span></td><td><table class="border"><tr><td>@<span class="red del">cert</span></td><td></td></tr><tr><td>@<span class="red del">resp</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.scoping</span></td><td></td></tr><tr><td><span class="orange">att.segLike</span></td><td><table class="border"><tr><td>@<span class="red del">function</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.sortable</span></td><td></td></tr><tr><td><span class="red del">att.spanning</span></td><td></td></tr><tr><td><span class="orange">att.styleDef</span></td><td><table class="border"><tr><td>@<span class="red del">schemeVersion</span></td><td></td></tr></table></td></tr><tr><td><span class="orange">att.tableDecoration</span></td><td><table class="border"><tr><td>@<span class="orange">role</span></td><td><table class="border"><tr><td><span class="green">data</span></td><td></td></tr><tr><td><span class="green">label</span></td><td></td></tr></table></td></tr></table></td></tr><tr><td><span class="red del">att.timed</span></td><td></td></tr><tr><td><span class="orange">att.transcriptional</span></td><td><table class="border"><tr><td>@<span class="red del">hand</span></td><td></td></tr><tr><td>@<span class="red del">status</span></td><td></td></tr><tr><td>@<span class="red del">cause</span></td><td></td></tr><tr><td>@<span class="red del">seq</span></td><td></td></tr></table></td></tr><tr><td><span class="red del">att.translatable</span></td><td></td></tr><tr><td><span class="orange">att.typed</span></td><td><table class="border"><tr><td>@<span class="red del">subtype</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">author</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-author]</td><td><div id="index.xml-egXML-d3028e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:titleStmt/tei:author</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:name and tei:affiliation and tei:email</span>"&gt;</span> Author information in the &lt;titleStmt&gt; must include &lt;name&gt;, &lt;affiliation&gt; and &lt;email&gt;.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">role</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">availability</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">status</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">bibl</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-bibl-id]</td><td><div id="index.xml-egXML-d3048e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:back/tei:div[@type eq 'bibliography']//tei:bibl</span>"
+ <span class="attribute">role</span>="<span class="attributevalue">warning</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">@xml:id</span>"&gt;</span> A bibliographic entry should have a unique value for @xml:id.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-bibl-orphan]</td><td><div id="index.xml-egXML-d3069e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:back/tei:div[@type eq 'bibliography']//tei:bibl</span>"
+ <span class="attribute">role</span>="<span class="attributevalue">warning</span>"&gt;</span>
+ <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">currId</span>" <span class="attribute">value</span>="<span class="attributevalue">@xml:id</span>"/&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">some $i in //tei:ref[@type='bibl'] satisfies tokenize($i/@target, 
+ '\s+')[replace(., '#', '') = $currId]</span>"&gt;</span> This bibliographic entry is an orphan: no ref[@type="bibl"] references to it occur in the text.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">biblScope</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr><tr><td>@<span class="orange">unit</span></td><td><table class="border"><tr><td><span class="green">chapter</span></td><td></td></tr><tr><td><span class="green">issue</span></td><td></td></tr><tr><td><span class="green">page</span></td><td></td></tr><tr><td><span class="green">part</span></td><td></td></tr><tr><td><span class="green">volume</span></td><td></td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">cit</span>&gt;</td><td><table class="border"><tr><td colspan="3"><span lang="en" class="gloss">cited block quotation</span>contains a quotation from some other document, together with a bibliographic reference to its source. In jTEI, this is used only for block quotations, and it will be rendered as a block. For inline quotations, use the <span class="gi">&lt;quote&gt;</span> element and link it to a reference using <span class="att">source</span>.</td></tr><tr><td colspan="3"><div class="pre">
+<span class="element">&lt;rng:oneOrMore&gt;</span>
+<span class="element">&lt;rng:choice&gt;</span>
+ <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">quote</span>"/&gt;</span>
+ <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.biblLike</span>"/&gt;</span>
+ <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.ptrLike</span>"/&gt;</span>
+<span class="element">&lt;/rng:choice&gt;</span>
+<span class="element">&lt;/rng:oneOrMore&gt;</span></div></td></tr><tr><td>[#jtei.sch-cit]</td><td><div id="index.xml-egXML-d3121e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:cit</span>" <span class="attribute">role</span>="<span class="attributevalue">warning</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:ref</span>"&gt;</span>
+  <span class="element">&lt;sch:name/&gt;</span> is normally expected to have a bibliographic reference (ref[@type="bibl"]). Please make sure you intended not to add one here.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">date</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">desc</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">div</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-divtypes-front]</td><td><div id="index.xml-egXML-d3146e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:div[@type = ('abstract', 'acknowledgements')]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">parent::tei:front</span>"&gt;</span> Abstracts (<span class="element">&lt;sch:name/&gt;</span>[@type="abstract"]) and acknowledgements (<span class="element">&lt;sch:name/&gt;</span>[@type="acknowledgements"]) may only occur inside front.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-divtypes-front2]</td><td><div id="index.xml-egXML-d3176e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:front/tei:div</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">@type=('abstract', 'acknowledgements')</span>"&gt;</span> Only abstracts (div[@type="abstract"]) and acknowledgements (div[@type="acknowledgements"]) may appear in the &lt;front&gt;.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-divtypes-back]</td><td><div id="index.xml-egXML-d3196e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:div[@type = ('bibliography', 'appendix')]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">parent::tei:back</span>"&gt;</span> Bibliography (<span class="element">&lt;sch:name/&gt;</span>[@type="bibliography"]) and appendices (<span class="element">&lt;sch:name/&gt;</span>[@type="appendix"]) may only occur inside back.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-divtypes-body]</td><td><div id="index.xml-egXML-d3226e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:div[@type = ('editorialIntroduction')]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">parent::tei:body</span>"&gt;</span> An editorial introduction (<span class="element">&lt;sch:name/&gt;</span>[@type="editorialIntroduction"]) may only occur inside body.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-div-head]</td><td><div id="index.xml-egXML-d3251e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:div[not(@type = ('editorialIntroduction', 'bibliography', 'abstract', 
+ 'acknowledgements'))]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:head</span>"&gt;</span> A <span class="element">&lt;sch:name/&gt;</span> must contain a head.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="orange">type</span></td><td><table class="border"><tr><td><span class="green">abstract</span></td><td>Every article must include an abstract, consisting of one or two
+                      paragraphs. This appears in the &lt;front&gt; element and may not appear
+                      anywhere else.</td></tr><tr><td><span class="green">acknowledgements</span></td><td>If an article includes a section for acknowledgements (for funders,
+                      supporters, etc.), it should be as brief as possible, and must appear in the
+                      &lt;front&gt; element and nowhere else.</td></tr><tr><td><span class="green">appendix</span></td><td>Any appendices must appear in the &lt;back&gt; of the article, following
+                      the bibliography.</td></tr><tr><td><span class="green">bibliography</span></td><td>Every article must include a bibliography, which appears as the first
+                      component of the &lt;back&gt; element, followed by any appendices.</td></tr><tr><td><span class="green">editorialIntroduction</span></td><td>An editorial introduction to an issue must contain a &lt;div 
+                      type="editorialIntroduction"&gt;, which must appear in the &lt;body&gt;
+                      element and may not appear anywhere else.</td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">editor</span>&gt;</td><td><table class="border"><tr><td>@<span class="orange">role</span></td><td><table class="border"><tr><td><span class="green">translator</span></td><td></td></tr><tr><td><span class="green">guest</span></td><td></td></tr><tr><td><span class="green">chief</span></td><td></td></tr><tr><td><span class="green">managing</span></td><td></td></tr><tr><td><span class="green">technical</span></td><td></td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">emph</span>&gt;</td><td><table class="border"><tr><td colspan="3"><span lang="en" class="gloss">Emphasis (italicization)</span>The <span class="gi">&lt;emph&gt;</span> element is used for emphasized text, and will be rendered in italics.</td></tr></table></td></tr><tr><td>&lt;<span class="orange">figure</span>&gt;</td><td><table class="border"><tr><td colspan="3"><span lang="en" class="gloss">figure</span>groups elements representing or containing graphic information such as a graphic illustration, or a block of example code. Figure must contain either <span class="gi">&lt;graphic&gt;</span>, <span class="gi">&lt;egXML&gt;</span> (for example XML code) or <span class="gi">&lt;eg&gt;</span> (for non-XML code), and a mandatory <span class="gi">&lt;head&gt;</span> element containing the caption for the figure. Inline code examples may be provided through <span class="gi">&lt;egXML&gt;</span> and <span class="gi">&lt;eg&gt;</span> without the <span class="gi">&lt;figure&gt;</span> wrapper.</td></tr><tr><td colspan="3"><div class="pre">
+<span class="element">&lt;rng:choice&gt;</span>
+<span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">graphic</span>"/&gt;</span>
+<span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">egXML</span>"/&gt;</span>
+<span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">eg</span>"/&gt;</span>
+<span class="element">&lt;/rng:choice&gt;</span>
+<span class="element">&lt;rng:oneOrMore&gt;</span>
+<span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">head</span>"/&gt;</span>
+<span class="element">&lt;/rng:oneOrMore&gt;</span></div></td></tr><tr><td>@<span class="red del">place</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr><tr><td colspan="3"><div id="index.xml-egXML-d30e2955" class="pre egXML_valid"><span class="element">&lt;figure&gt;</span>
+ <span class="element">&lt;graphic <span class="attribute">url</span>="<span class="attributevalue">http://www.example.org/fig1.png</span>"
+  <span class="attribute">width</span>="<span class="attributevalue">100px</span>" <span class="attribute">height</span>="<span class="attributevalue">750px</span>"/&gt;</span>
+ <span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">legend</span>"&gt;</span>The View from the Bridge<span class="element">&lt;/head&gt;</span>
+ <span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">license</span>"&gt;</span>Used with permission<span class="element">&lt;/head&gt;</span>
+<span class="element">&lt;/figure&gt;</span></div></td></tr><tr><td colspan="3"><div id="index.xml-egXML-d30e2963" class="pre egXML_valid"><span class="element">&lt;figure&gt;</span>
+ <span class="element">&lt;eg&gt;</span>if ((err = SSLHashSHA1.update(&amp;amp;hashCtx, &amp;amp;serverRandom)) != 0)
+   goto fail;
+   if ((err = SSLHashSHA1.update(&amp;amp;hashCtx, &amp;amp;signedParams)) != 0)
+   goto fail;
+   goto fail;
+   if ((err = SSLHashSHA1.final(&amp;amp;hashCtx, &amp;amp;hashOut)) != 0)
+   goto fail;
+ <span class="element">&lt;/eg&gt;</span>
+ <span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">legend</span>"&gt;</span>An embarrassing error for Apple<span class="element">&lt;/head&gt;</span>
+<span class="element">&lt;/figure&gt;</span></div></td></tr><tr><td colspan="3"><div id="index.xml-egXML-d30e2970" class="pre egXML_valid"><span class="element">&lt;figure&gt;</span> &lt;egXML xmlns="http://www.tei-c.org/ns/Examples"&gt;
+ &lt;list rend="bulleted"&gt;
+ &lt;item&gt;Life&lt;/item&gt;
+ &lt;item&gt;The Universe&lt;/item&gt;
+ &lt;item&gt;Everything&lt;/item&gt;
+ &lt;/list&gt;
+ &lt;/egXML&gt;
+<span class="element">&lt;head <span class="attribute">type</span>="<span class="attributevalue">legend</span>"&gt;</span>A book title rendered as a list<span class="element">&lt;/head&gt;</span>
+<span class="element">&lt;/figure&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">forename</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">role</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">ident</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">label</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr><tr><td>@<span class="red del">place</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">language</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">usage</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">lb</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">list</span>&gt;</td><td><table class="border"><tr><td>@<span class="orange">type</span></td><td><table class="border"><tr><td><span class="green">gloss</span></td><td></td></tr></table></td></tr><tr><td>@<span class="orange">rend</span></td><td><table class="border"><tr><td colspan="3">describes the way the list should be rendered. </td></tr><tr><td><span class="green">bulleted</span></td><td>Bulleted lists will appear with each item preceded by a leading
+                      dot.</td></tr><tr><td><span class="green">inline</span></td><td>Inline lists appear within a paragraph of ordinary text; list items do not
+                      start on a new line, but follow immediately from the preceding text or item.
+                      The value "inline" may be combined with another value; for example, "ordered
+                      inline" means that the list will be rendered inline, but each item will be
+                      preceded by a number in parentheses: (1) first item (2) second item,
+                      and so on.</td></tr><tr><td><span class="green">ordered</span></td><td>Items in a numbered list will be preceded by a number. If the list is
+                      inline, then the number will be enclosed in parentheses, but if it is a
+                      block-level list (the default), the number will be followed by a period.
+                    </td></tr><tr><td><span class="green">simple</span></td><td>Items in a simple list will be rendered with no bullet or preceding number
+                      at all.</td></tr></table></td></tr><tr><td colspan="3"><div id="index.xml-egXML-d30e3028" class="pre egXML_valid"><span class="element">&lt;list <span class="attribute">rend</span>="<span class="attributevalue">bulleted</span>"&gt;</span>
+ <span class="element">&lt;item&gt;</span>Bacon<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>Eggs<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>Mushrooms<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>Spam<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>Spam<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>Spam<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;item&gt;</span>Spam<span class="element">&lt;/item&gt;</span>
+<span class="element">&lt;/list&gt;</span></div></td></tr><tr><td colspan="3"><div id="index.xml-egXML-d30e3045" class="pre egXML_valid"><span class="element">&lt;p&gt;</span> There are three kinds of list: <span class="element">&lt;list <span class="attribute">rend</span>="<span class="attributevalue">inline ordered</span>"&gt;</span>
+  <span class="element">&lt;item&gt;</span>simple, <span class="element">&lt;/item&gt;</span>
+  <span class="element">&lt;item&gt;</span>bulleted<span class="element">&lt;/item&gt;</span> and
+ <span class="element">&lt;item&gt;</span>ordered<span class="element">&lt;/item&gt;</span>
+ <span class="element">&lt;/list&gt;</span>.
+<span class="element">&lt;/p&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">listBibl</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">name</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">role</span></td><td></td></tr><tr><td>@<span class="red del">notAfter</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">note</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-note]</td><td><div id="index.xml-egXML-d3434e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:note</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(following-sibling::text()[1][matches(., '^[,\.:;!?)\]]')])</span>"&gt;</span> Footnotes should follow punctuation marks, not precede them. Place
+   your &lt;note&gt; element after the punctuation mark.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-note-blocks]</td><td><div id="index.xml-egXML-d3454e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:note</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">.//(tei:cit|tei:table|tei:list[not(tokenize(@rend, '\s+')[. eq 'inline'])]|tei:figure|eg:egXML|tei:eg)</span>"&gt;</span> No block-level elements are allowed inside note.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">anchored</span></td><td></td></tr><tr><td>@<span class="red del">targetEnd</span></td><td></td></tr><tr><td>@<span class="red del">place</span></td><td></td></tr><tr><td>@<span class="red del">target</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">head</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-head-number]</td><td><div id="index.xml-egXML-d3474e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:head</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">matches(., '^\s*((figure|table|example|section) )?\d', 'i')</span>"&gt;</span> Headings are numbered and labeled automatically, please remove the hard-coded label from the text.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-figure-head]</td><td><div id="index.xml-egXML-d3494e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:figure/tei:head</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">@type = ('legend', 'license')</span>"&gt;</span> Figure titles must have a type 'legend' or 'license'.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="orange">type</span></td><td><table class="border"><tr><td colspan="3">indicates the type of heading. In jTEI, we only use this attribute in the context of a <span class="gi">&lt;head&gt;</span> element in <span class="gi">&lt;figure&gt;</span>, where it must have one of two values.</td></tr><tr><td><span class="green">legend</span></td><td>the caption for a figure.</td></tr><tr><td><span class="green">license</span></td><td>licensing information that must be
+                    shown alongside the figure.</td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">num</span>&gt;</td><td><table class="border"><tr><td>@<span class="orange">type</span></td><td><table class="border"><tr><td colspan="3">indicates the type of numeric value. In jTEI, we particularly use num[@type='ordinal'] for e.g. <span class="q">‘21st’</span> or <span class="q">‘2nd’</span>; in rendering, this results in the non-numeric suffix to the number being output as superscript. Note, however, that ordinals for centuries should be spelled out, not written using digits (<span class="q">‘nineteenth century’</span>, not <span class="q">‘19th century’</span>).</td></tr><tr><td><span class="green">cardinal</span></td><td>absolute number, e.g. 21,
+                      21.5</td></tr><tr><td><span class="green">ordinal</span></td><td>ordinal number, e.g. 21st. This
+                      will be rendered with the non-numeric component superscripted.</td></tr><tr><td><span class="green">fraction</span></td><td>fraction, e.g. one half or
+                      three-quarters</td></tr><tr><td><span class="green">percentage</span></td><td>a percentage</td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">orgName</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">notAfter</span></td><td></td></tr><tr><td>@<span class="red del">role</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">pubPlace</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">role</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">ptr</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-ptr-multipleTargets]</td><td><div id="index.xml-egXML-d3514e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:ptr[not(@type='crossref')]</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">count(tokenize(normalize-space(@target), '\s+')) &gt; 1</span>"&gt;</span> Multiple targets are only allowed for <span class="element">&lt;sch:name/&gt;</span>[@type='crossref'].
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="orange">target</span></td><td></td></tr><tr><td>@<span class="orange">type</span></td><td><table class="border"><tr><td><span class="green">crossref</span></td><td>To link to another part of your article, use ptr
+                        type="crossref", and point to the xml:id value of the
+                      target location: ptr type="crossref" target="#intro". The
+                        ptr element will be expanded to create an appropriate link to the
+                      target location. </td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">q</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">quote</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-core]</td><td><div id="index.xml-egXML-d3539e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:quote</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">id(substring-after(@source, '#'))/(self::tei:ref[@type eq 'bibl']|self::tei:bibl[ancestor::tei:body])</span>"&gt;</span>
+  <span class="element">&lt;sch:name/&gt;</span> must be accompanied by a bibliographic reference (ref[@type="bibl"]) or a bibliographic description in the running text.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">ref</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-ref-multipleTargets]</td><td><div id="index.xml-egXML-d3563e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:ref</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">count(tokenize(normalize-space(@target), '\s+')) &gt; 1</span>"&gt;</span>
+  <span class="element">&lt;sch:name/&gt;</span> with multiple targets is not supported.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-biblref-parentheses]</td><td><div id="index.xml-egXML-d3587e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:ref[@type eq 'bibl']</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., '^\(.*\)$'))</span>"&gt;</span> Parentheses are not part of bibliographic references. Please move them out of <span class="element">&lt;sch:name/&gt;</span>.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-biblref-target]</td><td><div id="index.xml-egXML-d3612e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:ref[@type eq 'bibl']</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">id(substring-after(@target, '#'))/(self::tei:bibl|self::tei:person[ancestor::tei:particDesc/parent::tei:profileDesc])</span>"&gt;</span> A bibliographic reference must point to an entry in the bibliography.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-biblref-type]</td><td><div id="index.xml-egXML-d3632e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:ref[id(substring-after(@target, '#'))/self::tei:bibl]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">@type eq 'bibl'</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">bibltype.add</span>"&gt;</span> A bibliographic reference must be typed as @type="bibl".
+ <span class="element">&lt;/sch:assert&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">bibltype.add</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Add @type='bibl'.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:add <span class="attribute">match</span>="<span class="attributevalue">.</span>" <span class="attribute">node-type</span>="<span class="attributevalue">attribute</span>"
+   <span class="attribute">target</span>="<span class="attributevalue">type</span>" <span class="attribute">select</span>="<span class="attributevalue">'bibl'</span>"/&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="orange">target</span></td><td></td></tr><tr><td>@<span class="orange">type</span></td><td><table class="border"><tr><td><span class="green">crossref</span></td><td>To link to another part of your article, use ref
+                        type="crossref", and point to the xml:id value of the
+                      target location: ref type="crossref" target="#intro".</td></tr><tr><td><span class="green">bibl</span></td><td>To link to a bibliographic description in the bibliography, use ref
+                      type="bibl", and point to the xml:id value of the
+                      target location: ref type="bibl" target="#ide88".</td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">rendition</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-rendition]</td><td><div id="index.xml-egXML-d3677e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:rendition</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">some $i in //@rendition satisfies tokenize($i, '\s+')[replace(., '#', 
+ '') = current()/@xml:id]</span>"&gt;</span> Please remove all <span class="element">&lt;sch:name/&gt;</span> definitions that aren't actually being used in the article.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">scope</span></td><td></td></tr><tr><td>@<span class="orange">scheme</span></td><td><table class="border"><tr><td><span class="green">css</span></td><td></td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">roleName</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">role</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">surname</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">role</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">teiHeader</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">term</span>&gt;</td><td><table class="border"><tr><td>@<span class="red del">target</span></td><td></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr></table></td></tr><tr><td>&lt;<span class="orange">text</span>&gt;</td><td><table class="border"><tr><td colspan="3"><span lang="en" class="gloss">text</span>contains the complete text of the article. Must include a <span class="gi">&lt;front&gt;</span> containing an abstract, a <span class="gi">&lt;body&gt;</span> containing the main text, and a <span class="gi">&lt;back&gt;</span> containing the bibliography and any appendices.</td></tr><tr><td>[#jtei.sch-article-keywords]</td><td><div id="index.xml-egXML-d3702e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:text[not(tei:body/tei:div[@type = ('editorialIntroduction')])]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">parent::tei:TEI/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords</span>"&gt;</span> An article must have a keyword list in the header.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-article-abstract]</td><td><div id="index.xml-egXML-d3722e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:text[not(tei:body/tei:div[@type = ('editorialIntroduction')])]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:front/tei:div[@type='abstract']</span>"&gt;</span> An article must have a front section with an abstract.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-article-back]</td><td><div id="index.xml-egXML-d3742e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:text[not(tei:body/tei:div[@type = ('editorialIntroduction')])]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:back/tei:div[@type='bibliography']/tei:listBibl</span>"&gt;</span> An article must have a back section with a bibliography.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>@<span class="red del">type</span></td><td></td></tr><tr><td colspan="3"><div id="index.xml-egXML-d30e3384" class="pre egXML_valid"><span class="element">&lt;text&gt;</span>
+ <span class="element">&lt;front&gt;</span>
+  <span class="element">&lt;div <span class="attribute">type</span>="<span class="attributevalue">abstract</span>" <span class="attribute">xml:id</span>="<span class="attributevalue">abstract</span>"&gt;</span>
+   <span class="element">&lt;p&gt;</span>This article is about...<span class="element">&lt;/p&gt;</span>
+  <span class="element">&lt;/div&gt;</span>
+ <span class="element">&lt;/front&gt;</span>
+ <span class="element">&lt;body&gt;</span>
+  <span class="element">&lt;div <span class="attribute">xml:id</span>="<span class="attributevalue">intro</span>"&gt;</span>
+   <span class="element">&lt;head&gt;</span>Introduction<span class="element">&lt;/head&gt;</span>
+   <span class="element">&lt;p&gt;</span>A great deal of previous research...<span class="element">&lt;/p&gt;</span>
+  <span class="element">&lt;/div&gt;</span>
+  <span class="element">&lt;div <span class="attribute">xml:id</span>="<span class="attributevalue">method</span>"&gt;</span>
+   <span class="element">&lt;head&gt;</span>Method<span class="element">&lt;/head&gt;</span>
+   <span class="element">&lt;p&gt;</span>This project was undertaken...<span class="element">&lt;/p&gt;</span>
+  <span class="element">&lt;/div&gt;</span>
+ <span class="element">&lt;/body&gt;</span>
+ <span class="element">&lt;back&gt;</span>
+  <span class="element">&lt;div <span class="attribute">type</span>="<span class="attributevalue">bibliography</span>"&gt;</span>
+   <span class="element">&lt;listBibl&gt;</span>
+    <span class="element">&lt;bibl&gt;</span>[...]<span class="element">&lt;/bibl&gt;</span>
+   <span class="element">&lt;/listBibl&gt;</span>
+  <span class="element">&lt;/div&gt;</span>
+ <span class="element">&lt;/back&gt;</span>
+<span class="element">&lt;/text&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">title</span>&gt;</td><td><table class="border"><tr><td>@<span class="orange">type</span></td><td><table class="border"><tr><td><span class="green">main</span></td><td>Academic articles often have a main title followed by a subtitle
+                      (sometimes with a colon separating them). If you have two such components in
+                      your article title, then in the titleStmt, use title
+                        type="main" and title type="sub" to encode the two
+                      components of your title.</td></tr><tr><td><span class="green">sub</span></td><td>Academic articles often have a main title followed by a subtitle
+                      (sometimes with a colon separating them). If you have two such components in
+                      your article title, then in the titleStmt, use title
+                        type="main" and title type="sub" to encode the two
+                      components of your title.</td></tr></table></td></tr></table></td></tr><tr><td>&lt;<span class="orange">body</span>&gt;</td><td><table class="border"><tr><td colspan="3"><div class="pre">
+
+<span class="comment">&lt;!--           MDH 2015-03-04: LB wants a more sophisticated content model allowing no 
+              divs at all instead of a single div. This has proved problematic, 
+              so we're abandoning it at this stage to enable integration into 
+              P5; we'll revisit this later. --&gt;</span>
+<span class="element">&lt;rng:choice&gt;</span>
+<span class="element">&lt;rng:group&gt;</span>
+ <span class="element">&lt;rng:zeroOrMore&gt;</span>
+  <span class="element">&lt;rng:choice&gt;</span>
+   <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.divTop</span>"/&gt;</span>
+   <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.global</span>"/&gt;</span>
+  <span class="element">&lt;/rng:choice&gt;</span>
+ <span class="element">&lt;/rng:zeroOrMore&gt;</span>
+ <span class="element">&lt;rng:optional&gt;</span>
+  <span class="element">&lt;rng:choice&gt;</span>
+   <span class="element">&lt;rng:group&gt;</span>
+    <span class="element">&lt;rng:oneOrMore&gt;</span>
+     <span class="element">&lt;rng:choice&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.divLike</span>"/&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.divGenLike</span>"/&gt;</span>
+     <span class="element">&lt;/rng:choice&gt;</span>
+     <span class="element">&lt;rng:zeroOrMore&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.global</span>"/&gt;</span>
+     <span class="element">&lt;/rng:zeroOrMore&gt;</span>
+    <span class="element">&lt;/rng:oneOrMore&gt;</span>
+   <span class="element">&lt;/rng:group&gt;</span>
+   <span class="element">&lt;rng:group&gt;</span>
+    <span class="element">&lt;rng:oneOrMore&gt;</span>
+     <span class="element">&lt;rng:group&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.common</span>"/&gt;</span>
+     <span class="element">&lt;/rng:group&gt;</span>
+     <span class="element">&lt;rng:zeroOrMore&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.global</span>"/&gt;</span>
+     <span class="element">&lt;/rng:zeroOrMore&gt;</span>
+    <span class="element">&lt;/rng:oneOrMore&gt;</span>
+    <span class="element">&lt;rng:zeroOrMore&gt;</span>
+     <span class="element">&lt;rng:choice&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.divLike</span>"/&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.divGenLike</span>"/&gt;</span>
+     <span class="element">&lt;/rng:choice&gt;</span>
+     <span class="element">&lt;rng:zeroOrMore&gt;</span>
+      <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.global</span>"/&gt;</span>
+     <span class="element">&lt;/rng:zeroOrMore&gt;</span>
+    <span class="element">&lt;/rng:zeroOrMore&gt;</span>
+   <span class="element">&lt;/rng:group&gt;</span>
+  <span class="element">&lt;/rng:choice&gt;</span>
+  <span class="element">&lt;rng:zeroOrMore&gt;</span>
+   <span class="element">&lt;rng:group&gt;</span>
+    <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.divBottom</span>"/&gt;</span>
+   <span class="element">&lt;/rng:group&gt;</span>
+   <span class="element">&lt;rng:zeroOrMore&gt;</span>
+    <span class="element">&lt;rng:ref <span class="attribute">name</span>="<span class="attributevalue">model.global</span>"/&gt;</span>
+   <span class="element">&lt;/rng:zeroOrMore&gt;</span>
+  <span class="element">&lt;/rng:zeroOrMore&gt;</span>
+ <span class="element">&lt;/rng:optional&gt;</span>
+<span class="element">&lt;/rng:group&gt;</span>
+<span class="comment">&lt;!--&lt;oneOrMore xmlns="http://relaxng.org/ns/structure/1.0"&gt;
+                &lt;ref name="model.divLike"/&gt;
+              &lt;/oneOrMore&gt;--&gt;</span>
+<span class="element">&lt;/rng:choice&gt;</span></div></td></tr><tr><td>[#jtei.sch-body]</td><td><div id="index.xml-egXML-d4005e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:body[child::tei:div[not(@type=('editorialIntroduction'))]]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">count(child::tei:div) gt 1</span>"&gt;</span> If <span class="element">&lt;sch:name/&gt;</span> contains a div, and that div is not an editorial introduction, then there should be
+   more than one div. Rather than using only a single div, you may place the content directly
+   in the <span class="element">&lt;sch:name/&gt;</span> element.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">back</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-back]</td><td><div id="index.xml-egXML-d4035e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:back</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:div[@type='bibliography']/tei:listBibl</span>"&gt;</span>
+  <span class="element">&lt;sch:name/&gt;</span> must have a bibliography (div[@type="bibliography"]), which must be organized inside a listBibl element.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>[#jtei.sch-ns]</td><td><div id="index.xml-egXML-d4059e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:ns <span class="attribute">prefix</span>="<span class="attributevalue">sch</span>"
+ <span class="attribute">uri</span>="<span class="attributevalue">http://purl.oclc.org/dsdl/schematron</span>"/&gt;</span>
+<span class="element">&lt;sch:ns <span class="attribute">prefix</span>="<span class="attributevalue">tei</span>"
+ <span class="attribute">uri</span>="<span class="attributevalue">http://www.tei-c.org/ns/1.0</span>"/&gt;</span>
+<span class="element">&lt;sch:ns <span class="attribute">prefix</span>="<span class="attributevalue">xs</span>"
+ <span class="attribute">uri</span>="<span class="attributevalue">http://www.w3.org/2001/XMLSchema</span>"/&gt;</span>
+<span class="element">&lt;sch:ns <span class="attribute">prefix</span>="<span class="attributevalue">xsl</span>"
+ <span class="attribute">uri</span>="<span class="attributevalue">http://www.w3.org/1999/XSL/Transform</span>"/&gt;</span>
+<span class="element">&lt;sch:ns <span class="attribute">prefix</span>="<span class="attributevalue">eg</span>"
+ <span class="attribute">uri</span>="<span class="attributevalue">http://www.tei-c.org/ns/Examples</span>"/&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-variables]</td><td><div id="index.xml-egXML-d4096e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:pattern&gt;</span>
+ <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">double.quotes</span>"
+  <span class="attribute">value</span>="<span class="attributevalue">'["“”]'</span>"/&gt;</span>
+ <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">apos.typographic</span>"
+  <span class="attribute">value</span>="<span class="attributevalue">'[‘’]'</span>"/&gt;</span>
+ <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">apos.straight</span>" <span class="attribute">value</span>="<span class="attributevalue">''''</span>"/&gt;</span>
+ <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">quotes</span>"
+  <span class="attribute">value</span>="<span class="attributevalue">concat('[', $apos.straight, '"]')</span>"/&gt;</span>
+<span class="element">&lt;/sch:pattern&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>&lt;<span class="orange">tag</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-tag]</td><td><div id="index.xml-egXML-d4132e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:tag</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., '^[&lt;!?-]|[&gt;/?\-]$'))</span>"&gt;</span> Tag delimiters such as angle brackets and tag-closing slashes are not allowed for <span class="element">&lt;sch:name/&gt;</span>: they are completed at processing time via XSLT.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">val</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-att]</td><td><div id="index.xml-egXML-d4157e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:val</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., concat('^', $quotes, '|', $quotes, '$')))</span>"&gt;</span> Attribute value delimiters are not allowed for <span class="element">&lt;sch:name/&gt;</span>: they are completed at processing time via XSLT.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">supplied</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-supplied]</td><td><div id="index.xml-egXML-d4182e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:supplied</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., '^\[|\]$'))</span>"&gt;</span> Please remove square brackets from <span class="element">&lt;sch:name/&gt;</span>: they are completed at processing time via XSLT.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">idno</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-doi-order]</td><td><div id="index.xml-egXML-d4207e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:back/tei:div[@type eq 'bibliography']//tei:idno[@type eq 'doi']</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">following-sibling::tei:ref</span>"&gt;</span> If a bibliographic entry has a formal DOI code, it should be placed at the very end of the bibliographic description.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">graphic</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-graphic-dimensions]</td><td><div id="index.xml-egXML-d4227e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:graphic</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">matches(@width, '\d+px') and matches(@height, '\d+px')</span>"&gt;</span> Width and height in pixels must be specified for any <span class="element">&lt;sch:name/&gt;</span>.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-graphic-context]</td><td><div id="index.xml-egXML-d4252e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:graphic</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">parent::tei:figure</span>"&gt;</span>
+  <span class="element">&lt;sch:name/&gt;</span> may only occur inside figure.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">front</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-front-abstract]</td><td><div id="index.xml-egXML-d4276e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:front</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">tei:div[@type='abstract']</span>"&gt;</span>
+  <span class="element">&lt;sch:name/&gt;</span> must have an abstract (div[@type='abstract']).
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">table</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-table]</td><td><div id="index.xml-egXML-d4300e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:table</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(ancestor::tei:list)</span>"&gt;</span> No tables are are allowed inside lists.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>&lt;<span class="orange">gap</span>&gt;</td><td><table class="border"><tr><td>[#jtei.sch-gap]</td><td><div id="index.xml-egXML-d4320e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:gap-period</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">following-sibling::node()[1][self::text()] and starts-with(following-sibling::node()[1], 
+ '.')</span>"&gt;</span> A <span class="element">&lt;sch:name/&gt;</span> element should follow a period rather than precede it when an ellipsis follows the end of a sentence.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-gap-ws]</td><td><div id="index.xml-egXML-d4345e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:gap</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">preceding-sibling::node()[1][self::text()][matches(., '\.\s+$')]</span>"&gt;</span> A <span class="element">&lt;sch:name/&gt;</span> should follow a period directly, without preceding whitespace.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></td></tr><tr><td>[#jtei.sch-straightApos]</td><td><div id="index.xml-egXML-d4370e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">matches(., $apos.straight)</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">apostrophe.replace</span>"&gt;</span> "Straight apostrophe" characters are not permitted. Please use the
+   Right Single Quotation Mark (U+2019 or ’) character instead. On the other hand, if the straight
+   apostrophe characters function as quotation marks, please replace them with appropriate mark-up
+   that will ensure the appropriate quotation marks will be generated consistently.
+ <span class="element">&lt;/sch:report&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">apostrophe.replace</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Replace straight apostrophe with ’.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:stringReplace <span class="attribute">regex</span>="<span class="attributevalue">{$apos.straight}</span>"&gt;</span>’<span class="element">&lt;/sqf:stringReplace&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-LRquotes]</td><td><div id="index.xml-egXML-d4413e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)][matches(., 
+ $apos.typographic)]</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">matches(., '\W[’]\D') or matches(., '[‘](\W|$)') or matches(., '\w[‘]\w')</span>"&gt;</span> Left and Right Single Quotation Marks should be used in the right place.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-quotationMarks]</td><td><div id="index.xml-egXML-d4433e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">matches(., $double.quotes) or matches(., '(^|\W)[‘][^‘’]+[’](\W|$)')</span>"&gt;</span> Quotation marks are not permitted in plain text. Please use appropriate mark-up that will ensure the appropriate quotation marks will be generated consistently.
+ <span class="element">&lt;/sch:report&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-doubleHyphens]</td><td><div id="index.xml-egXML-d4453e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag|ancestor::tei:ref)]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(contains(., '--'))</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">dash.replace</span>"&gt;</span> Double hyphens should not be used for dashes. Please use
+   the EM Dash (U+2014 or —) instead.
+ <span class="element">&lt;/sch:assert&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">dash.replace</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Replace double hyphens with —.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:stringReplace <span class="attribute">regex</span>="<span class="attributevalue">--</span>"&gt;</span>—<span class="element">&lt;/sqf:stringReplace&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-rangeHyphen]</td><td><div id="index.xml-egXML-d4496e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag|ancestor::tei:idno)][not(. 
+ = parent::*/@*)]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., '\d-\d'))</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">hyphen.replace</span>"&gt;</span> Numeric ranges should not be indicated with a hyphen. Please use
+   the EN Dash (U+2013 or –) character instead.
+ <span class="element">&lt;/sch:assert&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">hyphen.replace</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Replace hyphen with –.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:stringReplace <span class="attribute">regex</span>="<span class="attributevalue">(\d)-(\d)</span>"&gt;</span>$1–$2<span class="element">&lt;/sqf:stringReplace&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-ieEg]</td><td><div id="index.xml-egXML-d4539e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">matches(., '(i\.e\.|e\.g\.)[^,]', 'i')</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">comma.add</span>"&gt;</span> You should put a comma after "i.e." and "e.g.".
+ <span class="element">&lt;/sch:report&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">comma.add</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Add a comma.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:stringReplace <span class="attribute">regex</span>="<span class="attributevalue">([iI]\.[eE]\.|[eE]\.[gG]\.)([^,])</span>"&gt;</span>$1,$2<span class="element">&lt;/sqf:stringReplace&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-localLinkTarget]</td><td><div id="index.xml-egXML-d4582e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">@*[not(ancestor::eg:egXML)][name() = ('corresp', 'target', 'from', 
+ 'to', 'ref', 'rendition', 'resp', 'source')][some $i in tokenize(., 
+ '\s+') satisfies starts-with($i, '#')]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $i in tokenize(., '\s+')[starts-with(., '#')] satisfies id( 
+ substring-after($i, '#'))</span>"&gt;</span> There's no local target for this link. Please make sure you use an existing @xml:id value.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-quoteDelim]</td><td><div id="index.xml-egXML-d4602e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:title[@level eq 'a']|tei:mentioned|tei:soCalled|tei:quote|tei:q</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., concat('^', $double.quotes, '|', $double.quotes, '$')))</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">quotation.remove</span>"&gt;</span> Quotation mark delimiters are not allowed for <span class="element">&lt;sch:name/&gt;</span>: they are completed at processing time via XSLT.
+ <span class="element">&lt;/sch:assert&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">quotation.remove</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Remove quotation marks.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:stringReplace <span class="attribute">regex</span>="<span class="attributevalue">{concat('^', $double.quotes, '|', $double.quotes, '$')}</span>"/&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-crossref-id]</td><td><div id="index.xml-egXML-d4649e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:body//tei:div[not(@type='editorialIntroduction')]|tei:figure|tei:table</span>"
+ <span class="attribute">role</span>="<span class="attributevalue">warning</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">@xml:id</span>"&gt;</span> You're strongly advised to add an @xml:id attribute to <span class="element">&lt;sch:name/&gt;</span> to ease formal cross-referencing
+   with (ptr|ref)[@type='crossref']
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-formalCrossref]</td><td><div id="index.xml-egXML-d4675e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag|ancestor::tei:ref[not(@type='crossref')])]</span>"
+ <span class="attribute">role</span>="<span class="attributevalue">warning</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., '(table|figure|example|section) \d+([.,]\d+)* ((above)|(below))', 
+ 'i'))</span>"&gt;</span> Please replace literal references to tables, figures, examples, and sections with a formal crosslink:
+   (ptr|ref)[@type="crossref"]
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-crossrefTargetType]</td><td><div id="index.xml-egXML-d4696e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:ptr[@type='crossref']|tei:ref[@type='crossref']</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">id(substring-after(@target, '#'))/(self::tei:div|self::tei:figure|self::tei:table|self::tei:note)</span>"&gt;</span> Cross-links (<span class="element">&lt;sch:name/&gt;</span>[@type="crossref"]) should be targeted at div, figure, table, or note elements.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-crossrefType]</td><td><div id="index.xml-egXML-d4721e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:ptr[not(@type='crossref')]|tei:ref[not(@type='crossref')]</span>"&gt;</span>
+ <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">id(substring-after(@target, '#'))/(self::tei:div|self::tei:figure|self::tei:table)</span>"
+  <span class="attribute">sqf:fix</span>="<span class="attributevalue">crossreftype.add</span>"&gt;</span> Please type internal cross-references as 'crossref' (<span class="element">&lt;sch:name/&gt;</span>[@type="crossref"]).
+ <span class="element">&lt;/sch:report&gt;</span>
+ <span class="element">&lt;sqf:fix <span class="attribute">id</span>="<span class="attributevalue">crossreftype.add</span>"&gt;</span>
+  <span class="element">&lt;sqf:description&gt;</span>
+   <span class="element">&lt;sqf:title&gt;</span>Add @type='crossref'.<span class="element">&lt;/sqf:title&gt;</span>
+  <span class="element">&lt;/sqf:description&gt;</span>
+  <span class="element">&lt;sqf:add <span class="attribute">match</span>="<span class="attributevalue">.</span>" <span class="attribute">node-type</span>="<span class="attributevalue">attribute</span>"
+   <span class="attribute">target</span>="<span class="attributevalue">type</span>" <span class="attribute">select</span>="<span class="attributevalue">'crossref'</span>"/&gt;</span>
+ <span class="element">&lt;/sqf:fix&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-centuries]</td><td><div id="index.xml-egXML-d4771e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">text()[not(ancestor::tei:quote or ancestor::tei:title)]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">not(matches(., '\d\d?((th)|(st)|(rd)|(nd))[- ]centur((y)|(ies))', 
+ 'i'))</span>"&gt;</span> Centuries such as "the nineteenth century" should be spelled out, not written with digits.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#jtei.sch-teiVersion]</td><td><div id="index.xml-egXML-d4791e1" class="pre egXML_valid"><span class="element">&lt;constraint
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"&gt;</span>
+<span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">@target[contains(., 'http://www.tei-c.org/release/doc/tei-p5-doc')]</span>"&gt;</span>
+ <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">false()</span>"&gt;</span> Please refer to the exact version of the TEI Guidelines, and link to the version that can be found in the Vault section. For an overview of all archived versions, see http://www.tei-c.org/Vault/P5/.
+   
+   If you're referring to the English version, the correct URL will likely take the form of http://www.tei-c.org/Vault/P5/{$version-number}/doc/tei-p5-doc/en/html/.
+ <span class="element">&lt;/sch:assert&gt;</span>
+<span class="element">&lt;/sch:rule&gt;</span>
+<span class="element">&lt;/constraint&gt;</span></div></td></tr></table></div><!--Notes in [TEI]--><div class="notes"><div class="noteHeading">Notes</div><div class="note" id="Note1"><span class="noteLabel">1 </span><div class="noteBody">Note, if you're omitting text at the end of a sentence, the sentence punctuation should precede the <span class="gi">&lt;gap&gt;</span> element.</div></div><div class="note" id="Note2"><span class="noteLabel">2 </span><div class="noteBody">Note, however, that <span class="gi">&lt;eg&gt;</span> and <span class="gi">&lt;egXML&gt;</span> examples are always <em>rendered</em> as blocks, regardless of their appearance as inline or block-level elements in the article encoding. If you want to include a short code fragment that should be rendered inline, you can use the <span class="gi">&lt;code&gt;</span> element as discussed in <a class="link_ptr" href="#inline_technical" title="Inline Technical Elements"><span class="headingNumber">6. </span>Inline Technical Elements</a>.</div></div></div><div class="stdfooter autogenerated"><div class="footer"><!--standard links to project, institution etc--><a class="plain" href="/">Home</a> </div><address>Ron Van den Branden and Martin Holmes.
+	    Date: 2014-01-30T13:29:15Z<br /><!--
+	  Generated from index.xml using XSLT stylesheets version 7.41.0
+
+	       based on http://www.tei-c.org/Stylesheets/
+	       on 2016-12-27T20:36:28Z.
+	       SAXON HE 9.5.1.5.
+		 --></address></div></body></html>
