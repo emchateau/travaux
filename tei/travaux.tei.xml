@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Emmanuel Château-Dutier, Liste des travaux</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Fichier nativement numérique</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listBibl>
+            <biblStruct>
+               <analytic>
+                  <title level="a" type="main">Promotion et diffusion d’un nouveau procédé de construction en brique industrielle</title>
+                  <title level="a" type="sub">L’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857)</title>
+               </analytic>
+               <monogr>
+                  <imprint>« Promotion et diffusion d’un nouveau procédé de construction en brique industrielle : l’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857) » dans Les archives de l’invention, écrits, objets et images de l’activité inventive, Actes du colloque international organisé au Conservatoire national des arts et métiers et au Centre historique des Archives nationales, les 26 et 27 mai, Marie-Sophie Corcy, Christiane Douyère-Demeulenaere, Liliane Hilaire-Pérez (dir.), CNRS-Université de Toulouse-Le Mirail, Collection « Méridiennes », série « Hitoire et Techniques », 2006, pp. 547-558.
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2001">
+               <analytic>
+                  <title level="a" type="main">Les animaux dans leur jardin</title>
+                  <title level="j" type="sub">L’architecte Jacques Molinos et la ménagerie du Muséum d’histoire naturelle à Paris, 1795-1827</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Histoire de l’Art</title>
+                  <imprint>
+                     <date when-iso="2001-11">novembre 2001</date>
+                     <biblScope unit="issue">49</biblScope>
+                     <biblScope unit="page">75-90</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateauBaalman2001">
+               <analytic>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+                  <author>
+                     <forename>Peter Jan</forename>
+                     <surname>Baalman</surname>
+                  </author>
+                  <title level="a">Jussieu, une leçon d’architecture</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Le Journal des arts, n° 137, novembre/décembre 2001, pp.1 et 14.</title>
+                  <imprint>
+                     <date when-iso="2001-11/2011-12">novembre-décembre 2001</date>
+                     <biblScope unit="issue">137</biblScope>
+                     <biblScope unit="page">1-14</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </listBibl>
+      </body>
+  </text>
+</TEI>
