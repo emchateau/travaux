@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Emmanuel Château-Dutier, Liste des travaux</title>
@@ -15,29 +15,254 @@
             <p>Fichier nativement numérique</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <listBibl>
-            <biblStruct>
+            <biblStruct xml:id="chateau2014">
                <analytic>
-                  <title level="a" type="main">Promotion et diffusion d’un nouveau procédé de construction en brique industrielle</title>
-                  <title level="a" type="sub">L’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857)</title>
+                  <title level="a" type="main">Matérialiser et rendre perceptible la transmission orale du savoir</title>
+                  <title level="a" type="sub">L’édition électronique des cours d’Antoine Desgodets à l’Académie royale d’architecture en France, 1719-1728</title>
                </analytic>
                <monogr>
-                  <imprint>« Promotion et diffusion d’un nouveau procédé de construction en brique industrielle : l’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857) » dans Les archives de l’invention, écrits, objets et images de l’activité inventive, Actes du colloque international organisé au Conservatoire national des arts et métiers et au Centre historique des Archives nationales, les 26 et 27 mai, Marie-Sophie Corcy, Christiane Douyère-Demeulenaere, Liliane Hilaire-Pérez (dir.), CNRS-Université de Toulouse-Le Mirail, Collection « Méridiennes », série « Hitoire et Techniques », 2006, pp. 547-558.
+                  <title type="m">DH2014</title>
+                  <idno type="www">http://dharchive.org/paper/DH2014/Paper-367.xml</idno>
+                  <meeting>actes du colloque international des Digital Humanities 2014</meeting> 
+                  <imprint>
+                     <date when="2014">2014</date>
                   </imprint>
                </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2011a">
+               <analytic>
+                  <title level="a">Administrer les Arts en Conseil. L’enjeu de la collégialité au Conseil des bâtiments civils (1795-1848)</title>
+               </analytic>
+               <monogr>
+                  <title level="m">La collégialité dans la décision administrative</title>
+                  <editor>Jean-Michel Leniaud</editor>
+                  <editor>François Monnier</editor>
+                  <meeting>actes de la journée d’étude de l’EA112 Histoire des pratiques administratives (EPHE), Paris, 12 novembre 2009</meeting>
+                  <imprint>
+                     <date when="2011">2011</date>
+                     <!-- @todo référence à compléter -->
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2011">
+               <analytic>
+                  <title level="a">L’action de l’administration des Bâtiments civils et la production des archives de l’architecture publique (1795-1848)</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">Bâtir et orner la France au XIX<hi rend="superscript">e</hi> siècle</title>
+                  <title level="m" type="sub">Les sources et leurs usages pour l’architecture et les monuments publics</title>
+                  <title level="j">Livraisons d’histoire de l’architecture</title>
+                  <editor>
+                     <forename>Nadine</forename>
+                     <surname>Gastaldi</surname>
+                  </editor>
+                  <editor>
+                     <forename>Jean-Michel</forename>
+                     <surname>Leniaud</surname>
+                  </editor>
+                  <meeting>actes de la journée d’étude des Archives Nationales de France, Paris, 20 octobre 2009</meeting>
+                  <imprint>
+                     <date when="2011">2011</date>
+                     <biblScope unit="issue">21</biblScope>
+                     <biblScope unit="page">47-58</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2010">
+               <analytic>
+                  <title level="a">L’administration des bâtiments civils face aux questions constructives dans la première moitié du XIX<hi rend="superscript">e</hi> siècle en France</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">Édifice &amp; Artifice</title>
+                  <title level="m" type="sub">Histoires constructives</title>
+                  <editor>
+                     <forename>Robert</forename>
+                     <surname>Carvais</surname>
+                  </editor>
+                  <editor>
+                     <forename>André</forename>
+                     <surname>Guillerme</surname>
+                  </editor>
+                  <editor>
+                     <forename>Valérie</forename>
+                     <surname>Nègre</surname>
+                  </editor>
+                  <editor>
+                     <forename>Joël</forename>
+                     <surname>Sakarovitch</surname>
+                  </editor>
+                  <meeting>actes du 1<hi rend="superscript">er</hi> congrès francophone d’histoire de la construction, École d’architecture Paris-Malaquais, Centre de recherche en histoire des sciences et des techniques, Paris, 19-21 juin 2008</meeting>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Éditions A. et J. Picard</publisher>
+                     <date when="2010">2010</date>
+                     <biblScope unit="page">365-375</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2009">
+               <analytic>
+                  <title level="a">L’inaccessible code de voirie dans la première moitié du XIX<hi rend="superscript">e</hi> siècle en France</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m">Histoire comparée des villes européennes, session 17 : La cité dans la perspective du droit</title>
+                  <editor>
+                     <forename>Robert</forename>
+                     <surname>Carvais</surname>
+                  </editor>
+                  <meeting>Histoire comparée (Moyen Age–XIX<hi rend="superscript">e</hi> siècle), Lyon, IX<hi rend="superscript">e</hi> Conférence internationale d’histoire urbaine, Association Européenne pour l’Histoire Urbaine, Ciham UMR 5648, Université Lumière Lyon 2, CNRS, EHESS, ENS Lettres et Sciences Humaines, Lyon 27-30 août 2008</meeting>
+                  <imprint>
+                     <date when="2009">2009</date>
+                     <publisher>CD-rom</publisher>
+                     <biblScope unit="page">7 à 13</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2007">
+               <analytic>
+                  <title level="a">L’édition du métré et des séries de prix du Conseil des bâtiments civils, 1795-1848</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">La construction savante</title>
+                  <title level="m" type="sub">Les avatars de la littérature technique</title>
+                  <idno type="isbn">9782708408104</idno>
+                  <editor>Jean-Philippe Garric</editor>
+                  <editor>Valérie Nègre</editor>
+                  <editor>Alice Thomine-Berrada</editor>
+                  <meeting>actes du colloque international : Les avatars de la littérature technique, Institut National d’Histoire de l’Art, Centre de recherche en histoire des sciences et des techniques (CDHT – CNAM – EHESS), mars 2005</meeting>
+                  <imprint>
+                     <date when="2007"></date>
+                     <publisher>Éditions Picard</publisher>
+                     <pubPlace>Paris</pubPlace>
+                     <biblScope>103-112</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2006b">
+               <analytic>
+                  <title level="a">L’examen des plans d’alignement, une mission du Conseil des bâtiments civils</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m">Autour de la Ville de Napoléon</title>
+                  <idno type="isbn">2-7535-0266-8</idno>
+                  <meeting>actes du colloque de la Roche-sur-Yon</meeting>
+                  <editor>
+                     <forename>Gilles</forename>
+                     <surname>Bienvenu</surname>
+                  </editor>
+                  <editor>
+                     <forename>Géraldine</forename>
+                     <surname>Texier-Rideau</surname>
+                  </editor>
+                  <imprint>
+                     <pubPlace>Rennes</pubPlace>
+                     <publisher>Presses Universitaires de Rennes</publisher>
+                     <biblScope unit="page">89-99</biblScope>
+                  </imprint>
+               </monogr>
+               <series>Art et Société</series>
+            </biblStruct>
+            <biblStruct xml:id="chateau2006a">
+               <analytic>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+                  <title level="a">Les hippodromes au XIX<hi rend="superscript">e</hi> siècle</title>
+               </analytic>
+               <monogr>
+                  <editor>
+                     <forename>Frédéric</forename>
+                     <surname>Jiméno</surname>
+                  </editor>
+                  <editor>
+                     <forename>Dominique</forename>
+                     <surname>Massounie</surname>
+                  </editor>
+                  <title level="m">Le cheval à Paris</title>
+                  <idno type="isbn">2-913246-56-7</idno>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Action Artistique de la Ville de Paris</publisher>
+                     <date when="2006">2006</date>
+                     <biblScope unit="page">124-129</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title level="s">Paris et son Patrimoine</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="chateau2006">
+               <analytic>
+                  <title level="a" type="main"
+                     >Promotion et diffusion d’un nouveau procédé de construction en brique industrielle</title>
+                  <title level="a" type="sub"
+                     >L’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857)</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">Les archives de l’invention</title>
+                  <title level="m" type="sub"
+                     >Écrits, objets et images de l’activité inventive</title>
+                  <idno type="isbn">9782912025319</idno>
+                  <meeting>Actes du colloque international organisé au Conservatoire national des arts et métiers et au Centre historique des Archives nationales, les 26 et 27 mai</meeting>
+                  <editor>
+                     <forename>Marie-Sophie</forename>
+                     <surname>Corcy</surname>
+                  </editor>
+                  <editor>
+                     <forename>Christiane</forename>
+                     <surname>Douyère-Demeulenaere</surname>
+                  </editor>
+                  <editor>
+                     <forename>Liliane</forename>
+                     <surname>Hilaire-Pérez</surname>
+                  </editor>
+                  <imprint>
+                     <pubPlace>Toulouse</pubPlace>
+                     <publisher>CNRS-Université de Toulouse-Le Mirail</publisher>
+                     <biblScope unit="page">613 p.</biblScope>
+                     <date when="2006">2006</date>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title level="s">Méridiennes</title>
+                  <title level="s">Histoire et Techniques</title>
+               </series>
             </biblStruct>
             <biblStruct xml:id="chateau2001">
                <analytic>
                   <title level="a" type="main">Les animaux dans leur jardin</title>
-                  <title level="j" type="sub">L’architecte Jacques Molinos et la ménagerie du Muséum d’histoire naturelle à Paris, 1795-1827</title>
+                  <title level="j" type="sub"
+                     >L’architecte Jacques Molinos et la ménagerie du Muséum d’histoire naturelle à Paris, 1795-1827</title>
                </analytic>
                <monogr>
                   <title level="j">Histoire de l’Art</title>
                   <imprint>
-                     <date when-iso="2001-11">novembre 2001</date>
+                     <date when="2001-11">novembre 2001</date>
                      <biblScope unit="issue">49</biblScope>
                      <biblScope unit="page">75-90</biblScope>
                   </imprint>
@@ -56,9 +281,10 @@
                   <title level="a">Jussieu, une leçon d’architecture</title>
                </analytic>
                <monogr>
-                  <title level="j">Le Journal des arts, n° 137, novembre/décembre 2001, pp.1 et 14.</title>
+                  <title level="j">Le Journal des arts</title>
+                  <idno type="issn">1245-1495</idno>
                   <imprint>
-                     <date when-iso="2001-11/2011-12">novembre-décembre 2001</date>
+                     <date from="2001-11" to="2011-12">novembre-décembre 2001</date>
                      <biblScope unit="issue">137</biblScope>
                      <biblScope unit="page">1-14</biblScope>
                   </imprint>
@@ -66,5 +292,5 @@
             </biblStruct>
          </listBibl>
       </body>
-  </text>
+   </text>
 </TEI>
