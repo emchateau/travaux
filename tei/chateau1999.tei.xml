@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/jtei.relaxng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Plan article</title>
+            <author>manu</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change> <date>2017-07-14T22:11:40Z</date> <name>manu</name> </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head type="main">Les animaux dans leur jardin</head>
+            <head rend="sub">L’aménagement de la ménagerie du Muséum d’histoire naturelle à Paris par l’architecte Molinos 1795-1827.</head>
+            <p>Emmanuel Château-Dutier</p>
+            <div>
+               <head>Les premiers projets</head>
+               <p>L’apparence de la célèbre butte du labyrinthe au jardin des plantes aurait pu être bien différente de celle que nous lui connaissons aujourd’hui. En <date>1779</date>, l’architecte <name>Charles-François Viel</name> proposait à <name>Buffon</name> un grand projet pour l’agrandissement du Jardin du roi. Il pensait qu’il <q>devait renfermer, comme le Cabinet d’Histoire naturelle, tous les êtres insensibles, mais encore tous les êtres organisés et animés qu’on pourrait y réunir ; en sorte que cet établissement rassemblerait, si cela se peut dire, la nature morte, et la nature vivante</q>. Dans ce projet, l’installation d’une ménagerie donnait lieu à un aménagement pittoresque et sensualiste : <q>La montagne qui existe dans l’emplacement actuel, m’a présenté le lieu le plus favorable pour établir une Ménagerie. C’est dans ses cavités que seraient rassemblés beaucoup d’animaux étrangers ; sur son sommet des volières y réuniraient les oiseaux des espèces les plus rares ; des canaux et des bassins y conserveraient quelques poissons inconnus dans nos contrées. C’est au milieu de cette piquante variété, que l’œil du spectateur suivrait la nature dans ses diverses productions</q><ref
+                  type="bibl" target="#n0001"/>. </p>
+               <p><name>Jacques Molinos</name> fut à son tour appelé à se prononcer sur l’agrandissement du Muséum par un décret du <date>27 floréal an II (17 mai 1794)</date>. Avec le plan et l’estimation des terrains à acquérir, il remit à la Commission des travaux publics un Mémoire intitulé : <title>Dispositions générales pour le Muséum d’histoire naturelle et son jardin</title>
+                  <ref type="bibl" target="#n0002"
+                  />. L’architecte envisageait <q>d’élever à la nature un palais ou plutôt un temple qui soit digne d’elle et qui puisse en quelque sorte la contenir toute entière</q><ref
+                  type="bibl" target="#n0003"
+                  />. L’universalisme du propos expliquait qu’il comprenne des animaux. En fait, le décret qui chargeait l’architecte de proposer des solutions pour l’agrandissement du Muséum et lui donnait l’occasion de rédiger ce mémoire, consacrait officiellement l’existence d’une ménagerie<ref
+                  type="bibl" target="#n0004"
+                  />. Pourtant dans son projet <name>Molinos</name> ne se prononçait pas vraiment sur les formes qui devaient être données à cette ménagerie. Il indiquait simplement qu’au pied du grand monument à coupole, seraient disposés des galeries et des portiques pour les serres et les dépôts entre lesquels <q>seraient arrangées des ménageries, bassins, volières et parcs d’animaux. Leur distribution en compartiments réguliers formerait le parterre animé sur lequel dominerait le temple de la nature.</q> La présentation d’animaux vivants apparaissait plutôt ici comme un élément piquant et mouvementé d’une grande composition monumentale.</p>
+               <p>Quant à la présence d’une ferme dans le projet, elle permettait de comprendre le Muséum comme un établissement d’utilité<ref
+                  type="bibl" target="#n0005"
+                  />. Dès <date>1790</date>, dans leur seconde adresse à la Convention qui provoqua sa création, les professeurs formaient le vœux suivant : <q>C’est ainsi […], que le jardin des Plantes, transformé en véritable <hi
+                  rend="italic"
+                  >Muséum d’histoire naturelle</hi>, pourra devenir bientôt une sorte de Métropole de toutes les Sciences utiles à l’Agriculture, au Commerce et aux Arts.</q><ref
+                  type="bibl" target="#n0006"
+                  /> Installée à l’arrière de l’amphithéâtre de <name>Verniquet</name>, elle prolongerait l’aménagement paysager des abords de la butte du labyrinthe. Ses terrains seraient traversés par une dérivation de la rivière de Bièvre épurée, où <q>quelques chutes ménagées former[aient] de cette partie un jardin agreste et frais.</q></p>
+               <p>Sans être encore résolues, les problématiques liées à la construction d’une ménagerie au Muséum d’histoire naturelle sont posées dans ces deux projets. Il s’agit d’une part des implications politiques que comportait la création d’un tel établissement. Le muséum est un grand monument national destiné aux sciences et à l’éducation du citoyen. En faisant le parallèle entre son projet et le <soCalled>grand livre de la nature</soCalled>, le mémoire de <name>Molinos</name> proposait sans équivoque une architecture parlante destinée à l’éducation du citoyen. D’autre part, et même s’il n’associe pas encore la ménagerie au jardin, le parti paysager est d’emblée retenu pour la portion du Muséum du côté de Saint-Victor. Grandiose, le dessein de <name>Molinos</name> est caractéristique des projets révolutionnaires. Le même architecte fut par la suite attaché aux travaux du jardin des plantes. Il eut donc l’occasion rare de mener à bien la réalisation d’un projet esquissé sous la Convention : l’installation d’une ménagerie au Muséum d’histoire naturelle.</p>
+            </div>
+            <div>
+               <head>La question foncière</head>
+               <p>Quoique bien accueilli par la Commission des travaux publics, le projet que proposait <name>Molinos</name> ne lui parut pas financièrement réalisable et en différant son exécution, elle suscitait l’organisation d’un concours. Cependant, il fallait bien abriter les animaux dont l’arrivée au muséum avait provoqué la création de la ménagerie. L’arrêté du <date>27 floréal an II (17 mai 1794)</date> précisait <q>qu’en attendant qu’il soit statué sur les moyens d’améliorer et d’agrandir le Muséum d’Histoire Naturelle, la Commission des travaux publics était chargée de faire arranger provisoirement quelques loges pour les animaux</q>.</p>
+               <p rend="Body Text"
+                  >Alors devenu, de fait, l’architecte du Muséum en remplacement de <name>Verniquet</name><ref
+                  type="bibl" target="#n0007"
+                  />, <name>Molinos</name> dessina et réalisa les installations provisoires des ménageries entre l’<date>an II</date> et l’<date>an V</date>. Mais les professeurs souhaitaient mieux loger leurs hôtes, l’histoire de la construction de la nouvelle ménagerie dépendait de celle de l’agrandissement foncier du Muséum. Depuis le grand dessein de la convention qui envisageait une extension de l’établissement sur ses deux côtés avec vingt arpents (décret du <date>21 frimaire an III (11 décembre 1794)</date>), la loi fut rapportée en l’<date>an V</date>. Et sur la sollicitation même des professeurs on décida que l’étendue du jardin serait bornée définitivement par les rues de Buffon et de Seine, par le fleuve et la rue Saint-Victor. Soit sept arpents et demi (quatre hectares) qui étaient destinés à l’agrandissement de la ménagerie<ref
+                  type="bibl" target="#n0008"
+                  />. Ces acquisitions déterminées par le décret du <date>27 brumaire an VI (19 octobre 1797)</date> se concentraient sur les Terrains de Saint-Victor. Ceux-là étaient plus simples à acquérir que ceux de la rivière de Bièvre qui mêmes s’ils présentaient l’avantage d’amener l’eau dans le jardin, nécessitaient d’abord son assainissement et exigeaient la suppression de la rue Buffon. L’extension se fit donc vers le Nord, à la suite de celles précédemment réalisées par <date>Buffon</date>.</p>
+            </div>
+            <div>
+               <head>Les projets pour l’aménagement des parcs</head>
+               <p>Assurée d’obtenir les terrains nécessaires, l’administration forma une commission composée des professeurs de zoologie qui devait présenter des vues sur la ménagerie. Dans leur séance du <date>14 germinal an VI (4 avril 1798)</date>, les professeurs-administrateurs chargèrent <name>Molinos</name> de rédiger un projet conforme à ses opinions. Le plan, accompagné d’un préambule relatif à sa composition fut présenté lors de la séance extraordinaire du <date>27 germinal an VI</date>. Il fut adopté pour « la disposition générale […], sans prononcer sur aucun de ses détails. »<ref type="bibl" target="#n0009"/></p>
+               <p rend="Body Text Indent"
+                  >C’est à partir de ce premier plan que <name>Molinos</name> donna le dessin particulier de chacun des parcs. Le <date>4 floréal an VI (24 avril 1798)</date>, il mit « sous les yeux de l’Assemblée le plan d’un parc pour les éléphants, lequel fais[ait] partie du plan général de la ménagerie déjà adopté par les professeurs »<ref type="bibl" target="#n0010"/>. Puis, elle autorisait le directeur à déterminer, après s’être concerté avec l’architecte, la place et la nature des logements nécessaires pour les ours et pour les animaux africains en conformant, autant qu’il le pourra, les dispositions qu’il croira devoir adopter, au plan général de ménagerie déjà arrêté par les professeurs<ref type="bibl" target="#n0011"/>. Le <date>24 ventôse an VII (15 mars 1799)</date> on décida qu’une copie du plan de la ménagerie adopté par l’administration, serait placée dans le lieu des séances des professeurs afin que toutes les constructions ou réparations soient arrêtées conformément à ce plan<ref type="bibl" target="#n0012"/>.</p>
+               <p>Les travaux du parc des éléphants furent réalisés au cours de l’<date>an VI</date>. Dès cette époque, on s’aperçut que les parcs avaient été conçus sur un plan trop réduit et l’on regrettait de s’être trop restreint pour l’extension du Muséum<ref type="bibl" target="#n0013"/>. Le <date>4 prairial an VIII</date>, les quatre hectares destinés à la ménagerie définitive venaient d’être réunis par le gouvernement au Jardin des plantes. Les professeurs ne proposait <q>l’exécution des diverses parties intérieures que successivement et à mesure que la nécessité de loger les différents animaux l’indiquer[ait]</q><ref type="bibl" target="#n0014"/>. La même année, le tracé de la nouvelle rue de Seine fut arrêté. Cependant le Muséum était confronté à de graves problèmes financiers et tous les projets furent ajournés. La pénurie est telle qu’au mois de prairial <name>Delaunnay</name>, le responsable de la ménagerie, est obligé de demander à l’administration du muséum l’autorisation de faire tuer les animaux inutiles de la ménagerie afin de pouvoir subvenir à l’alimentation des autres.</p>
+               <p>Les travaux de la ménagerie reprirent seulement en l’<date>an IX</date>. Les professeurs firent l’état des travaux à réaliser au Muséum d’histoire naturelle pendant l’hiver<ref type="bibl" target="#n0015"/>. Le plus urgent était d’approprier les terrains nouvellement réunis au Muséum. En nivôse, le ministre accordait <q>un fonds extraordinaire de 2,300 francs par décade […], pour être employé au Muséum en travaux extraordinaires à l’effet de donner de l’ouvrage aux citoyens indigents pendant la saison rigoureuse</q>. Le <date>17 pluviôse an IX (7 février 1801)</date>, <name>Molinos</name> communiquait de nouveau à l’Assemblée le plan de la ménagerie arrêté l’année précédente en faisant lecture du mémoire qui y était joint. L’administration témoignait son désir d’en voir hâter l’exécution. <q>Mais préalablement elle insist[ait] pour qu’il soit fait un modèle en relief des différentes fabriques destinées au logement des animaux.</q><ref type="bibl" target="#n0016"
+/> Vingt jours plus tard, <name>Molinos</name> présenta une addition au plan de la ménagerie définitive.</p>
+               <p>Le <date>7 prairial an IX (28 mai 1801)</date> les travaux étaient assez avancés pour que <name>Molinos</name> demande qu’il fût <q>nommé des commissaires pour statuer sur la disposition des parcs dans la partie de la ménagerie définitive disposée pour les recevoir et sur les espèces d’animaux qui devaient les occuper.</q><ref type="bibl" target="#n0017"/> Deux mois plus tard, il annonçait <q>que trois des premiers parcs de la ménagerie [étaient] entièrement terminés pour la partie de la terrasse</q>. L’assemblée enjoignait l’architecte à s’entendre avec <name>Lacépède</name> pour la forme à donner aux fabriques destinées à servir de retraite aux animaux qui devaient occuper ces parcs<ref type="bibl" target="#n0018"/>. Le <date>27 thermidor</date>, <name>Molinos</name> présentait plusieurs plans et croquis de fabriques propres à loger les animaux paisibles dans les nouveaux parcs de la ménagerie que les professeurs de zoologie et le trésorier furent chargés d’examiner. </p>
+               <p>Une lettre de la direction du <date>1<hi rend="superscript">er</hi> fructidor an IX (19 août 1801)</date> invitait l’architecte à faire commencer la première des petites fabriques qui devaient être placée dans les parcs des animaux paisibles et à dresser le projet des barrières pour circonscrire les parcs. Ces travaux furent réalisés sur le reliquat des fonds décadaires avec des ouvriers journaliers<ref type="bibl" target="#n0019"/>. Et les professeurs enjoignaient l’architecte à n’utiliser autant que possible que des matériaux qui se trouvaient dans les magasins du Muséum. Au moyen de cet arrangement, ils souhaitaient <q>terminer au cours de la campagne deux ou trois parcs, et en faire jouir le public</q> afin d’engager le gouvernement à donner plus de ressource pour avancer les travaux<ref type="bibl" target="#n0020"/>.</p>
+               <p>Le ministre de l’Intérieur vint en aide au Muséum le <date>27 ventôse an X (19 mars 1801)</date>, en fixant à 1 500 francs par décade un nouveau secours extraordinaire accordé pour la continuation des travaux de terrasse de la nouvelle ménagerie. On poursuivit alors les constructions de la fabrique des cerfs et put achever celles des chèvres et des moutons initiées en l’<date>an IX</date>. Alors qu’en germinal on travaillait déjà à la couverture de la fabrique des cerfs, la taille des pierres et l’acquisition des matériaux pour les fabriques des buffles et des vaches de la Romagne pouvait commencer. Dans le même temps on s’occupait de l’ensemencement des parcs ainsi que de la réalisation des treillages dessinés par l’architecte. Au début de <date>prairial an X (juin 1802)</date>, on enduisait la fabrique des cerfs et on commençait la construction du pont de la ménagerie. Les parcs furent plantés pendant l’hiver de l’<date>an XI</date> et au printemps l’administration pouvait reprendre les travaux de la ménagerie pour installer définitivement les animaux dans les parcs construits. <name>Molinos</name> présentait le <date>16 germinal</date>, de nouveaux plans de barrières pour la division des parcs, et travaillait à la fabrique des chameaux et à l’achèvement du pont<ref type="bibl" target="#n0021"/>.</p>
+               <p>C’est de cette époque que date le premier plan publié de la ménagerie<ref type="bibl" target="#n0022"/>. Dans un guide de <title>Promenades au jardin des plantes</title>, l’auteur décrivait <q>plusieurs parcs et enclos avec de petites fabriques renfermant des animaux, et faisant partie d’un plan général de ménagerie</q> dont il souhaitait la continuation. Plus loin il évoquait <q>cette diversité piquante, ces sites variés des jardins chinois, et, par-tout, sans confusion et sans monotonie, l’instruction à côté du plaisir</q><ref type="bibl" target="#n0023"/>. La description qu’en donnait un guide du jardin des plantes en <date>1823</date> est plus précise : <q>Il y a une ménagerie contenant des animaux de toute espèce. A partir du côté de l’amphithéâtre, situé du côté de la rue de Seine, s’étend jusqu’au bord de la rivière une espèce de vallée champêtre, close de treillage de bois, qui renferme quantité de cabanes fermées par des grillages de châtaigniers, enlacés avec beaucoup d’art à la manière suisse, et d’un dessin différent à chaque habitation, qui est variée dans sa forme dans sa couleur et sa structure.</q><ref type="bibl" target="#n0024"/></p>
+            </div>
+            <div>
+               <head>La ménagerie idéale de <name>Lacépède</name> et le contexte révolutionnaire</head>
+                  <p>Ce que l’on peut considérer comme un projet de ménagerie idéale fut publié par <name>Bernard de Lacépède (1756-1825)</name> dans <title>La décade philosophique, littéraire et politique</title>, le <date>20 frimaire an IV</date><ref type="bibl" target="#n0025"/>. Dans cette <q>Lettre relative aux établissements publics destinés à renfermer des animaux vivants, et connus sous le nom de ménageries</q>, l’historique de ce qu’avaient été ces établissements chez les anciens servait en quelque sorte de base à une théorie des ménagerie. Ensuite, <name>Lacépède</name> entamait la description d’une ménagerie idéale. L’auteur renouvela son propos au cours d’une séance des Écoles normales en <date>1800</date><ref type="bibl" target="#n0026"/>, puis l’année suivante, il fit paraître un texte similaire dans l’introduction de l’ouvrage qu’il signait avec <name>Cuvier</name>, <title>La ménagerie du Muséum national<hi rend="italic" xml:space="preserve"> d’histoire naturelle</hi></title><ref type="bibl" target="#n0027"/>. Ces prises de positions précèdent donc le plan de ménagerie fourni par <name>Molinos</name>. En outre, elles sont réitérées au moment de l’aménagement des parcs alors que <name>Lacépède</name> appartenait à la commission chargée de proposer ses réflexions sur les dispositions de la ménagerie. Le professeur de zoologie affirmait <date>en 1801</date> que ses collègues <q>voulurent bien adopter ces idées. Ils les perfectionnèrent, en les appliquant à l’établissement confié à leur administration</q> et que ce vaste projet était déjà réalisé en partie. Plus loin, il confirmait que le <name>citoyen Molinos</name> était <q>l’architecte, qui d’après les idées des professeurs du muséum, [avait] donné tous les plans et dirig[eait] l’exécution de cette ménagerie.</q><ref type="bibl" target="#n0028"/></p>
+                  <div>
+                     <head>moralisme et projet révolutionnaire</head>
+                  <p>Politiquement le projet de <name>Lacépède</name> n’était pas neutre. Si l’auteur reprenait des affirmations courantes au sujet de l’utilité que l’on pouvait en attendre, il se faisait le défenseur des ménageries sur le plan du pouvoir moral des images de la nature. C’est ce qui l’amena à proposer un singulier projet de ménagerie idéale. <name>Lacépède</name> distingue quatre sortes de ménageries qui correspondent chacune à quatre degrés de civilisation. La ménagerie générale qu’il envisage <q>se trouve pour ainsi dire successivement établie par le besoin du chasseur-guerrier, l’orgueil du dominateur, la curiosité du savant et le dévouement du citoyen</q><ref type="bibl" target="#n0029"/>. Elle serait <q>le produit des lumières et l’ouvrage d’une politique humaine portée au plus haut degré de perfection que l’état actuel de la civilisation puisse faire naître</q>. La hiérarchie proposée par <name>Lacépède</name> se fondait sur l’utilité et l’intérêt public. Ce contexte fut celui qui permit l’établissement d’une ménagerie au Jardin des plantes et en justifiait la demande par <name>Thouin</name> dès <date>1790</date><ref type="bibl" target="#n0030"/>.</p>
+                  <p>L’aspect moral le plus frappant du texte de <name>Lacépède</name> est la volonté de s’excuser du besoin où l’on est de soustraire aux animaux leur liberté. C’est peut-être ce qui détermine le plus la ménagerie idéale que proposait le professeur. <q>On pourra comparer cette immense ménagerie à une campagne variée et riante, où les différentes espèces d’animaux jouiront de toute la liberté qu’il sera possible de leur laisser sans danger pour des spectateurs nombreux et quelquefois imprudents ; où elles trouveront le toit, l’exposition et les soins les plus convenables à leur organisation ; et où, vivant au milieu des plantes et des arbres de leur pays, à l’ombre du moins des végétaux les plus analogues à ceux de leur patrie, se livrant comme sur leur terre natale, à leurs jeux et à leurs mouvements chéris, ne sentant ni l’exil, ni la perte de leur indépendance, elles présenteront à l’œil de l’observateur le tableau fidèle des productions de la nature vivante dans les contrées les plus remarquables du globe.</q><ref type="bibl" target="#n0031"/></p>
+                  <p>On retrouve la même préoccupation à l’égard de la condition animale dans le rapport que <name>Thibaudeau</name> fit à la Convention, le <date>20 frimaire an III (10 décembre 1794)</date>, et qui visait à obtenir plus d’étendue pour le Muséum : <q>En rapprochant de nous toutes les productions de la nature, ne la rendons pas prisonnière. Un auteur a dit que nos cabinet étaient le tombeau de la nature ; et bien que tout y reprenne une nouvelle vie par vos soins, et que les animaux destinés aux jouissances et à l’instruction du Peuple, ne portent pas sur leur front, comme dans les ménageries construites pour le faste des rois, la flétrissure de l’esclavage.</q><ref type="bibl" target="#n0032"/> Son propos était par ailleurs très proche de celui de Lacépède et nous pensons que ce dernier avait déjà du s’exprimer antérieurement sur ce point. Évidemment cette attitude vis à vis des animaux n’était pas exempte de sensiblerie mais elle doit aussi être rapprochée du sensualisme des Lumières. <name>Condillac</name> n’écrivit-il pas en <date>1775</date> un <title>Traité des animaux</title>, justement parce qu’il reprochait à <name>Buffon</name> de les expliquer par des systèmes préconçus plutôt que par des observations précises ? Si <name>Buffon</name> déclarait <date>en 1771</date> que la plupart des animaux confinés dans des ménageries <q>ne montreraient que des mœurs altérées, contraintes et peu dignes des regards d’un philosophe</q><ref type="bibl" target="#n0033"/>, <name>Bernardin de Saint-Pierre</name> répondait <date>en 1792</date> que <q>si les animaux perdent leur caractère par la captivité, ils le perdent bien davantage par la mort.</q><ref type="bibl" target="#n0034"/></p>
+                  </div>
+                  <div>
+                  <head>l’utilité d’une ménagerie</head>
+                  <p>Alors directeur du Jardin des plantes, <name>Bernardin de Saint-Pierre</name> avait reçu la proposition d’accueillir les animaux de l’ancienne ménagerie de Versailles. L’auteur de <title>Paul et Virginie</title> sentit que la fondation d’une ménagerie était la seule chose importante qu’il pouvait apporter au Muséum. Le mémoire qu’il adressa à l’Assemblée Nationale annonçait les objectifs que <name>Lacépède</name> énonçait pour l’établissement : <q>faire servir la curiosité publique à répandre une instruction durable et facile, sous l’apparence d’une satisfaction passagère et légère ; de mettre en action les tableaux des habitudes des animaux, et les portraits des espèces</q><ref type="bibl" target="#n0035"/> C’est la part pédagogique du projet qui par ses aspects sensualistes rejoignait les préoccupations et les besoins des scientifiques. </p>
+                  <p><q>Le second de ces trois objets est de donner aux naturalistes les vrais moyens de perfectionner la zoologie, par les ménageries.</q> Il s’agissait d’offrir à l’œil du savant des animaux dont le comportement serait le plus proche possible de celui qu’ils auraient naturellement pour fonder la physiologie animale. Ces recherches qu’autorisait l’existence d’une ménagerie se concrétisèrent dans les travaux de Frédéric Cuvier qui devait occuper la place de garde de la ménagerie quelques années plus tard<ref type="bibl" target="#n0036"/>. Le troisième but que <name>Lacépède</name> attribuait à l’établissement était <q>de servir la société plus directement encore, en acclimatant les animaux étrangers réclamés par l’économie publique.</q><ref type="bibl" target="#n0037"/> De ce point de vue, on peut renvoyer au contexte révolutionnaire, et aux missions traditionnelles du Jardin des plantes qui se trouvent ici étendues au règne animal. Ce propos sur l’acclimatation rejoignait ainsi les recherches et les travaux des professeurs <name>Thouin</name> et <name>Daubenton</name>. Animé par l’esprit des lumières, <name>Lacépède</name> formait un projet de jardin agreste, qui aurait concilié la curiosité du public, le logement des animaux et le progrès de la science.</p>
+               </div>
+            </div>
+            <div>
+               <head>Du jardin paysager vers le jardin zoologique, un déplacement</head>
+               <div>
+                  <head>Le naturalisme</head>
+                  <p>L’idée à la base du projet de <name>Lacépède</name>, était de reproduire la nature en abrégé. Il s’agissait d’offrir aux animaux <q>une habitation étendue, durable et la plus convenable à leurs habitudes</q>, et en même temps de faire en sorte que les curieux puissent <q>sans danger pour eux et sans inconvénient pour les animaux, observer la forme, les couleurs, et les divers mouvements de ces derniers</q><ref type="bibl" target="#n0038"/>. <name>Lacépède</name> envisagea donc un terrain parcouru par deux bras de rivière encadrant un chemin et dont les circonvolutions formaient des terrasses isolées. L’intérieur de ces enceintes aurait été divisé par des haies ou des claies en treillages pour isoler diverses espèces. Dans la mesure du possible les divisions seraient naturelles. Le terrain inégal permettrait d’offrir des expositions variées adaptées aux mœurs des animaux. Les arbres y seraient choisis afin que les animaux aient au près d’eux ceux de leur pays. L’auteur rassemblait les espèces par classe. Évidemment le professeur <q>de zoologie (reptiles et poissons)</q> n’oubliait pas d’envisager des bassins pour l’acclimatation de la faune aquatique.</p>
+                  <p>Ce texte offre de nombreuses analogies avec le programme que les professeurs du muséum adressèrent au Conseil des bâtiments civils en accompagnement du plan général de la ménagerie qu’ils avaient arrêté en l’an VI<ref type="bibl" target="#n0039"/>. On y retrouve à la fois le soucis de la qualité du logis animal et celui de la place du spectateur. <q>Une ménagerie doit offrir à l’étude et à la curiosité du public un grand nombre d’espèces d’animaux, qui, à raison de leurs habitudes, de leurs mœurs et de leur nature, exigent différentes fabriques pour leur conservation et leur multiplication.</q> Le recours au jardin permettait de résoudre cette double contrainte, il était d’autant plus évident au Jardin des plantes. Les professeurs après avoir énuméré les fabriques nécessaires demandaient <q>de faire en sorte que toutes les parties de cette ménagerie se lient entre elles et avec le reste du jardin, de manière à présenter un ensemble pittoresque, dont les fabriques, les rivières, les loges, les plantations, les pièces de verdure et les promenoirs offrent un aspect agréable à l’œil, un local commode à parcourir et tel que personne ne puisse avoir le moindre soupçon d’un risque à courir de la part des animaux.</q></p>
+               </div>
+               <div>
+                  <head>pittoresque et projet muséographique</head>
+                  <p>Au-delà du seul souci de conservation, un projet muséographique motivait manifestement le choix d’un plan qui réunissait l’aménagement de la butte aux nouveaux terrains. L’aspect pittoresque retenu pour cette partie devait fournir une promenade agreste et instructive. Placer ainsi l’éducation à côté du plaisir était caractéristique du sensualisme de l’époque des Lumières. Cette conception s’accordait avec ce qu’était déjà le Jardin des plantes. <date>En 1781</date> <name>Thouin</name>, par exemple, le considérait sous quatre points de vue principaux : <q>1° comme jardin public, 2° comme école de botanique, 3° comme pépinière nationale, 4° comme dépôt de naturalisation</q><ref type="bibl" target="#n0040"/>. Le Jardin zoologique remplissait les mêmes fonctions pour le règne animal<ref type="bibl" target="#n0041"/>. L’utilité et le soucis didactique caractéristiques du projet le différenciaient nettement de la gratuité d’un <name>Carmontelle</name> réunissant <q>tous les temps et tous les lieux</q> au parc Monceau<ref type="bibl" target="#n0042"/>.</p>
+                  <p>Les nombreuses fabriques, la présence d’une ruine et la variété dans la disposition des parcs donnaient à la ménagerie l’apparence d’un jardin d’agrément. S’agissait-il d’un jardin romantique ? La promenade aurait été l’occasion d’un discours moral fondé sur le caractère des animaux. Cette lecture nous semble contredite par l’objet même de cette ménagerie qui devait offrir une connaissance positive de la faune<ref type="bibl" target="#n0043"/>. Toutefois l’architecture de fantaisie de ces fabriques soulignait peut-être dans un esprit didactique des aspects propres à chacun des animaux qui les occupaient ; rusticité de la ruine pour les buffles et les bouquetins, élégance de l’architecture en brique et pierre pour les cerfs, chalet pour les vaches de la Romagne et tente en roseaux pour les dromadaires… Ou plus simplement faut il chercher ici un discours métaphorique sur l’histoire de l’architecture et de la construction elle même. Mais le projet de <name>Molinos</name> tenait sans doute plus du jardin paysager que du jardin romantique ou anglo-chinois. Même si elles sont variées, les fabriques rustiques présentaient une certaine unité de style.</p>
+                  <p>Dans son mémoire de l’<date>an III</date> à propos de l’aménagement de la ferme, <name>Molinos</name> se défendait de projeter un jardin anglo-chinois. Il prenait le parti d’un jardin agreste et frais dont l’art se serait efforcé d’en <q>faire un enfant de la nature</q>. Déjà la critique dénonçait les excès de la mode des jardins romantiques ou anglo-chinois. Nous sommes plutôt confrontés ici à un jardin paysagiste qui aurait été contraint par ses dimensions. En multipliant les fabriques rustiques qui abritaient les animaux, la ménagerie acquerrait un caractère pastoral. En dehors du <soCalled>Jardin délectable</soCalled> de <name>Bernard Palissy</name>, c’est seulement dans la description que faisait <name>Whately</name> d’une ferme idéale que l’on trouverait de véritables antécédents à la ménagerie du Muséum<ref type="bibl" target="#n0044"/>. La configuration inédite de cette ménagerie sous la forme d’un jardin paysagiste qui lui est entièrement dédié initie la construction de tous les autres <hi rend="italic">jardins zoologiques</hi> d’Europe. Leur invention résultait d’un glissement du modèle du jardin paysager pour former le jardin zoologique.</p>
+               </div>
+               <div>
+                  <head>Typologie des habitats</head>
+                  <p>Le programme que donnaient les professeurs se fondait sur une connaissance approfondie de la faune<ref type="bibl" target="#n0045"/>. Pour eux, la <q>salubrité pour les animaux […] résulte, de l’étendue, de l’exposition, du degré de chaleur, d’humidité, de sécheresse et de lumière que doivent avoir les fabriques, relativement à la grandeur, aux habitudes et aux mœurs des animaux auxquels elles sont destinées.</q> En fonction de ces dissemblances, ils distinguaient différents types d’habitat : des parcs des cabanes et des bauges pour les quadrupèdes paisibles, des tanières pour les bêtes féroces, etc. C’est pourquoi après avoir approuvé en masse le plan de <name>Molinos</name> les administrateurs arrêtèrent que tous les détails de construction de chacune des fabriques seraient soumis à l’examen d’une commission.</p>
+                  <p>L’enjeu d’un tel établissement imposait que les parcs soient assez grands pour que les animaux jouissent de la liberté suffisante, mais dans la mesure où cela ne nuisait pas au public et <q>qu’il puisse prendre une juste idée de leurs formes, de leur agilité et de leurs habitudes.</q> La considération du spectateur exigeait aussi que les fabriques soient placées dans la position la plus favorable pour qu’ils soient vus de tous les curieux sans préférence. Le rucher installé dans la ménagerie présentait ainsi six faces vitrées au travers desquelles on pouvait observer le travail des insectes. Quant aux parcs ils étaient entièrement bordés par un chemin afin que les animaux qui s’y trouvaient puissent être vus de tous les côtés.</p>
+                  <p>Les professeurs se préoccupaient aussi de l’entretien des fabriques. Le service devait être facile et les constructions solides. L’emploi d’un style rustique qui supportait bien les injures du temps et les dégradations répondait parfaitement à cet objet. Un autre programme rédigé en l’an XII précisait ces premières intentions. Il innovait cependant en détaillant la configuration des loges les unes par rapport aux autres et en énonçant les espèces qui devaient être accueillies dans le jardin. Le texte les rassemblait en dix villages d’habitations similaires. <q>Chacun de ces villages devra avoir une espèce de place publique, un centre et un hangar commun à toutes les loges, pour servir de resserre ou grenier, et pour contenir tous les outils nécessaires.</q><ref type="bibl" target="#n0046"/> On entérinait la disposition rayonnante des loges autour d’un espace de service central unique déjà retenu pour la fabrique des cerfs. À cette époque le nombre d’animaux de la ménagerie augmentait et on commençait à diviser les parcs par des haies et des treillages pour former des enclos en éventail. La rationalité du plan de ces fabriques rappelle ceux des étables ou des écuries modèles diffusés à la même époque. La plupart des constructions installées par la suite dans le jardin reprirent cette configuration. En même temps elle annonçait le recours à un type de construction différent, celui de la galerie.</p>
+               </div>
+            </div>
+            <div>
+               <head>Du jardin aux galeries</head>
+               <p>Comprise dans le plan général de <name>Molinos</name>, la question de la ménagerie des animaux féroces était à l’ordre du jour dès l’<date>an VI</date><ref type="bibl" target="#n0047"/>. Le <date>17 messidor an IX (7 juillet 1801)</date>, à la demande du ministre de l’Intérieur<ref type="bibl" target="#n0048"/>, l’architecte du Muséum mit sous les yeux des professeurs un modèle en relief du rocher qu’il proposait pour la ménagerie définitive<ref type="bibl" target="#n0049"/>. Lors de sa présentation au ministre, les professeurs expliquaient que, depuis longtemps, leur architecte leur avait proposé une construction <q>analogue au mœurs des animaux au lieu d’un bâtiment singulier semblable à ceux que l’on voit dans les diverses ménageries, et qui représente une [suite] de prisons</q>. Il plaçait les animaux dans des antres creusées dans une montagne rocailleuse. Le service se faisait par un souterrain : <q>De cette manière l’intérieur aurait tous les avantages d’un bâtiment régulier, pendant que l’extérieur présenterait des formes agrestes.</q><ref type="bibl" target="#n0050"/></p>
+               <p>Ce projet piquant qui s’accordait parfaitement avec ce qui avait déjà été réalisé fut accueilli positivement par le ministre de l’Intérieur<ref type="bibl" target="#n0051"/>. Pourtant, alors que l’on travaillait aux terrassements, il revenait sur sa décision en considérant que la construction se ruinerait sous l’effet des infiltrations et que le public ne pourrait jouir suffisamment de la vue des animaux<ref type="bibl" target="#n0052"/>. L’intérêt pittoresque et naturaliste du projet était balayé par l’argument de l’économie et de l’entretien. En outre, dans ce raisonnement, l’adaptation aux mœurs des animaux était subordonnée à celle de la salubrité et du confort d’observation pour le spectateur. <name>Molinos</name> proposait alors un bâtiment en forme d’arènes de soixante quatre loges. Le rapport de <name>Petit Radel</name> au Conseil des bâtiments civils relevait que la forme circulaire adoptée rappelait celle des cirques de l’antiquité. Il considérait que le projet remplissait bien son objet, qu’il présentait l’avantage de fournir des expositions variées et qu’il se liait bien avec les jardins agrestes et les fabriques renfermant les animaux paisibles. Son avis fut suivi par le Conseil<ref type="bibl" target="#n0053"/>.</p>
+               <p>Mais l’importance de la dépense qu'entraînait ce projet trop vaste amenait le ministre à en rejeter le plan d’autant qu’il était question <q>de construire au moins en partie, sur un terrain qui n’appart[enait] pas encore au gouvernement</q><ref type="bibl" target="#n0054"/>. On invita l’architecte à renoncer à la forme d’arène et le programme pour la ménagerie du <q>3 vendémiaire an XII (27 septembre 1803)</q> donnait des précisions pour celle des animaux féroces : <q>Un troisième village ser[ait] construit de manière à pouvoir contenir vingt-cinq grands animaux féroces. Les petites fabriques composant ce village devront être assez rapprochées pour pouvoir être chauffées par un seul poêle et pour que tous les animaux puissent être surveillés par un seul gardien.</q><ref type="bibl" target="#n0055"/> Un mois plus tard (<date>novembre 1803</date>), <name>Molinos</name> présentait les dessins de plusieurs fabriques propres à loger les animaux féroces<ref type="bibl" target="#n0056"/>. Il s’agissait du projet de la grande rotonde dont le plan en croix de légion d’honneur présentait une forme intermédiaire entre un plan centré et le type de la galerie.</p>
+               <p>Des surcoûts et des malfaçons provoquèrent l’arrêt du chantier en l’<date>an XIII</date><ref type="bibl" target="#n0057"/>. Lorsque les travaux purent reprendre <date>en 1809</date>, on décida d’approprier cette rotonde aux grands mammifères et de construire un nouveau bâtiment pour les animaux féroces. Tous les projets présentés à partir de cette époque jusqu’à la réalisation de la galerie des animaux féroces <date>entre 1818 et 1822</date> adoptaient la forme d’une galerie<ref type="bibl" target="#n0058"/>. En réalité cette disposition découlait directement du programme donné par les professeurs sur les indications du garde de la ménagerie<ref type="bibl" target="#n0059"/>. Les exigences avaient complètement changé, désormais fondé sur une analyse rationnelle et objective des besoins de la conservation animale, le programme envisageait des loges doubles pour les animaux, un éclairage optimal pour les spectateurs, et s’attachait particulièrement à l’hygiène (égout, calorifère, aération). Le type de la galerie était celui qui permettait le mieux de répondre à ces diverses contraintes. En outre, aux formes pittoresque d’une rotonde à bastions, on préférait désormais le rythme classique des pilastres qui scandaient la galerie des animaux féroces. Ce fut sur les mêmes bases que l’on construisit la faisanderie <date>en 1827</date> (<name>Destouches</name>, architecte) et le palais des singes <date>de 1834 à 1835</date> (<name>Rohault de Fleury</name>, architecte).</p>
+               <p>À la mort de <name>Molinos</name>, la ménagerie s’étendait presque déjà sur les trois quart des terrains qu’elle occupe aujourd’hui. Le projet de <name>Lacépède</name> de former un jardin agreste, qui aurait concilié la curiosité du public, le logement des animaux et le progrès de la science avait été mené à bien. S’il nous paraît assez évident aujourd’hui de présenter les animaux dans un contexte naturel, c’est véritablement à cette époque que l’on assiste à l’invention du programme du jardin zoologique. La ménagerie du Muséum d’histoire naturelle allait servir de modèle pour la création par la zoological society du Regent’s park de Londres <date>en 1826</date> et du zoo de Berlin par <name>Lenné</name> <date>en 1834</date><ref type="bibl" target="#n0060"/>. Mais l’hédonisme du recours au jardin paysagiste pour la présentation d’animaux dans un cadre naturel, tout comme la logique de la collection n’étaient pas sans ambiguïtés. Tous deux relevaient en fait des besoins de l’exhibition et ils apparaissent parfois en contradiction avec le projet scientifique. Une commission nommée <date>en 1858</date>, chargée d’étudier son organisation, montrait que la ménagerie avait cessé de rendre des services réels à la science, et s’il constatait qu’elle était en voie d’amélioration pour ce qui concerne les grillages de ses parcs, il ajoutait <q>il reste beaucoup à faire pour remédier à la rareté de l’eau, à l’exiguïté des cabanes, au manque d’air et d’espace pour les animaux féroces et pour les singes</q>.</p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <head>Notes</head>
+            <note xml:id="n0001">
+               <p><name>Charles-François Viel</name>, <title>Projet d’un monument à l’histoire naturelle dédié à Monsieur le Comte de Buffon…</title>, Imprimerie de Ph. D. Pierres, Paris, 1779, p. 4.</p>
+            </note>
+            <note xml:id="n0002">
+               <p>Archives Nationales [A.N.], F<hi rend="superscript">17</hi> 1229, pièce 175, <title>Rapport au Comité d’Instruction publique, Commission des travaux publics, 2<hi rend="superscript">è</hi> division, le <date>26 vendémiaire an III</date></title>.</p>
+            </note>
+            <note xml:id="n0003">
+               <p>A. N., F<hi rend="superscript">17</hi> 1229, pièce 185, Molinos, <title>Dispositions générale pour le Muséum National d’Histoire naturelle et son jardin aux représentants du peuple composant le Comité de Salut public</title>.</p>
+            </note>
+            <note xml:id="n0004">
+               <p> Arrêté du Comité de salut public du 27 floréal an II.</p>
+               <p>La création inopinée d’une ménagerie fut la conséquence d’un arrêté du Conseil général, sur le rapport de <name>Chaumette</name> procureur de la Commune qui décidait que « tous les animaux dangereux, tels que léopards, lions, et autres que l’on fait voir sur les places publiques » seraient amenés au Muséum. À ce sujet, cf. <name>Gustave Loisel</name>, « Histoire de la Ménagerie du Muséum » in <title>Revue scientifique</title> n° 9, 2<hi rend="superscript">è</hi> sem., 49<hi rend="superscript">è</hi> année, 26 août 1911.</p>
+            </note>
+            <note xml:id="n0005">
+               <p>À la même époque, le ministre de l’Intérieur invitait <name>Thouin</name> à rédiger un projet d’utilisation des Domaines et parcs nationaux. Dans le contexte de la création des grands établissements pédagogiques (le Muséum des Arts, le Conservatoire des Arts et Métiers), le professeur de culture proposa une <soCalled>Métairie centrale de la République</soCalled> consacrée à l’enseignement et au développement de l’économie rurale. L’utilité de cet établissement aurait en grande partie reposé sur l’acclimatation des végétaux et des animaux, A.N., F<hi rend="superscript">17</hi> 1230, pièce 166.</p>
+               <p>L’alternative au projet de <name>Molinos</name> que publiait <name>Verniquet</name> reprenait largement les vues d’<name>André Thouin</name> :</p>
+               <p><name>Verniquet</name>, <title>Exposition d’un projet sur le Muséum d’histoire naturelle, et sur une ménagerie</title>, Huzard, Paris, brumaire an XI.</p> </note>
+            <note xml:id="n0006">
+               <p><title>Adresses et projets de règlements présentés à l’Assemblée Nationale par les officiers du jardin des plantes et du cabinet d’histoire naturelle, d’après le décret de l’Assemblée Nationale du 20 août 1790</title>, Buisson libraire, Paris, 1790. [notamment à l’article VIII du Ch IV du règlement : <q>Lorsque le muséum aura les moyens d’exhiber dans une ménagerie les animaux vivants de diverses classes, les professeurs de zoologie seront chargés de les décrire, d’étudier leurs mœurs, ils chercheront également à acclimater, multiplier et distribuer les espèces utiles.</q>].</p> </note>
+            <note xml:id="n0007">
+               <p>A. N, AJ<hi rend="superscript">15*</hi> 95-102, [Sur la proposition d’un de ses membres, l’Assemblée arrêta qu’elle consulterait <name>Molinos</name> pour la distribution de la galerie supérieure du cabinet du Muséum. Le <date>2 pluviôse an II</date>, il était invité à présenter les devis d’un projet pour l’embellissement des galeries du Muséum qui fut accepté le 16 du même mois. À partir de cette époque, c’est <note>Molinos</note> qui exécutera tous les travaux du muséum (aménagements de la ménagerie, extension de l’amphithéâtre, orangerie, agrandissement des galeries…).], A.N. F<hi rend="superscript">13</hi> 873 [Lorsqu’en 17 le ministre de l’Intérieur nomma un architecte pour le Muséum, face aux protestations des professeurs le ministre se ravisait et maintenait la place de <name>Molinos</name>.]</p> </note>
+            <note xml:id="n0008">
+               <p>Archives Nationales [A. N.], AJ<hi rend="superscript">15</hi> 582.</p> </note>
+            <note xml:id="n0009"> <p> A. N., AJ<hi rend="superscript">15</hi> 95-102, Procès-verbaux de l’administration du Muséum d’histoire naturelle, séance du 24 germinal an VI.</p> </note>
+            <note xml:id="n0010">
+               <p><hi rend="italic">id. lib.</hi>, 24 floréal an VI.</p>
+            </note>
+            <note xml:id="n0011">
+               <p><hi rend="italic">id. lib.</hi>, 14 floréal an VI.</p>
+            </note>
+            <note xml:id="n0012">
+               <p> <hi rend="italic">id. lib.</hi>, 24 ventôse an VII. </p> </note>
+            <note xml:id="n0013">
+               <p>A. N., F<hi rend="superscript">13</hi> 873, Rapport sur les travaux effectués pour l’établissement du parc des éléphants, 8 prairial an VII.</p>
+            </note>
+            <note xml:id="n0014">
+               <p>A. N., AJ<hi rend="superscript">15</hi> 95-102.</p>
+            </note>
+            <note xml:id="n0015">
+               <p>A. N., F<hi rend="superscript">13</hi> 1218B.</p>
+            </note>
+            <note xml:id="n0016">
+               <p>A. N., AJ<hi rend="superscript">15</hi> 95-102, 17 pluviôse an IX.</p>
+               <p>[À la lecture des procès-verbaux des assemblées des professeurs, il nous semble qu’aucune autre maquettes que celles de la ménagerie des animaux féroces ne fut réalisée.]</p>
+            </note>
+            <note xml:id="n0017">
+               <p>A. N., AJ<hi rend="superscript">15</hi> 95-102.</p>
+            </note>
+            <note xml:id="n0018">
+               <p>A. N., AJ<hi rend="superscript">15</hi> 95-102, 7 thermidor an IX</p>
+            </note>
+            <note xml:id="n0019">
+               <p>Ils furent autorisés par les lettres du ministre de l’intérieur datées des 8 et 28 frimaire an X.</p>
+            </note>
+            <note xml:id="n0020">
+               <p>A. N., AJ<hi rend="superscript">15</hi> 586, Lettre du secrétaire du Muséum à Molinos le 1<hi rend="superscript">er</hi> fructidor an IX.</p> 
+            </note>
+            <note xml:id="n0021">
+               <p> A. N., AJ<hi rend="superscript">15</hi> 99-102. an X à XII.</p>
+            </note>
+            <note xml:id="n0022"> <p> Gotthelf Fischer, <hi rend="italic"
+               >Das Nationalmuseum der Naturgeschichle zu Paris</hi>, Frankfurt an Main, 1803, [plan hors texte]</p> </note>
+            <note xml:id="n0023">
+               <p>Jean-Baptiste Pujoult, <title>Promenades au Jardin des plantes, à la ménagerie et dans les galeries du Muséum d’histoire naturelle</title>…, Guillemet, Paris, an XII–1803, p. 73 et p. 75.</p>
+            </note>
+            <note xml:id="n0024">
+               <p><title>Nouvelle description de ce qu’il y a de remarquable à la ménagerie et au cabinet d’histoire naturelle, contenant la vie et les habitudes des animaux…</title>, Moronval, Paris, 1823, p. 4.</p>
+            </note>
+            <note xml:id="n0025">
+               <p>Lacépède, « Lettre relative aux établissements publics destinés à renfermer des animaux vivants, et connus sous le nom de Ménageries, écrite au C. ***, par le cit. Lacépède, professeur de Zoologie au Muséum d’Histoire naturelle, et membre de l’Institut national des Sciences et Arts » in <title>La décade philosophique, littéraire et politique</title>, n° 59, 20 frimaire, 4<hi
+               rend="superscript">è</hi> année républicaine. [11 décembre 1795].</p>
+            </note>
+            <note xml:id="n0026">
+               <p>Lacépède « Sur les établissements publics destinés à renfermer des animaux vivants, et connus sous le nom de ménageries » in <title>séances des Écoles normales</title>, n° 8, 1800, pp. 303-318.</p>
+            </note>
+            <note xml:id="n0027">
+               <p> Lacépède, Cuvier, <title>La ménagerie du Muséum national d’histoire naturelle ou description et histoire des animaux vivants qui y vivent ou qui y ont vécu</title>, Paris, An X – 1801.</p> </note>
+            <note xml:id="n0028">
+               <p><hi rend="italic">id. lib.</hi>, pp. 5-6.</p>
+            </note>
+            <note xml:id="n0029">
+               <p><hi rend="italic">id. lib.</hi>, p. 2.</p>
+            </note>
+            <note xml:id="n0030">
+               <p> Yvonne Letouzey, <title>Le jardin des plantes à la croisée des chemins avec André Thouin (1747-1824)</title>, éditions du Muséum, Paris, 1989, pp. 263-271.</p>
+            </note>
+            <note xml:id="n0031">
+               <p>Lacépède <title>op. cit.</title>, p. 6.</p>
+            </note>
+            <note xml:id="n0032">
+               <p> Antoine Claire Thibaudeau, <title>Rapport fait au nom du Comité d’instruction publique et des finances, sur le Muséum national d’histoire naturelle…</title>, Imprimerie Nationale, an III.</p>
+            </note>
+            <note xml:id="n0033">
+               <p>Buffon, « L’outarde », <hi rend="italic"
+               >Histoire naturelle des animaux</hi>, Paris, 1770-1786, vol. II, p. 202. [Cité par Richard W. Burkhardt Jr., « La ménagerie et la vie du Muséum » in <title>Le Muséum d’histoire naturelle au premier siècle de son histoire</title>, Paris, Édition du Muséum d’histoire naturelle, 1997, pp. 481-508.]</p>
+            </note>
+            <note xml:id="n0034">
+               <p> Bernardin de Saint-Pierre, <title>Mémoire sur la nécessité de joindre une Ménagerie au Jardin national des plantes</title>, Paris, 1792.</p>
+            </note>
+            <note xml:id="n0035">
+               <p> Lacépède, 1801, pp. 6-7.</p>
+            </note>
+            <note xml:id="n0036">
+               <p> Sur l’apport scientifique de la ménagerie, cf. Burkhardt Jr., <hi rend="italic"
+               >op. cit.</hi></p>
+            </note>
+            <note xml:id="n0037">
+               <p> Lacépède, <hi rend="italic">op. cit.</hi>, 1801, pp. 7.</p>
+            </note>
+            <note xml:id="n0038">
+               <p><hi rend="italic">id. lib.</hi>, pp. 455 et 457.</p>
+            </note>
+            <note xml:id="n0039">
+               <p>F<hi rend="superscript">21</hi> 2475, Procès-verbaux des séances du Conseil des Bâtiments civils, 2 ventôse an X.</p>
+            </note>
+            <note xml:id="n0040">
+               <p>Archives du Muséum d’histoire naturelle, 1934, XXX, octobre 1788, Thouin, <hi rend="italic">Mémoire sur le jardin du Roi</hi></p>
+            </note>
+            <note xml:id="n0041">
+               <p> De plus la ménagerie fut plantée d’arbres étrangers pour servir de porte-graines dès 1794.</p> </note>
+            <note xml:id="n0042"> <p> Carmontelle, <hi rend="italic"
+               >le Jardin de Monceau</hi>, Paris, 1779.</p> </note>
+            <note xml:id="n0043">
+               <p> L’hypothèse serait par ailleurs contredite par le fait que la répartition des animaux dans les parcs n’était pas fixe. Cependant les fabriques avaient été conçues pour être adaptées aux mœurs des animaux, elles ne pouvaient accueillir que des espèces proches.</p> </note>
+            <note xml:id="n0044"> <p> Gustave Loisel, <hi rend="italic"
+               >Histoire des ménageries de l’antiquité à nos jours</hi>, O. Douin et fils, H. Laurens, Paris, 1912, T. III, pp. 374-375 et 378-379, Un article des <title>Courriers de l’Unesco</title> « Le premier zoo s’appelait : Parc de l’intelligence » mai 1957, pp. 11-13, signale qu’en « 1735 fut établi pour le duc de Savoie Piémont, le plan détaillé d’un zoo comprenant sept parcs disposés en éventails pour les bisons, les lions, les autruches, les chèvres sauvages, etc. Ces parcs devaient être séparés par des avenues d’arbres et enclos seulement de murs très bas. »</p> </note>
+            <note xml:id="n0045">
+               <p>Il aurait été important de pouvoir détailler l’architecture de ces fabriques. Mais ne disposant pas de la place nécessaire, nous nous en tiendrons ici à l’étude du programme du jardin zoologique.</p>
+            </note>
+            <note xml:id="n0046">
+               <p> A. N., AJ<hi rend="superscript">15*</hi> 99-102, séance du 3 vendémiaire an XII.</p>
+            </note>
+            <note xml:id="n0047">
+               <p>A. N., AJ<hi rend="superscript">15*</hi> 99-102, séance du 24 ventôse an VI.</p>
+            </note>
+            <note xml:id="n0048">
+               <p>A. N., AJ<hi rend="superscript">15</hi> 586, lettre du ministre du 17 messidor an IX (29 juin 1801) ; F<hi rend="superscript">13</hi> 1218B, lettre des professeurs au ministre de l’intérieur du 25 prairial an IX.</p>
+            </note>
+            <note xml:id="n0049">
+               <p> A. N., AJ<hi rend="superscript">15</hi> 586 Minutes des procès-verbaux…, séance du 7 messidor an IX. et 17 messidor an IX.</p>
+            </note>
+            <note xml:id="n0050">
+               <p><hi rend="italic">id.lib.</hi>, lettre des professeurs au Ministre de l’intérieur du 1<hi rend="superscript">er</hi> thermidor an IX.</p> </note>
+            <note xml:id="n0051">
+               <p><hi rend="italic">id. lib.</hi>, séance du 7 thermidor an IX.</p>
+            </note>
+            <note xml:id="n0052">
+               <p> A. N., F13 1218B, lettre du ministre de l’intérieur aux professeurs du 4 vendémiaire an X.</p>
+            </note>
+            <note xml:id="n0053">
+               <p> A. N., F<hi rend="superscript">21</hi> 2475, Procès-verbaux des séances du Conseil des Bâtiments civils, séance du 22 ventôse an X.</p>
+               <p>A.N., NIII SEINE 1120/ 3, Plans coupe et élévation d’une ménagerie, adoptés germinal an X, présenté au Conseil des Bâtiments civils.</p>
+            </note>
+            <note xml:id="n0054">
+               <p> F13 1218B.</p>
+            </note>
+            <note xml:id="n0055">
+               <p> AJ<hi rend="superscript">15*</hi> 99-102, séance du 3 vendémiaire an XII.</p>
+            </note>
+            <note xml:id="n0056">
+               <p><hi rend="italic" xml:space="preserve">id. lib. </hi>séance du 17 brumaire an XII, voir aussi les séances du 8 frimaire et 20 nivôse an XII pour des modifications.</p> </note>
+            <note xml:id="n0057">
+               <p>A. N., AJ<hi rend="superscript">15</hi> 603.</p>
+            </note>
+            <note xml:id="n0058">
+               <p>A.N., AJ<hi rend="superscript">15</hi> 99-102, séances du 22 et 29 août 1810, 29 août 1810, 5 et 12 et 26 septembre 1810, 3 octobre 1810, 7 novembre 1810, et 5 et 26 décembre 1810.</p>
+               <p>F<hi rend="superscript">21</hi> 1901 / 3174, Projet de ménagerie pour les animaux féroces, au jardin du roi, séance du [blanc] février 1818.</p>
+            </note>
+            <note xml:id="n0059">
+               <p> <hi rend="italic">id. lib.</hi></p>
+            </note>
+            <note xml:id="n0060">
+               <p> Michael Seiler, « Die Ménagerie 1824-1842 » in <hi rend="italic">Muséum-journal (Berlin)</hi>, n°3, V. 8, 1994.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>
