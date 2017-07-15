@@ -4,14 +4,37 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Plan article</title>
-            <author>manu</author>
+            <title type="main">Les animaux dans leur jardin</title>
+            <title rend="sub">L’aménagement de la ménagerie du Muséum d’histoire naturelle à Paris par l’architecte Molinos 1795-1827</title>
+            <author>
+               <forename>Emmanuel</forename>
+               <surname>Château-Dutier</surname>
+            </author>
          </titleStmt>
          <publicationStmt>
-            <p>unknown</p>
+            <publisher>Emmanuel Château-Dutier</publisher>
+            <date>2017</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Converted from a Word document</p>
+            <biblStruct>
+               <analytic>
+                  <title level="a" type="main">Les animaux dans leur jardin</title>
+                  <title level="a" type="sub">L’aménagement de la ménagerie du Muséum d’histoire naturelle à Paris par l’architecte Molinos 1795-1827</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="j">Histoire de l’art</title>
+                  <imprint>
+                     <date when="2001-11">novembre 2001</date>
+                     <biblScope unit="issue">49</biblScope>
+                     <biblScope unit="page">75-90</biblScope>
+                  </imprint>
+                  <idno type="ISSN">0992-2059</idno>
+               </monogr>
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
