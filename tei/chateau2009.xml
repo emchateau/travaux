@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Conseil des bâtiments civils : missions et fonctionnement</title>
+        <author>
+          <forename>Emmanuel</forename>
+          <surname>Château-Dutier</surname>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <p>unknown</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author> <forename>Emmanuel</forename> <surname>Château-Dutier</surname> </author>
+            <title level="a">Le Conseil des bâtiments civils : missions et fonctionnement</title>
+          </analytic>
+          <monogr>
+            <title level="m" type="main">Pour une histoire de l’architecture publique française (1795-1840)</title>
+            <title level="m" type="sub">À travers les procès-verbaux des séances du Conseil des bâtiments civils</title>
+            <editor> <forename>Françoise</forename> <surname>Boudon</surname> </editor>
+            <meeting>Table ronde organisée par le Centre André Chastel et l’INHA à l’occasion de la mise en ligne de la base de données CONBAVIL, Paris, Institut national d’histoire de l’art, 9 juin 2009</meeting>
+            <imprint>
+              <publisher>inédit</publisher>
+              <date when="2009">2009</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-07-25">Conversion du fichier depuis un document MSWord</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <p>À l’issue de la Révolution, la rationalisation de la politique architecturale opérée au moyen d’une centralisation des affaires qui s’appuie sur un découpage administratif très hiérarchique allait permettre, en moins d’un demi-siècle, de fournir aux nouvelles institutions les édifices nécessaires à leur exercice et d’inscrire leur existence symbolique dans le bâti.</p>
+          <p>Comme commission consultative établie auprès du ministre de l’Intérieur en 1795, le <orgName>Conseil des bâtiments civils</orgName> fut appelé à se prononcer sur l’ensemble des questions relatives à l’architecture que lui soumettait le ministre. Ses compétences portaient tout autant sur l’examen sous le rapport de l’art de tous les projets d’architecture construits aux frais de l’État que sur des sujets aussi divers que le règlement des honoraires, les alignements de voirie ou la liquidation des sommes dues aux entrepreneurs.</p>
+          <p>L’immensité du travail produit par cette institution renvoie à celui non moins immense mené par <persName>Françoise Boudon</persName> pour la mise au point de la base de donnée qui est rendue publique aujourd’hui. Aussi, je n’aurais sans doute pas été en mesure de mener à bien la thèse que j’achève actuellement sur le Conseil des bâtiments civils sans le secours de cette formidable base de données à laquelle <persName>Françoise Boudon</persName> a bien voulu me donner accès.</p>
+          <p>Le temps qui m’est imparti aujourd’hui ne me permet guère d’entrer dans les détails de l’histoire de l’institution. Je me bornerais ici à donner quelques indications introductives sur les compétences et le fonctionnement du <orgName>Conseil des bâtiments civils</orgName> pendant la première moitié du XIX<hi rend="superscript">e</hi> siècle qui peuvent éclairer l’intérêt que présente cette base de donnée pour l’étude de l’architecture publique en France et que viendront compléter les interventions qui suivent.</p>
+        </div>
+        <div>
+          <head>Des missions du Conseil des bâtiments civils</head>
+          <p>Chargé par le ministre de la rédaction d’un précis d’organisation des bâtiments civils, on peut dire que <persName>Jean-Baptiste Rondelet</persName> fut le véritable artisan de la création de cette administration. Il l’envisage comme une <q>agence intermédiaire</q> entre le ministre et ceux qui sollicitent des ouvrages ou qui doivent les exécuter, et propose la création d’un service sur le modèle des <orgName>Ponts et chaussées</orgName> doté d’un conseil d’examen pour mettre en état le ministre de l’Intérieur de prendre le parti le plus convenable.</p>
+          <p>L’intention du ministre <persName>Pierre Bénézech</persName> en se dotant d’un conseil des bâtiments civils était :</p>
+          <quote> <list>
+            <label>1°</label>
+            <item>D’empêcher qu’il ne se fasse aucun ouvrage en ce genre aux dépens de la nation, sans qu’au préalable l’utilité et la nécessité, ou les avantages qu’il en peut résulter, soient bien constatés ;</item>
+            <label/>
+            <item>D’être assuré que tous les ouvrages dont l’exécution est ordonnée se font avec toute la solidité, la perfection et l’économie dont ils sont susceptibles ;</item>
+            <label>Et enfin <lb/>3°</label>
+            <item>De la légitimité de toutes les demandes en paiement, et des réclamations qui peuvent lui être faites, relativement aux ouvrages de bâtiments déjà exécutés, ou en activité, ou interrompus.</item>
+            </list>
+          </quote>
+          <p>Un arrêté d’organisation de <persName>Montalivet</persName> du 1<hi rend="superscript">er</hi> octobre 1812 allait préciser les compétences déjà dévolues au Conseil en lui accordant le droit d’émettre <q>son opinion sur les améliorations dont il croirait l’organisation des travaux publics susceptible</q>, <q>sur les études préparatoires qu’on pourrait exiger des architecte</q> et <q>sur les institutions les plus propres à former des hommes utiles à la fois sous le rapport de l’architecture comme l’un des beaux-arts et sous celui de l’administration économique et bien entendue des travaux.</q></p>
+          <p>Il ajoute également à ses missions l’examen de <q>tout ce qui est relatif à la solidité des constructions, à la qualité des matériaux, aux convenances des édifices, tant sous le rapport de leur destination que des lieux où il s’agit de les construire.</q></p>
+          <p>Les dispositions de cet arrêté sont reproduites dans les organisations subséquentes jusqu’en 1838.</p>
+          <p>La rédaction d’un nouvel arrêté d’organisation en 1838 prend un tour plus grandiloquent en confiant au <orgName>Conseil des bâtiments civils</orgName> la mission de <q>maintenir et de propager la bonne pratique de l’architecture et de la construction</q> qui traduit l’importance prise par le <orgName>Conseil des bâtiments civils</orgName> dans l’organisation de l’activité architecturale en France dans la première moitié du XIX<hi rend="superscript">e</hi> siècle.</p>
+        </div>
+        <div>
+          <head>Évolution de l’influence du <orgName>Conseil des bâtiments civils</orgName></head>
+          <p>Cependant, l’ampleur de ces attributions ne doit pas laisser croire que l’autorité de l’institution soit immédiatement établie. Les nombreuses réorganisations et réductions qu’elle subit jusqu’en 1812 témoignent d’abord d’une relative précarité du Conseil qui le fragilise dans l’exercice de ses missions face à l’augmentation rapide et considérable du nombre d’affaires traitées.</p>
+          <p>L’évolution de l’influence du <orgName>Conseil des bâtiments civils</orgName> fut intimement liée à celle de l’administration du même nom. Elle dépendra en grande partie de sa position dans l’organisation administrative dans la première moitié du siècle. Si son autonomie est rapidement mise à mal par la prise de participation de plus en plus active de l’administration et des autres ministères dans les affaires d’architecture, le Conseil parvient malgré tout a acquérir sous la Restauration et la Monarchie de Juillet une place prépondérante dans la pratique de l’architecture publique.</p>
+          <p>Cette main mise du Conseil des bâtiments allait progressivement se réduire au cours du XIX<hi rend="superscript">e</hi> siècle face à l’énormité de la tâche à accomplir et sous l’influence combinée d’une décentralisation administrative et de la création de nouvelles instances dans le domaine architectural comme avec la <orgName>Commission Monuments historiques</orgName> en 1836, ou le <orgName>service des Édifices diocésains</orgName> en 1848 ainsi qu’avec l’apparition de commissions départementales des bâtiments civils qui devaient mettre un terme à son hégémonie sur les travaux d’architecture publique.</p>
+        </div>
+        <div>
+          <head>La structuration de la pratique architecturale</head>
+          <p>La principale originalité de l’institution était d’être composée pour l’essentiel d’hommes de l’art. Les premiers membres du <orgName>Conseil des bâtiments civils</orgName>, <persName>Rondelet</persName>, <persName>Brongniart</persName> et <persName>Chalgrin</persName>, étaient des architectes reconnus de la nouvelle génération de la fin du XVIII<hi rend="superscript">e</hi> siècle. Par certains aspects, les nominations au Conseil venaient saluer une longue carrière au service de l’État. Malgré le nombre important d’architectes qui y furent appelés, on observe une relative stabilité dans la composition du Conseil et plusieurs figures proéminentes émergent. <persName>Rondelet</persName> siégea au conseil depuis sa création jusqu’en 1822, <persName>Guy de Gisors</persName> entré au Conseil en 1813 ne fut mis à la retraite que lors de la réorganisation de 1832. Pendant de longues années, <persName>Rohault</persName> occupa une centrale.</p>
+          <p>De ce fait, la composition du Conseil est marquée, selon les périodes, par un certain vieillissement qui fut toutefois compensé par l’entrée de rapporteurs à partir de 1819 dont la carrière ne se caractérise pas par l’ampleur des travaux qui leur furent confiés. Rompus à l’examen des projets soumis au Conseil, une logique d’avancement les fera nommer successivement inspecteur des bâtiments civils puis membres en faisant apparaître une figure inédite : celle d’architectes administrateurs auxquels viendront se joindre à partir de 1838 des personnalités plus spécialisées comme <persName>Blouet</persName> ou <persName>Vitet</persName>.</p>
+          <p>Les membres du <orgName>Conseil des bâtiments civils</orgName> se réunissaient 2 à 3 fois par semaines pour l’examen des affaires qui lui étaient transmises par l’administration. Un membre ou un rapporteur dressait alors un rapport qui était ensuite discuté par le conseil qui rendait un avis transmis par l’intermédiaire de l’administration au préfet.</p>
+          <p>Le Conseil doit d’abord faire face à une vraie pénurie du personnel architectural en province. Ce qui l’amène très tôt à se pencher sur la question de l’organisation de la profession avec la création d’un diplôme ou l’organisation de l’enseignement. Cette dimension du rôle du Conseil est jusqu’à présent passée relativement inaperçue. Si l’institution ne parvient pas à créer un corps à l’instar des ponts et chaussées, les procédures mises en place et le crible de l’examen des projets devaient profondément structurer la pratique architecturale dans la première moitié du XIX<hi rend="superscript">e</hi> siècle.</p>
+        </div>
+        <div>
+          <head>La correction des projets</head>
+          <p>La normalisation des procédures était déterminante pour asseoir le contrôle de l’administration sur l’architecture publique. Le renouvellement des circulaires et les sempiternelles remarques du Conseil des bâtiments civils sur la présentation des dossiers d’édifices témoignent en premier lieu des carences des projets soumis à son examen. Aussi, l’étude des procès-verbaux du Conseil des bâtiments civils fait d’abord apparaître un certain pragmatisme des avis qui invite à réviser l’historiographie traditionnelle du <orgName>Conseil des bâtiments civils</orgName>.</p>
+          <p>Rectifiant au cas par cas les faiblesses techniques des architectes des départements, les membres du Conseil des bâtiments civils attachèrent également une attention toute particulière à l’insuffisance des programmes pour des édifices dont les typologies restaient encore largement en devenir. L’action du <orgName>Conseil des bâtiments civils</orgName> fut ainsi particulièrement déterminante dans la fixation des types dont la publication du <title>Choix d’édifices publics</title> publiée par plusieurs de ses membres offre une bonne illustration.</p>
+          <p>Les critères d’examen du Conseil découlaient directement des missions qui lui étaient confiées. Il est intéressant de remarquer que deux d’entre eux appartiennent à la triade vitruvienne (<foreign xml:lang="lat">firmitas, utilitas, venustas</foreign>) tandis que des idées comme celles de la <soCalled>la perfection</soCalled>, de <soCalled>l’économie</soCalled> et <soCalled>des avantages qui peuvent en résulter</soCalled> se retrouvent dans la troisième sans qu’elle fût explicitement mentionnée.</p>
+          <p>Il faut noter l’insistance portée sur l’économie. Au début du siècle les délibérations du Conseil s’attachèrent principalement aux questions relevant de l’utilité (la convenance) et de l’urgence du travail, de son économie et sa solidité plutôt qu’à des discussions sur les qualités esthétiques des compositions. Toutefois la pratique du <orgName>Conseil des bâtiments civils</orgName> dans la correction des projets qui lui étaient soumis révèle de véritables ambiguïtés.</p>
+          <p>En considérant l’examen des projets par le Conseil des bâtiments civils, il convient de distinguer plusieurs cas de figure. Lorsque l’auteur du projet ne disposait manifestement pas des compétences requises, le rapporteur n’hésite pas à fournir une esquisse comme ici pour une église à <placeName>Sainghin</placeName> voire à nommer un architecte de la capitale pour recomposer le projet.</p>
+          <p>Attaché à la liberté de l’art, il se défend régulièrement d’avoir à se prononcer sur le style. Pourtant les critères esthétiques apparaissent de manière récurrente dans les rapports et dans certains cas le jugement est sévère pour des architectes prix de Rome. Dépassant de loin la sagacité habituelle du Conseil sur des questions de distribution ou d’économie, <persName>Gisors</persName> en particulier n’hésite pas à recomposer totalement des projets comme en témoigne son recueil d’esquisse conservé à la bibliothèque de l’Institut.</p>
+          <p>Des rapports ambigus se nouent ainsi avec les architectes départementaux dépendant en large partie de la personnalité des inspecteurs généraux. Si le <orgName>Conseil des bâtiments civils</orgName> défend objectivement l’architecte en cas de litige avec l’administration préfectorale et qu’il essaye de défendre une profession dont l’accès reste ouvert, le système de contrôle mis en place peut entamer la liberté de création.</p>
+        </div>
+        <div>
+          <head>Conclusion</head>
+          <p>En commandant l’accès à la commande publique la plus rémunératrice et la plus importante dans la notoriété de l’architecte et par la normalisation du processus de production architectural, le Conseil et l’administration des bâtiments civils furent à l’origine, selon le mot de <persName>Georges Teyssot</persName>, d’un véritable <soCalled>système des bâtiments civils</soCalled> dont le rôle fut sans doute plus déterminant encore que celui des Beaux-Arts dans la première moitié du XIX<hi rend="superscript">e</hi> siècle pour la définition de la pratique architecturale.</p>
+          <p>L’étude approfondie des dossiers du <orgName>Conseil des bâtiments civils</orgName>, fait apparaître un champ complexe de relations entre l’administration centrale et les architectes établis dans les départements. Bien loin de l’institution académique souvent décrite, l’action du <orgName>Conseil des bâtiments civils</orgName> se caractérise d’abord par un certain pragmatisme et la défense de la profession d’architecte. Composée d’hommes de l’art, l’ampleur du contrôle qui lui était confié l’amène à penser l’équipement du pays avec la même économie que celle qui s’applique dans les arbitrages qui forment le cœur de la démarche architecturale.</p>
+          <p>Ainsi, on peut dire que s’élabore au travers du commentaire d’architecture contenu dans les 30 000 procès-verbaux du <orgName>Conseil des bâtiments civils</orgName> jusqu’en 1848 une véritable théorie de l’architecture publique. Au delà d’une meilleure compréhension des rapports entre la maîtrise d’œuvre et la maîtrise d’ouvrage, la connaissance de l’histoire du Conseil des bâtiments civils s’avère donc déterminante pour toute histoire de l’architecture publique au XIX<hi rend="superscript">e</hi> siècle.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
