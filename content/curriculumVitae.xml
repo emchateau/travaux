@@ -4,22 +4,30 @@
     <fileDesc>
       <titleStmt>
         <title>Curriculum Vitæ</title>
-        <author> <forename>Emmanuel</forename> <surname>Château-Dutier</surname> <idno type="orcid"
-          >orcid.org/0000-0003-4092-4569</idno> </author>
+        <author>
+          <forename>Emmanuel</forename>
+          <surname>Château-Dutier</surname>
+          <idno type="orcid"
+          >orcid.org/0000-0003-4092-4569</idno>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Première édition numérique <date>2017-07-15</date></edition>
       </editionStmt>
       <publicationStmt>
-        <p>unknown</p>
-        <idno>chateauCurriculum</idno>
+        <publisher>Emmanuel Chateau-Dutier</publisher>
+        <date from="2017-07-15">depuis 2017</date>
       </publicationStmt>
+      <seriesStmt>
+        <title xml:lang="fr">Emmanuel Château-Dutier</title>
+      </seriesStmt>
       <sourceDesc>
-        <p>Converted from a Word document</p>
+        <p>Document nativement numérique</p>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
       <listChange>
+        <change when="2022-10-22">Mise à jour</change>
         <change when="2017-07-15">conversion depuis un fichier MSWord</change>
       </listChange>
     </revisionDesc>
@@ -29,28 +37,23 @@
       <div>
         <head>Curriculum Vitæ</head>
         <div type="identification">
-          <p>Emmanuel Château-Dutier</p>
-          <p> <address>
-            <addrLine>Université de Montréal, Pavillon Lionel-Groulx</addrLine>
-            <addrLine>Département d’histoire de l’art et des études cinématographiques</addrLine>
-            <addrLine>CP 6128, Succursale Centre-Ville</addrLine>
-            <addrLine>CP 6128, Succursale Centre-Ville</addrLine>
-            <addrLine>Montréal QC H3C 3J7 – CANADA</addrLine>
-            </address> <address>
-            <addrLine><ref target="mailto:emmanuel.chateau.dutier@umontreal.ca"
+          <head>Emmanuel Château-Dutier</head>
+          <div>
+          <p>
+            <address>
+              <addrLine>Université de Montréal, Pavillon Lionel-Groulx</addrLine>
+              <addrLine>Département d’histoire de l’art et des études cinématographiques</addrLine>
+              <addrLine>CP 6128, Succursale Centre-Ville</addrLine>
+              <addrLine>Montréal QC H3C 3J7 – CANADA</addrLine>
+            </address>
+            <address>
+              <addrLine><ref target="mailto:emmanuel.chateau.dutier@umontreal.ca"
               >emmanuel.chateau.dutier@umontreal.ca</ref></addrLine>
-            <addrLine><ref
+              <addrLine><ref
               target="http://histart.umontreal.ca/repertoire-departement/vue/chateau-dutier-emmanuel/"
               >Page personnelle</ref></addrLine>
             </address></p>
           <p>Né le <date>4 décembre 1975</date> à Nantes (Loire-Atlantique)</p>
-        </div>
-        <div>
-          <head xml:lang="fr">Biographie</head>
-          <head xml:lang="en">Biography</head>
-          <p>Emmanuel Château-Dutier est historien de l’architecture et digital humanist.</p>
-          <p>Ses recherches portent sur l’administration de l’architecture publique en France au XIX<hi rend="superscript">e</hi> siècle, la profession d’architecte et les relations entre la maîtrise d’ouvrage et la maîtrise d’œuvre, l’architecture des jardins zoologiques, l’édition et le livre d’architecture.</p>
-          <p>Ses travaux concernent par ailleurs la muséologie et l’histoire de l’art numérique. Il participe, ou a participé, à plusieurs importants projets de recherche collectifs en histoire de l’art plaçant le numérique au cœur de leur réflexion. Il a notamment assuré la direction numérique de l’édition critique des Cours d’Antoine Desgodets (ANR Desgodets), et il est un des collaborateurs principaux du projet des Guides de Paris du Labex les Passés dans le présent.</p>
         </div>
         <div type="experiences">
           <head xml:lang="fr">Expériences professionnelles</head>
