@@ -1,0 +1,3 @@
+[submodule "tei-commons-publishing"]
+	path = tei-commons-publishing
+	url = https://git.unicaen.fr/fnso/i-fair-ir/tei-commons-publishing.git
