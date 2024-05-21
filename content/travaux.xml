@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -33,6 +31,29 @@
    <text>
       <body>
          <listBibl>
+            <head>Liste des publications</head>
+            <biblStruct xml:id="chateau2015" type="conferencePaper">
+               <analytic>
+                  <title level="a">Quand la TEI rencontre l’histoire de l’art, le cas des guides de Paris</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château-Dutier</surname>
+                  </author>
+                  <author>
+                     <forename>Marianne</forename>
+                     <surname>Cojannot-Le Blanc</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m">Text Encoding Initiative Conference and Members’ Meeting 2015</title>
+                  <idno type="url">http://tei2015.huma-num.fr</idno>
+                  <meeting>TEI2015</meeting>
+                  <imprint>
+                     <pubPlace>Lyon (France)</pubPlace>
+                     <date>2011</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <biblStruct xml:id="chateau2014">
                <analytic>
                   <title level="a" type="main">Matérialiser et rendre perceptible la transmission orale du savoir</title>
@@ -47,12 +68,49 @@
                   </imprint>
                </monogr>
             </biblStruct>
+            <biblStruct xml:id="chateau2012a" type="conferencePaper">
+               <analytic>
+                  <title level="a"
+                     >Le projet du parc de Mousseaux et les projets de ménagerie du jardin des plantes</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château-Dutier</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m"
+                     >Le séjour italien de Percier et Fontaine, Contexte contemporain, nouvelles recherches</title>
+                  <imprint>
+                     <pubPlace>Bibliothèque Herziana, Rome (Italie)</pubPlace>
+                     <date>2012</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="chateau2012" type="conferencePaper">
+               <analytic>
+                  <title level="a"
+                     >Henri Labrouste et les instances professionnelles (1840-1872)</title>
+                  <author>
+                     <forename>Emmanuel</forename>
+                     <surname>Château-Dutier</surname>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="m"
+                     >Colloque international, Henri Labrouste (1801-1875) et son temps</title>
+                  <imprint>
+                     <pubPlace>22 et 23 novembre 2012, Institut national d’histoire de l’art, Bibliothèque nationale de France, Paris (France)</pubPlace>
+                     <date>2012</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <biblStruct xml:id="chateau2011a">
                <analytic>
                   <title level="a">Administrer les Arts en Conseil. L’enjeu de la collégialité au Conseil des bâtiments civils (1795-1848)</title>
                </analytic>
                <monogr>
-                  <title level="m">La collégialité dans la décision administrative</title>
+                  <title level="m">La collégialité et les dysfonctionnements dans la décision administrative</title>
+                  <idno type="isbn">978-2-9536514-1-6</idno>
                   <editor>Jean-Michel Leniaud</editor>
                   <editor>François Monnier</editor>
                   <meeting>actes de la journée d’étude de l’EA112 Histoire des pratiques administratives (EPHE), Paris, 12 novembre 2009</meeting>
@@ -69,11 +127,13 @@
                      <forename>Emmanuel</forename>
                      <surname>Château</surname>
                   </author>
+                  <idno type="doi">10.4000/lha.271</idno>
                </analytic>
                <monogr>
                   <title level="m" type="main">Bâtir et orner la France au XIX<hi rend="superscript">e</hi> siècle</title>
                   <title level="m" type="sub">Les sources et leurs usages pour l’architecture et les monuments publics</title>
                   <title level="j">Livraisons d’histoire de l’architecture</title>
+                  <idno type="issn">1627-4970</idno>
                   <editor>
                      <forename>Nadine</forename>
                      <surname>Gastaldi</surname>
@@ -101,6 +161,7 @@
                <monogr>
                   <title level="m" type="main">Édifice &amp; Artifice</title>
                   <title level="m" type="sub">Histoires constructives</title>
+                  <idno type="isbn">978-2-7084-0876-0</idno>
                   <editor>
                      <forename>Robert</forename>
                      <surname>Carvais</surname>
@@ -148,7 +209,7 @@
                   </imprint>
                </monogr>
             </biblStruct>
-            <biblStruct xml:id="chateau2007">
+            <biblStruct xml:id="chateau2008">
                <analytic>
                   <title level="a">L’édition du métré et des séries de prix du Conseil des bâtiments civils, 1795-1848</title>
                   <author>
@@ -159,13 +220,13 @@
                <monogr>
                   <title level="m" type="main">La construction savante</title>
                   <title level="m" type="sub">Les avatars de la littérature technique</title>
-                  <idno type="isbn">9782708408104</idno>
+                  <idno type="isbn">978-2-7084-0810-4</idno>
                   <editor>Jean-Philippe Garric</editor>
                   <editor>Valérie Nègre</editor>
                   <editor>Alice Thomine-Berrada</editor>
                   <meeting>actes du colloque international : Les avatars de la littérature technique, Institut National d’Histoire de l’Art, Centre de recherche en histoire des sciences et des techniques (CDHT – CNAM – EHESS), mars 2005</meeting>
                   <imprint>
-                     <date when="2007"></date>
+                     <date when="2008"></date>
                      <publisher>Éditions Picard</publisher>
                      <pubPlace>Paris</pubPlace>
                      <biblScope>103-112</biblScope>

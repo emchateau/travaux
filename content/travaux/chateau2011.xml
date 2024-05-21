@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tei-commons-publishing/rng/commons-publishing-openedition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -9,7 +10,8 @@
             <author> <forename>Emmanuel</forename> <surname>Chateau</surname> </author>
          </titleStmt>
          <publicationStmt>
-            <p>unknown</p>
+            <distributor></distributor>
+            <date></date>
          </publicationStmt>
          <sourceDesc>
             <p>Converted from a Word document</p>
@@ -28,7 +30,7 @@
             <head>L’enjeu de la collégialité à la Commission des travaux publics et au Conseil des bâtiments civils, 1793-1848</head>
             <docAuthor>Par Emmanuel Château</docAuthor>
             <div>
-               <p>Les diverses administrations consultatives apparues sous le Directoire ou au début de l’Empire auprès du ministère de l’Intérieur partagent toutes avec leurs homologues du XVIII<hi rend="superscript">e</hi> siècle un caractère collégial<ref
+               <p>Les diverses administrations consultatives apparues sous le Directoire ou au début de l’Empire auprès du ministère de l’Intérieur partagent toutes avec leurs homologues du XVIII<hi rend="sup">e</hi> siècle un caractère collégial<ref
                   type="note" target="#n0001"
                   />. Le <orgName>Conseil des bâtiments civils</orgName>, créé par le ministre <persName>Pierre Bénézech</persName> à la fin de 1795, était appelé à se prononcer sur l’ensemble des questions relatives à l’architecture que lui soumettait le ministre. Ses compétences portaient tout autant sur l’examen sous le rapport de l’art de tous les projets d’architecture construits aux frais de l’État que sur des sujets aussi divers que le règlement des honoraires, les alignements de voirie ou la liquidation des sommes dues aux entrepreneurs. Dans ce cas, le recours à une instance consultative concernait un domaine spécial et technique, celui de l’administration des arts.</p>
                <p>La notion de collégialité peut refléter des acceptions différentes selon qu’on l’envisage comme le caractère collectif d’une organisation ou comme le contexte des relations de pouvoirs au sein d’une instance de gouverne. Comme instance consultative, le Conseil des bâtiments civils, ne rendait que des avis. Ce caractère particulier invite à s’intéresser aux enjeux de la collégialité pour l’administration des arts et son rôle dans un ministère de l’Intérieur qui se caractérise plutôt par l’aspect bureaucratique du processus décisionnel. Envisager la collégialité à propos du <persName>Conseil des bâtiments civils</persName>, c’est donc à la fois considérer l’utilité du recours à la collégialité dans le processus décisionnel administratif et examiner sa réalité dans l’élaboration des avis, tout en s’attachant à ce que cette notion pouvait recouvrir dans l’esprit des hommes de l’art appelés à ces fonctions.</p>
@@ -41,13 +43,14 @@
                   /> avait confié au ministère de l’Intérieur <q>la direction des travaux pour la confection des routes, pont et autres ouvrages publics, et des bâtiments et édifices publics</q>, dans un premier temps, les autorités locales conservèrent largement leurs prérogatives sur l’architecture publique. La création d’un service des bâtiments civils fut principalement issue de la réunion des débris de l’ancienne administration des <orgName>Bâtiments du roi</orgName> après la chute de d’<persName>Angiviller</persName>
                   <ref type="note" target="#n0003"
                   />, auxquels furent adjoints la gestion des domaines et bâtiments conservés sous le rapport de l’art, tirés des aliénations révolutionnaires. Mais la véritable origine du service des bâtiments civils et de son Conseil doit plutôt être recherchée dans la centralisation administrative opérée par le gouvernement révolutionnaire.</p>
-               <p>Le <date>21 ventôse an II (11 mars 1793)</date>, un rapport de <persName>Barère</persName> au nom du <orgName>Comité de Salut public</orgName> avait conclut à la formation d’une <orgName>Commission des travaux publics</orgName> placée sous la direction et la surveillance du <orgName>Comité de Salut public</orgName>. Approuvée par la <orgName>Convention</orgName> le même jour, un décret chargeait cette commission de : <quote>1<hi rend="superscript">o</hi> De l’examen de tous les projets qui lui [étaient] adressés par les administrations concernant les travaux publics. 2<hi rend="superscript">o</hi> Des constructions, entretien et surveillance des ouvrages et établissements nationaux. 3<hi rend="superscript">o</hi> De la création d’un mode simple, uniforme et général d’administration, d’exécution et de comptabilité. 4<hi rend="superscript">o</hi> Du choix des artistes, de leur classement et répartition. 5<hi rend="superscript">o</hi> De l’établissement d’une école centrale de travaux publics, et du mode d’examen et de concours auxquels [étaient] assujettis ceux qui [voulaient] être employés à la direction des travaux.<ref
+               <p>Le <date>21 ventôse an II (11 mars 1793)</date>, un rapport de <persName>Barère</persName> au nom du <orgName>Comité de Salut public</orgName> avait conclut à la formation d’une <orgName>Commission des travaux publics</orgName> placée sous la direction et la surveillance du <orgName>Comité de Salut public</orgName>. Approuvée par la <orgName>Convention</orgName> le même jour, un décret chargeait cette commission de : <quote>1<hi rend="sup">o</hi> De l’examen de tous les projets qui lui [étaient] adressés par les administrations concernant les travaux publics. 2<hi rend="sup">o</hi> Des constructions, entretien et surveillance des ouvrages et établissements nationaux. 3<hi rend="sup">o</hi> De la création d’un mode simple, uniforme et général d’administration, d’exécution et de comptabilité. 4<hi rend="sup">o</hi> Du choix des artistes, de leur classement et répartition. 5<hi rend="sup">o</hi> De l’établissement d’une école centrale de travaux publics, et du mode d’examen et de concours auxquels [étaient] assujettis ceux qui [voulaient] être employés à la direction des travaux.<ref
                   type="note" target="#n0004"/> </quote> </p>
                <p>Six jours plus tard, des commissaires furent nommés : <persName>Jean-Baptiste Édouard Fleuriot-Lescot</persName>, <persName>Gabriel-Étienne Lecamus</persName> avec un adjoint <persName>Henri-Victor Dupin</persName>. Les commissaires recevaient le mandat de diriger <q>immédiatement tous les travaux publics, tant civils que militaires ou maritimes, tels que les ponts et chaussées, voies, et canaux publics ; les fortifications, ponts et établissements formés pour la défense des côtes ; les monuments et édifices nationaux, les ouvrages hydrauliques et de dessèchements ; la levée des plans, formation des cartes ; et enfin toutes les espèces de travaux dont les fonds seront faits par le Trésor public.<ref
                   type="note" target="#n0005"/>
                   </q> Dans le contexte des décrets révolutionnaires, ces décisions peuvent être interprétées tant comme une mise en cause du fédéralisme et de l’emploi sans résultat des millions votés pour les travaux publics, que comme une dénonciation de la fantaisie des autorités locales.</p>
-               <p>Jamais les travaux d’architecture publique n’avaient jusque-là fait l’objet d’une telle réunion. Le gouvernement révolutionnaire allait confier quelques jours plus tard, le <date>12 germinal an II (1<hi rend="superscript">er</hi> avril 1793)</date>, à douze commissions exécutives, parmi lesquelles la Commission des travaux publics, l’administration des affaires, en remplacement des ministères, pour <q>diviser l’exercice des pouvoirs particuliers</q> et <q>restreindre dans des limites les plus étroites celui de chacun des agents tout en conservant une unité de direction</q>
-                  <ref type="note" target="#n0006"/>.</p>
+               <p>Jamais les travaux d’architecture publique n’avaient jusque-là fait l’objet d’une
+                  telle réunion. Le gouvernement révolutionnaire allait confier quelques jours plus
+                  tard, le <date>12 germinal an II (1<hi rend="sup">er</hi> avril 1793)</date>, à douze commissions exécutives, parmi lesquelles la Commission des travaux publics, l’administration des affaires, en remplacement des ministères, pour <q>diviser l’exercice des pouvoirs particuliers</q> et <q>restreindre dans des limites les plus étroites celui de chacun des agents tout en conservant une unité de direction</q><ref type="note" target="#n0006"/>.</p>
                <p>Avec la précipitation qui caractérise cette période, le <date>30 floréal an II (19 mai 1794)</date>
                   <persName>Fleuriot-Lescot</persName> devenait maire, puis fut guillotiné et remplacé par l’architecte-ingénieur <persName>Jean Rondelet (1743-1829)</persName> qui allait jouer un grand rôle dans l’organisation du travail de la Commission. Célèbre pour ses travaux au <placeName>dôme de Sainte-Geneviève</placeName> notamment, l’architecte avait pris une part active dans la Révolution<ref
                   type="note" target="#n0007"
@@ -81,14 +84,16 @@
                   />. En se dotant d’un tel conseil <q>composé d’architectes connus, par leur talents, leur expérience et leur probité</q>, l’intention du ministre <persName>Pierre Bénézech</persName> était :</p>
                <quote>
                   <p>d’empêcher qu’il ne se fasse aucun ouvrage relatif aux bâtiments civils, aux frais de la nation, sans qu’au préalable, l’utilité, la nécessité où les avantages qui en peuvent résulter ne soient bien constatés. En second lieu, de s’assurer que tous les ouvrages dont l’exécution est ordonnée se font avec toute la perfection, la solidité et l’économie dont ils sont susceptibles. Enfin, pour constater la légitimité de toutes les demandes en payement et des réclamations qui peuvent être faites, relativement aux ouvrages de bâtiment déjà exécutés ou en activité, ou interrompus.<ref
-                  type="note" target="#n0017"/></p> </quote>
-               <p>Un arrêté d’organisation de <persName>Montalivet</persName>, du <date>1<hi rend="superscript">er</hi> octobre 1812</date>, allait plus tard préciser les compétences déjà dévolues au Conseil en lui accordant le droit d’émettre <q>son opinion sur les améliorations dont il croirait l’organisation des travaux publics susceptible</q>, <q>sur les études préparatoires qu’on pourrait exiger des architecte</q> et <q>sur les institutions les plus propres à former des hommes utiles à la fois sous le rapport de l’architecture comme l’un des beaux-arts et sous celui de l’administration économique et bien entendue des travaux.<ref
+                  type="note" target="#n0017"/></p>
+               </quote>
+               <p>Un arrêté d’organisation de <persName>Montalivet</persName>, du <date>1<hi
+                  rend="sup">er</hi> octobre 1812</date>, allait plus tard préciser les compétences déjà dévolues au Conseil en lui accordant le droit d’émettre <q>son opinion sur les améliorations dont il croirait l’organisation des travaux publics susceptible</q>, <q>sur les études préparatoires qu’on pourrait exiger des architecte</q> et <q>sur les institutions les plus propres à former des hommes utiles à la fois sous le rapport de l’architecture comme l’un des beaux-arts et sous celui de l’administration économique et bien entendue des travaux.<ref
                   type="note" target="#n0018"/>
                   </q> Les dispositions de cet arrêté furent reproduites dans les diverses organisations subséquentes.</p>
                <p>S’il incombait à l’administration ainsi qu’aux destinataires de l’édifice de préparer la décision du ministre pour juger de l’utilité d’un ouvrage ou en établir le programme, la détermination des moyens d’exécution, de solidité et d’économie étaient considérés comme des objets de la compétence spéciale des hommes de l’art. Ainsi, le Conseil des bâtiments civils était-il composé <q>d’hommes les plus capables, par leurs talents et leur expérience d’apprécier les différents projets proposés, et d’en faire connaître les beautés et les défauts ; de porter un jugement solide sur les moyens d’exécution proposés, et de suppléer au besoin à leur insuffisance.<ref
                   type="note" target="#n0019"/>
                   </q> Fait remarquable, l’institution était pour l’essentiel composée d’architectes appointés pour ces fonctions.</p>
-               <p>La composition et le nombre de membres du conseil varia fréquemment au cours de la première moitié du XIX<hi rend="superscript">e</hi> siècle. Les premiers membres nommés au Conseil des bâtiments civils furent pour la plupart des artistes qui jouissaient d’une reconnaissance unanime au terme d’une longue carrière. <persName>Jean-François-Thérèse Chalgrin (1739-1811)</persName> et <persName>Alexandre Théodore Brongniart (1739-1813)</persName>, tous deux anciens membres de l’académie d’architecture sous l’Ancien régime avaient été parmi les architectes les plus en vue de la fin du XVIII<hi rend="superscript">e</hi> siècle. Tandis que <persName>Rondelet</persName>, (architecte et ingénieur) ajoutait à des connaissances particulières en matière d’art de bâtir celles de l’administration puisqu’il avait été à la tête de la Commission des travaux publics. Parmi les membres du <orgName>Conseil des bâtiments civils</orgName> actifs sous l’Empire, on peut aussi citer <persName>Peyre oncle</persName>, puis <persName>Heurtier</persName> à partir de 1807, lui aussi membre de l’institut, <persName>Poyet</persName> de 1809 à 1812, rejoints par <persName>Guy de Gisors</persName> en 1812 et <persName>Cellerier</persName> à partir de 1813.</p>
+               <p>La composition et le nombre de membres du conseil varia fréquemment au cours de la première moitié du XIX<hi rend="sup">e</hi> siècle. Les premiers membres nommés au Conseil des bâtiments civils furent pour la plupart des artistes qui jouissaient d’une reconnaissance unanime au terme d’une longue carrière. <persName>Jean-François-Thérèse Chalgrin (1739-1811)</persName> et <persName>Alexandre Théodore Brongniart (1739-1813)</persName>, tous deux anciens membres de l’académie d’architecture sous l’Ancien régime avaient été parmi les architectes les plus en vue de la fin du XVIII<hi rend="sup">e</hi> siècle. Tandis que <persName>Rondelet</persName>, (architecte et ingénieur) ajoutait à des connaissances particulières en matière d’art de bâtir celles de l’administration puisqu’il avait été à la tête de la Commission des travaux publics. Parmi les membres du <orgName>Conseil des bâtiments civils</orgName> actifs sous l’Empire, on peut aussi citer <persName>Peyre oncle</persName>, puis <persName>Heurtier</persName> à partir de 1807, lui aussi membre de l’institut, <persName>Poyet</persName> de 1809 à 1812, rejoints par <persName>Guy de Gisors</persName> en 1812 et <persName>Cellerier</persName> à partir de 1813.</p>
                <p>Les affaires d’architecture soumises au ministre embrassant un objet spécial et technique, il était difficile de trouver en un seul homme la réunion de tous les talents et les connaissances nécessaires à leur examen. Comme d’autres conseils consultatifs créés à la même époque par le Directoire auprès du ministère de l’Intérieur, la réunion d’un collège de personnalités diverses semblait donc pouvoir répondre au défaut de compétences techniques de l’administration dans ce domaine. Un tel Conseil permettait donc au gouvernement de « fournir à l’administration des hommes d’expertise, savants, capables d’adapter leur expertise aux formes de l’action administrative naissante. »<ref
                   type="note" target="#n0020"/> </p>
                <p> À cet égard elle mettait à l’abri la décision du ministre et garantissait en quelque sorte sa responsabilité. On peut même affirmer que dans une certaine mesure, au sens où celle-ci pouvait s’appuyer sur une délibération collégiale, le <orgName>Conseil des bâtiments civils</orgName> renforçait l’autorité de la décision ministérielle en écartant tout soupçon d’intrigue et de favoritisme. Toutefois, les avis n’étant que consultatif, il n’est pas possible d’exclure un effet de légitimation de la décision, d’autant que les membres étaient nommés et non pas élus, et que la présence du ministre ou d’un membre de l’administration aux séances ne garantissait pas au Conseil une totale indépendance.</p>
@@ -128,7 +133,7 @@
                <p>Alors que la censure architecturale qu’il exerce pouvait paraître à certains égards entamer la liberté de l’art, les membres du Conseil étaient animés par une logique de corps où la défense de la profession se caractérise par l’idée de sa régulation par les membres les plus mûris dans la carrière. Leur idéal collégial renvoyait à bien des égards à une nostalgie académique. Dans plusieurs projets d’organisations, ils cherchèrent à concilier le modèle des <orgName>Ponts et chaussées</orgName>, composé d’un corps et d’une école, et l’idée d’un art libéral qui s’accommodait mal avec un système de subordination. Ils se heurtèrent, à la fois aux résistances propres de la profession, et à celles de gouvernements peu prompts à s’engager pour imposer la charge de nouveaux emplois aux départements.</p>
                <p>L’exemple de l’administration des Bâtiments civils montre que la centralisation administrative n’excluait pas la consultation. Le recours à la collégialité à l’époque de la <orgName>Commission des travaux publics</orgName> permettait avant tout de se prémunir de l’arbitraire en ce qui concerne la commande dans l’administration des arts. Dans le cas du <orgName>Conseil des bâtiments civils</orgName>, à la différence d’autres administrations consultatives créées pendant le Directoire, il ne s’agissait pas d’associer directement les acteurs de la société civile à la définition et à la mise en œuvre des interventions de l’État. En effet, celui-ci n’est pas envisagé sur le mode d’un complément à la représentation politique, il est plutôt question de recruter des hommes d’une compétence absolument démontrée pour garantir la responsabilité de la décision ministérielle. Comme le relève <persName>Pierre Rosanvallon</persName> à propos d’autres conseils, l’instauration d’un <persName>Conseil des bâtiments civils</persName> trahissait déjà une « administration plus modeste, reconnaissant qu’elle devait faire appel à des compétences extérieures pour mener à bien sa mission »<ref
                   type="note" target="#n0028"/>.</p>
-               <p>Un ordre consultatif se déployait donc parallèlement à l’organisation administrative bureaucratique au sein du ministère de l’Intérieur dans la première moitié du XIX<hi rend="superscript">e</hi> siècle. La police et l’administration exigeaient la prise en compte d’expertises et d’intérêts divers auxquels semblaient pouvoir répondre favorablement la création de tels organes consultatifs<ref
+               <p>Un ordre consultatif se déployait donc parallèlement à l’organisation administrative bureaucratique au sein du ministère de l’Intérieur dans la première moitié du XIX<hi rend="sup">e</hi> siècle. La police et l’administration exigeaient la prise en compte d’expertises et d’intérêts divers auxquels semblaient pouvoir répondre favorablement la création de tels organes consultatifs<ref
                   type="note" target="#n0029"
                   />. Le fait qu’ils ne rendaient que des avis permettait de concilier leur existence avec la défiance qui restait encore vive à l’égard des corporations. Le rôle et les missions du <orgName>Conseil des bâtiments civils</orgName> appartenaient au registre de l’expertise, mais parce que ce dernier était principalement composé d’artistes, il pouvait à certains égards jouer un rôle qui tenait de la représentation.</p>
                <p>Ainsi, le recours à la collégialité dans l’administration de l’architecture paraît relever de deux logiques très différentes. Si les architectes pouvaient l’envisager comme une sorte de République des arts, l’administration jalouse de ses prérogatives l’envisagea plutôt comme un conseil purement technique plutôt qu’un mode de gouverne. De fait, le <orgName>Conseil des bâtiments civils</orgName> permit à l’administration d’acquérir un savoir technique dont elle était initialement dépourvue. Des compétences que celle-ci employa ensuite avec succès pour cantonner les pouvoirs et l’autonomie d’une telle assemblée.</p>
@@ -140,66 +145,97 @@
       <back>
          <div type="notes">
             <head>Notes</head>
-            <note xml:id="n0001"> <p rend="footnote text"
-               >.	Les <orgName>Conseils d’agriculture, des arts ou du commerce</orgName>, le <orgName>Conseil des Ponts et chaussées</orgName>, etc.</p> </note>
-            <note xml:id="n0002"> <p rend="footnote text"
-               >.	« 25 mai 1791. Loi relative à l’organisation du ministère, Décret de l’Assemblée nationale, du 27 avril 1791 » dans <hi rend="italic">Lois et actes du gouvernement</hi>, Paris, Imprimerie royale, 1834-1835, T. III, p. 213 et suiv.</p> </note>
-            <note xml:id="n0003"> <p rend="footnote text"
-               >.	Charles Claude Flahaut de La Billarderie, comte d’Angiviller (1730-1810), exilé en Espagne dans la seconde moitié de 1789, l’ancien Directeur des bâtiments du roi, démissionna le 27 avril 1791. La Liste civile fut abolie après l’arrestation du roi, le <date>10 août 1792</date>.</p> </note>
-            <note xml:id="n0004"> <p rend="footnote text"
-               >.	Décret du 21 ventôse an II (11 mars 1793), dans <hi rend="italic">Archives Parlementaires de 1787 à 1860…</hi>, T. LXXXVI, p. 335-341, Paris, CNRS, 1965.</p> </note>
-            <note xml:id="n0005"> <p rend="footnote text">.	<hi rend="italic">ibid.</hi> </p> </note>
-            <note xml:id="n0006"> <p rend="footnote text"
-               >.	Rapport sur la suppression du Conseil exécutif provisoire, et sur son remplacement par des commissions particulières, fait par Carnot au nom du Comité de salut public, du 12 germinal an II de la République (1<hi rend="superscript">er</hi> avril 1793).</p> </note>
-            <note xml:id="n0007"> <p rend="footnote text"
-               >.	Robin Middleton et Marie-Nöelle Baudouin-Matuszek, <hi rend="italic">Jean Rondelet, The Architect as Technician</hi>, London, Yale University Press, 2007.</p> </note>
-            <note xml:id="n0008"> <p rend="footnote text"/> </note>
-            <note xml:id="n0009"> <p rend="footnote text"
-               >3469, Jean Rondelet, <hi rend="italic">Mémoire sur l’organisation générale des Travaux publics</hi>, [n<hi rend="superscript">o</hi> 2].</p> </note>
-            <note xml:id="n0010"> <p rend="footnote text"
-               >.	Édouard Pommier, <hi rend="italic">L’Art de la liberté, Doctrines et débats de la Révolution française</hi>, Paris, Gallimard, 1991.</p> </note>
-            <note xml:id="n0011"> <p rend="footnote text">.	BHVP, <hi rend="italic">op. cit.</hi>
+            <note xml:id="n0001">
+               <p>Les <orgName>Conseils d’agriculture, des arts ou du commerce</orgName>, le <orgName>Conseil des Ponts et chaussées</orgName>, etc.</p>
+            </note>
+            <note xml:id="n0002">
+               <p>« 25 mai 1791. Loi relative à l’organisation du ministère, Décret de l’Assemblée nationale, du 27 avril 1791 » dans <hi rend="italic">Lois et actes du gouvernement</hi>, Paris, Imprimerie royale, 1834-1835, T. III, p. 213 et suiv.</p>
+            </note>
+            <note xml:id="n0003">
+               <p>Charles Claude Flahaut de La Billarderie, comte d’Angiviller (1730-1810), exilé en Espagne dans la seconde moitié de 1789, l’ancien Directeur des bâtiments du roi, démissionna le 27 avril 1791. La Liste civile fut abolie après l’arrestation du roi, le <date>10 août 1792</date>.</p>
+            </note>
+            <note xml:id="n0004">
+               <p>Décret du 21 ventôse an II (11 mars 1793), dans <hi rend="italic">Archives Parlementaires de 1787 à 1860…</hi>, T. LXXXVI, p. 335-341, Paris, CNRS, 1965.</p>
+            </note>
+            <note xml:id="n0005">
+               <p><hi rend="italic">ibid.</hi> </p>
+            </note>
+            <note xml:id="n0006">
+               <p>Rapport sur la suppression du Conseil exécutif provisoire, et sur son remplacement par des commissions particulières, fait par Carnot au nom du Comité de salut public, du 12 germinal an II de la République (1<hi rend="sup">er</hi> avril 1793).</p>
+            </note>
+            <note xml:id="n0007">
+               <p>Robin Middleton et Marie-Nöelle Baudouin-Matuszek, <hi rend="italic">Jean Rondelet, The Architect as Technician</hi>, London, Yale University Press, 2007.</p>
+            </note>
+            <note xml:id="n0008">
+               <p/>
+            </note>
+            <note xml:id="n0009">
+               <p>3469, Jean Rondelet, <hi rend="italic">Mémoire sur l’organisation générale des Travaux publics</hi>, [n<hi rend="sup">o</hi> 2].</p>
+            </note>
+            <note xml:id="n0010">
+               <p>Édouard Pommier, <hi rend="italic">L’Art de la liberté, Doctrines et débats de la Révolution française</hi>, Paris, Gallimard, 1991.</p>
+            </note>
+            <note xml:id="n0011">
+               <p>BHVP, <hi rend="italic">op. cit.</hi></p>
+            </note>
+            <note xml:id="n0012">
+               <p/>
+            </note>
+            <note xml:id="n0013">
+               <p>Ce fut principalement avec la loi du <date>28 fructidor an VIII (14 septembre 1799)</date> sur l’organisation administrative de la France que le service des bâtiments allait prendre toute sa mesure.</p>
+            </note>
+            <note xml:id="n0014">
+               <p>Précis sur la Division des Travaux publics relative aux bâtiments civils, avec un projet d’organisation à ce sujet, présenté au Ministre de l’Intérieur (Bénézech) par le citoyen Rondelet, membre de la ci-devant Commission des travaux publics, 12 brumaire an IV (3 novembre 1795) » dans Jean Rondelet, <hi rend="italic">Traité théorique et pratique de l’art de bâtir</hi>, Paris, Firmin-Didot et C<hi rend="sup">ie</hi>, 1877, 15<hi rend="sup">e</hi> édition, T. 5, Notes additionnelles, n<hi rend="sup">o</hi> II, pp. 4-8.</p>
+            </note>
+            <note xml:id="n0015">
+               <p>Paris, Archives nationales [A.N.], F<hi rend="sup">21</hi> 646, <hi rend="italic">Projet d’organisation pour le Conseil des bâtiments civils</hi>, s.d., annoté dans la marge [de la main du chef de division, Cadet-Chambine ?] « La pénurie des fonds ne permettra vraisemblablement pas de s’occuper d’ici à longtemps de grands projets. Il semble d’après cela qu’il serait sage de laisser en suspend cette disposition. »</p>
+            </note>
+            <note xml:id="n0016">
+               <p>A.N., F<hi rend="sup">21</hi> 2470, <hi rend="italic">Procès-verbaux du Conseil des bâtiments civils</hi>, séance du 20 frimaire an IV (11 décembre 1795), « Installation du Conseil des bâtiments civils, première séance », p. 1.</p>
+            </note>
+            <note xml:id="n0017">
+               <p><hi rend="italic">Instruction pour les artistes chargés de la conduite des travaux publics relative à l’organisation arrêtée par le ministre de l’Intérieur</hi>
+               </p>
+            </note>
+            <note xml:id="n0018">
+               <p>A.N., F<hi rend="sup">21</hi> 2884, <hi rend="italic">Procès-verbaux du Conseil des bâtiments civils</hi>, 1<hi rend="sup">er</hi> octobre 1812, « Arrêté du ministre concernant la nouvelle organisation du Conseil des bâtiments civils ».</p>
+            </note>
+            <note xml:id="n0019">
+               <p>Jean <hi rend="smallcaps">Rondelet</hi>, <hi rend="italic">op. cit.</hi>
                </p> </note>
-            <note xml:id="n0012"> <p rend="footnote text"/> </note>
-            <note xml:id="n0013"> <p rend="footnote text"
-               >Ce fut principalement avec la loi du <date>28 fructidor an VIII (14 septembre 1799)</date> sur l’organisation administrative de la France que le service des bâtiments allait prendre toute sa mesure.</p> </note>
-            <note xml:id="n0014"> <p rend="footnote text"
-               >Précis sur la Division des Travaux publics relative aux bâtiments civils, avec un projet d’organisation à ce sujet, présenté au Ministre de l’Intérieur (Bénézech) par le citoyen Rondelet, membre de la ci-devant Commission des travaux publics, 12 brumaire an IV (3 novembre 1795) » dans Jean Rondelet, <hi rend="italic">Traité théorique et pratique de l’art de bâtir</hi>, Paris, Firmin-Didot et C<hi rend="superscript">ie</hi>, 1877, 15<hi rend="superscript">e</hi> édition, T. 5, Notes additionnelles, n<hi rend="superscript">o</hi> II, pp. 4-8.</p> </note>
-            <note xml:id="n0015"> <p rend="footnote text"
-               >Paris, Archives nationales [A.N.], F<hi rend="superscript">21</hi> 646, <hi rend="italic">Projet d’organisation pour le Conseil des bâtiments civils</hi>, s.d., annoté dans la marge [de la main du chef de division, Cadet-Chambine ?] « La pénurie des fonds ne permettra vraisemblablement pas de s’occuper d’ici à longtemps de grands projets. Il semble d’après cela qu’il serait sage de laisser en suspend cette disposition. »</p> </note>
-            <note xml:id="n0016"> <p rend="footnote text"
-               >.	A.N., F<hi rend="superscript">21</hi> 2470, <hi rend="italic">Procès-verbaux du Conseil des bâtiments civils</hi>, séance du 20 frimaire an IV (11 décembre 1795), « Installation du Conseil des bâtiments civils, première séance », p. 1.</p> </note>
-            <note xml:id="n0017"> <p rend="footnote text">
-               <hi rend="italic">Instruction pour les artistes chargés de la conduite des travaux publics relative à l’organisation arrêtée par le ministre de l’Intérieur</hi>
-               </p> </note>
-            <note xml:id="n0018"> <p rend="footnote text"
-               >A.N., F<hi rend="superscript">21</hi> 2884, <hi rend="italic">Procès-verbaux du Conseil des bâtiments civils</hi>, 1<hi rend="superscript">er</hi> octobre 1812, « Arrêté du ministre concernant la nouvelle organisation du Conseil des bâtiments civils ».</p> </note>
-            <note xml:id="n0019"> <p rend="footnote text"
-               >.	Jean <hi rend="smallcaps">Rondelet</hi>, <hi rend="italic">op. cit.</hi> </p> </note>
-            <note xml:id="n0020"> <p rend="footnote text"
-               >.	Igor Moullier, <hi rend="italic">Le ministère de l’Intérieur sous le Consulat et le Premier Empire (1799-1814), Gouverner la France après le 18 brumaire</hi>, thèse sous la direction de Gérard Gayot, Université de Lille III, 2004, Chapitre 7.</p> </note>
-            <note xml:id="n0021"> <p rend="footnote text"
-               >.	A.N., F<hi rend="superscript">13</hi> 325<hi rend="superscript">B</hi>, <hi rend="italic">Arrêté du ministre de l’Intérieur du 1</hi>
+            <note xml:id="n0020">
+               <p>Igor Moullier, <hi rend="italic">Le ministère de l’Intérieur sous le Consulat et le Premier Empire (1799-1814), Gouverner la France après le 18 brumaire</hi>, thèse sous la direction de Gérard Gayot, Université de Lille III, 2004, Chapitre 7.</p>
+            </note>
+            <note xml:id="n0021">
+               <p>A.N., F<hi rend="sup">13</hi> 325<hi rend="sup">B</hi>, <hi rend="italic">Arrêté du ministre de l’Intérieur du 1</hi>
                <hi rend="italic superscript">er</hi>
-               <hi rend="italic" xml:space="preserve"> vendémiaire an IX</hi> (23 septembre 1800).</p> </note>
-            <note xml:id="n0022"> <p rend="footnote text"
-               >A.N., F<hi rend="superscript">13</hi> 646, <hi rend="italic">Lettre du ministre de l’Intérieur aux citoyens Rondelet, Chalgrin et Brongniart</hi>.</p> </note>
-            <note xml:id="n0023"> <p rend="footnote text"
-               >.	A.N., F<hi rend="superscript">21</hi> 1991, <hi rend="italic">Arrêté du ministre de l’Intérieur du 18 octobre 1808</hi>.</p> </note>
-            <note xml:id="n0024"> <p rend="footnote text"
-               >.	Clémence Dufour-Montalescot, <hi rend="italic">Louis Bruyère (1758-1831) et la direction des travaux de Paris de 1811 à 1852</hi>, Thèse de l’École des chartes sous la direction de Jean-Michel Leniaud, 1998.</p> </note>
-            <note xml:id="n0025"> <p rend="footnote text"
-               >.	A.N., F<hi rend="superscript">21</hi> 2484, <hi rend="italic">Procès-verbaux du Conseil des bâtiments civils</hi>, séance du 1er octobre 1812, p. 1-7.</p> </note>
-            <note xml:id="n0026"> <p rend="footnote text"
-               >.	Arrêté de réorganisation du Conseil des bâtiments civils du 15 avril 1838, publié dans Charles-Pierre Gourlier, <hi rend="italic">Notice historique sur le service des bâtiments civils à Paris et dans les départements, depuis la création de ce service en l’an IV</hi>, Paris, Louis Colas, 1848, Document 1, p. 77-86.</p> </note>
-            <note xml:id="n0027"> <p rend="footnote text"
-               >.	Chantal Callais, <hi rend="italic">La fonction d’architecte départemental dans la première moitié du XIX</hi>
-               <hi rend="italic superscript">e</hi>
-               <hi rend="italic" xml:space="preserve"> siècle. Le cas de Pierre-Théophile Segrétain (1798-1864) dans les Deux-Sèvres</hi>, Bordeaux, École d’architecture et du paysage, 1996.</p> </note>
-            <note xml:id="n0028"> <p rend="footnote text"
-               >	Pierre Rosanvallon, <hi rend="italic">Le peuple introuvable, Histoire de la représentation démocratique en France</hi>, Paris, Gallimard, 1998, p. 262.</p> </note>
-            <note xml:id="n0029"> <p rend="footnote text"
-               >.	Igor Moullier, <hi rend="italic">op. cit.</hi>, Chapitre 7.</p> </note>
+               <hi rend="italic" xml:space="preserve"> vendémiaire an IX</hi> (23 septembre 1800).</p>
+            </note>
+            <note xml:id="n0022">
+               <p>A.N., F<hi rend="sup">13</hi> 646, <hi rend="italic">Lettre du ministre de l’Intérieur aux citoyens Rondelet, Chalgrin et Brongniart</hi>.</p>
+            </note>
+            <note xml:id="n0023">
+               <p>A.N., F<hi rend="sup">21</hi> 1991, <hi rend="italic">Arrêté du ministre de l’Intérieur du 18 octobre 1808</hi>.</p>
+            </note>
+            <note xml:id="n0024">
+               <p>Clémence Dufour-Montalescot, <hi rend="italic">Louis Bruyère (1758-1831) et la direction des travaux de Paris de 1811 à 1852</hi>, Thèse de l’École des chartes sous la direction de Jean-Michel Leniaud, 1998.</p>
+            </note>
+            <note xml:id="n0025">
+               <p>A.N., F<hi rend="sup">21</hi> 2484, <hi rend="italic">Procès-verbaux du Conseil des bâtiments civils</hi>, séance du 1er octobre 1812, p. 1-7.</p>
+            </note>
+            <note xml:id="n0026">
+               <p>Arrêté de réorganisation du Conseil des bâtiments civils du 15 avril 1838, publié dans Charles-Pierre Gourlier, <hi rend="italic">Notice historique sur le service des bâtiments civils à Paris et dans les départements, depuis la création de ce service en l’an IV</hi>, Paris, Louis Colas, 1848, Document 1, p. 77-86.</p>
+            </note>
+            <note xml:id="n0027">
+               <p>Chantal Callais, <hi rend="italic">La fonction d’architecte départemental dans la
+                  première moitié du XIX<hi rend="sup">e</hi> siècle. Le cas de Pierre-Théophile Segrétain (1798-1864) dans les Deux-Sèvres</hi>, Bordeaux, École d’architecture et du paysage, 1996.</p>
+            </note>
+            <note xml:id="n0028">
+               <p>Pierre Rosanvallon, <hi rend="italic">Le peuple introuvable, Histoire de la représentation démocratique en France</hi>, Paris, Gallimard, 1998, p. 262.</p>
+            </note>
+            <note xml:id="n0029">
+               <p>Igor Moullier, <hi rend="italic">op. cit.</hi>, Chapitre 7.</p>
+            </note>
          </div>
       </back>
    </text>
