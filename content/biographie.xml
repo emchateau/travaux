@@ -7,12 +7,15 @@
       <fileDesc>
          <titleStmt>
             <title>Présentation</title>
-            <author> <forename>Emmanuel</forename> <surname>Château-Dutier</surname> <idno
-               type="orcid">orcid.org/0000-0003-4092-4569</idno> </author>
+            <author>
+               <forename>Emmanuel</forename>
+               <surname>Château-Dutier</surname>
+               <idno type="orcid">https://orcid.org/0000-0003-4092-4569</idno>
+            </author>
          </titleStmt>
          <publicationStmt>
             <publisher>Emmanuel Château-Dutier</publisher>
-            <date>2022</date>
+            <date from="2022">depuis 2022</date>
          </publicationStmt>
          <seriesStmt>
             <title xml:lang="fr">Emmanuel Château-Dutier</title>
@@ -22,6 +25,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2024-06-07">Mise à jour</change>
          <change when="2022-10-22">Création du fichier</change>
       </revisionDesc>
    </teiHeader>
@@ -29,41 +33,11 @@
       <body>
          <div xml:lang="fr" type="bio">
             <head>Biographie (courte)</head>
-            <p>Emmanuel Château-Dutier est historien de l’architecture et professeur adjoint en muséologie numérique à l’<ref
-               target="https://histart.umontreal.ca/repertoire-departement/professeur/in/in22423"
-               >Université de Montréal</ref>. Ses recherches portent sur l’administration de l’architecture publique en France au XIX<hi
-               rend="superscript"
-               >e</hi> siècle, la profession d’architecte et l’édition et le livre d’architecture. Ses travaux concernent par ailleurs la muséologie et l’histoire de l’art numérique. Il participe, ou a participé à plusieurs importants projets de recherche collectifs en histoire de l’art plaçant le numérique au cœur de leur réflexion. Il a notamment assuré la direction numérique de l’édition critique des <ref
-               target="http://www.desgodets.net"
-               >Cours d’Antoine Desgodets</ref>, et il est un des collaborateurs principaux du projet des Guides de Paris du Labex les Passés dans le présent. Outre plusieurs projets de recherche personnels financés par le CRSH et le FRQSC, il participe depuis 2018 à une recherche multidisciplinaire sur les experts parisiens au XVIII<hi
-               rend="superscript"
-               >e</hi> siècle, soutenue par l’Agence nationale de recherche. Il est responsable de l’axe numérique d’une recherche partenariale dirigée par Johanne Lamoureux <ref
-               target="https://cieco.co"
-               >Des nouveaux usages des collections dans les musées d’art</ref> qui débute en 2021 et pour lequel il assure la direction scientifique de l’[Ouvroir d’histoire de l’art et de muséologie numériques](https://ouvroir.umontreal.ca). Emmanuel Chateau-Dutier est membre du <ref
-               target="https://www.crihn.org"
-               >Centre de recherche interuniversitaire sur les humanités numériques (CRIHN)</ref>, il fait partie du Comité de coordination de l’association <ref
-               target="http://www.humanisti.ca"
-               >Humanistica</ref>, et est Vice-président francophone de la <ref
-               target="https://csdh-schn.org"
-               >Société canadienne des humanités numériques (SCDH/CSDH)</ref>.</p>
+            <p>Emmanuel Château-Dutier est historien de l’architecture et professeur adjoint en muséologie numérique à l’<ref target="https://histart.umontreal.ca/repertoire-departement/professeur/in/in22423">Université de Montréal</ref>. Ses recherches portent sur l’administration de l’architecture publique en France au XIX<hi rend="superscript">e</hi> siècle, la profession d’architecte et l’édition et le livre d’architecture. Ses travaux concernent par ailleurs la muséologie et l’histoire de l’art numérique avec une spécialisation dans les métadonnées culturelles, l’édition numérique et les données ouvertes et liées. Il participe, ou a participé à plusieurs importants projets de recherche collectifs en histoire de l’art plaçant le numérique au cœur de leur réflexion. Il a notamment assuré la direction numérique de l’édition critique des <ref target="http://www.desgodets.net">Cours d’Antoine Desgodets</ref>, et il est un des collaborateurs principaux du projet des <ref target="https://www.guidesdeparis.fr">Guides de Paris</ref> du Labex les Passés dans le présent. Outre plusieurs projets de recherche personnels financés par le CRSH et le FRQSC, il participe depuis 2018 à une recherche multidisciplinaire sur les experts parisiens au XVIII<hi rend="superscript">e</hi> siècle, soutenue par l’Agence nationale de recherche. Il est responsable de l’axe numérique d’une recherche partenariale dirigée par Johanne Lamoureux <ref target="https://cieco.co">Des nouveaux usages des collections dans les musées d’art</ref> qui débute en 2021 et pour lequel il assure la direction scientifique de l’<ref target="https://ouvroir.umontreal.ca">Ouvroir d’histoire de l’art et de muséologie numériques</ref>. Emmanuel Chateau-Dutier est membre du <ref target="https://www.crihn.org">Centre de recherche interuniversitaire sur les humanités numériques (CRIHN)</ref>, il a fait partie du Comité de coordination de l’association <ref target="http://www.humanisti.ca">Humanistica</ref>, et est Vice-président francophone de la <ref target="https://csdh-schn.org">Société canadienne des humanités numériques (SCDH/CSDH)</ref>.</p>
          </div>
          <div xml:lang="en" type="bio">
             <head>Biography (short)</head>
-            <p>Emmanuel Château-Dutier is an architectural historian and assistant professor of digital museology at <ref
-               target="https://histart.umontreal.ca/repertoire-departement/professeur/in/in22423"
-               >Université de Montréal</ref>. His research focuses on the administration of public architecture, the architectural profession and the relationship between owners, architects, and general contractors. His work also integrates museology and digital art history with a specialisation in cultural metadata, digital edition and Linked Open Data. He participates, or has participated, in several important collective research projects in art history that place the digital at the heart of their reflection. In particular, he was the digital director of the critical edition of <ref
-               target="http://www.desgodets.net"
-               >Antoine Desgodets’ courses</ref>, and he is one of the main collaborators of the Paris Guides project of Labex les Passés dans le présent. In addition to several personal research projects funded by SSHRC and FRQSC, since 2018 he has been involved in a multidisciplinary research on Parisian experts in the XVIII<hi
-               rend="superscript"
-               >th</hi> century, supported by the Agence nationale de recherche. He is responsible for the digital axis of a research partnership directed by Johanne Lamoureux <ref
-               target="https://cieco.co"
-                  >New uses of collections in art museums</ref> that begins in 2021 and for which he directs l’[Ouvroir](https://ouvroir.umontreal.ca), a Digital Art History and Museology lab at the Université de Montréal. Emmanuel Chateau-Dutier is a member of the <ref
-               target="https://www.crihn.org"
-               >Centre de recherche interuniversitaire sur les humanités numériques (CRIHN)</ref>, he is part of the Coordinating Committee of <ref
-               target="http://www.humanisti.ca"
-               >Humanistica</ref>, the francophone association for digital humanities, and is the Francophone Vice President of the <ref
-               target="https://csdh-schn.org"
-               >Canadian Society for the Digital Humanities (CSDH/CSDH)</ref>.</p>
+            <p>Emmanuel Château-Dutier is a historian of architecture and an assistant professor in digital museology at the <ref target="https://histart.umontreal.ca/repertoire-departement/professeur/in/in22423">Université de Montréal</ref>. His research focuses on the administration of public architecture in 19<hi rend="superscript">th</hi>-century France, the architectural profession, and the publication and literature of architecture. Additionally, his work focuses on museology and the history of digital art, with a specialization in cultural metadata, digital publishing, and open and linked data. He has participated in several major collective research projects in art history, placing digital technology at the forefront of their analysis. Notably, he led the critical digital edition of <ref target="http://www.desgodets.net">Antoine Desgodets’ courses at the Academy</ref> and is a key collaborator on the <ref target="https://www.guidesdeparis.fr">Paris Guidebooks</ref> project by Labex Les Passés dans le Présent. Alongside various personal research projects funded by the SSHRC and FRQSC, since 2018, he has been involved in multidisciplinary research on Parisian experts in the 18<hi rend="superscript">th</hi> century, supported by the French National Research Agency. He oversees the digital component of a partnership research project led by Johanne Lamoureux, <ref target="https://cieco.co">New uses of collections in art museums</ref>, which began in 2021, where he serves as the scientific director of the <ref target="https://ouvroir.umontreal.ca">Ouvroir</ref> , a Digital Art History and Museology lab at the Université de Montréal. Emmanuel Château-Dutier is a member of the <ref target="https://www.crihn.org">Centre de recherche interuniversitaire sur les humanités numériques (CRIHN)</ref>, has served on the Coordination Committee of <ref target="http://www.humanisti.ca">Humanistica</ref>, and is the Francophone Vice-President of the <ref target="https://csdh-schn.org">Canadian Society for the Digital Humanities (CSDH/CSDH)</ref>.</p>
          </div>
          <div xml:lang="fr" type="biography">
             <head>Biographie</head>
@@ -75,20 +49,18 @@
                rend="superscript">e</hi> siècle et a été primée par l’Académie d’architecture.</p>
             <p>Il est l’auteur de nombreux articles dans des revues savantes ou des publications à comité de lecture sur l’histoire de l’architecture publique, la muséologie numérique et l’histoire de l’art numérique. Membre de diverses sociétés savantes, Emmanuel Château est notamment Vice-Président francophone de la <ref
                target="https://csdh-schn.org"
-               >Société canadienne des Humanités numériques</ref> et membre du Comité de coordination d’<ref
+               >Société canadienne des Humanités numériques</ref> et a été membre du Comité de coordination d’<ref
                target="http://www.humanisti.ca"
-               >Humanistica</ref>, association francophone des humanités numériques. Il est aussi membre du Comité de direction de la revue <ref
-               target="https://journals.openedition.org/revuehn"
-               ><title>Humanités numériques</title></ref> et membre du secrétariat de rédaction d’<ref
-               target="https://classiques-garnier.com/aedificare.html"
-               ><title>Ædificare</title></ref>, une revue internationale d’histoire de la construction, publiée aux Classiques Garnier.</p>
-            <p>Emmanuel Château-Dutier mène différents projets de recherche collectifs ou individuels. Il a débuté en 2018, avec Robert Carvais, Valérie Nègre et Michela Barbot, une recherche interdisciplinaire financée par l’Agence Nationale de Recherche, intitulée <ref
-               target="https://anr.fr/Projet-ANR-17-CE26-0006"
+               >Humanistica</ref>, association francophone des humanités numériques. Il a aussi été membre du Comité de direction de la revue <ref target="https://journals.openedition.org/revuehn"><title>Humanités numériques</title></ref>, depuis sa création jusqu’en 2023, et membre du secrétariat de rédaction d’<ref target="https://classiques-garnier.com/aedificare.html"
+               ><title>Ædificare</title></ref>, une revue internationale d’histoire de la construction, publiée aux éditions Classiques Garnier.</p>
+            <p>Emmanuel Château-Dutier mène différents projets de recherche collectifs ou individuels. Il a débuté en 2018, avec Robert Carvais, Valérie Nègre et Michela Barbot, une recherche interdisciplinaire financée par l’Agence Nationale de Recherche, intitulée <ref target="https://anr.fr/Projet-ANR-17-CE26-0006"
                >Pratiques des savoirs entre jugement et innovation, Experts, expertises du bâtiment, Paris 1690-1790</ref>. Ce projet a été sélectionné pour participer à l’atelier avancé du Getty, <ref
                target="https://sites.haa.pitt.edu/na-dah"
                >Network Analysis and digital art history</ref>. Emmanuel Château-Dutier participe, ou a participé à plusieurs importants projets de recherche collectifs en histoire de l’art plaçant le numérique au cœur de leur réflexion comme l’édition des <ref
                target="http://www.desgodets.net"
-               >Cours d’Antoine Desgodets</ref> à l’Académie royale d’architecture ou la publication des Guides de Paris sous la direction de Marianne Cojannot-Le Blanc au Labex les Passés dans le Présent. Ses recherches personnelles en cours financées par le CRSH et le FRQSC portent sur le <title>Choix d’édifices publics construits et projetés en France</title> et l’étude des délibérations et du commentaire d’architecture au sein du Conseil des bâtiments civils. Il est responsable de l’axe numérique d’une recherche partenariale dirigée par Johanne Lamoureux <ref
+               >Cours d’Antoine Desgodets</ref> à l’Académie royale d’architecture ou la publication des <ref
+               target="https://www.guidesdeparis.fr"
+               >Guides de Paris</ref> sous la direction de Marianne Cojannot-Le Blanc au Labex les Passés dans le Présent. Ses recherches personnelles en cours financées par le CRSH et le FRQSC portent sur le <title>Choix d’édifices publics construits et projetés en France</title> et l’étude des délibérations et du commentaire d’architecture au sein du Conseil des bâtiments civils. Il est responsable de l’axe numérique d’une recherche partenariale dirigée par Johanne Lamoureux <ref
                target="https://www.cieco.co"
                >Des nouveaux usages des collections dans les musées d’art</ref> qui débute en 2021 et assure la direction scientifique de l’<ref
                target="https://ouvroir.umontreal.ca"
@@ -105,11 +77,11 @@
                >th</hi> century and was awarded a prize by the Académie d’architecture.</p>
             <p>He is the author of numerous articles in scholarly journals and refereed publications on the history of public architecture, digital museology, and digital art history. A member of various scholarly societies, Emmanuel Château is notably the Francophone Vice-President of the <ref
                target="https://csdh-schn.org"
-               >Canadian Society for Digital Humanities</ref> and a member of the Coordinating Committee of <ref
+               >Canadian Society for Digital Humanities</ref> and has been member of the Coordinating Committee of <ref
                target="http://www.humanisti.ca"
-               >Humanistica</ref>, the Francophone association for digital humanities. He is also a member of the Steering Committee of the journal <ref
+               >Humanistica</ref>, the Francophone association for digital humanities. He has also been a member of the Steering Committee of the journal <ref
                target="https://journals.openedition.org/revuehn"
-               ><title>Humanités numériques</title></ref> and a member of the editorial secretariat of <ref
+               ><title>Humanités numériques</title></ref> form its creation to 2023, and a member of the editorial secretariat of <ref
                target="https://classiques-garnier.com/aedificare.html"
                ><title>Ædificare</title></ref>, an international journal on the history of construction, published by Classiques Garnier.</p>
             <p>Emmanuel Château-Dutier leads various collective or individual research projects. In 2018, he began, with Robert Carvais, Valérie Nègre and Michela Barbot, an interdisciplinary research project funded by the Agence Nationale de Recherche, entitled <ref
@@ -131,8 +103,8 @@
          </div>
          <div xml:lang="en" type="research-orientations">
             <head>Research orientations</head>
-            <p>His work is part of a practice of art history and museology that takes into account digital means. It is not so much a question of considering digital humanities as a discipline in its own right, but rather of paying attention to the methods and practices of research in a digital context. His personal research focuses on the practice of architecture and its framing by administrative and regulatory procedures. This work is part of the historiographical current of the history of construction and techniques and is distinguished by its social dimension. In particular, it mobilizes digital methodologies for the treatment of large textual corpora and complex archival collections. This research finds a natural extension in the interdisciplinary project he is conducting on the institution of Parisian building experts and the profession of architect as part of a project supported by the Agence nationale de recherche, and winner of an international grant from the Getty Research Institute, in which he is applying statistical methods and social network analysis.</p>
-            <p>His work in museology is directly related to his research on the administration of architecture and art institutions, as he mobilizes an institutional and administrative history approach to historicize and critique the digital turn of museums. This work is directly informed by a fine knowledge of digital technologies that are considered from a socio-technical point of view. At the same time, he is very active in the development of digital applications related to research and heritage, with several major achievements in the field of critical editing of primary sources or the use of cultural metadata standards. This is an area of expertise that he intends to put to good use, particularly at UdeM, with the creation of this art history and digital museology laboratory in connection with the New Uses of Collections in Art Museums project, which has just received significant funding from the CFI.</p>
+            <p>His work integrates art history and museology with a strong emphasis on digital methodologies. Rather than treating digital humanities as a separate discipline, he focuses on the ways digital tools and practices can enhance research. His personal research centers on the practice of architecture and its regulation through administrative and legal frameworks. This work aligns with the historiographical current of construction and technology history, distinguished by its social dimension. He particularly employs digital methodologies for processing large textual corpora and complex archival collections. This research naturally extends into an interdisciplinary project he leads on the institution of Parisian building experts and the architectural profession. Supported by the French National Research Agency and recognized with an international grant from the Getty Research Institute, this project applies statistical methods and social network analysis.</p>
+            <p>His research in museology is closely connected to his research on the administration of architecture and artistic institutions, using an institutional and administrative history approach to critique and historicize the digital transformation of museums. This work is informed by a deep understanding of digital technologies, viewed through a socio-technical lens. Simultaneously, he is actively involved in developing digital applications related to research and heritage, with significant achievements in the critical edition of primary sources and the use of cultural metadata standards. He aims to leverage this expertise at the University of Montreal, particularly through the creation of a digital art history and museology lab, linked to the New Uses of Collections project, which recently received substantial funding from the Canada Foundation for Innovation (CFI).</p>
          </div>
       </body>
    </text>

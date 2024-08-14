@@ -7,8 +7,7 @@
         <author>
           <forename>Emmanuel</forename>
           <surname>Château-Dutier</surname>
-          <idno type="orcid"
-          >orcid.org/0000-0003-4092-4569</idno>
+          <idno type="orcid">https://orcid.org/0000-0003-4092-4569</idno>
         </author>
       </titleStmt>
       <editionStmt>
@@ -27,6 +26,7 @@
     </fileDesc>
     <revisionDesc>
       <listChange>
+        <change when="2024-08-13">Mise à jour</change>
         <change when="2022-10-22">Mise à jour</change>
         <change when="2017-07-15">conversion depuis un fichier MSWord</change>
       </listChange>
@@ -39,413 +39,473 @@
         <div type="identification">
           <head>Emmanuel Château-Dutier</head>
           <div>
-          <p>
-            <address>
-              <addrLine>Université de Montréal, Pavillon Lionel-Groulx</addrLine>
-              <addrLine>Département d’histoire de l’art et des études cinématographiques</addrLine>
-              <addrLine>CP 6128, Succursale Centre-Ville</addrLine>
-              <addrLine>Montréal QC H3C 3J7 – CANADA</addrLine>
-            </address>
-            <address>
-              <addrLine><ref target="mailto:emmanuel.chateau.dutier@umontreal.ca"
-              >emmanuel.chateau.dutier@umontreal.ca</ref></addrLine>
-              <addrLine><ref
-              target="http://histart.umontreal.ca/repertoire-departement/vue/chateau-dutier-emmanuel/"
-              >Page personnelle</ref></addrLine>
-            </address></p>
-          <p>Né le <date>4 décembre 1975</date> à Nantes (Loire-Atlantique)</p>
-        </div>
-        <div type="experiences">
-          <head xml:lang="fr">Expériences professionnelles</head>
-          <head xml:lang="en">Career</head>
-          <list>
-            <label>Depuis novembre 2016</label>
-            <item>Professeur-adjoint en muséologie numérique, Université de Montréal</item>
-            <label>De septembre 2015 à novembre 2016</label>
-            <item>Chargé d’enseignement en muséologie numérique, Université de Montréal</item>
-            <label>janvier 2014 à août 2015</label>
-            <item>Ingénieur d’étude pour le projet des Guides de Paris au sein du Labex Les passés dans le présent (http://passes-present.eu).</item>
-            <label>2013 à 2015</label>
-            <item>Chargé de cours dans le cadre du Master professionnel « Médiation culturelle, Patrimoine et numérique », Université Paris-Ouest
+            <p>
+              <address>
+                <addrLine>Université de Montréal, Pavillon Lionel-Groulx</addrLine>
+                <addrLine>Département d’histoire de l’art, de cinéma et des médias audiovisuels</addrLine>
+                <addrLine>CP 6128, Succursale Centre-Ville</addrLine>
+                <addrLine>Montréal QC H3C 3J7 – CANADA</addrLine>
+              </address>
+              <address>
+                <addrLine>
+                  <ref target="mailto:emmanuel.chateau.dutier@umontreal.ca"
+                    >emmanuel.chateau.dutier@umontreal.ca</ref>
+                </addrLine>
+                <addrLine>
+                  <ref
+                    target="http://histart.umontreal.ca/repertoire-departement/vue/chateau-dutier-emmanuel/"
+                    >Page professionnelle</ref>
+                </addrLine>
+              </address>
+            </p>
+            <p>Né le <date>4 décembre 1975</date> à Nantes (Loire-Atlantique)</p>
+          </div>
+          <div type="experiences">
+            <head xml:lang="fr">Expériences professionnelles</head>
+            <head xml:lang="en">Career</head>
+            <list>
+              <label>Depuis juin 2022</label>
+              <item>Professeur agrégé en muséologie numérique, Université de Montréal</item>
+              <label>De novembre 2016 à mai 2022</label>
+              <item>Professeur-adjoint en muséologie numérique, Université de Montréal</item>
+              <label>De septembre 2015 à novembre 2016</label>
+              <item>Chargé d’enseignement en muséologie numérique, Université de Montréal</item>
+              <label>janvier 2014 à août 2015</label>
+              <item>Ingénieur d’étude pour le projet des Guides de Paris au sein du Labex Les passés dans le présent (http://passes-present.eu).</item>
+              <label>2013 à 2015</label>
+              <item>Chargé de cours dans le cadre du Master professionnel « Médiation culturelle, Patrimoine et numérique », Université Paris-Ouest
             <lb/>Description de ressources en histoire de l’art et production de métadonnées
             <lb/>4 séances de 4 heures.</item>
-            <label>Octobre 2012 à 2014</label>
-            <item>Chargé de TD en « Informatique appliquée à l’histoire de l’art ». Université Paris-Ouest (Paris X)</item>
-            <label>2012 à juin 2013</label>
-            <item>Encodage des textes de l’édition critique des Cours de Desgodets et Direction du projet numérique (http://www.desgodets.net)</item>
-            <label>Printemps 2012</label>
-            <item>Modélisation XML-TEI pour l’édition du corpus des Cours de Desgodets à l’Académie d’architecture
+              <label>Octobre 2012 à 2014</label>
+              <item>Chargé de TD en « Informatique appliquée à l’histoire de l’art ». Université Paris-Ouest (Paris X)</item>
+              <label>2012 à juin 2013</label>
+              <item>Encodage des textes de l’édition critique des Cours de Desgodets et Direction du projet numérique (http://www.desgodets.net)</item>
+              <label>Printemps 2012</label>
+              <item>Modélisation XML-TEI pour l’édition du corpus des Cours de Desgodets à l’Académie d’architecture
             <lb/>Projet d’ANR corpus, sous la direction de Robert Carvais</item>
-            <label>De juillet 2008 à juillet 2010</label>
-            <item>Assistant de recherche dans le cadre du Projet ANR Desgodets : Construction et normalisation du savoir architectural au début du XVIII<hi rend="superscript">e</hi> siècle. Les cours de Desgodets à l’Académie (mi-temps)</item>
-            <label>Depuis juillet 2010</label>
-            <item>Membre de l’équipe d’édition des manuscrits des cours de Desgodets dans le cadre de ce projet ANR corpus</item>
-            <label>2007-2008</label>
-            <item>Assistant de direction SAS Abraxas, Paris
+              <label>De juillet 2008 à juillet 2010</label>
+              <item>Assistant de recherche dans le cadre du Projet ANR Desgodets : Construction et normalisation du savoir architectural au début du XVIII<hi
+                rend="superscript"
+                >e</hi> siècle. Les cours de Desgodets à l’Académie (mi-temps)</item>
+              <label>Depuis juillet 2010</label>
+              <item>Membre de l’équipe d’édition des manuscrits des cours de Desgodets dans le cadre de ce projet ANR corpus</item>
+              <label>2007-2008</label>
+              <item>Assistant de direction SAS Abraxas, Paris
             <lb/>Entreprise de 12 salariés Gestion, comptabilité, ressources humaines</item>
-            <label>février 2006</label>
-            <item>Réalisation d’une étude préalable à la restauration pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
+              <label>février 2006</label>
+              <item>Réalisation d’une étude préalable à la restauration pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
             <lb/>Restauration du décor intérieur de l’hôtel de ville de Vincennes (escalier monumental et salles d’apparat)</item>
-            <label>octobre 2005</label>
-            <item>Rédaction d’une note d’intention dans le cadre d’un projet de mise en valeur du 21 rue de l’Université de l’AJN (Atelier Jean Nouvel)</item>
-            <label>hiver 2005</label>
-            <item>Collaborateur de Mme Schmückle-Mollard, Architecte en chef des Monuments Historiques
+              <label>octobre 2005</label>
+              <item>Rédaction d’une note d’intention dans le cadre d’un projet de mise en valeur du 21 rue de l’Université de l’AJN (Atelier Jean Nouvel)</item>
+              <label>hiver 2005</label>
+              <item>Collaborateur de Mme Schmückle-Mollard, Architecte en chef des Monuments Historiques
             <lb/>Réalisation d’une étude préalable à la restauration pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
             <lb/>Villa Bourières (Saint-Maur-des-Fossés, 94), extension du musée de site
             <lb/>Historien dans l’équipe SCAU/Schückle-Mollard dans le concours pour la restauration du Palais de justice de Lyon (Louis-Pierre Baltard, architecte)</item>
-            <label>juillet 2004</label>
-            <item>Dossier historique et documentaire pour AJN (Atelier Jean Nouvel)
+              <label>juillet 2004</label>
+              <item>Dossier historique et documentaire pour AJN (Atelier Jean Nouvel)
             <lb/>L’hôtel Duveen Brothers’, place Vendôme, René Sergent architecte</item>
-            <label>2002-2004</label>
-            <item>ATER, Université de Paris-Sorbonne (Paris IV) :
-            <lb/>1<hi rend="superscript">er</hi> semestre, chargé des TD du cours d’Art Contemporain de 2<hi rend="superscript">e</hi> année de DEUG : L’art contemporain après 1945, cours d’Arnaud Pierre
-            <lb/>2<hi rend="superscript">e</hi> semestre, chargé des TD du cours d’Art Contemporain de Licence : Happening, Action, Body Art, cours de Sarah Wilson</item>
-            <label>1999-2002</label>
-            <item>Moniteur, Université de Paris-Sorbonne (Paris IV) :
-            <lb/>Chargé des TD du cours d’Art Contemporain de 2<hi rend="superscript">e</hi> année de DEUG : Les grands mouvements de l’Art Contemporain au XX<hi rend="superscript">e</hi> siècle, cours de Barthélémy Jobert (1999-2000), Arnaud Pierre (2000-2001), Annie Claustres (2001-2002)</item>
-            <label>1999-2002</label>
-            <item>Allocataire de Recherche, Université de Paris-Sorbonne (Paris IV), Thèse en cours : « Théorie et pratique de l’architecture publique en France, Le Conseil des bâtiments civils, 1795-1848 »</item>
-            <label>2001</label>
-            <item>Réalisation d’études préalables à la restauration d’édifices pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
+              <label>2002-2004</label>
+              <item>ATER, Université de Paris-Sorbonne (Paris IV) :
+            <lb/>1<hi rend="superscript"
+                >er</hi> semestre, chargé des TD du cours d’Art Contemporain de 2<hi
+                rend="superscript"
+                >e</hi> année de DEUG : L’art contemporain après 1945, cours d’Arnaud Pierre
+            <lb/>2<hi rend="superscript"
+                >e</hi> semestre, chargé des TD du cours d’Art Contemporain de Licence : Happening, Action, Body Art, cours de Sarah Wilson</item>
+              <label>1999-2002</label>
+              <item>Moniteur, Université de Paris-Sorbonne (Paris IV) :
+            <lb/>Chargé des TD du cours d’Art Contemporain de 2<hi rend="superscript"
+                >e</hi> année de DEUG : Les grands mouvements de l’Art Contemporain au XX<hi
+                rend="superscript"
+                >e</hi> siècle, cours de Barthélémy Jobert (1999-2000), Arnaud Pierre (2000-2001), Annie Claustres (2001-2002)</item>
+              <label>1999-2002</label>
+              <item>Allocataire de Recherche, Université de Paris-Sorbonne (Paris IV), Thèse en cours : « Théorie et pratique de l’architecture publique en France, Le Conseil des bâtiments civils, 1795-1848 »</item>
+              <label>2001</label>
+              <item>Réalisation d’études préalables à la restauration d’édifices pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
               <lb/>Collège Karl Marx, André Lurçat architecte, 1933 (Villejuif 94)
-              <lb/>Centre Hospitalier du Kremlin-Bicêtre (XVII<hi rend="superscript">e</hi>-XIX<hi rend="superscript">e</hi> siècles)</item>
-            <label>2000</label>
-            <item>Secrétariat et organisation des journées d’étude L’architecture religieuse au XIX<hi rend="superscript">e</hi> siècle, Entre éclectisme et rationalisme, Université de Paris-Sorbonne (Paris IV), Centre André Chastel, sous la direction de Bruno Foucart et Françoise Hamon
+              <lb/>Centre Hospitalier du Kremlin-Bicêtre (XVII<hi rend="superscript"
+                >e</hi>-XIX<hi rend="superscript">e</hi> siècles)</item>
+              <label>2000</label>
+              <item>Secrétariat et organisation des journées d’étude L’architecture religieuse au XIX<hi
+                rend="superscript"
+                >e</hi> siècle, Entre éclectisme et rationalisme, Université de Paris-Sorbonne (Paris IV), Centre André Chastel, sous la direction de Bruno Foucart et Françoise Hamon
               <lb/>Publication des actes aux Presses Universitaires de Paris IV.</item>
-            <label>1999</label>
-            <item>Recherches documentaires pour un journaliste d’art</item>
-            <label>1998-1999</label>
-            <item>Tutorat d’encadrement d’étudiants de 1<hi rend="superscript">ère</hi> année de DEUG d’Histoire de l’Art, Université de Paris-Sorbonne (Paris IV)</item>
-          </list>
-        </div>
-        <div type="formation">
-          <head xml:lang="fr">Formation</head>
-          <head xml:lang="en">Training</head>
-          <list>
-            <label>2013 à 2016</label>
-            <item>Thèse d’Histoire de l’Art à l’École Pratique des Hautes Études (Paris Sciences Lettres Research University) :
-              <lb/><title>Le Conseil des bâtiments civils et l’administration de l’architecture publique en France au XIX<hi rend="superscript">e</hi> siècle (1795-1848)</title>, sous la direction de Jean-Michel Leniaud</item>
-            <label>Mars à juin 2014</label>
-            <item>Enseignement à distance de Open HPI « Knowledge Engineering with Semantic Web Technologies », sous la direction Dr. Harald Sack, (Résultat 77%)</item>
-            <label>Octobre 2011 à juin 2013</label>
-            <item>Master 2 de l’École nationale des Chartes « Technologies numériques appliquées à l’histoire », (mention Très Bien)</item>
-            <label>1999 à 2005</label>
-            <item>Inscrit en thèse d’Histoire de l’Art à l’Université de Paris-Sorbonne (Paris IV) :
+              <label>1999</label>
+              <item>Recherches documentaires pour un journaliste d’art</item>
+              <label>1998-1999</label>
+              <item>Tutorat d’encadrement d’étudiants de 1<hi rend="superscript"
+                >ère</hi> année de DEUG d’Histoire de l’Art, Université de Paris-Sorbonne (Paris IV)</item>
+            </list>
+          </div>
+          <div type="formation">
+            <head xml:lang="fr">Formation</head>
+            <head xml:lang="en">Training</head>
+            <list>
+              <label>2013 à 2016</label>
+              <item>Thèse d’Histoire de l’Art à l’École Pratique des Hautes Études (Paris Sciences Lettres Research University) :
+              <lb/><title>Le Conseil des bâtiments civils et l’administration de l’architecture publique en France au XIX<hi
+                rend="superscript"
+                >e</hi> siècle (1795-1848)</title>, sous la direction de Jean-Michel Leniaud</item>
+              <label>Mars à juin 2014</label>
+              <item>Enseignement à distance de Open HPI « Knowledge Engineering with Semantic Web Technologies », sous la direction Dr. Harald Sack, (Résultat 77%)</item>
+              <label>Octobre 2011 à juin 2013</label>
+              <item>Master 2 de l’École nationale des Chartes « Technologies numériques appliquées à l’histoire », (mention Très Bien)</item>
+              <label>1999 à 2005</label>
+              <item>Inscrit en thèse d’Histoire de l’Art à l’Université de Paris-Sorbonne (Paris IV) :
             <lb/><title>Le Conseil des bâtiments civils. Théorie et pratique de l’architecture publique en France (1795-1848)</title>, sous la direction de Bruno Foucart</item>
-            <label>mai 2011</label>
-            <item>Publier ses documents TEI avec XSLT, participation aux deux sessions de formation « intensives » organisées par le Mutec, les 26 et 27 mai, avec Lou Burnard et Christopher Katz.</item>
-            <label>juin 2010</label>
-            <item>La TEI en France, pratiques et perspectives, participation aux deux sessions de formation « intensives » organisées par le Mutec, les 10 et 11 juin, avec Lou Burnard et Florence Clavaud.</item>
-            <label>2001-1999</label>
-            <item>Cours d’initiation à l’enseignement supérieur au C.I.E.S. Sorbonne (Centre d’Initiation à l’Enseignement Supérieur) </item>
-            <label>1999-1998</label>
-            <item>	DEA d’Histoire de l’Art (mention Très Bien)
-              <lb/>Les édifices Mixtes, 1795-1840, Programmes et typologie de l’architecture civile au XIX<hi rend="superscript">e</hi> siècle, sous la direction de Bruno Foucart et de Françoise Hamon, Université de Paris-Sorbonne (Paris IV)</item>
-            <label>1998-1997</label>
-            <item>Maîtrise d’Histoire de l’Art (mention Très Bien)
+              <label>mai 2011</label>
+              <item>Publier ses documents TEI avec XSLT, participation aux deux sessions de formation « intensives » organisées par le Mutec, les 26 et 27 mai, avec Lou Burnard et Christopher Katz.</item>
+              <label>juin 2010</label>
+              <item>La TEI en France, pratiques et perspectives, participation aux deux sessions de formation « intensives » organisées par le Mutec, les 10 et 11 juin, avec Lou Burnard et Florence Clavaud.</item>
+              <label>2001-1999</label>
+              <item>Cours d’initiation à l’enseignement supérieur au C.I.E.S. Sorbonne (Centre d’Initiation à l’Enseignement Supérieur) </item>
+              <label>1999-1998</label>
+              <item>	DEA d’Histoire de l’Art (mention Très Bien)
+              <lb/>Les édifices Mixtes, 1795-1840, Programmes et typologie de l’architecture civile au XIX<hi
+                rend="superscript"
+                >e</hi> siècle, sous la direction de Bruno Foucart et de Françoise Hamon, Université de Paris-Sorbonne (Paris IV)</item>
+              <label>1998-1997</label>
+              <item>Maîtrise d’Histoire de l’Art (mention Très Bien)
               <lb/><title>Les garages d’automobiles dans l’ancien département de la Seine (1895-1914), naissance d’un nouveau programme d’architecture</title>, sous la direction de Bruno Foucart et de Françoise Hamon, Université de Paris-Sorbonne (Paris IV)</item>
-            <label>1997-1996</label>
-            <item>Licence d’Histoire de l’Art et d’Archéologie
+              <label>1997-1996</label>
+              <item>Licence d’Histoire de l’Art et d’Archéologie
               <lb/>Université Paul Valéry (Montpellier III)</item>
-            <label>1996-1994</label>
-            <item>DEUG d’Histoire de l’Art et d’Archéologie
+              <label>1996-1994</label>
+              <item>DEUG d’Histoire de l’Art et d’Archéologie
               <lb/>Université Paul Valéry (Montpellier III)</item>
-            <label>1993</label>
-            <item>BAC série C
+              <label>1993</label>
+              <item>BAC série C
             <lb/>Avignon (84), Lycée René Char</item>
-          </list>
+            </list>
+          </div>
+          <div type="langues">
+            <head>Langues</head>
+            <p>Anglais lu et écrit</p>
+            <p>Bonnes notions d’Espagnol</p>
+          </div>
+          <div type="informatique">
+            <head>Informatique</head>
+            <p>Expertise dans le domaine des technologies XML, le web sémantique et les données ouvertes et liées dans le domaine patrimonial et culturel
+            <list> <item>Modélisation XML-TEI</item>
+              <item>Programmation XSLT et XQuery</item>
+              <item>Bases de données XML natives (BaseX, eXist)</item>
+              <item>Modèles patrimoniaux et formats du web sémantique : CIDOC-CRM, LIDO, OWL, SKOS, RDF</item>
+              <item>Gestion et production de métadonnées de description archivistique ou bibliographiques (EAD, EAC-CPF, ISBD, MARC, UNIMARC, DC, etc.)</item>
+              </list>.</p>
+            <p>Programmation en Julia</p>
+            <p>Très bonne connaissance de XHTML et des CSS, connaissance de PHP5, notions en JavaScript</p>
+            <p>Maîtrise de plusieurs logiciels de gestion de contenus (CMS) : Wordpress, Drupal, SPIP, Omeka</p>
+            <p>Maîtrise de tous les outils bureautique classiques (World, Excel, Powerpoint, Pages, Numbers, Keynote, Openoffice)</p>
+            <p>Publication assistée sur ordinateur (PAO) : Indesign</p>
+            <p>Logiciels de traitement d’image et graphisme : Adobe Photoshop, Illustrator</p>
+            <p>Bases de sonnées : BaseX, eXist, Filemaker, MySQL</p>
+            <p>Logiciels de gestion de références bibliographiques (Zotero, Sente)</p>
+            <p>Publication web :
+            <list> <item>Co-développeur principal du logiciel de publication XML <ref
+              target="https://github.com/ahn-ens-lyon/synopsx">SynopsX</ref></item>
+              <item>Responsable de projet numérique pour le développement de l’application XML-TEI <ref
+              target="www.desgodets.net">www.desgodets.net</ref></item>
+              <item>Webmaster de l’Association française d’histoire de la construction <ref
+              target="www.histoireconstruction.fr">www.histoireconstruction.fr</ref></item>
+              <item>Administration et développement de site web CMS (SPIP, Drupal, Wordpress, Mediawiki, SymphonyCMS, Omeka)</item>
+              <item>Chef de projet pour la réalisation d’un site communautaire d’information et de vulgarisation scientifique sur la recherche préventive réalisé sous SPIP <ref
+              target="http://www.reactup.fr">www.reactup.fr</ref>.</item> </list></p>
+          </div>
+          <div type="autres">
+            <head>Autres activités :</head>
+            <p>Membre du Program Committee de la conférence internationale des humanités numériques DH2018.</p>
+            <p>Technès, Les arts trompeurs, machine, magie, médias. Graphics, sous la Direction d’André Gaudreault. <lb/>Invitation à rejoindre l’équipe comme co-chercheur (avril 2015). Depuis janvier, contribution à la réflexion et à l’élaboration du cahier des charges fonctionnelles et technique. <ref
+              target="http://grafics.ca/projets/">http://grafics.ca/projets/</ref></p>
+            <p>Écritures numériques, Chaire de recherche du Canada de Marcello Vitali-Rosati. <lb/>Membre associé de la chaire de recherche depuis le lancement en 2016. Participation au projet d’éditeur « Stylo » pour les revues du bouquet Érudit</p>
+            <p>
+              <ref target="http://ecrituresnumeriques.ca/fr/"
+                >http://ecrituresnumeriques.ca/fr/</ref>
+            </p>
+            <p>Depuis janvier 2016, membre du comité éditorial de <hi rend="italic"
+              >Sens Public</hi>, revue internationale financée par le FRQSC et par le CRSH.</p>
+            <p>Depuis mars 2016, membre du Comité de direction de la revue <hi rend="italic"
+              >Humanités numériques</hi>, future revue d’Humanistica.</p>
+            <p>Membre du groupe de préfiguration de l’association francophone des humanités numériques / digitales, Humanistica 2013-2014 <ref
+              target="http://www.humanisti.ca">http://www.humanisti.ca</ref></p>
+            <p>Signataire et contributeur du <hi rend="italic"
+              >Manifeste des Digital humanities</hi> en 2010, <ref
+              target="http://tcp.hypotheses.org/318">http://tcp.hypotheses.org/318</ref> </p>
+            <p>Engagement associatif dans la lutte contre le sida (2003-2010). Vice-président pendant deux ans, puis Président pendant deux ans d’une association nationale composée de 150 militants actifs et de 12 salariés (700 000 euros de budget annuel).</p>
+            <list type="unordered">
+              <item>Lobbying (ministériel et parlementaire)</item>
+              <item>Communication</item>
+              <item>Recherche de financement(État, Région, Département, Municipalité, DRASS et fondations)</item>
+              <item>Travail en équipe</item>
+              <item>Gestion de projet</item>
+              <item>Gestion des ressources humaines</item>
+            </list>
+            <p>De 2004 à 2012, Membre de l’Action Coordonnée 18 (SHS - Comportements et prévention), structure d’animation de la recherche de l’Agence Nationale de Recherche sur le Sida et les Hépatites (gip ANRS).</p>
+            <p>2013-2016, Membre du Conseil d’Administration du Groupe Histoire Architecture Mentalités Urbaines (GHAMU)</p>
+            <p>Membre du Conseil d’Administration et Secrétaire-adjoint de l’Association Française des Historiens de l’Architecture (AFHA)</p>
+            <list type="unordered">
+              <item>Administration de la liste de diffusion « Philibert » (serveur sympa, 290 membres)</item>
+              <item>Préparation du Bulletin de l’association</item>
+              <item>Coordination de la réalisation du site Web de l’association et webmaster http://www.archi.fr/AFHA/ en 2001</item>
+            </list>
+          </div>
         </div>
-        <div type="langues">
-          <head>Langes</head>
-          <p>Anglais lu et écrit</p>
-          <p>Bonnes notions d’Espagnol</p>
-        </div>
-        <div type="informatique">
-          <head>Informatique</head>
-          <p>Très solides compétences en technologies XML et le web sémantique dans le domaine patrimonial et culturel
-            <list>
-            <item>Modélisation XML-TEI</item>
-            <item>Programmation XSLT et XQuery</item>
-            <item>Bases de données XML natives (BaseX, eXist)</item>
-            <item>Modèles patrimoniaux et formats du web sémantique : CIDOC-CRM, LIDO, OWL, SKOS, RDF</item>
-            <item>Gestion et production de métadonnées de description archivistique ou bibliographiques (EAD, EAC-CPF, ISBD, MARC, UNIMARC, DC, etc.)</item>
-            </list>.</p>
-          <p>Très bonne connaissance de XHTML et des CSS, connaissance de PHP5, notions en JavaScript</p>
-          <p>Maîtrise de plusieurs logiciels de gestion de contenus (CMS) : Wordpress, Drupal, SPIP, Omeka</p>
-          <p>Maîtrise de tous les outils bureautique classiques (World, Excel, Powerpoint, Pages, Numbers, Keynote, Openoffice)</p>
-          <p>Publication assistée sur ordinateur (PAO) : Indesign</p>
-          <p>Logiciels de traitement d’image et graphisme : Adobe Photoshop, Illustrator</p>
-          <p>Bases de sonnées : BaseX, eXist, Filemaker, MySQL</p>
-          <p>Logiciels de gestion de références bibliographiques (Zotero, Sente)</p>
-          <p>Publication web :
-            <list>
-            <item>Co-développeur principal du logiciel de publication XML SynopsX, https://github.com/ahn-ens-lyon/synopsx</item>
-            <item>Responsable de projet numérique pour le développement de l’application XML-TEI www.desgodets.net</item>
-            <item>Webmaster de l’Association française d’histoire de la construction www.histoireconstruction.fr</item>
-            <item>Administration et développement de site web CMS (SPIP, Drupal, Wordpress, Mediawiki, SymphonyCMS, Omeka)</item>
-            <item>Chef de projet pour la réalisation d’un site communautaire d’information et de vulgarisation scientifique sur la recherche préventive réalisé sous SPIP <ref
-              target="http://www.reactup.fr">www.reactup.fr</ref>.</item>
-            </list></p>
-        </div>
-        <div type="autres">
-          <head>Autres activités :</head>
-          <p>Membre du Program Committee de la conférence internationale des humanités numériques DH2018.</p>
-          <p>Technès, Les arts trompeurs, machine, magie, médias. Graphics, sous la Direction d’André Gaudreault. <lb/>Invitation à rejoindre l’équipe comme co-chercheur (avril 2015). Depuis janvier, contribution à la réflexion et à l’élaboration du cahier des charges fonctionnelles et technique. <ref
-            target="http://grafics.ca/projets/">http://grafics.ca/projets/</ref></p>
-          <p>Écritures numériques, Chaire de recherche du Canada de Marcello Vitali-Rosati. <lb/>Membre associé de la chaire de recherche depuis le lancement en 2016. Participation au projet d’éditeur « Stylo » pour les revues du bouquet Érudit</p>
-          <p><ref target="http://ecrituresnumeriques.ca/fr/"
-            >http://ecrituresnumeriques.ca/fr/</ref></p>
-          <p>Depuis janvier 2016, membre du comité éditorial de <hi rend="italic">Sens Public</hi>, revue internationale financée par le FRQSC et par le CRSH.</p>
-          <p>Depuis mars 2016, membre du Comité de direction de la revue <hi rend="italic">Humanités numériques</hi>, future revue d’Humanistica.</p>
-          <p>Membre du groupe de préfiguration de l’association francophone des humanités numériques / digitales, Humanistica 2013-2014 <ref
-            target="http://www.humanisti.ca">http://www.humanisti.ca</ref></p>
-          <p>Signataire et contributeur du <hi rend="italic">Manifeste des Digital humanities</hi> en 2010, <ref
-            target="http://tcp.hypotheses.org/318">http://tcp.hypotheses.org/318</ref> </p>
-          <p>Engagement associatif dans la lutte contre le sida (2003-2010). Vice-président pendant deux ans, puis Président pendant deux ans d’une association nationale composée de 150 militants actifs et de 12 salariés (700 000 euros de budget annuel).</p>
-          <list type="unordered">
-            <item>Lobbying (ministériel et parlementaire)</item>
-            <item>Communication</item>
-            <item>Recherche de financement(État, Région, Département, Municipalité, DRASS et fondations)</item>
-            <item>Travail en équipe</item>
-            <item>Gestion de projet</item>
-            <item>Gestion des ressources humaines</item>
-          </list>
-          <p>De 2004 à 2012, Membre de l’Action Coordonnée 18 (SHS - Comportements et prévention), structure d’animation de la recherche de l’Agence Nationale de Recherche sur le Sida et les Hépatites (gip ANRS).</p>
-          <p>2013-2016, Membre du Conseil d’Administration du Groupe Histoire Architecture Mentalités Urbaines (GHAMU)</p>
-          <p>Membre du Conseil d’Administration et Secrétaire-adjoint de l’Association Française des Historiens de l’Architecture (AFHA)</p>
-          <list type="unordered">
-            <item>Administration de la liste de diffusion « Philibert » (serveur sympa, 290 membres)</item>
-            <item>Préparation du Bulletin de l’association</item>
-            <item>Coordination de la réalisation du site Web de l’association et webmaster http://www.archi.fr/AFHA/ en 2001</item>
-          </list>
-        </div>
-      </div>
-      <div type="publications">
-        <head xml:lang="fr">Liste des publications et des travaux</head>
-        <head xml:lang="en">woks and publications</head>
-        <biblStruct>
-          <monogr>
-            <imprint>
-              <pubPlace>e</pubPlace>
-            </imprint>
-          </monogr>
-        </biblStruct>
-        <biblStruct>
-          <analytic>
-            <title level="a"
-              >La question de la rémunération et la constitution d’un corps d’architectes des Bâtiments civils, 1795-1848</title>
-          </analytic>
-          <monogr>
-            <title level="m"
-              >Les architectes et la fonction publique, XIX<hi rend="superscript">e</hi>-XXI<hi rend="superscript">e</hi> siècle</title>
-            <editor>Guy Lambert</editor>
-            <editor>Chantal Callais</editor>
-            <imprint>
-              <date when="2017">à paraître en 2017</date>
-            </imprint>
-          </monogr>
-        </biblStruct>
-        <biblStruct>« Antoine Desgodets et la « commodité » des édifices publics », dans <hi rend="italic">Antoine Desgodets, entre théorie et pratique, Les nouveaux savoirs de l’architecte moderne</hi>, Robert Carvais, Emmanuel Château et Béatrice Gaillard (dir.), Actes du colloque de l’INHA des 24 et 25 novembre 2014, Paris : Picard, à paraître en 2017.</biblStruct>
-        <biblStruct>« L’institutionnalisation d’une nouvelle approche du projet architectural sous la Révolution », dans <hi rend="italic">Chalgrin, 1739-1811. Architectes et architectures, de l’Ancien Régime à l’Empire</hi>, Dominique Massounie et Basile Baudez (dir.), collection Arts &amp; arts, Centre Ledoux, Bordeaux : Willam Blake &amp; Co., 2016, pp. 251-263.</biblStruct>
-        <biblStruct>Emmanuel Château, Marcello Vitali-Rosati, « Repenser la chaîne éditoriale numérique pour les revues savantes en sciences humaines », dans Congrès annuel de la Société canadienne des humanités numériques, Calgary, 28 au 3 juin 2016.</biblStruct>
-        <biblStruct>Michael Sinatra, Emmanuel Château, « “Remapping Leigh Hunt’s Circles”: Voyant Tools and Hunt’s Dramatic Criticism », dans Congrès annuel de la Société canadienne des humanités numériques, Calgary, 28 au 3 juin 2016.</biblStruct>
-        <biblStruct>Marcello Vitali-Rosati, Emmanuel Château, Claire Legendre, Servanne Monjour, Marie-Christine Corbeil, Erwan Geffroy, Julie Tremblay-Devirieux, Nicolas Sauret, « Épuisement de la Transcanadienne Montréal-Calgary : représentation ou production de l’espace ? », dans Congrès annuel de la Société canadienne des humanités numériques, Calgary, 28 au 3 juin 2016.</biblStruct>
-        <biblStruct>Michael Sinatra, Marcello Vitali-Rosati, Emmanuel Château-Dutier, « Exploration des nouvelles formes d’émergence de la connaissance », Digital Textualities/Canadian Contexts conference at the University of Alberta, Sept. 21-22, 2016.</biblStruct>
-        <biblStruct>Emmanuel Château, et al., « Towards an XML Corpora Exposition as LOD with the Lightweight Xquery-Based Framework SynopsX », <hi rend="italic">DH2016</hi>.</biblStruct>
-        <biblStruct>Michael Eberle-Sinatra, Stéfan Sinclair, Emmanuel Château, « Remapping Leigh Hunt’s Circles”: Voyant Tools and Hunt’s Dramatic Criticism », <hi rend="italic">DH2016</hi>.</biblStruct>
-        <biblStruct>Emmanuel Château, Marianne Cojannot-Le Blanc, « Quand la TEI rencontre l’histoire de l’art, le cas des guides de Paris », <hi rend="italic">Text Encoding Initiative Conference and Members’ Meeting 2015 (TEI2015)</hi>, <ref
-          target="145">http://tei2015.huma-num.fr/en/papers/#145</ref></biblStruct>
-        <biblStruct>Emmanuel Château, <hi rend="italic">et al.</hi>, « A Lightweight XQuery-based Framework to Easily Publish and Expose XML Corpora », T<hi rend="italic">ext Encoding Initiative Conference and Members’ Meeting 2015 (TEI2015), 2015</hi>. <ref
-          target="138">http://tei2015.huma-num.fr/en/papers/#138</ref></biblStruct>
-        <biblStruct>« L’action du Conseil des bâtiments civils dans les départements italiens de l’Empire » dans <hi rend="italic">La culture architecturale italienne et française à l’époque napoléonienne : aspects stylistiques et architecturaux</hi>, Actes du Convegno Internazionale di Studi – I sessione, Ascona, Fondazione Monte Verità – Centro Stefano Franscini (Archivio del Moderno, Accademia di architettura, Mendrisio, Università delle Svizzera italiana ; Centre Ledoux, Université Paris I Panthéon-Sorbonne, INHA ; Académie de France à Rome, Villa Médicis), à paraître en 2015.</biblStruct>
-        <biblStruct>Avec Robert <hi rend="smallcaps">Carvais</hi>, « Matérialiser et rendre perceptible la transmission orale du savoir. L’édition électronique des cours d’Antoine Desgodets à l’Académie royale d’architecture en France, 1719-1728 » dans <hi rend="italic">DH2014</hi>, Actes du colloque international des Digital Humanities 2014, http://dharchive.org/paper/DH2014/Paper-367.xml</biblStruct>
-        <biblStruct>« Administrer les Arts en Conseil. L’enjeu de la collégialité au Conseil des bâtiments civils (1795-1848) », dans <hi rend="italic">La collégialité dans la décision administrative</hi>, Jean-Michel <hi rend="smallcaps" xml:space="preserve">Leniaud </hi>et François <hi rend="smallcaps">Monnier</hi> (dir.), actes de la journée d’étude de l’EA112 Histoire des pratiques administratives (EPHE), Paris, 12 novembre 2009, 2011.</biblStruct>
-        <biblStruct>« L’action de l’administration des Bâtiments civils et la production des archives de l’architecture publique (1795-1848) » dans <hi rend="italic">Bâtir et orner la France au XIX</hi><hi rend="italic superscript">e</hi><hi rend="italic" xml:space="preserve"> siècle : Les sources et leurs usages pour l’architecture et les monuments publics</hi>, Nadine <hi rend="smallcaps">Gastaldi</hi> et Jean-Michel <hi rend="smallcaps">Leniaud</hi> (dir.), actes de la journée d’étude des Archives Nationales de France, Paris, 20 octobre 2009, <hi rend="italic">Livraisons d’histoire de l’architecture</hi>, n° 21, 2011, pp. 47-58.</biblStruct>
-        <biblStruct>« L’administration des bâtiments civils face aux questions constructives dans la première moitié du XIX<hi rend="superscript">e</hi> siècle en France » dans <hi rend="italic">Édifice &amp; Artifice, Histoires constructives</hi>, Robert <hi rend="smallcaps" xml:space="preserve">Carvais, </hi>André <hi rend="smallcaps" xml:space="preserve">Guillerme, </hi>Valérie <hi rend="smallcaps" xml:space="preserve">Nègre, </hi>Joël <hi rend="smallcaps">Sakarovitch</hi> (dir.), actes du 1<hi rend="superscript">er</hi> congrès francophone d’histoire de la construction, École d’architecture Paris-Malaquais, Centre de recherche en histoire des sciences et des techniques, Paris, 19-21 juin 2008, Paris, Éditions A. et J. Picard, 2010, p. 365-375.</biblStruct>
-        <biblStruct>« L’inaccessible code de voirie dans la première moitié du XIX<hi rend="superscript">e</hi> siècle en France » dans <hi rend="italic">Histoire comparée des villes européennes</hi>, session 17 : La cité dans la perspective du droit. Histoire comparée (Moyen Age - XIX<hi rend="superscript">e</hi> siècle), Lyon, IX<hi rend="superscript">e</hi> Conférence internationale d’histoire urbaine, Association Européenne pour l’Histoire Urbaine, Ciham UMR 5648, Université Lumière Lyon 2, CNRS, EHESS, ENS Lettres et Sciences Humaines, Lyon 27-30 août 2008, CD-rom, 2009, p. 7 à 13.</biblStruct>
-        <biblStruct>« L’édition du métré et des séries de prix du Conseil des bâtiments civils, 1795-1848 », dans <hi rend="italic">La construction savante, Les avatars de la littérature technique</hi>, Jean-Philippe <hi rend="smallcaps">Garric</hi>, Valérie <hi rend="smallcaps" xml:space="preserve">Nègre </hi>et Alice <hi rend="smallcaps" xml:space="preserve">Thomine-Berrada </hi>(dir.), actes du colloque international : Les avatars de la littérature technique, Institut National d’Histoire de l’Art, Centre de recherche en histoire des sciences et des techniques (CDHT – CNAM – EHESS), mars 2005, Paris, Picard, 2007, pp. 103-112.</biblStruct>
-        <biblStruct>« L’examen des plans d’alignement, une mission du Conseil des bâtiments civils » dans <hi rend="italic">Autour de la Ville de Napoléon</hi>, actes du colloque de la Roche-sur-Yon, Gilles Bienvenu et Géraldine Texier-Rideau (dir.), Collection « Art et Société », Presses Universitaires de Rennes, 2006, pp. 89-99.</biblStruct>
-        <biblStruct>« Les hippodromes au XIX<hi rend="superscript">e</hi> siècle », in <hi rend="italic">Le cheval à Paris</hi>, Frédéric Jiméno et Dominique Massounie (dir.), collection « Paris et son Patrimoine », Paris : Action Artistique de la Ville de Paris, 2006, pp. 124-129.</biblStruct>
-        <biblStruct>« Promotion et diffusion d’un nouveau procédé de construction en brique industrielle : l’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857) » dans <hi rend="italic">Les archives de l’invention, écrits, objets et images de l’activité inventive</hi>, Actes du colloque international organisé au Conservatoire national des arts et métiers et au Centre historique des Archives nationales, les 26 et 27 mai, Marie-Sophie Corcy, Christiane Douyère-Demeulenaere, Liliane Hilaire-Pérez (dir.), CNRS-Université de Toulouse-Le Mirail, Collection « Méridiennes », série « Histoire et Techniques », 2006, pp. 547-558.</biblStruct>
-        <biblStruct>« L’administration des bâtiments civils et la réglementation de la profession d’architecte 1795-1819 » dans Séminaire d’Histoire du Droit et des Techniques, Robert <hi rend="smallcaps">Carvais</hi> (dir.), à paraître.</biblStruct>
-        <biblStruct>« Les animaux dans leur jardin : l’architecte Jacques Molinos et la ménagerie du Muséum d’histoire naturelle à Paris, 1795-1827 », <hi rend="italic">Histoire de l’Art</hi> (Revue de recherche et d’information publiée sous l’égide de l’Association des professeurs d’archéologie et d’histoire de l’art des universités), n° 49, novembre 2001, pp. 75-90, 6 ill. en noir et en couleur.</biblStruct>
-        <biblStruct>[avec Peter J. Baalman architecte Dplg], « Jussieu, une leçon d’architecture », <hi rend="italic">Le Journal des arts</hi>, n° 137, novembre/décembre 2001, pp.1 et 14.</biblStruct>
-      </div>
-      <div>
-        <head xml:lang="fr">Travaux</head>
-        <head xml:lang="en">Works</head>
-        <p>Girolamo Righettino : dessinateur et chorographe oublié de la Renaissance. Projet d’édition numérique d’un manuscrit et d’une image de la Renaissance avec Denis Ribouillault, Université de Montréal.</p>
-        <p>SynopsX, A Lightweight Framework to easily publish and expose XML corpora. Développeur principal, projet conduit en collaboration avec l’École normale supérieure de Lyon, et l’ANR Ampère. <lb/>SynopsX est un cadre de publication léger pour publier des corpus XML conçu avec la base de données XML native BaseX. Le programme est développé avec le langage XQuery dans une perspective de publication comme données liées en respectant les standards du web sémantique. <ref
-          target="http://synopsx.github.io">http://synopsx.github.io</ref></p>
-        <p>Les Guides de Paris, projet du Labex les Passés dans le présent, Ingénieur d’étude : Conception technique et éditoriale, programmation de l’application web, collaboration au projet Open source de cadre de publication léger pour XML SynopsX. Depuis 2015, co-chercheur du projet. </p>
-        <p>Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790. Co-chercheur avec Robert Carvais (CNRS), Valérie Nègre (ENSA Paris-la Villette), et Michela Barbot (ENS Cachan)<lb/>Projet sélectionné par l’ANR dans le cadre de l’appel à projet 2015, sélection finale en cours.</p>
-        <p>Édition des Cours de Desgodets, édition critique des manuscrits des us et coutumes de Paris et du Traité des servitudes, Projet ANR sous la direction de Robert C<hi rend="smallcaps" xml:space="preserve">arvais : </hi>Direction numérique du projet</p>
-        <p>Thèse à l’École Pratique des Hautes Études – La Sorbonne : Le Conseil des bâtiments civils et l’administration de l’architecture publique en France au XIXe siècle (1795-1848), sous la direction de Jean-Michel <hi rend="smallcaps">Leniaud</hi>, travail débuté sous la direction de M. Bruno <hi rend="smallcaps">Foucart</hi> à l’université Paris-Sorbonne (Paris IV).</p>
-        <p>Le Groupe scolaire Karl Marx à Villejuif, étude Historique, Critique d’authenticité, Recherche de la mise en couleur, étude préalable à la restauration, Mme <hi rend="smallcaps" xml:space="preserve">Schmückle Mollard </hi>Architecte en Chef des Monuments Historiques, 2001. [160 p.]</p>
-        <p>Le Centre hospitalier du Kremlin Bicêtre, Historique, datation de l’ensemble du bâti (XVII<hi rend="superscript">e</hi>-XIX<hi rend="superscript">e</hi> siècles) et dossier iconographique, étude préalable à la restauration, Mme <hi rend="smallcaps">Schmükcle Mollard</hi> Architecte en Chef des Monuments Historiques, 2001. [76 p.]</p>
-        <p>Les Édifices Mixtes, 1795-1840, Programmes et typologie de l’architecture civile au XIX<hi rend="superscript">e</hi> siècle, DEA d’Histoire de l’Art, sous la direction de M. Bruno <hi rend="smallcaps">Foucart</hi> et de Mme Françoise <hi rend="smallcaps" xml:space="preserve">Hamon, </hi>Université Paris-Sorbonne (Paris IV), 1999.</p>
-        <p>Les garages d’automobiles dans l’ancien département de la Seine 1895-1914, naissance d’un nouveau programme d’architecture maîtrise d’histoire de l’art sous la direction de M. Bruno <hi rend="smallcaps">Foucart</hi> et de Mme Françoise <hi rend="smallcaps" xml:space="preserve">Hamon, </hi>Université Paris-Sorbonne (Paris IV), 1998.</p>
-        <p>Compte-rendus d’ouvrages :</p>
-        <p>Recension à paraître de <hi rend="italic">Heritage and Digital Humanities, How should training practices evolve ?</hi> Bernadette Saou-Dufrene (Ed.), Berlin : Lit-verlag, 2014.</p>
-        <p>Recension à paraître de <hi rend="italic">Patrimoines du Maghreb à l’ère numérique</hi>, Bernadette Saou-Dufrene (Ed.), Paris, Hermann, 2014.</p>
-        <p>« Pierre Pinon, Louis-Pierre et Victor Baltard, Paris, 2005. », <hi rend="italic">Revue de l’Art</hi>, n° 2006, pp. 81-82.</p>
-        <p>« Odile Foucaud, Toulouse, l’architecture au XIX<hi rend="superscript">e</hi> siècle, Paris, Somogy, 2000. », <hi rend="italic">Bulletin Monumental</hi>, 2003.</p>
-        <p>« Anne-Marie Châtelet, La naissance de l’architecture scolaire. Les écoles élémentaires parisiennes de 1870 à 1914, Paris, Honoré Champion, 1999. » in <hi rend="italic">Bulletin Monumental</hi>, Tome II, 2001, pp. 193-194.</p>
-      </div>
-      <div type="presentations">
-        <head>Interventions orales :</head>
-        <list>
-          <label>5 juin 2017</label>
-          <item>« Vers une histoire de l’art numérique » dans <hi rend="italic">Humanités numériques, École d’été du CÉRIUM 2017</hi>, PLU6113, organisée par Michael Sinatra, 12 au 17 juin 2017, Université de Montréal, Montréal. http://cerium.umontreal.ca/etudes/ecoles-dete-2017/humanites-numeriques/</item>
-          <label>4 juin 2017</label>
-          <item>« La valeur de la TEI » dans <hi rend="italic">Humanités numériques, École d’été du CÉRIUM 2017</hi>, PLU6113, organisée par Michael Sinatra, 12 au 17 juin 2017, Université de Montréal, Montréal. http://cerium.umontreal.ca/etudes/ecoles-dete-2017/humanites-numeriques/</item>
-          <label>3 juin 2017</label>
-          <item>« Les Guides de Paris ou la construction de points de vue sur les monuments parisiens », dans <hi rend="italic">École de printemps Arts et géographie</hi>, organisée par Suzanne Pacquet et Pauline Guinard, 29 mai-3 juin 2017, École normale supérieure, Paris.<lb/> http://www.geographie.ens.fr/ecole-de-printemps-arts-et-geographies.html</item>
-          <label>29 mai 2017</label>
-          <item>« The Technès Encyclopedia on Cinema Technology as a DH Project » présentation dans le panel, <hi rend="italic">Congrès de la Société canadienne des Humanités numériques</hi>, 29-31 mai 2017, Ryerson University, Toronto. https://www.congress2017.ca/associations/255</item>
-          <label>28 mai 2017</label>
-          <item>« Image computing : towards a new cartography in arts and media studies?  », Worshop <hi rend="italic">Film and Media Studies Face Geography</hi>, organisé par Marta Boni, Annual Conference of the Film Studies Association of Canada, 27 au 29 mai 2017, Ryerson University, Toronto. http://www.filmstudies.ca/2016/11/cfp-2017-fsac-annual-conference-appel-a-communications-pour-lacec-2017</item>
-          <label>15 mai 2017</label>
-          <item>« Le musée et ses interfaces », séminaire de recherche du CIÉCO, conférencier invité. http://cieco.umontreal.ca </item>
-          <label>12 mai 2017</label>
-          <item>« Éditer pour répondre à des questions de recherche en histoire de l’art », colloque <hi rend="italic">La publication savante en contexte numérique</hi>, Congrès annuel de l’ACFAS, 8-12 mai 2017, Université McGill, Montréal, conférencier invité.<lb/>http://www.acfas.ca/evenements/congres/programme/85/300/317/c </item>
-          <label>6 avril 2017</label>
-          <item>Table-ronde intitulée « Le projet encyclopédique à l’époque numérique » organisée par le Centre de recherche interuniversitaire sur les humanités numériques et le partenariat Technès avec Rémy Besson, Benoît Mélançon, suivie d’une conférence de Jeffrey Schnapp (Harvard university) sur le « Knowledge design ».<lb/> http://www.crihn.org/nouvelles/2017/03/30/conference-de-jeffrey-schnapp-harvard- university/ </item>
-          <label>31 mars 2017</label>
-          <item>« De la réunion d’un corpus textuel historique à la constitution d’un référentiel patrimonial, Le projet des Guides de Paris comme projet d’histoire de l’art numérique », séminaire de recherche de Mélanie Boucher, Université de Québec en Outaouais, conférencier invité. </item>
-          <label>13 mars 2017</label>
-          <item>« Éditer avec XML-TEI », dans le cadre du Cours d’introduction à l’édition de Marcello Vitali-Rosati, Université de Montréal, formateur. </item>
-          <label>10 mars 2017</label>
-          <item>« Introduction à la Text Encoding Initiative » organisée pour le Centre de recherche interuniversitaire sur les humanités numériques.<lb/> http://www.crihn.org/nouvelles/2017/02/06/formation-tei/ </item>
-          <label>27 février au 2 mars 2017</label>
-          <item>« TEI pour l’édition critique, niveau avancé », Formation continue de l’École national des chartes, Paris (France), formateur. </item>
-          <label>17 février 2017</label>
-          <item>« Initiation à XML » organisée pour le Centre de recherche interuniversitaire sur les humanités numériques. http://www.crihn.org/nouvelles/2017/02/06/formation-xml/ </item>
-          <label>20 février 2017</label>
-          <item>organisation de la conférence de Clarisse Bardiot « Arts de la scène et Culture Analytics » en collaboration avec le Centre de recherche interuniversitaire sur les humanités numériques et la Chaire de recherche du Canada sur les Écritures numériques de Marcello Vitali-Rosati. http://www.crihn.org/nouvelles/2017/02/07/conference-de- clarisse-bardiot-universite-de-valenciennes/ </item>
-          <label>Lundi 27 juin au samedi 2 juillet 2016</label>
-          <item>intervention dans le cadre de l’École d’été du CERIUM, « Humanités numériques : Mode d’emploi », Université de Montréal, formateur. </item>
-          <label>22 juin 2016</label>
-          <item>Participation à la Journée professionnelle de la Société des Musées Québécois, « Les données ouvertes : quelles perspectives pour les musées ? » <lb/>http://www.musees.qc.ca/fr/professionnel/activites-services/grands-dossiers- smq/donnees-ouvertes </item>
-          <label>13-14 juin 2016</label>
-          <item>« Pour une histoire de l’art numérique. La contribution des grands corpus et des collections patrimoniales numérisées à l’histoire de l’art », <hi rend="italic">Digital Art History</hi>, Journée d’étude organisée par l’Institut National d’Histoire de l’Art, Paris (France), conférencier invité.</item>
-          <label>9 au 14 mai 2016</label>
-          <item>L’édition des sources manuscrites avec XML-TEI, formation continue de l’École nationale des chartes, Paris (France), formateur.</item>
-          <label>26 avril 2016</label>
-          <item>« Que peuvent les algorithmes en histoire de l’art », conférence dans la rencontre organisée par le CRIHN à l’occasion de la venue de Dominique Cardon, Université de Montréal, conférencier invité.</item>
-          <label>28 avril 2016</label>
-          <item>« Pour une histoire de l'art numérique : numérisation patrimoniale et logiques contributives », Colloque franco-québécois Essor de la vie culturelle au 21e siècle : politiques, interventions et initiatives, Trois-Rivières, conférencier invité sélectionné par un comité scientifique.</item>
-          <label>29 avril 2016</label>
-          <item>« Éditer avec XML-TEI », dans le cadre du Cours d’introduction à l’édition de Marcello Vitali-Rosati, Université de Montréal, formateur.</item>
-          <label>22 janvier 2016</label>
-          <item>organisation de la « Vitrine Humanités Numériques / DH Showcase 2016 », Virtuoso, Centre de recherche sur les usages, culture et documents numériques, Université de Montréal.</item>
-          <label>20 janvier 2016</label>
-          <item>Le projet « Guides de Paris » et la constitution d’un référentiel sur le patrimoine parisien, Séminaires RALI-OLST, Université de Montréal, conférencier invité.</item>
-          <label>3 décembre 2015</label>
-          <item>« L’instrumentation d’un corpus textuel, le cas des Guides de Paris », Atelier sur les éditions critiques en contexte numérique, Virtuoso, Centre de recherche sur les usages, cultures et documents numériques, Université de Montréal, conférencier invité.</item>
-          <label>30 octobre 2015</label>
-          <item>avec Marianne Cojannot-Le Blanc, « Quand la TEI rencontre l’histoire de l’art, le cas des guides de Paris », <hi rend="italic">Text Encoding Initiative Conference and Members’ Meeting 2015 (TEI2015)</hi>.</item>
-          <label>28 octobre 2015</label>
-          <item>avec Maud Ingarao, Jean-Philippe Magué, « Workshop SynopsX. A Lightweight XQuery-based Framework to Easily Publish and Expose XML Corpora », T<hi rend="italic">ext Encoding Initiative Conference and Members’ Meeting 2015 (TEI2015), 2015</hi>. </item>
-          <label>8 juin 2015</label>
-          <item>« L’instrumentation d’un corpus textuel en histoire de l’art, le cas des Guides de Paris », Lundis du numérique de l’Institut national d’histoire de l’art, InVisu.</item>
-          <label>14 avril 2015</label>
-          <item>« Le projet numérique des Guides de Paris », Journée d’étude sur des projets en histoire de l’art mettant en jeu la numérisation organisée par l’École du Louvre sous la direction de Dominique Jarrassé.</item>
-          <label>16 janvier 2015</label>
-          <item>« L’instrumentation d’un corpus textuel en histoire de l’art, le cas des Guides de Paris », <hi rend="italic">Explorer le passé pour envisager le présent et le futur</hi>, 1<hi rend="superscript">er</hi> Atelier de recherche franco-britannique organisé à Royaumont par le Labex les Passés dans le Présent et le programme national <hi rend="italic" xml:space="preserve">Care for the Future : Thinking Forward Through the Past </hi>du Art and Humanities Research Council.</item>
-          <label>16 décembre 2014</label>
-          <item>avec Marianne Cojannot-Le Blanc, « Les historiens d’art et les corpus numérique, Le cas des guides de Paris », Atelier annuel du Consortium cahier (Corpus d’auteurs pour les humanités : informatisation, édition, recherche), Paris, 16 décembre 2014.</item>
-          <label>24 novembre 2014</label>
-          <item>« Antoine Desgodets et la « commodité » des édifices publics », Antoine Desgodets, entre théorie et pratique, Les nouveaux savoirs de l’architecte moderne, colloque des 24 et 25 novembre 2014, Institut national d’histoire de l’art.</item>
-          <label>Juillet 2014</label>
-          <item>avec Robert <hi rend="smallcaps">Carvais</hi>, « Matérialiser et rendre perceptible la transmission orale du savoir. L’édition électronique des cours d’Antoine Desgodets à l’Académie royale d’architecture en France, 1719-1728 » <hi rend="italic">DH2014</hi>, colloque international des Digital Humanities 2014, http://dharchive.org/paper/DH2014/Paper-367.xml</item>
-          <label>30 juin 2014</label>
-          <item>« L’édition numérique des cours de Desgodets », Atelier du Consortium cahier (Corpus d’auteurs pour les humanités : informatisation, édition, recherche), Lyon, 30 juin 2014.</item>
-          <label>22 novembre 2012</label>
-          <item>« Henri Labrouste et les instances professionnelles (1840-1872) », Henri Labrouste (1801-1875) et son temps, Paris, 22 et 23 novembre 2012, Institut national d’histoire de l’art, Bibliothèque nationale de France.</item>
-          <label>24 octobre 2012</label>
-          <item>« La question de la rémunération et la constitution d’un corps d’architectes des Bâtiments civils, 1795-1848 », Séminaire les architectes et la fonction publique, XIX<hi rend="superscript">e</hi>-XXI<hi rend="superscript">e</hi> siècle, 24 au 25 octobre 2012, École nationale supérieure d’architecture de Versailles.</item>
-          <label>Décembre 2011</label>
-          <item>« L’institutionnalisation d’une nouvelle approche du projet architectural sous la Terreur », Colloque Chalgrin, Archives nationales de France, 1<hi rend="superscript">er</hi> au 3 décembre 2011.</item>
-          <item>17 janvier 2011</item>
-          <item>« Données structurées pour le Web sémantique et les musées. Quelques réflexions du point de vue des Digital Humanities et de la philosophie du Web », séance du Séminaire Muséologie, muséographie et nouvelles formes d’adresse au public, IRI Institut de recherche et d’innovation, Centre George Pompidou.</item>
-          <label>12 novembre 2009</label>
-          <item>Administrer les arts en Conseil. L’enjeu de la collégialité au Conseil des bâtiments civils (1795-1848), La collégialité dans la décision administrative, journée d’étude de l’UR d’histoire du droit public et de l’administration (EPHE)</item>
-          <label>20 octobre 2009</label>
-          <item>L’action de l’administration des Bâtiments civils et la production des archives de l’architecture publique (1795-1848), Bâtir et orner la France au XIX<hi rend="superscript">e</hi> siècle : Les sources et leurs usages pour l’architecture et les monuments publics, Journée d’étude des Archives Nationales de France</item>
-          <label>9 juin 2009</label>
-          <item>Le Conseil des bâtiments civils : missions et fonctionnement, Pour une histoire de l’architecture publique française (1795-1840), à travers les procès-verbaux des séances du Conseil des bâtiments civils, Table ronde organisée par le Centre André Chastel (UMR 8150) et l’INHA à l’occasion de la mise en ligne de la base CONBAVIL </item>
-          <label>10 décembre 2008</label>
-          <item>Le projet du parc de Mousseaux et les projets de ménagerie du jardin des plantes, Le séjour italien de Percier et Fontaine, Contexte contemporain, nouvelles recherches, Rome, Journée d’étude organisée par la Bibliothèque Hertziana, l’INHA et l’École Pratique des Hautes Études.</item>
-          <label>29 août 2008</label>
-          <item>29 août 2008, Le Conseil des bâtiments civils et la réglementation de voirie en France dans la première moitié du XIX<hi rend="superscript">e</hi> siècle, session 17 : La cité dans la perspective du droit. Histoire comparée (Moyen Age - XIX<hi rend="superscript">e</hi> siècle), Lyon, IX<hi rend="superscript">e</hi> Conférence internationale d’histoire urbaine, Association Européenne pour l’Histoire Urbaine, Ciham UMR 5648, Université Lumière Lyon 2, CNRS, EHESS, ENS Lettres et Sciences Humaines. </item>
-          <label>21 juin 2008</label>
-          <item>L’administration des bâtiments civils face aux questions constructives dans la première moitié du XIX<hi rend="superscript">e</hi> siècle en France, 1<hi rend="superscript">er</hi> congrès francophone d’histoire de la construction, Ecole d’architecture Paris-Malaquais, Centre de recherche en histoire des sciences et des techniques, CNAM.</item>
-          <label>5 octobre 2006</label>
-          <item>L’action du Conseil des bâtiments civils dans les départements italiens de l’Empire, La culture architecturale italienne et française à l’époque napoléonienne : aspects stylistiques et architecturaux, Convegno Internazionale di Studi – I sessione, Ascona, Fondazione Monte Verità – Centro Stefano Franscini (Archivio del Moderno, Accademia di architettura, Mendrisio, Università delle Svizzera italiana ; Centre Ledoux, Université Paris I Panthéon-Sorbonne, INHA ; Académie de France à Rome, Villa Médicis).</item>
-          <label>3 mars 2005</label>
-          <item>L’édition du métré et des séries de prix du Conseil des bâtiments civils, 1795-1848, colloque international : Les avatars de la littérature technique : Formes imprimées de la diffusion des savoirs liés à la construction, Institut National d’Histoire de l’Art, Centre de recherche en histoire des sciences et des techniques (CDHT – CNAM – EHESS), Paris</item>
-          <label>28 octobre 2004</label>
-          <item>Les plans de villes : une mission du Conseil des bâtiments civils, colloque international : Autour de la ville de Napoléon, La Roche-sur-Yon</item>
-          <label>10 juin 2003</label>
-          <item>Les relations entre le Conseil des bâtiments civils et le service des travaux de Paris, 1810-1848, séminaire d’Alice Thomine, Histoire de Paris, École Pratique des Hautes Études, Paris</item>
-          <label>27 mai 2003</label>
-          <item>Promotion et diffusion d’un nouveau procédé de construction en brique industrielle : l’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857), Colloque international : Les archives de l’invention. Écrits, objets et images de l’activité inventive, des origines à nos jours, Centre de recherche en histoire des sciences et des techniques (CDHT – CNAM – EHESS), Paris</item>
-          <label>18 février 2003</label>
-          <item>L’administration des bâtiments civils et la réglementation de la profession d’architecte 1795-1819, Séminaire d’histoire du Droit et des Techniques de Robert Carvais, Institut d’Histoire du Droit (UMR 7105), Paris</item>
-          <label>23 novembre 2002</label>
-          <item>Le Choix d’édifices publics construits et projetés en France, Histoire de l’édition d’un recueil d’architecture, 1825-1855, séminaire de doctorat de Françoise Hamon et Bruno Foucart, Université de Paris-Sorbonne (Paris-IV), Paris</item>
-        </list>
-      </div>
-      <div>
-        <head>Thèmes de recherche</head>
-        <p>Histoire de l’art numérique et muséologie numérique</p>
-        <p>Conseil des bâtiments civils (1795-1852)</p>
-        <p>Architecture publique et administration de l’architecture au XIX<hi rend="superscript">e</hi> siècle</p>
-        <p>Histoire de l’édition d’architecture XIX<hi rend="superscript">e</hi> siècles</p>
-        <p>Architecture des jardins zoologiques XIX<hi rend="superscript">e</hi>-XX<hi rend="superscript">e</hi> siècles</p>
-        <p>Architecture des garages d’automobiles XX<hi rend="superscript">e</hi> siècle</p>
-        <p>Communication graphique activiste XX<hi rend="superscript">e</hi> siècle</p>
-      </div>
 
-      <div>
-        <head>Charges d’enseignement</head>
-        <p>Automne 2016, Université de Montréal<lb/><hi rend="bold" xml:space="preserve">MSL6517 – </hi>Inventaire et traitement des données</p>
-        <p>		Faculté des arts et sciences, Département d’histoire de l’art et d’études cinématographiques (Programme facultaire de muséologie), semestre d’automne, séminaire optionnel, 3 crédits, 14 étudiants</p>
-        <p>Hiver 2016, Université de Montréal<lb/><hi rend="bold">HAR2400 – Histoire d’un médium : Le médium numérique</hi>
-          <lb/>Faculté des arts et sciences, Département d’histoire de l’art et d’études cinématographiques, semestre d’hiver, 3 crédits, 23 étudiants</p>
-        <p>Hiver 2016, Université de Montréal<lb/><hi rend="bold">MSL6523 – Problèmes contemporains, La muséologie numérique</hi><lb/>Faculté des arts et sciences, Département d’histoire de l’art et d’études cinématographiques (Programme facultaire de muséologie), semestre d’hiver, séminaire optionnel, 3 crédits, 26 étudiants</p>
-        <p>9 au 14 mai 2016, L’édition des sources manuscrites avec XML-TEI (initiation), formation continue de l’École nationale des chartes, Paris (France), formateur avec Lou Burnard.</p>
-        <p>9 au 14 novembre 2015, Modéliser son édition critique avec la Text Encoding Initiative (niveau avancé), formation continue de l’École nationale des chartes, Paris (France), formateur avec Lou Burnard.</p>
-        <p>29 juin au 3 juillet 2015, Préserver, éditer et exploiter les sources de la recherche – Atelier de formation annuel du Consortium cahier, MESHS de Lille, Atelier XQuery avec Maud Ingarao (Institut d’histoire de la pensée classique – UMR 5037).</p>
-        <p>2012 à 2014		Chargé de cours dans le cadre du Master professionnel « Médiation culturelle, Patrimoine et numérique », Université Paris-Ouest / Université Paris-8 </p>
-        <p>2014-2015 : Coordination du travail de l’atelier IDEFI CréaTIC<lb/>http://idefi-creatic.net/master-mediation-culturelle-patrimoine-et-numerique-3/</p>
-        <p>2012-2013 et 2012-2014 : La description de ressources en histoire de l’art. Les métadonnées métiers et l’interopérabilité.</p>
-        <p>2<hi rend="superscript">e</hi> semestre 2014, en collaboration avec Marianne Cojannot-Le Blanc, professeur d’histoire de l’art, séminaire de méthodologie de Master 1 en Histoire de l’art moderne :</p>
-        <p>Les contours intellectuels d’un projet collectif, L’exemple des Guides de Paris</p>
-        <p>Printemps 2014 Formateur et référent numérique pour la formation continue de l’École nationale des chartes.</p>
-        <p>2014 deuxième session : Initiation à l’édition électronique et à la pratique de l’encodage XML-TEI : coordination de l’ensemble de la formation</p>
-        <p>2014 première session : Initiation à l’édition électronique et à la pratique de l’encodage XML-TEI : explorer et traiter ses documents XML-TEI avec XPath et XSLT ; la présentation de XML-TEI étant assurée par Camille Desenclos.</p>
-        <p>1<hi rend="superscript">e</hi> semestre 2014, Session de formation à l’utilisation des logiciels de gestion de références bibliographiques (Zotero) à destination des collègues du département d’histoire de l’art de l’Université Paris-Ouest Nanterre.</p>
-        <p>2002-2004	ATER, Université de Paris-Sorbonne (Paris IV) :</p>
-        <p>1<hi rend="superscript">er</hi> semestre, chargé des TD du cours d’Art Contemporain de 2<hi rend="superscript">e</hi> année de DEUG : L’art contemporain après 1945, cours d’Arnaud Pierre</p>
-        <p>2<hi rend="superscript">e</hi> semestre, chargé des TD du cours d’Art Contemporain de Licence : Happening, Action, Body Art, cours de Sarah Wilson</p>
-        <p>1999-2002	Moniteur, Université de Paris-Sorbonne (Paris IV) : Chargé des TD du cours d’Art Contemporain de 2<hi rend="superscript">e</hi> année de DEUG : Les grands mouvements de l’Art Contemporain au XX<hi rend="superscript">e</hi> siècle, cours de Barthélémy Jobert (1999-2000), Arnaud Pierre (2000-2001), Annie Claustres (2001-2002)</p>
-        <p>Allocataire de Recherche, Université de Paris-Sorbonne (Paris IV), Thèse en cours : « Théorie et pratique de l’architecture publique en France, Le Conseil des bâtiments civils, 1795-1848 »</p>
-      </div>
-      <div>
-        <head>Adresses des employeurs précédents</head>
-        <p>Labex les Passés dans le Présent</p>
-        <p>Université Paris-Ouest Nanterre La Défense, Paris X</p>
-        <p>Maison Max Weber (bât T)</p>
-        <p>200, avenue de la République</p>
-        <p>92001 Nanterre Cedex – FRANCE</p>
-        <p>Université Panthéon-Assas, Paris II</p>
-        <p>12, place Panthéon</p>
-        <p>75005 Paris – FRANCE</p>
-        <p>Université Paris-Sorbonne, Paris IV</p>
-        <p>1, rue Victor Cousin</p>
-        <p>75005 Paris – FRANCE</p>
+        <div>
+          <head xml:lang="fr">Travaux</head>
+          <head xml:lang="en">Works</head>
+          <p>Girolamo Righettino : dessinateur et chorographe oublié de la Renaissance. Projet d’édition numérique d’un manuscrit et d’une image de la Renaissance avec Denis Ribouillault, Université de Montréal.</p>
+          <p>SynopsX, A Lightweight Framework to easily publish and expose XML corpora. Développeur principal, projet conduit en collaboration avec l’École normale supérieure de Lyon, et l’ANR Ampère. <lb/>SynopsX est un cadre de publication léger pour publier des corpus XML conçu avec la base de données XML native BaseX. Le programme est développé avec le langage XQuery dans une perspective de publication comme données liées en respectant les standards du web sémantique. <ref
+            target="http://synopsx.github.io">http://synopsx.github.io</ref></p>
+          <p>Les Guides de Paris, projet du Labex les Passés dans le présent, Ingénieur d’étude : Conception technique et éditoriale, programmation de l’application web, collaboration au projet Open source de cadre de publication léger pour XML SynopsX. Depuis 2015, co-chercheur du projet. </p>
+          <p>Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790. Co-chercheur avec Robert Carvais (CNRS), Valérie Nègre (ENSA Paris-la Villette), et Michela Barbot (ENS Cachan)<lb/>Projet sélectionné par l’ANR dans le cadre de l’appel à projet 2015, sélection finale en cours.</p>
+          <p>Édition des Cours de Desgodets, édition critique des manuscrits des us et coutumes de Paris et du Traité des servitudes, Projet ANR sous la direction de Robert C<hi rend="smallcaps" xml:space="preserve">arvais : </hi>Direction numérique du projet</p>
+          <p>Thèse à l’École Pratique des Hautes Études – La Sorbonne : Le Conseil des bâtiments civils et l’administration de l’architecture publique en France au XIXe siècle (1795-1848), sous la direction de Jean-Michel <hi
+            rend="smallcaps">Leniaud</hi>, travail débuté sous la direction de M. Bruno <hi
+            rend="smallcaps">Foucart</hi> à l’université Paris-Sorbonne (Paris IV).</p>
+          <p>Le Groupe scolaire Karl Marx à Villejuif, étude Historique, Critique d’authenticité, Recherche de la mise en couleur, étude préalable à la restauration, Mme <hi rend="smallcaps" xml:space="preserve">Schmückle Mollard </hi>Architecte en Chef des Monuments Historiques, 2001. [160 p.]</p>
+          <p>Le Centre hospitalier du Kremlin Bicêtre, Historique, datation de l’ensemble du bâti (XVII<hi
+            rend="superscript">e</hi>-XIX<hi rend="superscript"
+            >e</hi> siècles) et dossier iconographique, étude préalable à la restauration, Mme <hi
+            rend="smallcaps"
+            >Schmükcle Mollard</hi> Architecte en Chef des Monuments Historiques, 2001. [76 p.]</p>
+          <p>Les Édifices Mixtes, 1795-1840, Programmes et typologie de l’architecture civile au XIX<hi
+            rend="superscript"
+            >e</hi> siècle, DEA d’Histoire de l’Art, sous la direction de M. Bruno <hi
+            rend="smallcaps"
+            >Foucart</hi> et de Mme Françoise <hi rend="smallcaps" xml:space="preserve">Hamon, </hi>Université Paris-Sorbonne (Paris IV), 1999.</p>
+          <p>Les garages d’automobiles dans l’ancien département de la Seine 1895-1914, naissance d’un nouveau programme d’architecture maîtrise d’histoire de l’art sous la direction de M. Bruno <hi
+            rend="smallcaps"
+            >Foucart</hi> et de Mme Françoise <hi rend="smallcaps" xml:space="preserve">Hamon, </hi>Université Paris-Sorbonne (Paris IV), 1998.</p>
+          <p>Compte-rendus d’ouvrages :</p>
+          <p>Recension à paraître de <hi rend="italic"
+            >Heritage and Digital Humanities, How should training practices evolve ?</hi> Bernadette Saou-Dufrene (Ed.), Berlin : Lit-verlag, 2014.</p>
+          <p>Recension à paraître de <hi rend="italic"
+            >Patrimoines du Maghreb à l’ère numérique</hi>, Bernadette Saou-Dufrene (Ed.), Paris, Hermann, 2014.</p>
+          <p>« Pierre Pinon, Louis-Pierre et Victor Baltard, Paris, 2005. », <hi rend="italic"
+            >Revue de l’Art</hi>, n° 2006, pp. 81-82.</p>
+          <p>« Odile Foucaud, Toulouse, l’architecture au XIX<hi rend="superscript"
+            >e</hi> siècle, Paris, Somogy, 2000. », <hi rend="italic"
+            >Bulletin Monumental</hi>, 2003.</p>
+          <p>« Anne-Marie Châtelet, La naissance de l’architecture scolaire. Les écoles élémentaires parisiennes de 1870 à 1914, Paris, Honoré Champion, 1999. » in <hi
+            rend="italic">Bulletin Monumental</hi>, Tome II, 2001, pp. 193-194.</p>
+        </div>
+        <div type="presentations">
+          <head>Interventions orales :</head>
+          <list>
+            <label>5 juin 2017</label>
+            <item>« Vers une histoire de l’art numérique » dans <hi rend="italic"
+              >Humanités numériques, École d’été du CÉRIUM 2017</hi>, PLU6113, organisée par Michael Sinatra, 12 au 17 juin 2017, Université de Montréal, Montréal. http://cerium.umontreal.ca/etudes/ecoles-dete-2017/humanites-numeriques/</item>
+            <label>4 juin 2017</label>
+            <item>« La valeur de la TEI » dans <hi rend="italic"
+              >Humanités numériques, École d’été du CÉRIUM 2017</hi>, PLU6113, organisée par Michael Sinatra, 12 au 17 juin 2017, Université de Montréal, Montréal. http://cerium.umontreal.ca/etudes/ecoles-dete-2017/humanites-numeriques/</item>
+            <label>3 juin 2017</label>
+            <item>« Les Guides de Paris ou la construction de points de vue sur les monuments parisiens », dans <hi
+              rend="italic"
+              >École de printemps Arts et géographie</hi>, organisée par Suzanne Pacquet et Pauline Guinard, 29 mai-3 juin 2017, École normale supérieure, Paris.<lb/> http://www.geographie.ens.fr/ecole-de-printemps-arts-et-geographies.html</item>
+            <label>29 mai 2017</label>
+            <item>« The Technès Encyclopedia on Cinema Technology as a DH Project » présentation dans le panel, <hi
+              rend="italic"
+              >Congrès de la Société canadienne des Humanités numériques</hi>, 29-31 mai 2017, Ryerson University, Toronto. https://www.congress2017.ca/associations/255</item>
+            <label>28 mai 2017</label>
+            <item>« Image computing : towards a new cartography in arts and media studies?  », Worshop <hi
+              rend="italic"
+              >Film and Media Studies Face Geography</hi>, organisé par Marta Boni, Annual Conference of the Film Studies Association of Canada, 27 au 29 mai 2017, Ryerson University, Toronto. http://www.filmstudies.ca/2016/11/cfp-2017-fsac-annual-conference-appel-a-communications-pour-lacec-2017</item>
+            <label>15 mai 2017</label>
+            <item>« Le musée et ses interfaces », séminaire de recherche du CIÉCO, conférencier invité. http://cieco.umontreal.ca </item>
+            <label>12 mai 2017</label>
+            <item>« Éditer pour répondre à des questions de recherche en histoire de l’art », colloque <hi
+              rend="italic"
+              >La publication savante en contexte numérique</hi>, Congrès annuel de l’ACFAS, 8-12 mai 2017, Université McGill, Montréal, conférencier invité.<lb/>http://www.acfas.ca/evenements/congres/programme/85/300/317/c </item>
+            <label>6 avril 2017</label>
+            <item>Table-ronde intitulée « Le projet encyclopédique à l’époque numérique » organisée par le Centre de recherche interuniversitaire sur les humanités numériques et le partenariat Technès avec Rémy Besson, Benoît Mélançon, suivie d’une conférence de Jeffrey Schnapp (Harvard university) sur le « Knowledge design ».<lb/> http://www.crihn.org/nouvelles/2017/03/30/conference-de-jeffrey-schnapp-harvard- university/ </item>
+            <label>31 mars 2017</label>
+            <item>« De la réunion d’un corpus textuel historique à la constitution d’un référentiel patrimonial, Le projet des Guides de Paris comme projet d’histoire de l’art numérique », séminaire de recherche de Mélanie Boucher, Université de Québec en Outaouais, conférencier invité. </item>
+            <label>13 mars 2017</label>
+            <item>« Éditer avec XML-TEI », dans le cadre du Cours d’introduction à l’édition de Marcello Vitali-Rosati, Université de Montréal, formateur. </item>
+            <label>10 mars 2017</label>
+            <item>« Introduction à la Text Encoding Initiative » organisée pour le Centre de recherche interuniversitaire sur les humanités numériques.<lb/> http://www.crihn.org/nouvelles/2017/02/06/formation-tei/ </item>
+            <label>27 février au 2 mars 2017</label>
+            <item>« TEI pour l’édition critique, niveau avancé », Formation continue de l’École national des chartes, Paris (France), formateur. </item>
+            <label>17 février 2017</label>
+            <item>« Initiation à XML » organisée pour le Centre de recherche interuniversitaire sur les humanités numériques. http://www.crihn.org/nouvelles/2017/02/06/formation-xml/ </item>
+            <label>20 février 2017</label>
+            <item>organisation de la conférence de Clarisse Bardiot « Arts de la scène et Culture Analytics » en collaboration avec le Centre de recherche interuniversitaire sur les humanités numériques et la Chaire de recherche du Canada sur les Écritures numériques de Marcello Vitali-Rosati. http://www.crihn.org/nouvelles/2017/02/07/conference-de- clarisse-bardiot-universite-de-valenciennes/ </item>
+            <label>Lundi 27 juin au samedi 2 juillet 2016</label>
+            <item>intervention dans le cadre de l’École d’été du CERIUM, « Humanités numériques : Mode d’emploi », Université de Montréal, formateur. </item>
+            <label>22 juin 2016</label>
+            <item>Participation à la Journée professionnelle de la Société des Musées Québécois, « Les données ouvertes : quelles perspectives pour les musées ? » <lb/>http://www.musees.qc.ca/fr/professionnel/activites-services/grands-dossiers- smq/donnees-ouvertes </item>
+            <label>13-14 juin 2016</label>
+            <item>« Pour une histoire de l’art numérique. La contribution des grands corpus et des collections patrimoniales numérisées à l’histoire de l’art », <hi
+              rend="italic"
+              >Digital Art History</hi>, Journée d’étude organisée par l’Institut National d’Histoire de l’Art, Paris (France), conférencier invité.</item>
+            <label>9 au 14 mai 2016</label>
+            <item>L’édition des sources manuscrites avec XML-TEI, formation continue de l’École nationale des chartes, Paris (France), formateur.</item>
+            <label>26 avril 2016</label>
+            <item>« Que peuvent les algorithmes en histoire de l’art », conférence dans la rencontre organisée par le CRIHN à l’occasion de la venue de Dominique Cardon, Université de Montréal, conférencier invité.</item>
+            <label>28 avril 2016</label>
+            <item>« Pour une histoire de l'art numérique : numérisation patrimoniale et logiques contributives », Colloque franco-québécois Essor de la vie culturelle au 21e siècle : politiques, interventions et initiatives, Trois-Rivières, conférencier invité sélectionné par un comité scientifique.</item>
+            <label>29 avril 2016</label>
+            <item>« Éditer avec XML-TEI », dans le cadre du Cours d’introduction à l’édition de Marcello Vitali-Rosati, Université de Montréal, formateur.</item>
+            <label>22 janvier 2016</label>
+            <item>organisation de la « Vitrine Humanités Numériques / DH Showcase 2016 », Virtuoso, Centre de recherche sur les usages, culture et documents numériques, Université de Montréal.</item>
+            <label>20 janvier 2016</label>
+            <item>Le projet « Guides de Paris » et la constitution d’un référentiel sur le patrimoine parisien, Séminaires RALI-OLST, Université de Montréal, conférencier invité.</item>
+            <label>3 décembre 2015</label>
+            <item>« L’instrumentation d’un corpus textuel, le cas des Guides de Paris », Atelier sur les éditions critiques en contexte numérique, Virtuoso, Centre de recherche sur les usages, cultures et documents numériques, Université de Montréal, conférencier invité.</item>
+            <label>30 octobre 2015</label>
+            <item>avec Marianne Cojannot-Le Blanc, « Quand la TEI rencontre l’histoire de l’art, le cas des guides de Paris », <hi
+              rend="italic"
+              >Text Encoding Initiative Conference and Members’ Meeting 2015 (TEI2015)</hi>.</item>
+            <label>28 octobre 2015</label>
+            <item>avec Maud Ingarao, Jean-Philippe Magué, « Workshop SynopsX. A Lightweight XQuery-based Framework to Easily Publish and Expose XML Corpora », T<hi
+              rend="italic"
+              >ext Encoding Initiative Conference and Members’ Meeting 2015 (TEI2015), 2015</hi>. </item>
+            <label>8 juin 2015</label>
+            <item>« L’instrumentation d’un corpus textuel en histoire de l’art, le cas des Guides de Paris », Lundis du numérique de l’Institut national d’histoire de l’art, InVisu.</item>
+            <label>14 avril 2015</label>
+            <item>« Le projet numérique des Guides de Paris », Journée d’étude sur des projets en histoire de l’art mettant en jeu la numérisation organisée par l’École du Louvre sous la direction de Dominique Jarrassé.</item>
+            <label>16 janvier 2015</label>
+            <item>« L’instrumentation d’un corpus textuel en histoire de l’art, le cas des Guides de Paris », <hi
+              rend="italic">Explorer le passé pour envisager le présent et le futur</hi>, 1<hi
+              rend="superscript"
+              >er</hi> Atelier de recherche franco-britannique organisé à Royaumont par le Labex les Passés dans le Présent et le programme national <hi rend="italic" xml:space="preserve">Care for the Future : Thinking Forward Through the Past </hi>du Art and Humanities Research Council.</item>
+            <label>16 décembre 2014</label>
+            <item>avec Marianne Cojannot-Le Blanc, « Les historiens d’art et les corpus numérique, Le cas des guides de Paris », Atelier annuel du Consortium cahier (Corpus d’auteurs pour les humanités : informatisation, édition, recherche), Paris, 16 décembre 2014.</item>
+            <label>24 novembre 2014</label>
+            <item>« Antoine Desgodets et la « commodité » des édifices publics », Antoine Desgodets, entre théorie et pratique, Les nouveaux savoirs de l’architecte moderne, colloque des 24 et 25 novembre 2014, Institut national d’histoire de l’art.</item>
+            <label>Juillet 2014</label>
+            <item>avec Robert <hi rend="smallcaps"
+              >Carvais</hi>, « Matérialiser et rendre perceptible la transmission orale du savoir. L’édition électronique des cours d’Antoine Desgodets à l’Académie royale d’architecture en France, 1719-1728 » <hi
+              rend="italic"
+              >DH2014</hi>, colloque international des Digital Humanities 2014, http://dharchive.org/paper/DH2014/Paper-367.xml</item>
+            <label>30 juin 2014</label>
+            <item>« L’édition numérique des cours de Desgodets », Atelier du Consortium cahier (Corpus d’auteurs pour les humanités : informatisation, édition, recherche), Lyon, 30 juin 2014.</item>
+            <label>22 novembre 2012</label>
+            <item>« Henri Labrouste et les instances professionnelles (1840-1872) », Henri Labrouste (1801-1875) et son temps, Paris, 22 et 23 novembre 2012, Institut national d’histoire de l’art, Bibliothèque nationale de France.</item>
+            <label>24 octobre 2012</label>
+            <item>« La question de la rémunération et la constitution d’un corps d’architectes des Bâtiments civils, 1795-1848 », Séminaire les architectes et la fonction publique, XIX<hi
+              rend="superscript">e</hi>-XXI<hi rend="superscript"
+              >e</hi> siècle, 24 au 25 octobre 2012, École nationale supérieure d’architecture de Versailles.</item>
+            <label>Décembre 2011</label>
+            <item>« L’institutionnalisation d’une nouvelle approche du projet architectural sous la Terreur », Colloque Chalgrin, Archives nationales de France, 1<hi
+              rend="superscript">er</hi> au 3 décembre 2011.</item>
+            <label>17 janvier 2011</label>
+            <item>« Données structurées pour le Web sémantique et les musées. Quelques réflexions du point de vue des Digital Humanities et de la philosophie du Web », séance du Séminaire Muséologie, muséographie et nouvelles formes d’adresse au public, IRI Institut de recherche et d’innovation, Centre George Pompidou.</item>
+            <label>12 novembre 2009</label>
+            <item>Administrer les arts en Conseil. L’enjeu de la collégialité au Conseil des bâtiments civils (1795-1848), La collégialité dans la décision administrative, journée d’étude de l’UR d’histoire du droit public et de l’administration (EPHE)</item>
+            <label>20 octobre 2009</label>
+            <item>L’action de l’administration des Bâtiments civils et la production des archives de l’architecture publique (1795-1848), Bâtir et orner la France au XIX<hi
+              rend="superscript"
+              >e</hi> siècle : Les sources et leurs usages pour l’architecture et les monuments publics, Journée d’étude des Archives Nationales de France</item>
+            <label>9 juin 2009</label>
+            <item>Le Conseil des bâtiments civils : missions et fonctionnement, Pour une histoire de l’architecture publique française (1795-1840), à travers les procès-verbaux des séances du Conseil des bâtiments civils, Table ronde organisée par le Centre André Chastel (UMR 8150) et l’INHA à l’occasion de la mise en ligne de la base CONBAVIL </item>
+            <label>10 décembre 2008</label>
+            <item>Le projet du parc de Mousseaux et les projets de ménagerie du jardin des plantes, Le séjour italien de Percier et Fontaine, Contexte contemporain, nouvelles recherches, Rome, Journée d’étude organisée par la Bibliothèque Hertziana, l’INHA et l’École Pratique des Hautes Études.</item>
+            <label>29 août 2008</label>
+            <item>29 août 2008, Le Conseil des bâtiments civils et la réglementation de voirie en France dans la première moitié du XIX<hi
+              rend="superscript"
+              >e</hi> siècle, session 17 : La cité dans la perspective du droit. Histoire comparée (Moyen Age - XIX<hi
+              rend="superscript">e</hi> siècle), Lyon, IX<hi rend="superscript"
+              >e</hi> Conférence internationale d’histoire urbaine, Association Européenne pour l’Histoire Urbaine, Ciham UMR 5648, Université Lumière Lyon 2, CNRS, EHESS, ENS Lettres et Sciences Humaines. </item>
+            <label>21 juin 2008</label>
+            <item>L’administration des bâtiments civils face aux questions constructives dans la première moitié du XIX<hi
+              rend="superscript">e</hi> siècle en France, 1<hi rend="superscript"
+              >er</hi> congrès francophone d’histoire de la construction, Ecole d’architecture Paris-Malaquais, Centre de recherche en histoire des sciences et des techniques, CNAM.</item>
+            <label>5 octobre 2006</label>
+            <item>L’action du Conseil des bâtiments civils dans les départements italiens de l’Empire, La culture architecturale italienne et française à l’époque napoléonienne : aspects stylistiques et architecturaux, Convegno Internazionale di Studi – I sessione, Ascona, Fondazione Monte Verità – Centro Stefano Franscini (Archivio del Moderno, Accademia di architettura, Mendrisio, Università delle Svizzera italiana ; Centre Ledoux, Université Paris I Panthéon-Sorbonne, INHA ; Académie de France à Rome, Villa Médicis).</item>
+            <label>3 mars 2005</label>
+            <item>L’édition du métré et des séries de prix du Conseil des bâtiments civils, 1795-1848, colloque international : Les avatars de la littérature technique : Formes imprimées de la diffusion des savoirs liés à la construction, Institut National d’Histoire de l’Art, Centre de recherche en histoire des sciences et des techniques (CDHT – CNAM – EHESS), Paris</item>
+            <label>28 octobre 2004</label>
+            <item>Les plans de villes : une mission du Conseil des bâtiments civils, colloque international : Autour de la ville de Napoléon, La Roche-sur-Yon</item>
+            <label>10 juin 2003</label>
+            <item>Les relations entre le Conseil des bâtiments civils et le service des travaux de Paris, 1810-1848, séminaire d’Alice Thomine, Histoire de Paris, École Pratique des Hautes Études, Paris</item>
+            <label>27 mai 2003</label>
+            <item>Promotion et diffusion d’un nouveau procédé de construction en brique industrielle : l’architecte Charles-Pierre Gourlier et son invention de tuyaux de cheminées en briques cintrées (1823-1857), Colloque international : Les archives de l’invention. Écrits, objets et images de l’activité inventive, des origines à nos jours, Centre de recherche en histoire des sciences et des techniques (CDHT – CNAM – EHESS), Paris</item>
+            <label>18 février 2003</label>
+            <item>L’administration des bâtiments civils et la réglementation de la profession d’architecte 1795-1819, Séminaire d’histoire du Droit et des Techniques de Robert Carvais, Institut d’Histoire du Droit (UMR 7105), Paris</item>
+            <label>23 novembre 2002</label>
+            <item>Le Choix d’édifices publics construits et projetés en France, Histoire de l’édition d’un recueil d’architecture, 1825-1855, séminaire de doctorat de Françoise Hamon et Bruno Foucart, Université de Paris-Sorbonne (Paris-IV), Paris</item>
+          </list>
+        </div>
+        <div type="themes">
+          <head>Thèmes de recherche</head>
+          <p>Histoire de l’art numérique et muséologie numérique</p>
+          <p>Conseil des bâtiments civils (1795-1852)</p>
+          <p>Architecture publique et administration de l’architecture au XIX<hi rend="superscript"
+            >e</hi> siècle</p>
+          <p>Histoire de l’édition d’architecture XIX<hi rend="superscript">e</hi> siècles</p>
+          <p>Architecture des jardins zoologiques XIX<hi rend="superscript">e</hi>-XX<hi
+            rend="superscript">e</hi> siècles</p>
+          <p>Architecture des garages d’automobiles XX<hi rend="superscript">e</hi> siècle</p>
+          <p>Communication graphique activiste XX<hi rend="superscript">e</hi> siècle</p>
+        </div>
+
+        <div type="enseignements">
+          <head>Charges d’enseignement</head>
+          <p>Automne 2016, Université de Montréal<lb/><hi rend="bold" xml:space="preserve">MSL6517 – </hi>Inventaire et traitement des données</p>
+          <p>Faculté des arts et sciences, Département d’histoire de l’art et d’études cinématographiques (Programme facultaire de muséologie), semestre d’automne, séminaire optionnel, 3 crédits, 14 étudiants</p>
+          <p>Hiver 2016, Université de Montréal<lb/><hi rend="bold"
+            >HAR2400 – Histoire d’un médium : Le médium numérique</hi>
+            <lb/>Faculté des arts et sciences, Département d’histoire de l’art et d’études cinématographiques, semestre d’hiver, 3 crédits, 23 étudiants</p>
+          <p>Hiver 2016, Université de Montréal<lb/><hi rend="bold"
+            >MSL6523 – Problèmes contemporains, La muséologie numérique</hi><lb/>Faculté des arts et sciences, Département d’histoire de l’art et d’études cinématographiques (Programme facultaire de muséologie), semestre d’hiver, séminaire optionnel, 3 crédits, 26 étudiants</p>
+          <p>9 au 14 mai 2016, L’édition des sources manuscrites avec XML-TEI (initiation), formation continue de l’École nationale des chartes, Paris (France), formateur avec Lou Burnard.</p>
+          <p>9 au 14 novembre 2015, Modéliser son édition critique avec la Text Encoding Initiative (niveau avancé), formation continue de l’École nationale des chartes, Paris (France), formateur avec Lou Burnard.</p>
+          <p>29 juin au 3 juillet 2015, Préserver, éditer et exploiter les sources de la recherche – Atelier de formation annuel du Consortium cahier, MESHS de Lille, Atelier XQuery avec Maud Ingarao (Institut d’histoire de la pensée classique – UMR 5037).</p>
+          <p>2012 à 2014		Chargé de cours dans le cadre du Master professionnel « Médiation culturelle, Patrimoine et numérique », Université Paris-Ouest / Université Paris-8 </p>
+          <p>2014-2015 : Coordination du travail de l’atelier IDEFI CréaTIC<lb/>http://idefi-creatic.net/master-mediation-culturelle-patrimoine-et-numerique-3/</p>
+          <p>2012-2013 et 2012-2014 : La description de ressources en histoire de l’art. Les métadonnées métiers et l’interopérabilité.</p>
+          <p>2<hi rend="superscript"
+            >e</hi> semestre 2014, en collaboration avec Marianne Cojannot-Le Blanc, professeur d’histoire de l’art, séminaire de méthodologie de Master 1 en Histoire de l’art moderne :</p>
+          <p>Les contours intellectuels d’un projet collectif, L’exemple des Guides de Paris</p>
+          <p>Printemps 2014 Formateur et référent numérique pour la formation continue de l’École nationale des chartes.</p>
+          <p>2014 deuxième session : Initiation à l’édition électronique et à la pratique de l’encodage XML-TEI : coordination de l’ensemble de la formation</p>
+          <p>2014 première session : Initiation à l’édition électronique et à la pratique de l’encodage XML-TEI : explorer et traiter ses documents XML-TEI avec XPath et XSLT ; la présentation de XML-TEI étant assurée par Camille Desenclos.</p>
+          <p>1<hi rend="superscript"
+            >e</hi> semestre 2014, Session de formation à l’utilisation des logiciels de gestion de références bibliographiques (Zotero) à destination des collègues du département d’histoire de l’art de l’Université Paris-Ouest Nanterre.</p>
+          <p>2002-2004	ATER, Université de Paris-Sorbonne (Paris IV) :</p>
+          <p>1<hi rend="superscript"
+            >er</hi> semestre, chargé des TD du cours d’Art Contemporain de 2<hi rend="superscript"
+            >e</hi> année de DEUG : L’art contemporain après 1945, cours d’Arnaud Pierre</p>
+          <p>2<hi rend="superscript"
+            >e</hi> semestre, chargé des TD du cours d’Art Contemporain de Licence : Happening, Action, Body Art, cours de Sarah Wilson</p>
+          <p>1999-2002	Moniteur, Université de Paris-Sorbonne (Paris IV) : Chargé des TD du cours d’Art Contemporain de 2<hi
+            rend="superscript"
+            >e</hi> année de DEUG : Les grands mouvements de l’Art Contemporain au XX<hi
+            rend="superscript"
+            >e</hi> siècle, cours de Barthélémy Jobert (1999-2000), Arnaud Pierre (2000-2001), Annie Claustres (2001-2002)</p>
+          <p>Allocataire de Recherche, Université de Paris-Sorbonne (Paris IV), Thèse en cours : « Théorie et pratique de l’architecture publique en France, Le Conseil des bâtiments civils, 1795-1848 »</p>
+        </div>
+        <div type="employeurs">
+          <head>Adresses des employeurs précédents</head>
+          <list>
+            <label>Labex les Passés dans le Présent</label>
+            <item>
+              <address>
+                <addrLine>Université Paris-Ouest Nanterre La Défense, Paris X</addrLine>
+                <addrLine>Maison Max Weber (bât T)</addrLine>
+                <addrLine>200, avenue de la République</addrLine>
+                <addrLine>92001 Nanterre Cedex – FRANCE</addrLine>
+              </address>
+            </item>
+            <label>Université Panthéon-Assas, Paris II</label>
+            <item>
+              <address>
+                <addrLine>Université Panthéon-Assas, Paris II</addrLine>
+                <addrLine>12, place Panthéon</addrLine>
+                <addrLine>75005 Paris – FRANCE</addrLine>
+              </address>
+            </item>
+            <label>Université Paris-Sorbonne, Paris IV</label>
+            <item>
+              <address>
+                <addrLine>1, rue Victor Cousin</addrLine>
+                <addrLine>75005 Paris – FRANCE</addrLine>
+              </address>
+            </item>
+          </list>
+        </div>
       </div>
     </body>
   </text>
