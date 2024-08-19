@@ -4,17 +4,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Liste des travaux</title>
+            <title xml:lang="fr">Liste des travaux</title>
+            <title xml:lang="en">Publications list</title>
             <author>
                <forename>Emmanuel</forename>
                <surname>Château-Dutier</surname>
-               <idno type="orcid"
-                  >orcid.org/0000-0003-4092-4569</idno>
+               <idno type="orcid">https://orcid.org/0000-0003-4092-4569</idno>
             </author>
          </titleStmt>
          <publicationStmt>
             <publisher>Emmanuel Chateau-Dutier</publisher>
-            <date from="2021-06">2021</date>
+            <date from="2021-06">depuis 2021</date>
          </publicationStmt>
          <seriesStmt>
             <title xml:lang="fr">Emmanuel Château-Dutier</title>
@@ -24,6 +24,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2024-08">Mise à jour du fichier</change>
          <change when="2022-10">Mise à jour du fichier</change>
          <change when="2021-06">Création du fichier</change>
       </revisionDesc>

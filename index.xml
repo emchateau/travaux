@@ -25,7 +25,7 @@
          <change when="2022-10-22">Création du fichier</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include href="./biographie.xml" parse="xml">
+   <xi:include href="./biography.xml" parse="xml">
       <xi:fallback>Fichier non trouvé</xi:fallback>
    </xi:include>
    <xi:include href="./curriculumVitae.xml" parse="xml">

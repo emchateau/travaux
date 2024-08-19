@@ -44,99 +44,190 @@
                 <addrLine>Université de Montréal, Pavillon Lionel-Groulx</addrLine>
                 <addrLine>Département d’histoire de l’art, de cinéma et des médias audiovisuels</addrLine>
                 <addrLine>CP 6128, Succursale Centre-Ville</addrLine>
-                <addrLine>Montréal QC H3C 3J7 – CANADA</addrLine>
-              </address>
-              <address>
-                <addrLine>
-                  <ref target="mailto:emmanuel.chateau.dutier@umontreal.ca"
-                    >emmanuel.chateau.dutier@umontreal.ca</ref>
-                </addrLine>
-                <addrLine>
-                  <ref
-                    target="http://histart.umontreal.ca/repertoire-departement/vue/chateau-dutier-emmanuel/"
-                    >Page professionnelle</ref>
-                </addrLine>
+                <addrLine>Montréal</addrLine>
+                <postCode>H3C 3J7</postCode>
+                <region>Québec</region>
+                <country>Canada</country>
               </address>
             </p>
-            <p>Né le <date>4 décembre 1975</date> à Nantes (Loire-Atlantique)</p>
+            <list xml:lang="fr">
+              <head>Liens</head>
+              <label>Courriel</label>
+              <item>
+                <ref target="mailto:emmanuel.chateau.dutier@umontreal.ca"
+                  >emmanuel.chateau.dutier@umontreal.ca</ref>
+              </item>
+              <label>Page académique</label>
+              <item>
+                <ref
+                  target="https://histart.umontreal.ca/repertoire-departement/vue/chateau-dutier-emmanuel/"
+                  >http://histart.umontreal.ca/repertoire-departement/vue/chateau-dutier-emmanuel/</ref>
+              </item>
+              <label>GitHub</label>
+              <item>
+                <ref target="https://github.com/emchateau/">emchateau</ref>
+              </item>
+              <label>Orcid</label>
+              <item>
+                <ref target="https://orcid.org/0000-0003-4092-4569">0000-0003-4092-4569</ref>
+              </item>
+            </list>
           </div>
           <div type="experiences">
-            <head xml:lang="fr">Expériences professionnelles</head>
-            <head xml:lang="en">Career</head>
-            <list>
-              <label>Depuis juin 2022</label>
-              <item>Professeur agrégé en muséologie numérique, Université de Montréal</item>
-              <label>De novembre 2016 à mai 2022</label>
-              <item>Professeur-adjoint en muséologie numérique, Université de Montréal</item>
-              <label>De septembre 2015 à novembre 2016</label>
-              <item>Chargé d’enseignement en muséologie numérique, Université de Montréal</item>
-              <label>janvier 2014 à août 2015</label>
-              <item>Ingénieur d’étude pour le projet des Guides de Paris au sein du Labex Les passés dans le présent (http://passes-present.eu).</item>
-              <label>2013 à 2015</label>
-              <item>Chargé de cours dans le cadre du Master professionnel « Médiation culturelle, Patrimoine et numérique », Université Paris-Ouest
-            <lb/>Description de ressources en histoire de l’art et production de métadonnées
-            <lb/>4 séances de 4 heures.</item>
-              <label>Octobre 2012 à 2014</label>
-              <item>Chargé de TD en « Informatique appliquée à l’histoire de l’art ». Université Paris-Ouest (Paris X)</item>
-              <label>2012 à juin 2013</label>
-              <item>Encodage des textes de l’édition critique des Cours de Desgodets et Direction du projet numérique (http://www.desgodets.net)</item>
-              <label>Printemps 2012</label>
-              <item>Modélisation XML-TEI pour l’édition du corpus des Cours de Desgodets à l’Académie d’architecture
-            <lb/>Projet d’ANR corpus, sous la direction de Robert Carvais</item>
-              <label>De juillet 2008 à juillet 2010</label>
-              <item>Assistant de recherche dans le cadre du Projet ANR Desgodets : Construction et normalisation du savoir architectural au début du XVIII<hi
-                rend="superscript"
-                >e</hi> siècle. Les cours de Desgodets à l’Académie (mi-temps)</item>
-              <label>Depuis juillet 2010</label>
-              <item>Membre de l’équipe d’édition des manuscrits des cours de Desgodets dans le cadre de ce projet ANR corpus</item>
-              <label>2007-2008</label>
-              <item>Assistant de direction SAS Abraxas, Paris
-            <lb/>Entreprise de 12 salariés Gestion, comptabilité, ressources humaines</item>
-              <label>février 2006</label>
-              <item>Réalisation d’une étude préalable à la restauration pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
-            <lb/>Restauration du décor intérieur de l’hôtel de ville de Vincennes (escalier monumental et salles d’apparat)</item>
-              <label>octobre 2005</label>
-              <item>Rédaction d’une note d’intention dans le cadre d’un projet de mise en valeur du 21 rue de l’Université de l’AJN (Atelier Jean Nouvel)</item>
-              <label>hiver 2005</label>
-              <item>Collaborateur de Mme Schmückle-Mollard, Architecte en chef des Monuments Historiques
-            <lb/>Réalisation d’une étude préalable à la restauration pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
-            <lb/>Villa Bourières (Saint-Maur-des-Fossés, 94), extension du musée de site
-            <lb/>Historien dans l’équipe SCAU/Schückle-Mollard dans le concours pour la restauration du Palais de justice de Lyon (Louis-Pierre Baltard, architecte)</item>
-              <label>juillet 2004</label>
-              <item>Dossier historique et documentaire pour AJN (Atelier Jean Nouvel)
-            <lb/>L’hôtel Duveen Brothers’, place Vendôme, René Sergent architecte</item>
-              <label>2002-2004</label>
-              <item>ATER, Université de Paris-Sorbonne (Paris IV) :
-            <lb/>1<hi rend="superscript"
-                >er</hi> semestre, chargé des TD du cours d’Art Contemporain de 2<hi
-                rend="superscript"
-                >e</hi> année de DEUG : L’art contemporain après 1945, cours d’Arnaud Pierre
-            <lb/>2<hi rend="superscript"
-                >e</hi> semestre, chargé des TD du cours d’Art Contemporain de Licence : Happening, Action, Body Art, cours de Sarah Wilson</item>
-              <label>1999-2002</label>
-              <item>Moniteur, Université de Paris-Sorbonne (Paris IV) :
-            <lb/>Chargé des TD du cours d’Art Contemporain de 2<hi rend="superscript"
-                >e</hi> année de DEUG : Les grands mouvements de l’Art Contemporain au XX<hi
-                rend="superscript"
-                >e</hi> siècle, cours de Barthélémy Jobert (1999-2000), Arnaud Pierre (2000-2001), Annie Claustres (2001-2002)</item>
-              <label>1999-2002</label>
-              <item>Allocataire de Recherche, Université de Paris-Sorbonne (Paris IV), Thèse en cours : « Théorie et pratique de l’architecture publique en France, Le Conseil des bâtiments civils, 1795-1848 »</item>
-              <label>2001</label>
-              <item>Réalisation d’études préalables à la restauration d’édifices pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
-              <lb/>Collège Karl Marx, André Lurçat architecte, 1933 (Villejuif 94)
-              <lb/>Centre Hospitalier du Kremlin-Bicêtre (XVII<hi rend="superscript"
-                >e</hi>-XIX<hi rend="superscript">e</hi> siècles)</item>
-              <label>2000</label>
-              <item>Secrétariat et organisation des journées d’étude L’architecture religieuse au XIX<hi
-                rend="superscript"
-                >e</hi> siècle, Entre éclectisme et rationalisme, Université de Paris-Sorbonne (Paris IV), Centre André Chastel, sous la direction de Bruno Foucart et Françoise Hamon
-              <lb/>Publication des actes aux Presses Universitaires de Paris IV.</item>
-              <label>1999</label>
-              <item>Recherches documentaires pour un journaliste d’art</item>
-              <label>1998-1999</label>
-              <item>Tutorat d’encadrement d’étudiants de 1<hi rend="superscript"
-                >ère</hi> année de DEUG d’Histoire de l’Art, Université de Paris-Sorbonne (Paris IV)</item>
-            </list>
+            <listEvent xml:lang="fr">
+              <head>Expériences professionnelles</head>
+              <event>
+                <date from="2022-06">Depuis juin 2022</date>
+                <eventName>Professeur agrégé en muséologie numérique</eventName>
+                <place>Université de Montréal</place>
+              </event>
+              <event>
+                <date from="2016-11" to="2022-05">De novembre 2016 à mai 2022</date>
+                <eventName>Professeur-adjoint en muséologie numérique</eventName>
+                <place>Université de Montréal</place>
+              </event>
+              <event>
+                <date from="2015-09" to="2016-11">De septembre 2015 à novembre 2016</date>
+                <eventName>Chargé d’enseignement en muséologie numérique, Université de Montréal</eventName>
+              </event>
+              <event>
+                <date from="2014-01" to="2015-08">janvier 2014 à août 2015</date>
+                <eventName>Ingénieur d’étude pour le projet des Guides de Paris au sein du Labex Les passés dans le présent (http://passes-present.eu).</eventName>
+              </event>
+              <event>
+                <date from="2013" to="2015">2013 à 2015</date>
+                <eventName>Chargé de cours dans le cadre du Master professionnel « Médiation culturelle, Patrimoine et numérique », Université Paris-Ouest</eventName>
+              </event>
+            </listEvent>
+            <listEvent type="experiences" xml:lang="en">
+              <head>Professional Experience</head>
+              <event>
+                <date from="2022-06">Since June 2022</date>
+                <eventName>Associate Professor in Digital Museology, Université de Montréal</eventName>
+              </event>
+              <event>
+                <date from="2016-11" to="2022-05">From November 2016 to May 2022</date>
+                <eventName>Assistant Professor in Digital Museology, Université de Montréal</eventName>
+              </event>
+              <event>
+                <date from="2015-09" to="2016-11">From September 2015 to November 2016</date>
+                <eventName>Lecturer in Digital Museology, Université de Montréal</eventName>
+              </event>
+              <event>
+                <date from="2014-01" to="2015-08">January 2014 to August 2015</date>
+                <eventName>Research Engineer for the <title>Guides de Paris</title> project within the Labex "Les passés dans le présent" (http://passes-present.eu).</eventName>
+              </event>
+              <event>
+                <date from="2013" to="2015">2013 to 2015</date>
+                <eventName>Lecturer in the Professional Master’s Program “Médiation culturelle, Patrimoine et numérique”, Université Paris-Ouest</eventName>
+              </event>
+            </listEvent>
+          </div>
+          <div>
+            <head>Enseignements</head>
+            <listEvent>
+              <event>
+                <head>Description de ressources en histoire de l’art et production de métadonnées</head>
+                <desc>
+                  <p>4 séances de 4 heures.</p>
+                </desc>
+              </event>
+              <event>
+                <label>Octobre 2012 à 2014</label>
+                <item>Chargé de TD en « Informatique appliquée à l’histoire de l’art ». Université Paris-Ouest (Paris X)</item>
+              </event>
+              <event>
+                <label>2012 à juin 2013</label>
+                <item>Encodage des textes de l’édition critique des Cours de Desgodets et Direction du projet numérique (http://www.desgodets.net)</item>
+              </event>
+              <event>
+                <label>Printemps 2012</label>
+                <item>Modélisation XML-TEI pour l’édition du corpus des Cours de Desgodets à l’Académie d’architecture
+                <lb/>Projet d’ANR corpus, sous la direction de Robert Carvais</item>
+              </event>
+              <event>
+                <label>De juillet 2008 à juillet 2010</label>
+                <item>Assistant de recherche dans le cadre du Projet ANR Desgodets : Construction et normalisation du savoir architectural au début du XVIII<hi
+                  rend="superscript"
+                  >e</hi> siècle. Les cours de Desgodets à l’Académie (mi-temps)</item>
+              </event>
+              <event>
+                <label>Depuis juillet 2010</label>
+                <item>Membre de l’équipe d’édition des manuscrits des cours de Desgodets dans le cadre de ce projet ANR corpus</item>
+              </event>
+              <event>
+                <label>2007-2008</label>
+                <item>Assistant de direction SAS Abraxas, Paris
+                <lb/>Entreprise de 12 salariés Gestion, comptabilité, ressources humaines</item>
+              </event>
+              <event>
+                <label>février 2006</label>
+                <item>Réalisation d’une étude préalable à la restauration pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
+                <lb/>Restauration du décor intérieur de l’hôtel de ville de Vincennes (escalier monumental et salles d’apparat)</item>
+              </event>
+              <event>
+                <label>octobre 2005</label>
+                <item>Rédaction d’une note d’intention dans le cadre d’un projet de mise en valeur du 21 rue de l’Université de l’AJN (Atelier Jean Nouvel)</item>
+              </event>
+              <event>
+                <label>hiver 2005</label>
+                <item>Collaborateur de Mme Schmückle-Mollard, Architecte en chef des Monuments Historiques
+                <lb/>Réalisation d’une étude préalable à la restauration pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
+                <lb/>Villa Bourières (Saint-Maur-des-Fossés, 94), extension du musée de site
+                <lb/>Historien dans l’équipe SCAU/Schückle-Mollard dans le concours pour la restauration du Palais de justice de Lyon (Louis-Pierre Baltard, architecte)</item>
+              </event>
+              <event>
+                <label>juillet 2004</label>
+                <item>Dossier historique et documentaire pour AJN (Atelier Jean Nouvel)
+                <lb/>L’hôtel Duveen Brothers’, place Vendôme, René Sergent architecte</item>
+              </event>
+              <event>
+                <label>2002-2004</label>
+                <item>ATER, Université de Paris-Sorbonne (Paris IV) :
+                <lb/>1<hi rend="superscript"
+                  >er</hi> semestre, chargé des TD du cours d’Art Contemporain de 2<hi
+                  rend="superscript"
+                  >e</hi> année de DEUG : L’art contemporain après 1945, cours d’Arnaud Pierre
+                <lb/>2<hi rend="superscript"
+                  >e</hi> semestre, chargé des TD du cours d’Art Contemporain de Licence : Happening, Action, Body Art, cours de Sarah Wilson</item>
+              </event>
+              <event>
+                <label>1999-2002</label>
+                <item>Moniteur, Université de Paris-Sorbonne (Paris IV) :
+                <lb/>Chargé des TD du cours d’Art Contemporain de 2<hi
+                  rend="superscript"
+                  >e</hi> année de DEUG : Les grands mouvements de l’Art Contemporain au XX<hi
+                  rend="superscript"
+                  >e</hi> siècle, cours de Barthélémy Jobert (1999-2000), Arnaud Pierre (2000-2001), Annie Claustres (2001-2002)</item>
+              </event>
+              <event>
+                <label>1999-2002</label>
+                <item>Allocataire de Recherche, Université de Paris-Sorbonne (Paris IV), Thèse en cours : « Théorie et pratique de l’architecture publique en France, Le Conseil des bâtiments civils, 1795-1848 »</item>
+              </event>
+              <event>
+                <label>2001</label>
+                <item>Réalisation d’études préalables à la restauration d’édifices pour Mme Schmückle-Mollard, Architecte en Chef des Monuments Historiques :
+                <lb/>Collège Karl Marx, André Lurçat architecte, 1933 (Villejuif 94)
+                <lb/>Centre Hospitalier du Kremlin-Bicêtre (XVII<hi
+                  rend="superscript">e</hi>-XIX<hi rend="superscript">e</hi> siècles)</item>
+              </event>
+              <event>
+                <label>2000</label>
+                <item>Secrétariat et organisation des journées d’étude L’architecture religieuse au XIX<hi
+                  rend="superscript"
+                  >e</hi> siècle, Entre éclectisme et rationalisme, Université de Paris-Sorbonne (Paris IV), Centre André Chastel, sous la direction de Bruno Foucart et Françoise Hamon
+                <lb/>Publication des actes aux Presses Universitaires de Paris IV.</item>
+              </event>
+              <event>
+                <label>1999</label>
+                <item>Recherches documentaires pour un journaliste d’art</item>
+              </event>
+              <event>
+                <label>1998-1999</label>
+                <item>Tutorat d’encadrement d’étudiants de 1<hi rend="superscript"
+                  >ère</hi> année de DEUG d’Histoire de l’Art, Université de Paris-Sorbonne (Paris IV)</item>
+              </event>
+            </listEvent>
           </div>
           <div type="formation">
             <head xml:lang="fr">Formation</head>
